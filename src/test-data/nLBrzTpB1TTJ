@@ -1,0 +1,720 @@
+{
+   "campaignMode" : false,
+   "competitive" : true,
+   "gameSystem" : "gff",
+   "id" : "nLBrzTpB1TTJ",
+   "isCloud" : false,
+   "modified" : "2023-11-15T10:42:42.782Z",
+   "name" : "Alien Hives 200pts - v0",
+   "points" : 185,
+   "pointsLimit" : 200,
+   "selectedUnitId" : "08grg",
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "hasRating" : false,
+         "id" : 263,
+         "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
+         "hasRating" : false,
+         "id" : 62,
+         "name" : "Breath Attack"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
+         "hasRating" : null,
+         "id" : 1012,
+         "name" : "Poison Mist"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).",
+         "hasRating" : true,
+         "id" : 110,
+         "name" : "Surprise Attack"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "If this model is ever 1\" away from an enemy unit, it is immediately killed, and the enemy takes X*2 hits. This model automatically passes all morale tests.",
+         "hasRating" : true,
+         "id" : 96,
+         "name" : "Explode"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Stealth next time they are shot at.",
+         "hasRating" : false,
+         "id" : 121,
+         "name" : "Shrouding Mist"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model is activated, you may place a new unit of 6 Spores fully within 6” of it.",
+         "hasRating" : false,
+         "id" : 899,
+         "name" : "Release Spores"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Whenever this model takes a wound in melee, the attacker takes 1 hit.",
+         "hasRating" : false,
+         "id" : 115,
+         "name" : "Corrosive"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "For each missed attack you may place a new unit of 3 Spores or 1 Massive Spore 12” away from the target, but the position is decided by your opponent. Note that this new unit can’t be activated on the round in which it is placed.",
+         "hasRating" : false,
+         "id" : 109,
+         "name" : "Spores"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model is activated, you may place a new unit of 10 Assault Grunts, 10 Shooter Grunts, or 6 Hive Swarms fully within 6” of it.",
+         "hasRating" : false,
+         "id" : 122,
+         "name" : "Spawn Brood"
+      },
+      {
+         "aliasedRuleId" : 424,
+         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+         "hasRating" : false,
+         "id" : 424,
+         "name" : "Pheromones"
+      },
+      {
+         "aliasedRuleId" : 221,
+         "description" : "This model counts as having Caster(1).",
+         "hasRating" : false,
+         "id" : 221,
+         "name" : "Psychic Synapse"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
+         "hasRating" : false,
+         "id" : 97,
+         "name" : "Takedown"
+      },
+      {
+         "aliasedRuleId" : 281,
+         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : 281,
+         "name" : "Psy-Barrier"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Whenever this unit fails a morale test, it takes one wound, and the morale test counts as passed instead.",
+         "hasRating" : false,
+         "id" : 99,
+         "name" : "No Retreat"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : 281,
+         "name" : "Resistance"
+      }
+   ],
+   "undoUnitRemove" : [
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "combined" : false,
+         "cost" : 65,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 2,
+               "dependencies" : [],
+               "id" : "EJxewz_6",
+               "label" : "Razor Claws (A2)",
+               "name" : "Razor Claws",
+               "originalCount" : 2,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "DfidZY7Z"
+            }
+         ],
+         "id" : "tbvpeyi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 2,
+               "dependencies" : [],
+               "id" : "EJxewz_6",
+               "label" : "Razor Claws (A2)",
+               "name" : "Razor Claws",
+               "originalCount" : 2,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "DfidZY7Z"
+            }
+         ],
+         "name" : "Shadow Leaper",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "uRu9Z",
+         "size" : 1,
+         "sortId" : 13,
+         "specialRules" : [
+            {
+               "id" : 60,
+               "key" : "ambush",
+               "name" : "Ambush"
+            },
+            {
+               "id" : 63,
+               "key" : "fast",
+               "name" : "Fast"
+            },
+            {
+               "id" : 78,
+               "key" : "stealth",
+               "name" : "Stealth"
+            },
+            {
+               "id" : 79,
+               "key" : "strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : 80,
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "I1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ],
+   "unitPreview" : null,
+   "units" : [
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "combined" : false,
+         "cost" : 55,
+         "defense" : 4,
+         "disabledSections" : [
+            "cRc_X"
+         ],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : "2",
+               "count" : 2,
+               "id" : "Nr0vHAZZ",
+               "label" : "Heavy Razor Claws (A2, AP(1))",
+               "name" : "Heavy Razor Claws",
+               "originalCount" : 2,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "eun-S-QP"
+            }
+         ],
+         "id" : "jMgimMn",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : "2",
+               "count" : 2,
+               "id" : "Nr0vHAZZ",
+               "label" : "Heavy Razor Claws (A2, AP(1))",
+               "name" : "Heavy Razor Claws",
+               "originalCount" : 2,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "eun-S-QP"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "ambush",
+                     "label" : "Ambush",
+                     "modify" : false,
+                     "name" : "Ambush",
+                     "rating" : "",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "flying",
+                     "label" : "Flying",
+                     "modify" : false,
+                     "name" : "Flying",
+                     "rating" : "",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Wings (Ambush, Flying)",
+               "name" : "Wings",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Veteran Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "8dCBYggrL",
+               "option" : {
+                  "cost" : 10,
+                  "costs" : [
+                     {
+                        "cost" : 10,
+                        "unitId" : "jMgimMn"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "ambush",
+                              "label" : "Ambush",
+                              "modify" : false,
+                              "name" : "Ambush",
+                              "rating" : "",
+                              "type" : "ArmyBookRule"
+                           },
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "flying",
+                              "label" : "Flying",
+                              "modify" : false,
+                              "name" : "Flying",
+                              "rating" : "",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Wings (Ambush, Flying)",
+                        "name" : "Wings",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "RS4rKkQ",
+                  "label" : "Wings (Ambush, Flying)",
+                  "parentPackageUid" : "B1",
+                  "parentSectionUid" : "ijbm7zF",
+                  "proposedCost" : 35,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "12.0",
+                        "newCostRounded" : 10,
+                        "unitName" : "Veteran Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "RS4rKkQ"
+               },
+               "upgrade" : {
+                  "id" : "IQ7FhVO",
+                  "label" : "Upgrade with any",
+                  "options" : null,
+                  "parentPackageUid" : "B1",
+                  "select" : {
+                     "type" : "any"
+                  },
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "ijbm7zF",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "FTbM-",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fearless",
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "B1",
+            "C1",
+            "dGM4U"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "combined" : false,
+         "cost" : 40,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            },
+            {
+               "attacks" : "1",
+               "count" : 1,
+               "id" : "UctLyaE6",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  },
+                  {
+                     "key" : "indirect",
+                     "modify" : false,
+                     "name" : "Indirect",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            }
+         ],
+         "id" : "_c1518l",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            },
+            {
+               "attacks" : "1",
+               "count" : 1,
+               "id" : "UctLyaE6",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  },
+                  {
+                     "key" : "indirect",
+                     "modify" : false,
+                     "name" : "Indirect",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            }
+         ],
+         "name" : "Support Grunt",
+         "notes" : null,
+         "quality" : 5,
+         "selectedUpgrades" : [],
+         "selectionId" : "08grg",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 74,
+               "key" : "relentless",
+               "name" : "Relentless"
+            },
+            {
+               "id" : 79,
+               "key" : "strider",
+               "name" : "Strider"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "D1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "combined" : false,
+         "cost" : 40,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "7GScCDgm",
+               "label" : "Bio-Borer (12\", A2)",
+               "name" : "Bio-Borer",
+               "originalCount" : 3,
+               "range" : 12,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "7GScCDgm"
+            },
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 3,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "id" : "CMADHYi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "7GScCDgm",
+               "label" : "Bio-Borer (12\", A2)",
+               "name" : "Bio-Borer",
+               "originalCount" : 3,
+               "range" : 12,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "7GScCDgm"
+            },
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 3,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "name" : "Shooter Grunts",
+         "notes" : null,
+         "quality" : 5,
+         "selectedUpgrades" : [],
+         "selectionId" : "c9tXb",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "D1",
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "combined" : false,
+         "cost" : 40,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            },
+            {
+               "attacks" : "1",
+               "count" : 1,
+               "id" : "UctLyaE6",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  },
+                  {
+                     "key" : "indirect",
+                     "modify" : false,
+                     "name" : "Indirect",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            }
+         ],
+         "id" : "_c1518l",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            },
+            {
+               "attacks" : "1",
+               "count" : 1,
+               "id" : "UctLyaE6",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  },
+                  {
+                     "key" : "indirect",
+                     "modify" : false,
+                     "name" : "Indirect",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            }
+         ],
+         "name" : "Support Grunt",
+         "notes" : null,
+         "quality" : 5,
+         "selectedUpgrades" : [],
+         "selectionId" : "CcaEn",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 74,
+               "key" : "relentless",
+               "name" : "Relentless"
+            },
+            {
+               "id" : 79,
+               "key" : "strider",
+               "name" : "Strider"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "D1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ]
+}

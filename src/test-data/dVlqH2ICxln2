@@ -1,0 +1,794 @@
+{
+   "campaignMode" : false,
+   "competitive" : true,
+   "gameSystem" : "gff",
+   "id" : "dVlqH2ICxln2",
+   "isCloud" : false,
+   "modified" : "2023-11-13T23:08:46.726Z",
+   "name" : "Robot Legions 200pts",
+   "points" : 205,
+   "pointsLimit" : 200,
+   "selectedUnitId" : null,
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model is activated, you may place a new unit of 3 Bot Swarms fully within 6” of it.",
+         "hasRating" : false,
+         "id" : 266,
+         "name" : "Release Swarm"
+      },
+      {
+         "aliasedRuleId" : 162,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : 162,
+         "name" : "Royal March"
+      },
+      {
+         "aliasedRuleId" : 51,
+         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+         "hasRating" : false,
+         "id" : 51,
+         "name" : "Shadow-Protocol"
+      },
+      {
+         "aliasedRuleId" : 159,
+         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Regeneration next time they take wounds.",
+         "hasRating" : false,
+         "id" : 159,
+         "name" : "Reanimator"
+      },
+      {
+         "aliasedRuleId" : 561,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : 561,
+         "name" : "Regen-Protocol"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick one friendly unit within 12”. That unit, and up to 3 friendly units within 6\" may ignore the Slow rule next time it moves.",
+         "hasRating" : false,
+         "id" : 269,
+         "name" : "Royal March Order"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
+         "hasRating" : false,
+         "id" : 262,
+         "name" : "Spell Master"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "hasRating" : false,
+         "id" : 263,
+         "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Counts as having the Ambush rule, and gets AP(+3) when shooting on the round in which it deploys.",
+         "hasRating" : false,
+         "id" : 261,
+         "name" : "Hunter"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
+         "hasRating" : false,
+         "id" : 964,
+         "name" : "Self-Repair"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : 858,
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "hasRating" : false,
+         "id" : 126,
+         "name" : "Repair"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
+         "hasRating" : false,
+         "id" : 370,
+         "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units.",
+         "hasRating" : false,
+         "id" : 166,
+         "name" : "Tunneller"
+      },
+      {
+         "aliasedRuleId" : 149,
+         "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 4+ instead. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : 149,
+         "name" : "Gloom-Protocol"
+      },
+      {
+         "aliasedRuleId" : 216,
+         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule (min. 1), and for each result of 1-3 the unit takes one wound, which can’t be ignored.",
+         "hasRating" : false,
+         "id" : 216,
+         "name" : "Robot"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "hasRating" : false,
+         "id" : 846,
+         "name" : "Flux"
+      }
+   ],
+   "undoUnitRemove" : [
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 6,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attack (A3, Rending)",
+               "name" : "Swarm Attack",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "id" : "yoeQi4m",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attack (A3, Rending)",
+               "name" : "Swarm Attack",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "name" : "Bot Swarm",
+         "notes" : null,
+         "quality" : 6,
+         "selectedUpgrades" : [],
+         "selectionId" : "7vmue",
+         "size" : 1,
+         "sortId" : 1,
+         "specialRules" : [
+            {
+               "key" : "regeneration",
+               "name" : "Regeneration",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      }
+   ],
+   "unitPreview" : null,
+   "units" : [
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 70,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "id" : "lcEWPMS",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "name" : "Robot Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "0q_KU",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "A1",
+            "B1",
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "vGlOj",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "V8KE9",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 30,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "Q47Qlon8",
+               "label" : "Metal Claws (A2, AP(1))",
+               "name" : "Metal Claws",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Q47Qlon8"
+            }
+         ],
+         "id" : "6q8HvOZ",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "Q47Qlon8",
+               "label" : "Metal Claws (A2, AP(1))",
+               "name" : "Metal Claws",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Q47Qlon8"
+            }
+         ],
+         "name" : "Flesh-Eater",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "aWCA1",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tunneller",
+               "name" : "Tunneller",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 30,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "Q47Qlon8",
+               "label" : "Metal Claws (A2, AP(1))",
+               "name" : "Metal Claws",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Q47Qlon8"
+            }
+         ],
+         "id" : "6q8HvOZ",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "Q47Qlon8",
+               "label" : "Metal Claws (A2, AP(1))",
+               "name" : "Metal Claws",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Q47Qlon8"
+            }
+         ],
+         "name" : "Flesh-Eater",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "Fhi38",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tunneller",
+               "name" : "Tunneller",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 6,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attack (A3, Rending)",
+               "name" : "Swarm Attack",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "id" : "yoeQi4m",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attack (A3, Rending)",
+               "name" : "Swarm Attack",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "name" : "Bot Swarm",
+         "notes" : null,
+         "quality" : 6,
+         "selectedUpgrades" : [],
+         "selectionId" : "Q-DFh",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      }
+   ]
+}

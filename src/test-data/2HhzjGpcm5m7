@@ -1,0 +1,1137 @@
+{
+   "campaignMode" : false,
+   "competitive" : true,
+   "gameSystem" : "aofs",
+   "id" : "2HhzjGpcm5m7",
+   "isCloud" : false,
+   "modified" : "2023-12-08T23:06:42.085Z",
+   "name" : "Haters tribes",
+   "points" : 330,
+   "pointsLimit" : 300,
+   "selectedUnitId" : "14fxz",
+   "specialRules" : [
+      {
+         "aliasedRuleId" : 857,
+         "description" : "Attacks targeting units where all models have this rule count as having AP(-1), to a min. of AP(0).",
+         "hasRating" : false,
+         "id" : 857,
+         "name" : "Heavy Shield"
+      }
+   ],
+   "undoUnitRemove" : [
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 20,
+         "defense" : 5,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "omvCv",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "id" : "L0K3my6",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "omvCv",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "name" : "Youngbloods",
+         "notes" : null,
+         "quality" : 5,
+         "selectedUpgrades" : [],
+         "selectionId" : "kN8Wk",
+         "size" : 3,
+         "sortId" : 2,
+         "specialRules" : [],
+         "traits" : [],
+         "upgrades" : [
+            "OUHlX"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ],
+   "unitPreview" : null,
+   "units" : [
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 40,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "oia61",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "id" : "i5_1RbO",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "oia61",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "name" : "Elite Warrior",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "Z_05d",
+         "size" : 3,
+         "specialRules" : [],
+         "traits" : [],
+         "upgrades" : [
+            "372fb",
+            "OUHlX"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "nVZnGgyrY",
+                     "variant" : "replace"
+                  },
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "5c18UeIcp",
+                     "variant" : "replace"
+                  },
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "zn0U9v1WH",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "h04D6",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "id" : "ezmvvGH",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "RXajHxiE",
+               "label" : "Twin Hammer (A2, AP(1))",
+               "name" : "Twin Hammer",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "AP(1)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "IqPEVEa4"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "RXajHxiE",
+               "label" : "Twin Hammer (A2, AP(1))",
+               "name" : "Twin Hammer",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "AP(1)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "IqPEVEa4"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "myCWbW3h",
+               "label" : "Twin Axe (A2, Rending)",
+               "name" : "Twin Axe",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "Rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OVK26rcy"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "nVZnGgyrY",
+               "option" : {
+                  "cost" : 5,
+                  "costs" : [
+                     {
+                        "cost" : 5,
+                        "unitId" : "ezmvvGH"
+                     },
+                     {
+                        "cost" : 5,
+                        "unitId" : "i5_1RbO"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "RXajHxiE",
+                        "label" : "Twin Hammer (A2, AP(1))",
+                        "name" : "Twin Hammer",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "AP(1)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : 1,
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "IqPEVEa4"
+                     }
+                  ],
+                  "id" : "vF4VS",
+                  "label" : "Twin Hammer (A2, AP(1))",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "5.2",
+                        "newCostRounded" : 5,
+                        "unitName" : "Warrior"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "7.4",
+                        "newCostRounded" : 5,
+                        "unitName" : "Elite Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "vF4VS"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "x7ajdcX",
+                  "label" : "Replace any Axe",
+                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
+                  "targets" : [
+                     "Axe"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "79ETZ",
+                  "variant" : "replace"
+               }
+            },
+            {
+               "instanceId" : "5c18UeIcp",
+               "option" : {
+                  "cost" : 5,
+                  "costs" : [
+                     {
+                        "cost" : 5,
+                        "unitId" : "ezmvvGH"
+                     },
+                     {
+                        "cost" : 5,
+                        "unitId" : "i5_1RbO"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "RXajHxiE",
+                        "label" : "Twin Hammer (A2, AP(1))",
+                        "name" : "Twin Hammer",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "AP(1)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : 1,
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "IqPEVEa4"
+                     }
+                  ],
+                  "id" : "vF4VS",
+                  "label" : "Twin Hammer (A2, AP(1))",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "5.2",
+                        "newCostRounded" : 5,
+                        "unitName" : "Warrior"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "7.4",
+                        "newCostRounded" : 5,
+                        "unitName" : "Elite Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "vF4VS"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "x7ajdcX",
+                  "label" : "Replace any Axe",
+                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
+                  "targets" : [
+                     "Axe"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "79ETZ",
+                  "variant" : "replace"
+               }
+            },
+            {
+               "instanceId" : "zn0U9v1WH",
+               "option" : {
+                  "cost" : 5,
+                  "costs" : [
+                     {
+                        "cost" : 5,
+                        "unitId" : "ezmvvGH"
+                     },
+                     {
+                        "cost" : 5,
+                        "unitId" : "i5_1RbO"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "myCWbW3h",
+                        "label" : "Twin Axe (A2, Rending)",
+                        "name" : "Twin Axe",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "Rending",
+                              "modify" : false,
+                              "name" : "Rending",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "OVK26rcy"
+                     }
+                  ],
+                  "id" : "oFHX6",
+                  "label" : "Twin Axe (A2, Rending)",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "6.0",
+                        "newCostRounded" : 5,
+                        "unitName" : "Warrior"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "7.5",
+                        "newCostRounded" : 5,
+                        "unitName" : "Elite Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "oFHX6"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "x7ajdcX",
+                  "label" : "Replace any Axe",
+                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
+                  "targets" : [
+                     "Axe"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "79ETZ",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "EIvTc",
+         "size" : 3,
+         "specialRules" : [],
+         "traits" : [],
+         "upgrades" : [
+            "OUHlX"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 30,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "8ZPPT",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "id" : "I5_HNrP",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "8ZPPT",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "name" : "Champion",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "mWQ0h",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 68,
+               "key" : "hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : 80,
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 90,
+         "defense" : 3,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : "2",
+               "count" : 1,
+               "id" : "P0MHA",
+               "label" : "Great Hammer (A2, AP(3))",
+               "name" : "Great Hammer",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "3"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0phUUdFE"
+            }
+         ],
+         "id" : "1FQu45u",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : "2",
+               "count" : 1,
+               "id" : "P0MHA",
+               "label" : "Great Hammer (A2, AP(3))",
+               "name" : "Great Hammer",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "3"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0phUUdFE"
+            }
+         ],
+         "name" : "Prince",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "i45My",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 68,
+               "key" : "hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : 80,
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : 6
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "tvdI1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 40,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "oia61",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "id" : "i5_1RbO",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "oia61",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "name" : "Elite Warrior",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "yzk_u",
+         "size" : 3,
+         "specialRules" : [],
+         "traits" : [],
+         "upgrades" : [
+            "372fb",
+            "OUHlX"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "ZLa9u8Mc3",
+                     "variant" : "replace"
+                  },
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "4bPMezF8P",
+                     "variant" : "replace"
+                  },
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "H12WdVs_c",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "h04D6",
+               "label" : "Axe (A1, Rending)",
+               "name" : "Axe",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Ra9J3UcY"
+            }
+         ],
+         "id" : "ezmvvGH",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Heavy Axe (A2, AP(1), Rending)",
+               "name" : "Heavy Axe",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "AP(1)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "label" : "Rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "fm65u75F"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Heavy Axe (A2, AP(1), Rending)",
+               "name" : "Heavy Axe",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "AP(1)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "label" : "Rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "fm65u75F"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "myCWbW3h",
+               "label" : "Twin Axe (A2, Rending)",
+               "name" : "Twin Axe",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "Rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OVK26rcy"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "ZLa9u8Mc3",
+               "option" : {
+                  "cost" : 10,
+                  "costs" : [
+                     {
+                        "cost" : 10,
+                        "unitId" : "ezmvvGH"
+                     },
+                     {
+                        "cost" : 10,
+                        "unitId" : "i5_1RbO"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Heavy Axe (A2, AP(1), Rending)",
+                        "name" : "Heavy Axe",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "AP(1)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : 1,
+                              "type" : "ArmyBookRule"
+                           },
+                           {
+                              "label" : "Rending",
+                              "modify" : false,
+                              "name" : "Rending",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "fm65u75F"
+                     }
+                  ],
+                  "id" : "VkdIj",
+                  "label" : "Heavy Axe (A2, AP(1), Rending)",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "8.4",
+                        "newCostRounded" : 10,
+                        "unitName" : "Warrior"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "11.0",
+                        "newCostRounded" : 10,
+                        "unitName" : "Elite Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "VkdIj"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "x7ajdcX",
+                  "label" : "Replace any Axe",
+                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
+                  "targets" : [
+                     "Axe"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "79ETZ",
+                  "variant" : "replace"
+               }
+            },
+            {
+               "instanceId" : "4bPMezF8P",
+               "option" : {
+                  "cost" : 10,
+                  "costs" : [
+                     {
+                        "cost" : 10,
+                        "unitId" : "ezmvvGH"
+                     },
+                     {
+                        "cost" : 10,
+                        "unitId" : "i5_1RbO"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Heavy Axe (A2, AP(1), Rending)",
+                        "name" : "Heavy Axe",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "AP(1)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : 1,
+                              "type" : "ArmyBookRule"
+                           },
+                           {
+                              "label" : "Rending",
+                              "modify" : false,
+                              "name" : "Rending",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "fm65u75F"
+                     }
+                  ],
+                  "id" : "VkdIj",
+                  "label" : "Heavy Axe (A2, AP(1), Rending)",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "8.4",
+                        "newCostRounded" : 10,
+                        "unitName" : "Warrior"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "11.0",
+                        "newCostRounded" : 10,
+                        "unitName" : "Elite Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "VkdIj"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "x7ajdcX",
+                  "label" : "Replace any Axe",
+                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
+                  "targets" : [
+                     "Axe"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "79ETZ",
+                  "variant" : "replace"
+               }
+            },
+            {
+               "instanceId" : "H12WdVs_c",
+               "option" : {
+                  "cost" : 5,
+                  "costs" : [
+                     {
+                        "cost" : 5,
+                        "unitId" : "ezmvvGH"
+                     },
+                     {
+                        "cost" : 5,
+                        "unitId" : "i5_1RbO"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "myCWbW3h",
+                        "label" : "Twin Axe (A2, Rending)",
+                        "name" : "Twin Axe",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "Rending",
+                              "modify" : false,
+                              "name" : "Rending",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "OVK26rcy"
+                     }
+                  ],
+                  "id" : "oFHX6",
+                  "label" : "Twin Axe (A2, Rending)",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "6.0",
+                        "newCostRounded" : 5,
+                        "unitName" : "Warrior"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "7.5",
+                        "newCostRounded" : 5,
+                        "unitName" : "Elite Warrior"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "oFHX6"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "x7ajdcX",
+                  "label" : "Replace any Axe",
+                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
+                  "targets" : [
+                     "Axe"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "79ETZ",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "14fxz",
+         "size" : 3,
+         "specialRules" : [],
+         "traits" : [],
+         "upgrades" : [
+            "OUHlX"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "lIHGhJbnAUwW3684",
+         "combined" : false,
+         "cost" : 20,
+         "defense" : 5,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "Dx5HN",
+               "label" : "Heavy Bash (A2, AP(1))",
+               "name" : "Heavy Bash",
+               "newWeapon" : false,
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "maonJXwL"
+            }
+         ],
+         "id" : "L0K3my6",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "Dx5HN",
+               "label" : "Heavy Bash (A2, AP(1))",
+               "name" : "Heavy Bash",
+               "newWeapon" : false,
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "maonJXwL"
+            }
+         ],
+         "name" : "Youngblood",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "gtoGE",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 76,
+               "key" : "scout",
+               "name" : "Scout"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "k_8kk"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ]
+}

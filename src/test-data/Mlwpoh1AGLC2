@@ -1,0 +1,3621 @@
+{
+   "campaignMode" : false,
+   "competitive" : true,
+   "gameSystem" : "gf",
+   "id" : "Mlwpoh1AGLC2",
+   "isCloud" : false,
+   "modified" : "2024-01-02T22:58:09.356Z",
+   "name" : "WH Imperium - Necrons",
+   "points" : 3230,
+   "pointsLimit" : 4000,
+   "selectedUnitId" : "nXvZ_",
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model is activated, you may place a new unit of 3 Bot Swarms fully within 6” of it.",
+         "hasRating" : false,
+         "id" : 266,
+         "name" : "Release Swarm"
+      },
+      {
+         "aliasedRuleId" : 162,
+         "description" : "This model and its unit may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : 162,
+         "name" : "Royal March"
+      },
+      {
+         "aliasedRuleId" : 51,
+         "description" : "This model and its unit get Ambush.",
+         "hasRating" : false,
+         "id" : 51,
+         "name" : "Shadow-Protocol"
+      },
+      {
+         "aliasedRuleId" : 159,
+         "description" : "Once per activation, pick 2 friendly units within 6”, which get Regeneration next time they take wounds.",
+         "hasRating" : false,
+         "id" : 159,
+         "name" : "Reanimator"
+      },
+      {
+         "aliasedRuleId" : 561,
+         "description" : "This model and its unit get Regeneration.",
+         "hasRating" : false,
+         "id" : 561,
+         "name" : "Regen-Protocol"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick one friendly unit within 12”, which may ignore the Slow rule next time it moves.",
+         "hasRating" : false,
+         "id" : 269,
+         "name" : "Royal March Order"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
+         "hasRating" : false,
+         "id" : 262,
+         "name" : "Spell Master"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "hasRating" : false,
+         "id" : 263,
+         "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Counts as having the Ambush rule, and gets AP(+3) when shooting on the round in which it deploys.",
+         "hasRating" : false,
+         "id" : 261,
+         "name" : "Hunter"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
+         "hasRating" : false,
+         "id" : 964,
+         "name" : "Self-Repair"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : 858,
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "hasRating" : false,
+         "id" : 126,
+         "name" : "Repair"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
+         "hasRating" : false,
+         "id" : 370,
+         "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units.",
+         "hasRating" : false,
+         "id" : 166,
+         "name" : "Tunneller"
+      },
+      {
+         "aliasedRuleId" : 149,
+         "description" : "When this model and its unit take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 4+ instead.",
+         "hasRating" : false,
+         "id" : 149,
+         "name" : "Gloom-Protocol"
+      },
+      {
+         "aliasedRuleId" : 216,
+         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule, and for each result of 1-3 the unit takes one wound, which can’t be ignored.",
+         "hasRating" : false,
+         "id" : 216,
+         "name" : "Robot"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "hasRating" : false,
+         "id" : 846,
+         "name" : "Flux"
+      }
+   ],
+   "undoUnitRemove" : [
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 125,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "dependencies" : [
+                  {
+                     "count" : 5,
+                     "upgradeInstanceId" : "-cmtbU9na",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "dependencies" : [],
+               "id" : "YsdNdfjc",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "label" : "AP(2)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            }
+         ],
+         "name" : "Warriors",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "-cmtbU9na",
+               "option" : {
+                  "cost" : 5,
+                  "costs" : [
+                     {
+                        "cost" : 5,
+                        "unitId" : "njiIkJi"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 1,
+                        "count" : 5,
+                        "dependencies" : [],
+                        "id" : "YsdNdfjc",
+                        "label" : "Reaper Rifle (18\", A1, AP(2))",
+                        "name" : "Reaper Rifle",
+                        "range" : 18,
+                        "specialRules" : [
+                           {
+                              "key" : "ap",
+                              "label" : "AP(2)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : "2",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "YsdNdfjc"
+                     }
+                  ],
+                  "id" : "r_yHp",
+                  "label" : "Reaper Rifle (18\", A1, AP(2))",
+                  "parentSectionId" : "sPruWe5",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "r_yHp"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "all"
+                  },
+                  "id" : "X6U6DMX",
+                  "isCommandGroup" : false,
+                  "label" : "Replace all Gauss Rifles",
+                  "options" : null,
+                  "parentPackageUid" : "E1",
+                  "targets" : [
+                     "Gauss Rifles"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "sPruWe5",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "cn9e9",
+         "size" : 5,
+         "sortId" : 3,
+         "specialRules" : [
+            {
+               "key" : "regeneration",
+               "name" : "Regeneration",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ],
+   "unitPreview" : null,
+   "units" : [
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 70,
+         "customName" : "Overlord",
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "id" : "lcEWPMS",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "royal-march",
+                     "label" : "Royal March",
+                     "name" : "Royal March",
+                     "rating" : "",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Overseer (Royal March)",
+               "name" : "Overseer",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Robot Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "ZD5be1kue",
+               "option" : {
+                  "cost" : 25,
+                  "costs" : [
+                     {
+                        "cost" : 25,
+                        "unitId" : "lcEWPMS"
+                     },
+                     {
+                        "cost" : 25,
+                        "unitId" : "y8xIlHV"
+                     },
+                     {
+                        "cost" : 25,
+                        "unitId" : "R2d8LeD"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "royal-march",
+                              "label" : "Royal March",
+                              "name" : "Royal March",
+                              "rating" : "",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Overseer (Royal March)",
+                        "name" : "Overseer",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "AZDWCqf",
+                  "label" : "Overseer (Royal March)",
+                  "parentPackageUid" : "C1",
+                  "parentSectionUid" : "IxcS2nP",
+                  "proposedCost" : 25,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "24.0",
+                        "newCostRounded" : 25,
+                        "unitName" : "Robot Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "24.0",
+                        "newCostRounded" : 25,
+                        "unitName" : "Annihilator Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "24.0",
+                        "newCostRounded" : 25,
+                        "unitName" : "Tri-Scorpion Lord"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "AZDWCqf"
+               },
+               "upgrade" : {
+                  "id" : "ATJPUDt",
+                  "isHeroUpgrade" : true,
+                  "label" : "Upgrade with one",
+                  "options" : null,
+                  "parentPackageUid" : "C1",
+                  "select" : {
+                     "type" : "exactly",
+                     "value" : 1
+                  },
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "IxcS2nP",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "BPkEu",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "A1",
+            "B1",
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 70,
+         "customName" : "Royal Warden",
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "id" : "lcEWPMS",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "regen-protocol",
+                     "label" : "Regen-Protocol",
+                     "name" : "Regen-Protocol",
+                     "rating" : "",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Warden (Regen-Protocol)",
+               "name" : "Warden",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Robot Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "kShh7G3BR",
+               "option" : {
+                  "cost" : 30,
+                  "costs" : [
+                     {
+                        "cost" : 30,
+                        "unitId" : "lcEWPMS"
+                     },
+                     {
+                        "cost" : 30,
+                        "unitId" : "y8xIlHV"
+                     },
+                     {
+                        "cost" : 30,
+                        "unitId" : "R2d8LeD"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "regen-protocol",
+                              "label" : "Regen-Protocol",
+                              "name" : "Regen-Protocol",
+                              "rating" : "",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Warden (Regen-Protocol)",
+                        "name" : "Warden",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "a-G2qj8",
+                  "label" : "Warden (Regen-Protocol)",
+                  "parentPackageUid" : "C1",
+                  "parentSectionUid" : "IxcS2nP",
+                  "proposedCost" : 25,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "31.9",
+                        "newCostRounded" : 30,
+                        "unitName" : "Robot Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "31.9",
+                        "newCostRounded" : 30,
+                        "unitName" : "Annihilator Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "31.9",
+                        "newCostRounded" : 30,
+                        "unitName" : "Tri-Scorpion Lord"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "a-G2qj8"
+               },
+               "upgrade" : {
+                  "id" : "ATJPUDt",
+                  "isHeroUpgrade" : true,
+                  "label" : "Upgrade with one",
+                  "options" : null,
+                  "parentPackageUid" : "C1",
+                  "select" : {
+                     "type" : "exactly",
+                     "value" : 1
+                  },
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "IxcS2nP",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "O5_9z",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "A1",
+            "B1",
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 70,
+         "customName" : "Technomancer",
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "id" : "lcEWPMS",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "caster",
+                     "label" : "Caster(2)",
+                     "name" : "Caster",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Technomancer (Caster(2))",
+               "name" : "Technomancer",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Robot Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "wMapWbWyD",
+               "option" : {
+                  "cost" : 40,
+                  "costs" : [
+                     {
+                        "cost" : 40,
+                        "unitId" : "lcEWPMS"
+                     },
+                     {
+                        "cost" : 40,
+                        "unitId" : "y8xIlHV"
+                     },
+                     {
+                        "cost" : 40,
+                        "unitId" : "R2d8LeD"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "caster",
+                              "label" : "Caster(2)",
+                              "name" : "Caster",
+                              "rating" : 2,
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Technomancer (Caster(2))",
+                        "name" : "Technomancer",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "pAgesdx",
+                  "label" : "Technomancer (Caster(2))",
+                  "parentPackageUid" : "C1",
+                  "parentSectionUid" : "IxcS2nP",
+                  "proposedCost" : 20,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "40.0",
+                        "newCostRounded" : 40,
+                        "unitName" : "Robot Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "40.0",
+                        "newCostRounded" : 40,
+                        "unitName" : "Annihilator Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "40.0",
+                        "newCostRounded" : 40,
+                        "unitName" : "Tri-Scorpion Lord"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "pAgesdx"
+               },
+               "upgrade" : {
+                  "id" : "ATJPUDt",
+                  "isHeroUpgrade" : true,
+                  "label" : "Upgrade with one",
+                  "options" : null,
+                  "parentPackageUid" : "C1",
+                  "select" : {
+                     "type" : "exactly",
+                     "value" : 1
+                  },
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "IxcS2nP",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "Zha0V",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "A1",
+            "B1",
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : true,
+         "cost" : 115,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "name" : "Warriors",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "C7ByT",
+         "size" : 5,
+         "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : true,
+         "cost" : 115,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : "C7ByT",
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "name" : "Warriors",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "No3Z8",
+         "size" : 5,
+         "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : true,
+         "cost" : 115,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "dependencies" : [
+                  {
+                     "count" : 5,
+                     "upgradeInstanceId" : "D765gmxad",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "dependencies" : [],
+               "id" : "YsdNdfjc",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "label" : "AP(2)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            }
+         ],
+         "name" : "Warriors",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "D765gmxad",
+               "option" : {
+                  "cost" : -5,
+                  "costs" : [
+                     {
+                        "cost" : -5,
+                        "unitId" : "njiIkJi"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 1,
+                        "count" : 5,
+                        "dependencies" : [],
+                        "id" : "YsdNdfjc",
+                        "label" : "Reaper Rifle (18\", A1, AP(2))",
+                        "name" : "Reaper Rifle",
+                        "range" : 18,
+                        "specialRules" : [
+                           {
+                              "key" : "ap",
+                              "label" : "AP(2)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : "2",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "YsdNdfjc"
+                     }
+                  ],
+                  "id" : "r_yHp",
+                  "label" : "Reaper Rifle (18\", A1, AP(2))",
+                  "parentPackageUid" : "E1",
+                  "parentSectionUid" : "sPruWe5",
+                  "proposedCost" : -5,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "-6.5",
+                        "newCostRounded" : -5,
+                        "unitName" : "Warriors"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "r_yHp"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "all"
+                  },
+                  "id" : "BQpNY07",
+                  "label" : "Replace all Gauss Rifles",
+                  "options" : null,
+                  "parentPackageUid" : "E1",
+                  "targets" : [
+                     "Gauss Rifles"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "sPruWe5",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "-TBrs",
+         "size" : 5,
+         "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : true,
+         "cost" : 115,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "dependencies" : [
+                  {
+                     "count" : 5,
+                     "upgradeInstanceId" : "97lBIeOfY",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "OaYz4pdg",
+               "label" : "Gauss Rifle (24\", A1, Rending)",
+               "name" : "Gauss Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OaYz4pdg"
+            }
+         ],
+         "id" : "njiIkJi",
+         "joinToUnit" : "-TBrs",
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "dependencies" : [],
+               "id" : "YsdNdfjc",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "label" : "AP(2)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            }
+         ],
+         "name" : "Warriors",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "97lBIeOfY",
+               "option" : {
+                  "cost" : -5,
+                  "costs" : [
+                     {
+                        "cost" : -5,
+                        "unitId" : "njiIkJi"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 1,
+                        "count" : 5,
+                        "dependencies" : [],
+                        "id" : "YsdNdfjc",
+                        "label" : "Reaper Rifle (18\", A1, AP(2))",
+                        "name" : "Reaper Rifle",
+                        "range" : 18,
+                        "specialRules" : [
+                           {
+                              "key" : "ap",
+                              "label" : "AP(2)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : "2",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "YsdNdfjc"
+                     }
+                  ],
+                  "id" : "r_yHp",
+                  "label" : "Reaper Rifle (18\", A1, AP(2))",
+                  "parentPackageUid" : "E1",
+                  "parentSectionUid" : "sPruWe5",
+                  "proposedCost" : -5,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "-6.5",
+                        "newCostRounded" : -5,
+                        "unitName" : "Warriors"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "r_yHp"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "all"
+                  },
+                  "id" : "BQpNY07",
+                  "label" : "Replace all Gauss Rifles",
+                  "options" : null,
+                  "parentPackageUid" : "E1",
+                  "targets" : [
+                     "Gauss Rifles"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "sPruWe5",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "5mNwx",
+         "size" : 5,
+         "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 140,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 5,
+               "id" : "Q47Qlon8",
+               "label" : "Metal Claws (A2, AP(1))",
+               "name" : "Metal Claws",
+               "originalCount" : 5,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Q47Qlon8"
+            }
+         ],
+         "id" : "6q8HvOZ",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 5,
+               "id" : "Q47Qlon8",
+               "label" : "Metal Claws (A2, AP(1))",
+               "name" : "Metal Claws",
+               "originalCount" : 5,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Q47Qlon8"
+            }
+         ],
+         "name" : "Flesh-Eaters",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "LP78D",
+         "size" : 5,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tunneller",
+               "name" : "Tunneller",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 75,
+         "defense" : 6,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 3,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attacks (A3, Rending)",
+               "name" : "Swarm Attacks",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "id" : "yoeQi4m",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 3,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attacks (A3, Rending)",
+               "name" : "Swarm Attacks",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "name" : "Bot Swarms",
+         "notes" : null,
+         "quality" : 6,
+         "selectedUpgrades" : [],
+         "selectionId" : "HXX3-",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 260,
+         "customName" : "Skorpekh",
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 4,
+               "count" : 3,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "SuS9Mj293",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "NkTvh2sj",
+               "label" : "Dual Reaper Blades (A4, AP(2))",
+               "name" : "Dual Reaper Blades",
+               "originalCount" : 3,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "NkTvh2sj"
+            }
+         ],
+         "id" : "XgJtpyh",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 4,
+               "count" : 2,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "SuS9Mj293",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "NkTvh2sj",
+               "label" : "Dual Reaper Blades (A4, AP(2))",
+               "name" : "Dual Reaper Blades",
+               "originalCount" : 3,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "NkTvh2sj"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "re7afFw-",
+               "label" : "Heavy Reaper Blade (A1, AP(4), Deadly(3))",
+               "name" : "Heavy Reaper Blade",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "label" : "AP(4)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : 4,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "label" : "Deadly(3)",
+                     "modify" : false,
+                     "name" : "Deadly",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "re7afFw-"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 3,
+                     "dependencies" : [],
+                     "label" : "Rending in Melee",
+                     "modify" : false,
+                     "name" : "Rending in Melee",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 3,
+               "dependencies" : [],
+               "label" : "Plasmabot (Rending in Melee)",
+               "name" : "Plasmabot",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Tri-Scorpions",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "SuS9Mj293",
+               "option" : {
+                  "cost" : -10,
+                  "costs" : [
+                     {
+                        "cost" : -10,
+                        "unitId" : "gcoBL7U"
+                     },
+                     {
+                        "cost" : -10,
+                        "unitId" : "XgJtpyh"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 1,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "re7afFw-",
+                        "label" : "Heavy Reaper Blade (A1, AP(4), Deadly(3))",
+                        "name" : "Heavy Reaper Blade",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "label" : "AP(4)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : 4,
+                              "type" : "ArmyBookRule"
+                           },
+                           {
+                              "label" : "Deadly(3)",
+                              "modify" : false,
+                              "name" : "Deadly",
+                              "rating" : 3,
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "re7afFw-"
+                     }
+                  ],
+                  "id" : "eDUyrWE",
+                  "label" : "Heavy Reaper Blade (A1, AP(4), Deadly(3))",
+                  "parentPackageUid" : "K1",
+                  "parentSectionUid" : "7-N3C3u",
+                  "proposedCost" : 10,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "-7.7",
+                        "newCostRounded" : -10,
+                        "unitName" : "Destroyer Snakes"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "-7.7",
+                        "newCostRounded" : -10,
+                        "unitName" : "Tri-Scorpions"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "eDUyrWE"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "exactly",
+                     "value" : 1
+                  },
+                  "id" : "XAf8HN1",
+                  "label" : "Replace one Dual Reaper Blades",
+                  "options" : null,
+                  "parentPackageUid" : "K1",
+                  "targets" : [
+                     "Dual Reaper Blades"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "7-N3C3u",
+                  "variant" : "replace"
+               }
+            },
+            {
+               "instanceId" : "vZ16c0uDO",
+               "option" : {
+                  "cost" : 45,
+                  "costs" : [
+                     {
+                        "cost" : 45,
+                        "unitId" : "gcoBL7U"
+                     },
+                     {
+                        "cost" : 45,
+                        "unitId" : "XgJtpyh"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 3,
+                              "dependencies" : [],
+                              "label" : "Rending in Melee",
+                              "modify" : false,
+                              "name" : "Rending in Melee",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 3,
+                        "dependencies" : [],
+                        "label" : "Plasmabot (Rending in Melee)",
+                        "name" : "Plasmabot",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "CuaPMH-",
+                  "label" : "Plasmabot (Rending in Melee)",
+                  "parentPackageUid" : "K1",
+                  "parentSectionUid" : "TCHi97K",
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "42.5",
+                        "newCostRounded" : 45,
+                        "unitName" : "Destroyer Snakes"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "42.5",
+                        "newCostRounded" : 45,
+                        "unitName" : "Tri-Scorpions"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "CuaPMH-"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "all"
+                  },
+                  "id" : "vMmCNhy",
+                  "label" : "Upgrade all models with",
+                  "model" : true,
+                  "options" : null,
+                  "parentPackageUid" : "K1",
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "TCHi97K",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "6fBQs",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "K1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 170,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 6,
+               "count" : 1,
+               "id" : "OYdo-1Pu",
+               "label" : "Spider Fangs (A6, Poison)",
+               "name" : "Spider Fangs",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "poison",
+                     "modify" : false,
+                     "name" : "Poison",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OYdo-1Pu"
+            },
+            {
+               "attacks" : 6,
+               "count" : 1,
+               "id" : "4ndrZnDN",
+               "label" : "Twin Atom-Beamer (24\", A6, AP(1))",
+               "name" : "Twin Atom-Beamer",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4ndrZnDN"
+            }
+         ],
+         "id" : "obCuik6",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 6,
+               "count" : 1,
+               "id" : "OYdo-1Pu",
+               "label" : "Spider Fangs (A6, Poison)",
+               "name" : "Spider Fangs",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "poison",
+                     "modify" : false,
+                     "name" : "Poison",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "OYdo-1Pu"
+            },
+            {
+               "attacks" : 6,
+               "count" : 1,
+               "id" : "4ndrZnDN",
+               "label" : "Twin Atom-Beamer (24\", A6, AP(1))",
+               "name" : "Twin Atom-Beamer",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4ndrZnDN"
+            }
+         ],
+         "name" : "Forge Spider",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "gb1M9",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "6"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "N1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 180,
+         "defense" : 2,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 2,
+               "count" : 5,
+               "id" : "dT086NsK",
+               "label" : "Flux Carbine (18\", A2, Flux)",
+               "name" : "Flux Carbine",
+               "originalCount" : 5,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "flux",
+                     "modify" : false,
+                     "name" : "Flux",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "dT086NsK"
+            }
+         ],
+         "id" : "wvgi7_R",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            },
+            {
+               "attacks" : 2,
+               "count" : 5,
+               "id" : "dT086NsK",
+               "label" : "Flux Carbine (18\", A2, Flux)",
+               "name" : "Flux Carbine",
+               "originalCount" : 5,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "flux",
+                     "modify" : false,
+                     "name" : "Flux",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "dT086NsK"
+            }
+         ],
+         "name" : "Eternals",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "GY1ll",
+         "size" : 5,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "F1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 75,
+         "defense" : 6,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 3,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attacks (A3, Rending)",
+               "name" : "Swarm Attacks",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "id" : "yoeQi4m",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 3,
+               "id" : "DvYpHLlf",
+               "label" : "Swarm Attacks (A3, Rending)",
+               "name" : "Swarm Attacks",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "bUQRotbI"
+            }
+         ],
+         "name" : "Bot Swarms",
+         "notes" : null,
+         "quality" : 6,
+         "selectedUpgrades" : [],
+         "selectionId" : "Q7Mth",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 265,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "drxT9SeL",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            },
+            {
+               "attacks" : 3,
+               "count" : 3,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "wWj5ln6M1",
+                     "variant" : "replace"
+                  },
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "xAGzYFc9v",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "_FPCvoHf",
+               "label" : "Rapid Gauss Rifle (24\", A3, Rending)",
+               "name" : "Rapid Gauss Rifle",
+               "originalCount" : 3,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_FPCvoHf"
+            }
+         ],
+         "id" : "yhG8aeu",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "drxT9SeL",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            },
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "wWj5ln6M1",
+                     "variant" : "replace"
+                  },
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "xAGzYFc9v",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "_FPCvoHf",
+               "label" : "Rapid Gauss Rifle (24\", A3, Rending)",
+               "name" : "Rapid Gauss Rifle",
+               "originalCount" : 3,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_FPCvoHf"
+            },
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "HClyzZfI",
+               "label" : "Rapid Flux Carbine (18\", A4, Flux)",
+               "name" : "Rapid Flux Carbine",
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : 846,
+                     "key" : "flux",
+                     "name" : "Flux"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "HClyzZfI"
+            },
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "oGqW8rAE",
+               "label" : "Atom-Beamer (24\", A3, AP(1))",
+               "name" : "Atom-Beamer",
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : "1",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oGqW8rAE"
+            }
+         ],
+         "name" : "Hover Bikes",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "wWj5ln6M1",
+               "option" : {
+                  "cost" : -10,
+                  "costs" : [
+                     {
+                        "cost" : -10,
+                        "unitId" : "yhG8aeu"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 4,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "HClyzZfI",
+                        "label" : "Rapid Flux Carbine (18\", A4, Flux)",
+                        "name" : "Rapid Flux Carbine",
+                        "range" : 18,
+                        "specialRules" : [
+                           {
+                              "id" : 846,
+                              "key" : "flux",
+                              "name" : "Flux"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "HClyzZfI"
+                     }
+                  ],
+                  "id" : "KUvdZXo",
+                  "label" : "Rapid Flux Carbine (18\", A4, Flux)",
+                  "parentPackageUid" : "I1",
+                  "parentSectionUid" : "lB405hn",
+                  "proposedCost" : 10,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "-8.5",
+                        "newCostRounded" : -10,
+                        "unitName" : "Hover Bikes"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "KUvdZXo"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "md9TYut",
+                  "label" : "Replace any Rapid Gauss Rifle",
+                  "options" : null,
+                  "parentPackageUid" : "I1",
+                  "targets" : [
+                     "Rapid Gauss Rifle"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "lB405hn",
+                  "variant" : "replace"
+               }
+            },
+            {
+               "instanceId" : "xAGzYFc9v",
+               "option" : {
+                  "cost" : -5,
+                  "costs" : [
+                     {
+                        "cost" : -5,
+                        "unitId" : "yhG8aeu"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 3,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "oGqW8rAE",
+                        "label" : "Atom-Beamer (24\", A3, AP(1))",
+                        "name" : "Atom-Beamer",
+                        "range" : 24,
+                        "specialRules" : [
+                           {
+                              "key" : "ap",
+                              "label" : "AP(1)",
+                              "name" : "AP",
+                              "rating" : "1",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "oGqW8rAE"
+                     }
+                  ],
+                  "id" : "MA2pB-p",
+                  "label" : "Atom-Beamer (24\", A3, AP(1))",
+                  "parentPackageUid" : "I1",
+                  "parentSectionUid" : "lB405hn",
+                  "proposedCost" : 5,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "-2.7",
+                        "newCostRounded" : -5,
+                        "unitName" : "Hover Bikes"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "MA2pB-p"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "md9TYut",
+                  "label" : "Replace any Rapid Gauss Rifle",
+                  "options" : null,
+                  "parentPackageUid" : "I1",
+                  "targets" : [
+                     "Rapid Gauss Rifle"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "lB405hn",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "GMY9c",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "additional" : false,
+               "key" : "fast",
+               "name" : "Fast",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "I1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 70,
+         "customName" : "Chronomancer",
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "id" : "lcEWPMS",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "shadow-protocol",
+                     "label" : "Shadow-Protocol",
+                     "name" : "Shadow-Protocol",
+                     "rating" : "",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Chronomancer (Shadow-Protocol)",
+               "name" : "Chronomancer",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Robot Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "gJmTnd_Es",
+               "option" : {
+                  "cost" : 25,
+                  "costs" : [
+                     {
+                        "cost" : 25,
+                        "unitId" : "lcEWPMS"
+                     },
+                     {
+                        "cost" : 25,
+                        "unitId" : "y8xIlHV"
+                     },
+                     {
+                        "cost" : 25,
+                        "unitId" : "R2d8LeD"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "shadow-protocol",
+                              "label" : "Shadow-Protocol",
+                              "name" : "Shadow-Protocol",
+                              "rating" : "",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Chronomancer (Shadow-Protocol)",
+                        "name" : "Chronomancer",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "iUPolg0",
+                  "label" : "Chronomancer (Shadow-Protocol)",
+                  "parentPackageUid" : "C1",
+                  "parentSectionUid" : "IxcS2nP",
+                  "proposedCost" : 25,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "24.0",
+                        "newCostRounded" : 25,
+                        "unitName" : "Robot Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "24.0",
+                        "newCostRounded" : 25,
+                        "unitName" : "Annihilator Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "24.0",
+                        "newCostRounded" : 25,
+                        "unitName" : "Tri-Scorpion Lord"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "iUPolg0"
+               },
+               "upgrade" : {
+                  "id" : "ATJPUDt",
+                  "isHeroUpgrade" : true,
+                  "label" : "Upgrade with one",
+                  "options" : null,
+                  "parentPackageUid" : "C1",
+                  "select" : {
+                     "type" : "exactly",
+                     "value" : 1
+                  },
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "IxcS2nP",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "k8KXN",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "A1",
+            "B1",
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 185,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 6,
+               "id" : "IeCvRQZ2",
+               "label" : "Metal Fangs (A2, Rending)",
+               "name" : "Metal Fangs",
+               "originalCount" : 6,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "IeCvRQZ2"
+            }
+         ],
+         "id" : "0x2SCtg",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 6,
+               "id" : "IeCvRQZ2",
+               "label" : "Metal Fangs (A2, Rending)",
+               "name" : "Metal Fangs",
+               "originalCount" : 6,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "IeCvRQZ2"
+            }
+         ],
+         "name" : "Robot Snakes",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "Tuc8E",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "J1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 210,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "qMzSue4r",
+               "label" : "Annihilation Gun (18\", A2, AP(1), Blast(3))",
+               "name" : "Annihilation Gun",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "qMzSue4r"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "G2NVbL0A",
+               "label" : "Harvest Blade (A2, AP(2), Deadly(3))",
+               "name" : "Harvest Blade",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2"
+                  },
+                  {
+                     "key" : "deadly",
+                     "modify" : false,
+                     "name" : "Deadly",
+                     "rating" : "3"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "G2NVbL0A"
+            }
+         ],
+         "id" : "R2d8LeD",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "qMzSue4r",
+               "label" : "Annihilation Gun (18\", A2, AP(1), Blast(3))",
+               "name" : "Annihilation Gun",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "qMzSue4r"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "G2NVbL0A",
+               "label" : "Harvest Blade (A2, AP(2), Deadly(3))",
+               "name" : "Harvest Blade",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2"
+                  },
+                  {
+                     "key" : "deadly",
+                     "modify" : false,
+                     "name" : "Deadly",
+                     "rating" : "3"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "G2NVbL0A"
+            }
+         ],
+         "name" : "Tri-Scorpion Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "M4smK",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "relentless",
+               "name" : "Relentless",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "6"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 205,
+         "defense" : 2,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "0t9U0IHb",
+               "label" : "Stomp (A2, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "hyB0WaAL"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "3OfJ65Xo",
+               "label" : "Rapid Particle Beam (12\", A2, AP(1), Blast(3), Reliable)",
+               "name" : "Rapid Particle Beam",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  },
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "reliable",
+                     "modify" : false,
+                     "name" : "Reliable",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "3OfJ65Xo"
+            }
+         ],
+         "id" : "17TaNC2",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "0t9U0IHb",
+               "label" : "Stomp (A2, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "hyB0WaAL"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "3OfJ65Xo",
+               "label" : "Rapid Particle Beam (12\", A2, AP(1), Blast(3), Reliable)",
+               "name" : "Rapid Particle Beam",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  },
+                  {
+                     "key" : "blast",
+                     "modify" : false,
+                     "name" : "Blast",
+                     "rating" : "3"
+                  },
+                  {
+                     "key" : "reliable",
+                     "modify" : false,
+                     "name" : "Reliable",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "3OfJ65Xo"
+            }
+         ],
+         "name" : "Tripod Walker",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "lIlwJ",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fear",
+               "label" : "Fear(1)",
+               "name" : "Fear",
+               "rating" : 1
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "6"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "D2"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 70,
+         "customName" : "Plasmancer",
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            }
+         ],
+         "id" : "lcEWPMS",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "0L3LR8_n",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Lord Gauss Pistol (12\", A2, Rending)",
+               "name" : "Lord Gauss Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "_g6MjuFl"
+            },
+            {
+               "content" : [
+                  {
+                     "count" : 1,
+                     "dependencies" : [],
+                     "key" : "gloom-protocol",
+                     "label" : "Gloom-Protocol",
+                     "name" : "Gloom-Protocol",
+                     "rating" : "",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Psychomancer (Gloom-Protocol)",
+               "name" : "Psychomancer",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Robot Lord",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "pCYhNeSeC",
+               "option" : {
+                  "cost" : 20,
+                  "costs" : [
+                     {
+                        "cost" : 20,
+                        "unitId" : "lcEWPMS"
+                     },
+                     {
+                        "cost" : 20,
+                        "unitId" : "y8xIlHV"
+                     },
+                     {
+                        "cost" : 20,
+                        "unitId" : "R2d8LeD"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "content" : [
+                           {
+                              "count" : 1,
+                              "dependencies" : [],
+                              "key" : "gloom-protocol",
+                              "label" : "Gloom-Protocol",
+                              "name" : "Gloom-Protocol",
+                              "rating" : "",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "count" : 1,
+                        "dependencies" : [],
+                        "label" : "Psychomancer (Gloom-Protocol)",
+                        "name" : "Psychomancer",
+                        "type" : "ArmyBookItem"
+                     }
+                  ],
+                  "id" : "VHtYlsj",
+                  "label" : "Psychomancer (Gloom-Protocol)",
+                  "parentPackageUid" : "C1",
+                  "parentSectionUid" : "IxcS2nP",
+                  "proposedCost" : 25,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "21.1",
+                        "newCostRounded" : 20,
+                        "unitName" : "Robot Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "21.1",
+                        "newCostRounded" : 20,
+                        "unitName" : "Annihilator Lord"
+                     },
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "21.1",
+                        "newCostRounded" : 20,
+                        "unitName" : "Tri-Scorpion Lord"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "VHtYlsj"
+               },
+               "upgrade" : {
+                  "id" : "ATJPUDt",
+                  "isHeroUpgrade" : true,
+                  "label" : "Upgrade with one",
+                  "options" : null,
+                  "parentPackageUid" : "C1",
+                  "select" : {
+                     "type" : "exactly",
+                     "value" : 1
+                  },
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "IxcS2nP",
+                  "variant" : "upgrade"
+               }
+            }
+         ],
+         "selectionId" : "BbWjg",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "slow",
+               "name" : "Slow",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "A1",
+            "B1",
+            "C1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "combined" : false,
+         "cost" : 505,
+         "defense" : 2,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "mF_XO4Hl",
+               "label" : "Crushing Legs (A2, AP(2))",
+               "name" : "Crushing Legs",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "mF_XO4Hl"
+            },
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "id" : "04wtW0y-",
+               "label" : "Stomp (A4, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "l9ncuAr5"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "NiErApPd",
+               "label" : "Twin Fusion Ray (18\", A2, AP(4), Deadly(6))",
+               "name" : "Twin Fusion Ray",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "4"
+                  },
+                  {
+                     "key" : "deadly",
+                     "modify" : false,
+                     "name" : "Deadly",
+                     "rating" : "6"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "NiErApPd"
+            }
+         ],
+         "id" : "n9nkDBw",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "mF_XO4Hl",
+               "label" : "Crushing Legs (A2, AP(2))",
+               "name" : "Crushing Legs",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "2"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "mF_XO4Hl"
+            },
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "id" : "04wtW0y-",
+               "label" : "Stomp (A4, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "l9ncuAr5"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "NiErApPd",
+               "label" : "Twin Fusion Ray (18\", A2, AP(4), Deadly(6))",
+               "name" : "Twin Fusion Ray",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "4"
+                  },
+                  {
+                     "key" : "deadly",
+                     "modify" : false,
+                     "name" : "Deadly",
+                     "rating" : "6"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "NiErApPd"
+            }
+         ],
+         "name" : "Spider Walker",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "nXvZ_",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fear",
+               "label" : "Fear(2)",
+               "name" : "Fear",
+               "rating" : 2
+            },
+            {
+               "key" : "robot",
+               "name" : "Robot",
+               "rating" : ""
+            },
+            {
+               "id" : 964,
+               "key" : "self-repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "12"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "E2"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ]
+}
