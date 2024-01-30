@@ -33,8 +33,7 @@ pub struct Unit {
     pub quality: usize,
     pub defense: usize,
     pub special_rules: Vec<Rc<SpecialRule>>,
-    // FIXME loadout instead?
-    pub equipment: Vec<Rc<Equipment>>,
+    pub loadout: Vec<Rc<UnitLoadout>>,
     // FIXME army_id for regrouping
 }
 
@@ -47,9 +46,15 @@ pub struct SpecialRule {
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
+#[serde(untagged)]
+pub enum UnitLoadout {
+    Equipment(Equipment),
+    Upgrade(UnitUpgrade),
+}
+
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Equipment {
-    pub id: String,
     pub name: String,
     #[serde(default)]
     pub range: usize,
@@ -57,6 +62,13 @@ pub struct Equipment {
     pub attacks: usize,
     pub count: usize,
     pub special_rules: Vec<Rc<SpecialRule>>,
+}
+
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct UnitUpgrade{
+    pub name: String,
+    pub content: Vec<Rc<SpecialRule>>,
 }
 
 impl Unit {
