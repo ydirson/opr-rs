@@ -17,7 +17,7 @@ pub struct Army {
     pub game_system: String,
     pub points: usize,
     pub points_limit: usize,
-    //pub special_rules: Vec<Rc<SpecialRuleDef>>,
+    pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
 }
 
@@ -43,6 +43,12 @@ pub struct SpecialRule {
     #[serde(default)]
     #[serde(deserialize_with = "deserialize_string_from_number")]
     pub rating: String,
+}
+
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+pub struct SpecialRuleDef {
+    pub name: String,
+    pub description: String,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
