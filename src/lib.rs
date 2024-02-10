@@ -39,6 +39,10 @@ pub struct Unit {
     pub defense: usize,
     pub special_rules: Vec<Rc<SpecialRule>>,
     pub loadout: Vec<Rc<UnitLoadout>>,
+    //
+    pub selection_id: String,
+    pub combined: bool,
+    pub join_to_unit: Option<String>,
     // FIXME army_id for regrouping
 }
 
