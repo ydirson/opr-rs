@@ -4,9 +4,9 @@
    "gameSystem" : "gf",
    "id" : "p2KIbSBOYpSB",
    "isCloud" : false,
-   "modified" : "2024-01-02T23:30:32.061Z",
+   "modified" : "2024-02-02T23:17:06.749Z",
    "name" : "WH Imperium - Imperium",
-   "points" : 2675,
+   "points" : 3040,
    "pointsLimit" : 4000,
    "selectedUnitId" : null,
    "specialRules" : [
@@ -152,17 +152,17 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : 858,
-         "name" : "Shield Wall"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Attacks targeting units where all models have this rule count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
          "id" : 857,
          "name" : "Protected"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : 858,
+         "name" : "Shield Wall"
       },
       {
          "aliasedRuleId" : null,
@@ -3941,6 +3941,253 @@
          "upgrades" : [
             "viyjq",
             "ObQny"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "oqnnu0gk8q6hyyny",
+         "combined" : false,
+         "cost" : 320,
+         "defense" : 2,
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "c3nZkAfH",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            },
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "wfEHdWKY",
+               "label" : "Heavy Pistol (12\", A1, AP(1))",
+               "name" : "Heavy Pistol",
+               "originalCount" : 3,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "oJodiFpk",
+               "label" : "Twin Heavy Rifle (24\", A2, AP(1))",
+               "name" : "Twin Heavy Rifle",
+               "originalCount" : 3,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wbSELVAM"
+            }
+         ],
+         "id" : "humZ9lZ",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "c3nZkAfH",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            },
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "id" : "wfEHdWKY",
+               "label" : "Heavy Pistol (12\", A1, AP(1))",
+               "name" : "Heavy Pistol",
+               "originalCount" : 3,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 3,
+               "id" : "oJodiFpk",
+               "label" : "Twin Heavy Rifle (24\", A2, AP(1))",
+               "name" : "Twin Heavy Rifle",
+               "originalCount" : 3,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wbSELVAM"
+            }
+         ],
+         "name" : "Prime Bikers",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [],
+         "selectionId" : "O-Vtu",
+         "size" : 3,
+         "specialRules" : [
+            {
+               "key" : "fast",
+               "name" : "Fast",
+               "rating" : ""
+            },
+            {
+               "key" : "fearless",
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "7el7k3hgy5pb9o9i",
+         "combined" : false,
+         "cost" : 45,
+         "customName" : "Sktarii Marshal",
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : "2",
+               "count" : 1,
+               "id" : "u42IQ0oq",
+               "label" : "Leader R-Fusil (18\", A2, Radiation)",
+               "name" : "Leader R-Fusil",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "radiation",
+                     "modify" : false,
+                     "name" : "Radiation",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "3hmdTpBC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "Uek7nqRw",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "id" : "iGyqlfa",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : "2",
+               "count" : 1,
+               "id" : "u42IQ0oq",
+               "label" : "Leader R-Fusil (18\", A2, Radiation)",
+               "name" : "Leader R-Fusil",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "key" : "radiation",
+                     "modify" : false,
+                     "name" : "Radiation",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "3hmdTpBC"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "Uek7nqRw",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Cult Leader",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "BgFwc",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "hero",
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "strider",
+               "name" : "Strider",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "B1",
+            "C1"
          ],
          "valid" : true,
          "xp" : 0
