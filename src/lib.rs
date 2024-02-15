@@ -10,6 +10,7 @@ use std::rc::Rc;
 use std::str::FromStr;
 
 pub const GET_ARMY_BASE_URL: &str = "https://army-forge.onepagerules.com/api/tts";
+const GET_COMMON_RULES_URL: &str = "https://army-forge.onepagerules.com/api/afs/common-rules";
 
 // structs for deserialization
 
@@ -134,5 +135,18 @@ impl fmt::Display for GameSystem {
             GameSystem::AoFS => "AoFS",
             GameSystem::AoFR => "AoFR",
         })
+    }
+}
+
+pub fn get_common_rules_url(game_system: GameSystem) -> String {
+    let query_description = match game_system {
+        GameSystem::GF | GameSystem::AoF => None,
+        GameSystem::GFF | GameSystem::AoFS => Some("skirmish"),
+        GameSystem::AoFR => Some("regiments"),
+    };
+    match query_description {
+        None => GET_COMMON_RULES_URL.to_string(),
+        Some(query_description) =>
+            format!("{GET_COMMON_RULES_URL}?description={query_description}"),
     }
 }
