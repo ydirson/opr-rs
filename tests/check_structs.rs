@@ -26,3 +26,18 @@ fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
         .expect(format!("should parse data as json").as_str());
     Ok(())
 }
+
+#[test]
+fn test_load_parse_common_rules() -> Result<(), String> {
+    // locate test data starting from source file
+    let mut data_path = PathBuf::from(Path::new(file!())
+                                      .parent()
+                                      .expect("test source file should have a parent"));
+    data_path.push("data/common-rules");
+
+    let json_string = fs::read_to_string(&data_path)
+        .expect(format!("data file {data_path:?} should to be readable").as_str());
+    let _army_list: Vec<SpecialRuleDef> = serde_json::from_str(json_string.as_str())
+        .expect(format!("should parse data as json").as_str());
+    Ok(())
+}
