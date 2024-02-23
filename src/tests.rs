@@ -11,6 +11,7 @@ use super::*;
 #[case("2HhzjGpcm5m7")]
 #[case("p2KIbSBOYpSB")]
 #[case("Mlwpoh1AGLC2")]
+#[case("Rrlct39EGuct")]
 fn test_load_parse(#[case] army_id: &str) -> Result<(), String> {
     // locate test data starting from test exe
     let mut data_path = PathBuf::from(std::env::current_exe()
