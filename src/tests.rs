@@ -12,12 +12,12 @@ use super::*;
 #[case("p2KIbSBOYpSB")]
 #[case("Mlwpoh1AGLC2")]
 #[case("Rrlct39EGuct")]
-fn test_load_parse(#[case] army_id: &str) -> Result<(), String> {
+fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
     // locate test data starting from source file
     let mut data_path = PathBuf::from(Path::new(file!())
                                       .parent()
                                       .expect("test source file should have a parent"));
-    data_path.push("test-data");
+    data_path.push("test-data/armies");
     data_path.push(army_id);
 
     let json_string = fs::read_to_string(&data_path)
