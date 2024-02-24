@@ -23,7 +23,7 @@ fn test_load_parse(#[case] army_id: &str) -> Result<(), String> {
 
     let json_string = fs::read_to_string(&data_path)
         .expect(format!("data file {data_path:?} should to be readable").as_str());
-    let _army_list: Rc<Army> = serde_json::from_str(json_string.as_str())
+    let _army_list: Army = serde_json::from_str(json_string.as_str())
         .expect(format!("should parse data as json").as_str());
     Ok(())
 }
