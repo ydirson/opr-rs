@@ -1,0 +1,639 @@
+{
+   "campaignMode" : false,
+   "competitive" : true,
+   "gameSystem" : "aofs",
+   "id" : "ZTgIvcYABynP",
+   "isCloud" : false,
+   "modified" : "2023-10-11T20:43:53.257Z",
+   "name" : "Eternal Wardens",
+   "points" : 330,
+   "pointsLimit" : 300,
+   "selectedUnitId" : "-qbQV",
+   "specialRules" : [
+      {
+         "aliasedRuleId" : 51,
+         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+         "hasRating" : false,
+         "id" : 51,
+         "name" : "Celestial Beacon"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, pick one friendly unit with Entrenched within 6”, which may either immediately shoot or move by up to 6\".",
+         "hasRating" : false,
+         "id" : 421,
+         "name" : "Artillerist"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, before attacking, pick one enemy unit within 18”. That unit must take a morale test, and if failed it takes 3 hits.",
+         "hasRating" : false,
+         "id" : 372,
+         "name" : "Smite"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
+         "hasRating" : false,
+         "id" : 62,
+         "name" : "Breath Attack"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
+         "hasRating" : false,
+         "id" : 370,
+         "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : 424,
+         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+         "hasRating" : false,
+         "id" : 424,
+         "name" : "Inspire"
+      },
+      {
+         "aliasedRuleId" : 164,
+         "description" : "This model gets AP(+2) in melee against units where most models have Tough(3) or higher.",
+         "hasRating" : false,
+         "id" : 164,
+         "name" : "Headtaker"
+      },
+      {
+         "aliasedRuleId" : 210,
+         "description" : "When in melee, roll one die and apply one bonus to models with this rule:\n* 1-3: Attacks get Rending\n* 4-6: Attacks get AP(+1)",
+         "hasRating" : false,
+         "id" : 210,
+         "name" : "Empower"
+      }
+   ],
+   "unitPreview" : null,
+   "units" : [
+      {
+         "armyId" : "-MrGWaleoZR7pxIn",
+         "combined" : false,
+         "cost" : 45,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "MqldRcld",
+               "label" : "Heavy Hand Weapon (A2, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "V2TzS_Jf"
+            }
+         ],
+         "id" : "BIpTSoW",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "MqldRcld",
+               "label" : "Heavy Hand Weapon (A2, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "V2TzS_Jf"
+            }
+         ],
+         "name" : "Warden",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "xwJC9",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fearless",
+               "modify" : false,
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "furious",
+               "modify" : false,
+               "name" : "Furious",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "modify" : false,
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "H1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "-MrGWaleoZR7pxIn",
+         "combined" : false,
+         "cost" : 45,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "MqldRcld",
+               "label" : "Heavy Hand Weapon (A2, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "V2TzS_Jf"
+            }
+         ],
+         "id" : "BIpTSoW",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "MqldRcld",
+               "label" : "Heavy Hand Weapon (A2, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "V2TzS_Jf"
+            }
+         ],
+         "name" : "Warden",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "UhCWE",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fearless",
+               "modify" : false,
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "furious",
+               "modify" : false,
+               "name" : "Furious",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "modify" : false,
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "H1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "-MrGWaleoZR7pxIn",
+         "combined" : false,
+         "cost" : 90,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "id" : "yT9x9gc3",
+               "label" : "Heavy Hand Weapon (A4, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "WHcr53Ec"
+            }
+         ],
+         "id" : "IDLyyFy",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "id" : "yT9x9gc3",
+               "label" : "Heavy Hand Weapon (A4, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "WHcr53Ec"
+            }
+         ],
+         "name" : "Warden Knight",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "MfDmP",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fearless",
+               "modify" : false,
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "furious",
+               "modify" : false,
+               "name" : "Furious",
+               "rating" : ""
+            },
+            {
+               "key" : "hero",
+               "modify" : false,
+               "name" : "Hero",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "modify" : false,
+               "name" : "Tough",
+               "rating" : "6"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "9EFD4"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "-MrGWaleoZR7pxIn",
+         "combined" : false,
+         "cost" : 65,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "Jqb4wWh-Q",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "ZRAUP7_B",
+               "label" : "Great Glaive (A3, AP(1), Rending)",
+               "name" : "Great Glaive",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  },
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "ZRAUP7_B"
+            }
+         ],
+         "id" : "EVgav1G",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "A2fGGR4i",
+               "label" : "Great Hammer (A3, AP(3))",
+               "name" : "Great Hammer",
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "label" : "AP(3)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "3",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "A2fGGR4i"
+            }
+         ],
+         "name" : "Eternal",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "Jqb4wWh-Q",
+               "option" : {
+                  "cost" : 10,
+                  "costs" : [
+                     {
+                        "cost" : 10,
+                        "unitId" : "EVgav1G"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 3,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "A2fGGR4i",
+                        "label" : "Great Hammer (A3, AP(3))",
+                        "name" : "Great Hammer",
+                        "specialRules" : [
+                           {
+                              "key" : "ap",
+                              "label" : "AP(3)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : "3",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "A2fGGR4i"
+                     }
+                  ],
+                  "id" : "KFqGgq_",
+                  "label" : "Great Hammer (A3, AP(3))",
+                  "parentPackageUid" : "I1",
+                  "parentSectionUid" : "G8FIwsX",
+                  "proposedCost" : 30,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "9.4",
+                        "newCostRounded" : 10,
+                        "unitName" : "Eternal"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "KFqGgq_"
+               },
+               "upgrade" : {
+                  "id" : "3NziEl4",
+                  "label" : "Replace Great Glaive",
+                  "options" : null,
+                  "parentPackageUid" : "I1",
+                  "targets" : [
+                     "Great Glaive"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "G8FIwsX",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "-qbQV",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fearless",
+               "modify" : false,
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "modify" : false,
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "I1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      },
+      {
+         "armyId" : "-MrGWaleoZR7pxIn",
+         "combined" : false,
+         "cost" : 65,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "GUALftARP",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "ZRAUP7_B",
+               "label" : "Great Glaive (A3, AP(1), Rending)",
+               "name" : "Great Glaive",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  },
+                  {
+                     "key" : "rending",
+                     "modify" : false,
+                     "name" : "Rending",
+                     "rating" : ""
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "ZRAUP7_B"
+            }
+         ],
+         "id" : "EVgav1G",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : "A2fGGR4i",
+               "label" : "Great Hammer (A3, AP(3))",
+               "name" : "Great Hammer",
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "label" : "AP(3)",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "3",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "A2fGGR4i"
+            }
+         ],
+         "name" : "Eternal",
+         "notes" : null,
+         "quality" : 3,
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "GUALftARP",
+               "option" : {
+                  "cost" : 10,
+                  "costs" : [
+                     {
+                        "cost" : 10,
+                        "unitId" : "EVgav1G"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 3,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : "A2fGGR4i",
+                        "label" : "Great Hammer (A3, AP(3))",
+                        "name" : "Great Hammer",
+                        "specialRules" : [
+                           {
+                              "key" : "ap",
+                              "label" : "AP(3)",
+                              "modify" : false,
+                              "name" : "AP",
+                              "rating" : "3",
+                              "type" : "ArmyBookRule"
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "A2fGGR4i"
+                     }
+                  ],
+                  "id" : "KFqGgq_",
+                  "label" : "Great Hammer (A3, AP(3))",
+                  "parentPackageUid" : "I1",
+                  "parentSectionUid" : "G8FIwsX",
+                  "proposedCost" : 30,
+                  "proposedCostHint" : [
+                     {
+                        "isValid" : true,
+                        "newCostPrecise" : "9.4",
+                        "newCostRounded" : 10,
+                        "unitName" : "Eternal"
+                     }
+                  ],
+                  "proposedVersion" : "2.50",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "KFqGgq_"
+               },
+               "upgrade" : {
+                  "id" : "3NziEl4",
+                  "label" : "Replace Great Glaive",
+                  "options" : null,
+                  "parentPackageUid" : "I1",
+                  "targets" : [
+                     "Great Glaive"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "G8FIwsX",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "KvnNi",
+         "size" : 1,
+         "specialRules" : [
+            {
+               "key" : "fearless",
+               "modify" : false,
+               "name" : "Fearless",
+               "rating" : ""
+            },
+            {
+               "key" : "tough",
+               "modify" : false,
+               "name" : "Tough",
+               "rating" : "3"
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "I1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ]
+}
