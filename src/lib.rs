@@ -1,6 +1,3 @@
-#[cfg(test)]
-mod tests;
-
 use serde::{Deserialize, Serialize};
 use serde_aux::field_attributes::{deserialize_number_from_string,
                                   deserialize_string_from_number,

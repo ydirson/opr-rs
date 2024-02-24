@@ -1,7 +1,7 @@
 use rstest::rstest;
 use std::fs;
 use std::path::{Path, PathBuf};
-use super::*;
+use opr::*;
 
 #[rstest]
 #[case("ybjR2-7kHUNY")]
@@ -17,7 +17,7 @@ fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
     let mut data_path = PathBuf::from(Path::new(file!())
                                       .parent()
                                       .expect("test source file should have a parent"));
-    data_path.push("test-data/armies");
+    data_path.push("data/armies");
     data_path.push(army_id);
 
     let json_string = fs::read_to_string(&data_path)

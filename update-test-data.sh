@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-DATADIR="src/test-data"
+DATADIR="tests/data"
 
 for FILE in "$DATADIR"/armies/????????????; do
     ID=$(basename "$FILE")
