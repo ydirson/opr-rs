@@ -3,4 +3,5 @@ resolver = "2"
 members = [
   "opr",
   "opr-test-data",
+  "opr-tests",
 ]
