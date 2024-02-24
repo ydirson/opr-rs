@@ -1,6 +1,6 @@
 use rstest::rstest;
 use std::fs;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 use opr::*;
 
 #[rstest]
@@ -13,14 +13,9 @@ use opr::*;
 #[case("Mlwpoh1AGLC2")]
 #[case("Rrlct39EGuct")]
 fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
-    // locate test data starting from source file
-    let topdir = Path::new("..");
-    let mut data_path = PathBuf::from(fs::canonicalize(topdir.join(file!()))
-                                      .expect("test source file should have a valid path")
-                                      .parent()
-                                      .expect("test source file should have a parent"));
-    eprintln!("data_path: {data_path:?}");
-    data_path.push("data/armies");
+    // locate test data from build.rs info
+    let mut data_path = PathBuf::from(env!("OPR_DATA_DIR"));
+    data_path.push("armies");
     data_path.push(army_id);
 
     let json_string = fs::read_to_string(&data_path)
@@ -32,13 +27,9 @@ fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
 
 #[test]
 fn test_load_parse_common_rules() -> Result<(), String> {
-    // locate test data starting from source file
-    let topdir = Path::new("..");
-    let mut data_path = PathBuf::from(fs::canonicalize(topdir.join(file!()))
-                                      .expect("test source file should have a valid path")
-                                      .parent()
-                                      .expect("test source file should have a parent"));
-    data_path.push("data/common-rules");
+    // locate test data from build.rs info
+    let mut data_path = PathBuf::from(env!("OPR_DATA_DIR"));
+    data_path.push("common-rules");
 
     let json_string = fs::read_to_string(&data_path)
         .expect(format!("data file {data_path:?} should to be readable").as_str());

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-DATADIR="opr/tests/data"
+DATADIR="opr-test-data/src/data"
 
 for FILE in "$DATADIR"/armies/????????????; do
     ID=$(basename "$FILE")
