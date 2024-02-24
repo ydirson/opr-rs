@@ -1,6 +1,6 @@
 use rstest::rstest;
 use std::fs;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 use super::*;
 
 #[rstest]
@@ -13,12 +13,11 @@ use super::*;
 #[case("Mlwpoh1AGLC2")]
 #[case("Rrlct39EGuct")]
 fn test_load_parse(#[case] army_id: &str) -> Result<(), String> {
-    // locate test data starting from test exe
-    let mut data_path = PathBuf::from(std::env::current_exe()
-                                      .expect("test exe should have a path")
+    // locate test data starting from source file
+    let mut data_path = PathBuf::from(Path::new(file!())
                                       .parent()
-                                      .expect("test exe path should have a parent"));
-    data_path.push("../../../src/test-data");
+                                      .expect("test source file should have a parent"));
+    data_path.push("test-data");
     data_path.push(army_id);
 
     let json_string = fs::read_to_string(&data_path)
