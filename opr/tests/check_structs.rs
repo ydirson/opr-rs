@@ -14,9 +14,12 @@ use opr::*;
 #[case("Rrlct39EGuct")]
 fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
     // locate test data starting from source file
-    let mut data_path = PathBuf::from(Path::new(file!())
+    let topdir = Path::new("..");
+    let mut data_path = PathBuf::from(fs::canonicalize(topdir.join(file!()))
+                                      .expect("test source file should have a valid path")
                                       .parent()
                                       .expect("test source file should have a parent"));
+    eprintln!("data_path: {data_path:?}");
     data_path.push("data/armies");
     data_path.push(army_id);
 
@@ -30,7 +33,9 @@ fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
 #[test]
 fn test_load_parse_common_rules() -> Result<(), String> {
     // locate test data starting from source file
-    let mut data_path = PathBuf::from(Path::new(file!())
+    let topdir = Path::new("..");
+    let mut data_path = PathBuf::from(fs::canonicalize(topdir.join(file!()))
+                                      .expect("test source file should have a valid path")
                                       .parent()
                                       .expect("test source file should have a parent"));
     data_path.push("data/common-rules");
