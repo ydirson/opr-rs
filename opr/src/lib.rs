@@ -1,7 +1,5 @@
 use serde::{Deserialize, Serialize};
-use serde_aux::field_attributes::{deserialize_number_from_string,
-                                  deserialize_string_from_number,
-};
+use serde_aux::field_attributes::{deserialize_number_from_string, deserialize_string_from_number};
 use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
@@ -78,7 +76,7 @@ pub struct Equipment {
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
-pub struct UnitUpgrade{
+pub struct UnitUpgrade {
     pub name: String,
     pub content: Vec<Rc<SpecialRule>>,
 }

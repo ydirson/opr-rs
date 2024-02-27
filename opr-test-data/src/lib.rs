@@ -1,6 +1,6 @@
+use include_dir::{include_dir, Dir};
 use std::io;
 use std::path::Path;
-use include_dir::{include_dir, Dir};
 
 static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/src/data");
 

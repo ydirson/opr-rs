@@ -1,7 +1,7 @@
+use opr::*;
 use rstest::rstest;
 use std::fs;
 use std::path::PathBuf;
-use opr::*;
 
 #[rstest]
 #[case("ybjR2-7kHUNY")]
