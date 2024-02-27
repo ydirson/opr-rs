@@ -6,7 +6,7 @@ use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
 
-pub const GET_ARMY_BASE_URL: &str = "https://army-forge.onepagerules.com/api/tts";
+const GET_ARMY_URL: &str = "https://army-forge.onepagerules.com/api/tts";
 const GET_COMMON_RULES_URL: &str = "https://army-forge.onepagerules.com/api/afs/common-rules";
 
 // structs for deserialization
@@ -139,15 +139,37 @@ impl fmt::Display for GameSystem {
     }
 }
 
+pub fn get_army_url(army_id: &str) -> String {
+    cfg_if::cfg_if! {
+        if #[cfg(feature = "local-files")] {
+            let url = format!("/data/armies/{army_id}");
+        } else {
+            let url = format!("{}?id={army_id}", GET_ARMY_URL);
+        }
+    }
+    url
+}
+
 pub fn get_common_rules_url(game_system: GameSystem) -> String {
     let query_description = match game_system {
         GameSystem::GF | GameSystem::AoF => None,
         GameSystem::GFF | GameSystem::AoFS => Some("skirmish"),
         GameSystem::AoFR => Some("regiments"),
     };
-    match query_description {
-        None => GET_COMMON_RULES_URL.to_string(),
-        Some(query_description) =>
-            format!("{GET_COMMON_RULES_URL}?description={query_description}"),
+    cfg_if::cfg_if! {
+        if #[cfg(feature = "local-files")] {
+            let url = "/data/common-rules";
+            match query_description {
+                None => url.to_string(),
+                Some(query_description) =>
+                    format!("{url}-{query_description}"),
+            }
+        } else {
+            match query_description {
+                None => GET_COMMON_RULES_URL.to_string(),
+                Some(query_description) =>
+                    format!("{GET_COMMON_RULES_URL}?description={query_description}"),
+            }
+        }
     }
 }
