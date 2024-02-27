@@ -14,8 +14,14 @@ for FILE in "$@"; do
             ID=$(basename "$FILE")
             URL="https://army-forge.onepagerules.com/api/tts?id=$ID"
             ;;
-        "$DATADIR"/common-rules)
+        "$DATADIR"/common-rules*) # maybe followed by a dash amd a query arg
             URL="https://army-forge.onepagerules.com/api/afs/common-rules"
+            FILENAME=$(basename "$FILE")
+            QUERYARG="${FILENAME#common-rules}"
+            QUERYARG="${QUERYARG#-}" # none when no query arg
+            if [ -n "$QUERYARG" ]; then
+                URL="${URL}?description=${QUERYARG}"
+            fi
             ;;
         *)
             echo >&2 "ERROR: unrecognized datafile '$FILE'"
