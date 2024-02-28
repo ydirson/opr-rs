@@ -5,9 +5,13 @@ use serde::{Deserialize, Serialize};
 use serde_aux::field_attributes::{deserialize_number_from_string,
                                   deserialize_string_from_number,
 };
+use std::fmt;
 use std::rc::Rc;
+use std::str::FromStr;
 
 pub const GET_ARMY_BASE_URL: &str = "https://army-forge.onepagerules.com/api/tts";
+
+// structs for deserialization
 
 #[derive(Clone, PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
@@ -77,6 +81,9 @@ pub struct UnitUpgrade{
     pub content: Vec<Rc<SpecialRule>>,
 }
 
+
+// higher-level than deserialization
+
 impl Unit {
     pub fn formatted_name(&self) -> String {
         let Unit{ref name, ref custom_name, size, ..} = *self;
@@ -90,5 +97,42 @@ impl Unit {
         } else {
             name
         }
+    }
+}
+
+#[derive(Clone, Copy, PartialEq)]
+#[non_exhaustive]
+pub enum GameSystem {
+    GF,
+    GFF,
+    AoF,
+    AoFS,
+    AoFR,
+}
+
+impl FromStr for GameSystem {
+    type Err = String;
+
+    fn from_str(input: &str) -> Result<GameSystem, Self::Err> {
+        match input {
+            "GF"   | "gf"   => Ok(GameSystem::GF),
+            "GFF"  | "gff"  => Ok(GameSystem::GFF),
+            "AoF"  | "aof"  => Ok(GameSystem::AoF),
+            "AoFS" | "aofs" => Ok(GameSystem::AoFS),
+            "AoFR" | "aofr" => Ok(GameSystem::AoFR),
+            _ => Err(format!(r#"cannot find GameSystem for "{input}""#)),
+        }
+    }
+}
+
+impl fmt::Display for GameSystem {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "{}", match *self {
+            GameSystem::GF   => "GF",
+            GameSystem::GFF  => "GFF",
+            GameSystem::AoF  => "AoF",
+            GameSystem::AoFS => "AoFS",
+            GameSystem::AoFR => "AoFR",
+        })
     }
 }
