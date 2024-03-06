@@ -4,8 +4,14 @@ use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
 
-const GET_ARMY_URL: &str = "https://army-forge.onepagerules.com/api/tts";
-const GET_COMMON_RULES_URL: &str = "https://army-forge.onepagerules.com/api/afs/common-rules";
+cfg_if::cfg_if! {
+    if #[cfg(not(feature = "local-files"))] {
+        const GET_ARMY_URL: &str =
+            "https://army-forge.onepagerules.com/api/tts";
+        const GET_COMMON_RULES_URL: &str =
+            "https://army-forge.onepagerules.com/api/afs/common-rules";
+    }
+}
 
 // structs for deserialization
 
