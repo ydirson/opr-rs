@@ -5,7 +5,7 @@ DATADIR="opr-test-data/src/data"
 
 if [ $# = 0 ]; then
     echo "Updating all data files"
-    set -- "$DATADIR"/armies/* "$DATADIR"/common-rules-*
+    set -- "$DATADIR"/armies/* "$DATADIR"/common-rules-* "$DATADIR"/books/*
 fi
 
 die() {
@@ -24,6 +24,12 @@ for FILE in "$@"; do
             FILENAME=$(basename "$FILE")
             GSID="${FILENAME#common-rules-}"
             URL="${URL}/${GSID}"
+            ;;
+        "$DATADIR"/books/*)
+            FILENAME=$(basename "$FILE")
+            BOOKID="${FILENAME%-*}"
+            GSID="${FILENAME#*-}"
+            URL="https://army-forge.onepagerules.com/api/army-books/${BOOKID}?gameSystem=${GSID}"
             ;;
         *)
             die "unrecognized datafile '$FILE'"

@@ -306,6 +306,30 @@ pub struct CommonRules {
     // traits
 }
 
+#[derive(Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ArmyBook {
+    pub uid: Rc<str>,
+    pub name: Rc<str>,
+    pub units: Vec<Rc<ArmyBookUnitDef>>,
+    pub spells: Vec<Rc<Spell>>,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ArmyBookUnitDef {
+    pub id: Rc<str>,
+}
+
+#[derive(Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Spell {
+    pub name: Rc<str>,
+    pub threshold: isize,
+    pub effect: Rc<str>,
+    pub effect_skirmish: Rc<str>,
+}
+
 // higher-level than deserialization
 
 impl Unit {
@@ -407,4 +431,15 @@ pub fn get_common_rules_url(game_system: GameSystem) -> String {
 pub fn get_bookinfo_url(book_id: &str, game_system: GameSystem) -> String {
     let gs_id: usize = game_system.into();
     format!("https://army-forge.onepagerules.com/armyInfo?gameSystem={gs_id}&armyId={book_id}")
+}
+
+pub fn get_book_url(book_id: &str, game_system: GameSystem) -> String {
+    let gs_id: usize = game_system.into();
+    cfg_if::cfg_if! {
+        if #[cfg(feature = "local-files")] {
+            format!("/data/books/{book_id}-{gs_id}")
+        } else {
+            format!("{AF_API_RELAY}/api/army-books/{book_id}?gameSystem={gs_id}")
+        }
+    }
 }
