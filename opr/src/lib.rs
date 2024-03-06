@@ -391,3 +391,14 @@ pub fn get_common_rules_url(game_system: GameSystem) -> String {
         }
     }
 }
+
+pub fn get_book_url(book_id: &str, game_system: GameSystem) -> String {
+    let gs_id: usize = game_system.into();
+    cfg_if::cfg_if! {
+        if #[cfg(feature = "local-files")] {
+            format!("/data/books/{book_id}-{gs_id}")
+        } else {
+            format!("https://army-forge.onepagerules.com/api/army-books/{book_id}?gameSystem={gs_id}")
+        }
+    }
+}
