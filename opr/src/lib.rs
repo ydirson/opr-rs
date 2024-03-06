@@ -4,6 +4,8 @@ use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
 
+pub const ARMYFORGE_SHARE_URL: &str = "https://army-forge.onepagerules.com/share";
+
 cfg_if::cfg_if! {
     if #[cfg(not(feature = "local-files"))] {
         const GET_ARMY_URL: &str =
