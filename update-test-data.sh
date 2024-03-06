@@ -23,6 +23,12 @@ for FILE in "$@"; do
                 URL="${URL}?description=${QUERYARG}"
             fi
             ;;
+        "$DATADIR"/books/*)
+            FILENAME=$(basename "$FILE")
+            BOOKID="${FILENAME%-*}"
+            GSID="${FILENAME#*-}"
+            URL="https://army-forge.onepagerules.com/api/afs/book/${BOOKID}?gameSystem=${GSID}"
+            ;;
         *)
             echo >&2 "ERROR: unrecognized datafile '$FILE'"
             ;;
