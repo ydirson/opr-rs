@@ -23,7 +23,6 @@ pub struct Army {
     pub id: String,
     pub name: String,
     pub game_system: String,
-    pub points: usize,
     pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
