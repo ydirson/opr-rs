@@ -6,7 +6,7 @@
    "isCloud" : false,
    "modified" : "2023-11-15T10:30:10.932Z",
    "name" : "Blessed Sisters 200pts v0",
-   "points" : 190,
+   "points" : 200,
    "pointsLimit" : 200,
    "selectedUnitId" : "uAmW_",
    "specialRules" : [
@@ -54,31 +54,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Attacks targeting units where all models have this rule count as having AP(-1), to a min. of AP(0).",
-         "hasRating" : false,
-         "id" : 857,
-         "name" : "Protected"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", hits from unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
          "hasRating" : null,
          "id" : 895,
          "name" : "Devout"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get +1 to defense rolls next time they take hits.",
-         "hasRating" : false,
-         "id" : 417,
-         "name" : "Protective Aura"
-      },
-      {
-         "aliasedRuleId" : 128,
-         "description" : "Gets +1 to hit in melee and shooting.",
-         "hasRating" : false,
-         "id" : 128,
-         "name" : "Celestial Infantry"
       },
       {
          "aliasedRuleId" : 53,
@@ -88,18 +67,11 @@
          "name" : "Canticle Megaphone"
       },
       {
-         "aliasedRuleId" : 422,
-         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get +1 to hit next time they fight in melee.",
+         "aliasedRuleId" : 128,
+         "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
-         "id" : 422,
-         "name" : "Holy Statue"
-      },
-      {
-         "aliasedRuleId" : 224,
-         "description" : "Once per activation, pick 2 friendly units within 12”. Those units, and up to 3 friendly units within 6\" get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : 224,
-         "name" : "Angelic Aura"
+         "id" : 128,
+         "name" : "Celestial Infantry"
       },
       {
          "aliasedRuleId" : 561,
@@ -260,6 +232,8 @@
                "weaponId" : "r63zpLTC"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "2TXWi3B",
          "joinToUnit" : null,
          "loadout" : [
@@ -319,7 +293,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "zppqUNoQe",
+               "instanceId" : "NeELCMZ-z",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -377,7 +351,7 @@
                   "uid" : "IJLtqfK"
                },
                "upgrade" : {
-                  "id" : "XJnwGUe",
+                  "id" : "7mAxYqo",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -449,6 +423,8 @@
                "weaponId" : "CClql4IC"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "R3sC7UX",
          "joinToUnit" : null,
          "loadout" : [
@@ -512,7 +488,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "TMGH6sQ0_",
+                     "upgradeInstanceId" : "WX2OQF9HL",
                      "variant" : "replace"
                   }
                ],
@@ -533,6 +509,8 @@
                "weaponId" : "CClql4IC"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "R3sC7UX",
          "joinToUnit" : null,
          "loadout" : [
@@ -581,7 +559,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "GqvY7C53B",
+               "instanceId" : "AnC6t205z",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -629,7 +607,7 @@
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "G6euk0A",
+                  "id" : "SKDv86N",
                   "label" : "Upgrade with",
                   "options" : null,
                   "parentPackageUid" : "H1",
@@ -639,7 +617,7 @@
                }
             },
             {
-               "instanceId" : "TMGH6sQ0_",
+               "instanceId" : "WX2OQF9HL",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -688,7 +666,7 @@
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "jiJL2VX",
+                  "id" : "tbchMOH",
                   "label" : "Replace Chainsaw Sword",
                   "options" : null,
                   "parentPackageUid" : "H1",
@@ -748,7 +726,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "71wkI-NI6",
+                     "upgradeInstanceId" : "Czf3Owy4k",
                      "variant" : "replace"
                   }
                ],
@@ -769,6 +747,8 @@
                "weaponId" : "lXOrCYv-"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "0Bc4px2",
          "joinToUnit" : null,
          "loadout" : [
@@ -807,7 +787,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "71wkI-NI6",
+               "instanceId" : "Czf3Owy4k",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -853,7 +833,7 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "K3VV_r1",
+                  "id" : "s1GeXvw",
                   "label" : "Replace Heavy Rifle",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -911,7 +891,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "o8FCLekSH",
+                     "upgradeInstanceId" : "cUsXnjVs0",
                      "variant" : "replace"
                   }
                ],
@@ -932,6 +912,8 @@
                "weaponId" : "lXOrCYv-"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "0Bc4px2",
          "joinToUnit" : null,
          "loadout" : [
@@ -970,7 +952,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "o8FCLekSH",
+               "instanceId" : "cUsXnjVs0",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1016,7 +998,7 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "K3VV_r1",
+                  "id" : "s1GeXvw",
                   "label" : "Replace Heavy Rifle",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -1062,7 +1044,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "3N3BSusJK",
+                     "upgradeInstanceId" : "rL-vUh0J7",
                      "variant" : "replace"
                   }
                ],
@@ -1081,7 +1063,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "3N3BSusJK",
+                     "upgradeInstanceId" : "rL-vUh0J7",
                      "variant" : "replace"
                   }
                ],
@@ -1102,6 +1084,8 @@
                "weaponId" : "GKm7CCrS"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "qgESKb_",
          "joinToUnit" : null,
          "loadout" : [
@@ -1166,7 +1150,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "3N3BSusJK",
+               "instanceId" : "rL-vUh0J7",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1209,7 +1193,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "5qugivI2H",
+                              "upgradeInstanceId" : "E9BOaZazW",
                               "variant" : "replace"
                            }
                         ],
@@ -1247,7 +1231,7 @@
                   "uid" : "3pqIMyr"
                },
                "upgrade" : {
-                  "id" : "ujC4Jq3",
+                  "id" : "56vWEO5",
                   "label" : "Replace Twin Heavy Pistols and CCW",
                   "options" : null,
                   "parentPackageUid" : "J1",
@@ -1261,7 +1245,7 @@
                }
             },
             {
-               "instanceId" : "5qugivI2H",
+               "instanceId" : "E9BOaZazW",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1318,7 +1302,7 @@
                   "uid" : "sr134"
                },
                "upgrade" : {
-                  "id" : "buJgzt-",
+                  "id" : "Y8NZTeH",
                   "label" : "Replace  Sgt. Heavy Pistol",
                   "options" : null,
                   "parentPackageUid" : "J1",

@@ -19,13 +19,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly unit with Entrenched within 6”, which may either immediately shoot or move by up to 6\".",
-         "hasRating" : false,
-         "id" : 421,
-         "name" : "Artillerist"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Once per activation, before attacking, pick one enemy unit within 18”. That unit must take a morale test, and if failed it takes 3 hits.",
          "hasRating" : false,
          "id" : 372,
@@ -33,17 +26,17 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
-         "hasRating" : false,
-         "id" : 62,
-         "name" : "Breath Attack"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
          "hasRating" : false,
          "id" : 370,
          "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : 46,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +6\" range when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : 46,
+         "name" : "Direct Fire"
       },
       {
          "aliasedRuleId" : 424,
@@ -97,6 +90,8 @@
                "weaponId" : "V2TzS_Jf"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "BIpTSoW",
          "joinToUnit" : null,
          "loadout" : [
@@ -181,6 +176,8 @@
                "weaponId" : "V2TzS_Jf"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "BIpTSoW",
          "joinToUnit" : null,
          "loadout" : [
@@ -265,6 +262,8 @@
                "weaponId" : "WHcr53Ec"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "IDLyyFy",
          "joinToUnit" : null,
          "loadout" : [
@@ -341,7 +340,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Jqb4wWh-Q",
+                     "upgradeInstanceId" : "XcIq6BBs8",
                      "variant" : "replace"
                   }
                ],
@@ -367,6 +366,8 @@
                "weaponId" : "ZRAUP7_B"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "EVgav1G",
          "joinToUnit" : null,
          "loadout" : [
@@ -396,12 +397,12 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Jqb4wWh-Q",
+               "instanceId" : "XcIq6BBs8",
                "option" : {
-                  "cost" : 10,
+                  "cost" : 5,
                   "costs" : [
                      {
-                        "cost" : 10,
+                        "cost" : 5,
                         "unitId" : "EVgav1G"
                      }
                   ],
@@ -435,8 +436,8 @@
                   "proposedCostHint" : [
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "9.4",
-                        "newCostRounded" : 10,
+                        "newCostPrecise" : "5.8",
+                        "newCostRounded" : 5,
                         "unitName" : "Eternal"
                      }
                   ],
@@ -445,7 +446,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "3NziEl4",
+                  "id" : "7_4hcXJ",
                   "label" : "Replace Great Glaive",
                   "options" : null,
                   "parentPackageUid" : "I1",
@@ -495,7 +496,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "GUALftARP",
+                     "upgradeInstanceId" : "hsnrJI7DY",
                      "variant" : "replace"
                   }
                ],
@@ -521,6 +522,8 @@
                "weaponId" : "ZRAUP7_B"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "EVgav1G",
          "joinToUnit" : null,
          "loadout" : [
@@ -550,12 +553,12 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "GUALftARP",
+               "instanceId" : "hsnrJI7DY",
                "option" : {
-                  "cost" : 10,
+                  "cost" : 5,
                   "costs" : [
                      {
-                        "cost" : 10,
+                        "cost" : 5,
                         "unitId" : "EVgav1G"
                      }
                   ],
@@ -589,8 +592,8 @@
                   "proposedCostHint" : [
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "9.4",
-                        "newCostRounded" : 10,
+                        "newCostPrecise" : "5.8",
+                        "newCostRounded" : 5,
                         "unitName" : "Eternal"
                      }
                   ],
@@ -599,7 +602,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "3NziEl4",
+                  "id" : "7_4hcXJ",
                   "label" : "Replace Great Glaive",
                   "options" : null,
                   "parentPackageUid" : "I1",

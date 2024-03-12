@@ -19,13 +19,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
-         "hasRating" : false,
-         "id" : 62,
-         "name" : "Breath Attack"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
          "id" : 212,
@@ -58,13 +51,6 @@
          "hasRating" : false,
          "id" : 488,
          "name" : "Doom Caller"
-      },
-      {
-         "aliasedRuleId" : 422,
-         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : 422,
-         "name" : "Dark Blessing"
       },
       {
          "aliasedRuleId" : 424,
@@ -175,7 +161,7 @@
                "dependencies" : [
                   {
                      "count" : 3,
-                     "upgradeInstanceId" : "Wynd1MRDb",
+                     "upgradeInstanceId" : "xz1SRHE3L",
                      "variant" : "replace"
                   }
                ],
@@ -196,6 +182,8 @@
                "weaponId" : "uDtOR3Iw"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "If65t6B",
          "joinToUnit" : null,
          "loadout" : [
@@ -216,7 +204,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Wynd1MRDb",
+               "instanceId" : "xz1SRHE3L",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -258,7 +246,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "qbde7t5",
+                  "id" : "N_hhfbG",
                   "label" : "Replace all Great Weapons",
                   "options" : null,
                   "parentPackageUid" : "DSao1",
@@ -302,7 +290,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "lnXCjTFZP",
+                     "upgradeInstanceId" : "ws5OGA9pT",
                      "variant" : "replace"
                   }
                ],
@@ -316,6 +304,8 @@
                "weaponId" : "LrcnOP7B"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "v9qR4skis",
          "joinToUnit" : null,
          "loadout" : [
@@ -365,7 +355,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "lnXCjTFZP",
+               "instanceId" : "ws5OGA9pT",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -415,7 +405,7 @@
                   "uid" : "CSJn0_u"
                },
                "upgrade" : {
-                  "id" : "XDA-evS",
+                  "id" : "vsUUVnq",
                   "label" : "Replace Hand Weapon",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -428,7 +418,7 @@
                }
             },
             {
-               "instanceId" : "Ea686ugFP",
+               "instanceId" : "P-VrbwUvL",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -476,7 +466,7 @@
                   "uid" : "g6drS"
                },
                "upgrade" : {
-                  "id" : "ZPNiBG9",
+                  "id" : "X99Axpi",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -537,7 +527,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "8DU3dtxnK",
+                     "upgradeInstanceId" : "AB5Y0c2e-",
                      "variant" : "replace"
                   }
                ],
@@ -558,6 +548,8 @@
                "weaponId" : "6_Zqzqib"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "bjpRsHS_a",
          "joinToUnit" : null,
          "loadout" : [
@@ -606,7 +598,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Xir4rav1T",
+               "instanceId" : "Lfo1TyclV",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -650,7 +642,7 @@
                   "uid" : "VrJBEDg"
                },
                "upgrade" : {
-                  "id" : "_gq9Q15",
+                  "id" : "Naa20qW",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -665,7 +657,7 @@
                }
             },
             {
-               "instanceId" : "8DU3dtxnK",
+               "instanceId" : "AB5Y0c2e-",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -715,7 +707,7 @@
                   "uid" : "p_mJ2mK"
                },
                "upgrade" : {
-                  "id" : "PV-BFrg",
+                  "id" : "FX-WBS-",
                   "label" : "Replace Heavy Hand Weapon",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -728,7 +720,7 @@
                }
             },
             {
-               "instanceId" : "gWCU1pkxw",
+               "instanceId" : "sEjZj48l5",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -767,7 +759,7 @@
                   "uid" : "wi3x0"
                },
                "upgrade" : {
-                  "id" : "sWHBHNr",
+                  "id" : "sBVqCMG",
                   "label" : "Upgrade with",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -823,7 +815,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "y2NmkFLAI",
+                     "upgradeInstanceId" : "MovimtUwn",
                      "variant" : "replace"
                   }
                ],
@@ -844,6 +836,8 @@
                "weaponId" : "NNpI7jdV"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "GSOrDficq",
          "joinToUnit" : null,
          "loadout" : [
@@ -874,7 +868,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "y2NmkFLAI",
+               "instanceId" : "MovimtUwn",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -924,7 +918,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "3IdXQQ2",
+                  "id" : "CE-il1n",
                   "label" : "Replace Heavy Hand Weapon",
                   "options" : null,
                   "parentPackageUid" : "F1",
@@ -937,7 +931,7 @@
                }
             },
             {
-               "instanceId" : "cGAeEz9uQ",
+               "instanceId" : "3jsU-Nv1W",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -976,7 +970,7 @@
                   "uid" : "9o3Qq"
                },
                "upgrade" : {
-                  "id" : "E0qsodU",
+                  "id" : "ygAGjom",
                   "label" : "Upgrade with",
                   "model" : true,
                   "options" : null,
@@ -1022,7 +1016,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "PnfM-dRwP",
+                     "upgradeInstanceId" : "LZJ-Nhrgu",
                      "variant" : "replace"
                   }
                ],
@@ -1043,6 +1037,8 @@
                "weaponId" : "NNpI7jdV"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "GSOrDficq",
          "joinToUnit" : null,
          "loadout" : [
@@ -1073,7 +1069,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "PnfM-dRwP",
+               "instanceId" : "LZJ-Nhrgu",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1123,7 +1119,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "3IdXQQ2",
+                  "id" : "CE-il1n",
                   "label" : "Replace Heavy Hand Weapon",
                   "options" : null,
                   "parentPackageUid" : "F1",
@@ -1136,7 +1132,7 @@
                }
             },
             {
-               "instanceId" : "P_i2iN2bg",
+               "instanceId" : "apazAGpRC",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1175,7 +1171,7 @@
                   "uid" : "9o3Qq"
                },
                "upgrade" : {
-                  "id" : "E0qsodU",
+                  "id" : "ygAGjom",
                   "label" : "Upgrade with",
                   "model" : true,
                   "options" : null,

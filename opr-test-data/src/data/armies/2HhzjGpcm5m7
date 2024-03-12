@@ -6,7 +6,7 @@
    "isCloud" : false,
    "modified" : "2023-12-08T23:06:42.085Z",
    "name" : "Haters tribes",
-   "points" : 330,
+   "points" : 300,
    "pointsLimit" : 300,
    "selectedUnitId" : "14fxz",
    "specialRules" : [
@@ -16,6 +16,13 @@
          "hasRating" : false,
          "id" : 857,
          "name" : "Heavy Shield"
+      },
+      {
+         "aliasedRuleId" : 39,
+         "description" : "Calculate cost difference of A1.5 melee weapon at Q4+ and Q3+.",
+         "hasRating" : false,
+         "id" : 39,
+         "name" : "Champion (+1 to Hit Melee)"
       }
    ],
    "undoUnitRemove" : [
@@ -114,6 +121,8 @@
                "weaponId" : "Ra9J3UcY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "i5_1RbO",
          "joinToUnit" : null,
          "loadout" : [
@@ -165,17 +174,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "nVZnGgyrY",
+                     "upgradeInstanceId" : "Lcy2Bv3s4",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "5c18UeIcp",
+                     "upgradeInstanceId" : "JBYReNC5x",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "zn0U9v1WH",
+                     "upgradeInstanceId" : "7Ml0pfRIO",
                      "variant" : "replace"
                   }
                ],
@@ -196,6 +205,8 @@
                "weaponId" : "Ra9J3UcY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "ezmvvGH",
          "joinToUnit" : null,
          "loadout" : [
@@ -264,7 +275,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "nVZnGgyrY",
+               "instanceId" : "Lcy2Bv3s4",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -323,7 +334,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "x7ajdcX",
+                  "id" : "ZyMdiZl",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "parentPackageUid" : "OUHlX",
@@ -336,7 +347,7 @@
                }
             },
             {
-               "instanceId" : "5c18UeIcp",
+               "instanceId" : "JBYReNC5x",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -395,7 +406,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "x7ajdcX",
+                  "id" : "ZyMdiZl",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "parentPackageUid" : "OUHlX",
@@ -408,7 +419,7 @@
                }
             },
             {
-               "instanceId" : "zn0U9v1WH",
+               "instanceId" : "7Ml0pfRIO",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -466,7 +477,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "x7ajdcX",
+                  "id" : "ZyMdiZl",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "parentPackageUid" : "OUHlX",
@@ -516,6 +527,8 @@
                "weaponId" : "Ra9J3UcY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "I5_HNrP",
          "joinToUnit" : null,
          "loadout" : [
@@ -590,6 +603,8 @@
                "weaponId" : "0phUUdFE"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "1FQu45u",
          "joinToUnit" : null,
          "loadout" : [
@@ -666,6 +681,8 @@
                "weaponId" : "Ra9J3UcY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "i5_1RbO",
          "joinToUnit" : null,
          "loadout" : [
@@ -717,17 +734,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "ZLa9u8Mc3",
+                     "upgradeInstanceId" : "cR7xaJeYK",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "4bPMezF8P",
+                     "upgradeInstanceId" : "DxaUrec_e",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "H12WdVs_c",
+                     "upgradeInstanceId" : "-cYQ3ljy0",
                      "variant" : "replace"
                   }
                ],
@@ -748,6 +765,8 @@
                "weaponId" : "Ra9J3UcY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "ezmvvGH",
          "joinToUnit" : null,
          "loadout" : [
@@ -826,7 +845,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "ZLa9u8Mc3",
+               "instanceId" : "cR7xaJeYK",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -890,7 +909,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "x7ajdcX",
+                  "id" : "ZyMdiZl",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "parentPackageUid" : "OUHlX",
@@ -903,7 +922,7 @@
                }
             },
             {
-               "instanceId" : "4bPMezF8P",
+               "instanceId" : "DxaUrec_e",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -967,7 +986,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "x7ajdcX",
+                  "id" : "ZyMdiZl",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "parentPackageUid" : "OUHlX",
@@ -980,7 +999,7 @@
                }
             },
             {
-               "instanceId" : "H12WdVs_c",
+               "instanceId" : "-cYQ3ljy0",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1038,7 +1057,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "x7ajdcX",
+                  "id" : "ZyMdiZl",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "parentPackageUid" : "OUHlX",
@@ -1089,6 +1108,8 @@
                "weaponId" : "maonJXwL"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "L0K3my6",
          "joinToUnit" : null,
          "loadout" : [

@@ -6,17 +6,10 @@
    "isCloud" : false,
    "modified" : "2023-11-13T23:08:46.726Z",
    "name" : "Robot Legions 200pts",
-   "points" : 205,
+   "points" : 200,
    "pointsLimit" : 200,
    "selectedUnitId" : null,
    "specialRules" : [
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of 3 Bot Swarms fully within 6” of it.",
-         "hasRating" : false,
-         "id" : 266,
-         "name" : "Release Swarm"
-      },
       {
          "aliasedRuleId" : 162,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
@@ -32,39 +25,11 @@
          "name" : "Shadow-Protocol"
       },
       {
-         "aliasedRuleId" : 159,
-         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Regeneration next time they take wounds.",
-         "hasRating" : false,
-         "id" : 159,
-         "name" : "Reanimator"
-      },
-      {
          "aliasedRuleId" : 561,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : 561,
          "name" : "Regen-Protocol"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly unit within 12”. That unit, and up to 3 friendly units within 6\" may ignore the Slow rule next time it moves.",
-         "hasRating" : false,
-         "id" : 269,
-         "name" : "Royal March Order"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
-         "hasRating" : false,
-         "id" : 262,
-         "name" : "Spell Master"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
-         "hasRating" : false,
-         "id" : 263,
-         "name" : "Spell Warden"
       },
       {
          "aliasedRuleId" : null,
@@ -89,13 +54,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
-         "hasRating" : false,
-         "id" : 126,
-         "name" : "Repair"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
          "hasRating" : false,
          "id" : 370,
@@ -110,7 +68,7 @@
       },
       {
          "aliasedRuleId" : 149,
-         "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 4+ instead. This effect lasts until the end of the round.",
+         "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : 149,
          "name" : "Gloom-Protocol"
@@ -258,6 +216,8 @@
                "weaponId" : "_g6MjuFl"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "lcEWPMS",
          "joinToUnit" : null,
          "loadout" : [
@@ -375,6 +335,8 @@
                "weaponId" : "OaYz4pdg"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "njiIkJi",
          "joinToUnit" : null,
          "loadout" : [
@@ -480,6 +442,8 @@
                "weaponId" : "OaYz4pdg"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "njiIkJi",
          "joinToUnit" : null,
          "loadout" : [
@@ -571,6 +535,8 @@
                "weaponId" : "Q47Qlon8"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "6q8HvOZ",
          "joinToUnit" : null,
          "loadout" : [
@@ -652,6 +618,8 @@
                "weaponId" : "Q47Qlon8"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "6q8HvOZ",
          "joinToUnit" : null,
          "loadout" : [
@@ -734,6 +702,8 @@
                "weaponId" : "bUQRotbI"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "yoeQi4m",
          "joinToUnit" : null,
          "loadout" : [

@@ -111,7 +111,7 @@
       },
       {
          "aliasedRuleId" : 149,
-         "description" : "When this model and its unit take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 4+ instead.",
+         "description" : "When this model and its unit take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : 149,
          "name" : "Gloom-Protocol"
@@ -307,7 +307,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "9PkyWB8L2",
+                     "upgradeInstanceId" : "PwTbL2bT3",
                      "variant" : "replace"
                   }
                ],
@@ -326,7 +326,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "86iv8_6Ef",
+                     "upgradeInstanceId" : "4_tMDAWLd",
                      "variant" : "replace"
                   }
                ],
@@ -347,6 +347,8 @@
                "weaponId" : "_g6MjuFl"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "lcEWPMS",
          "joinToUnit" : null,
          "loadout" : [
@@ -422,7 +424,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "eNtENMJPv",
+               "instanceId" : "XePGYUcuB",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -489,7 +491,7 @@
                   "uid" : "AZDWCqf"
                },
                "upgrade" : {
-                  "id" : "TsnP_iP",
+                  "id" : "SsdMt8N",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -504,7 +506,7 @@
                }
             },
             {
-               "instanceId" : "86iv8_6Ef",
+               "instanceId" : "4_tMDAWLd",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -581,7 +583,7 @@
                   "uid" : "Wf-4yd5"
                },
                "upgrade" : {
-                  "id" : "jauyNCj",
+                  "id" : "blgSwF5",
                   "label" : "Replace  Lord Gauss Pistol",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -594,7 +596,7 @@
                }
             },
             {
-               "instanceId" : "9PkyWB8L2",
+               "instanceId" : "PwTbL2bT3",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -662,7 +664,7 @@
                   "uid" : "cYskqiN"
                },
                "upgrade" : {
-                  "id" : "xAKNGOf",
+                  "id" : "_aj0F5f",
                   "label" : "Replace CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -740,7 +742,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "04cFH7onm",
+                     "upgradeInstanceId" : "vjoaHfyj_",
                      "variant" : "replace"
                   }
                ],
@@ -761,6 +763,8 @@
                "weaponId" : "OaYz4pdg"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "njiIkJi",
          "joinToUnit" : null,
          "loadout" : [
@@ -782,7 +786,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "04cFH7onm",
+                     "upgradeInstanceId" : "vjoaHfyj_",
                      "variant" : "replace"
                   }
                ],
@@ -837,7 +841,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "04cFH7onm",
+               "instanceId" : "vjoaHfyj_",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -899,7 +903,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "lsnu6iu",
+                  "id" : "G9_a88G",
                   "label" : "Replace one Gauss Rifle",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -965,7 +969,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "gemE7orgb",
+                     "upgradeInstanceId" : "crd8xRs4H",
                      "variant" : "replace"
                   }
                ],
@@ -986,6 +990,8 @@
                "weaponId" : "OaYz4pdg"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "njiIkJi",
          "joinToUnit" : "-TBrs",
          "loadout" : [
@@ -1007,7 +1013,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "gemE7orgb",
+                     "upgradeInstanceId" : "crd8xRs4H",
                      "variant" : "replace"
                   }
                ],
@@ -1062,7 +1068,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "gemE7orgb",
+               "instanceId" : "crd8xRs4H",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -1124,7 +1130,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "lsnu6iu",
+                  "id" : "G9_a88G",
                   "label" : "Replace one Gauss Rifle",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -1189,6 +1195,8 @@
                "weaponId" : "Q47Qlon8"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "6q8HvOZ",
          "joinToUnit" : null,
          "loadout" : [
@@ -1271,6 +1279,8 @@
                "weaponId" : "bUQRotbI"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "yoeQi4m",
          "joinToUnit" : null,
          "loadout" : [
@@ -1368,6 +1378,8 @@
                "weaponId" : "OaYz4pdg"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "njiIkJi",
          "joinToUnit" : null,
          "loadout" : [
@@ -1474,6 +1486,8 @@
                "weaponId" : "OaYz4pdg"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "njiIkJi",
          "joinToUnit" : "qSp3p",
          "loadout" : [
@@ -1554,7 +1568,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "IZ4l4hd93",
+                     "upgradeInstanceId" : "NbCt3XRqM",
                      "variant" : "replace"
                   }
                ],
@@ -1573,7 +1587,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "IZ4l4hd93",
+                     "upgradeInstanceId" : "NbCt3XRqM",
                      "variant" : "replace"
                   }
                ],
@@ -1594,6 +1608,8 @@
                "weaponId" : "_g6MjuFl"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "lcEWPMS",
          "joinToUnit" : null,
          "loadout" : [
@@ -1660,7 +1676,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "hLctGTiYC",
+               "instanceId" : "ql7h3aWJf",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -1727,7 +1743,7 @@
                   "uid" : "iUPolg0"
                },
                "upgrade" : {
-                  "id" : "TsnP_iP",
+                  "id" : "SsdMt8N",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -1742,7 +1758,7 @@
                }
             },
             {
-               "instanceId" : "IZ4l4hd93",
+               "instanceId" : "NbCt3XRqM",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1830,7 +1846,7 @@
                   "uid" : "-3YN10I"
                },
                "upgrade" : {
-                  "id" : "9bFRczy",
+                  "id" : "E62xHE0",
                   "label" : "Replace  Lord Gauss Pistol and CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1908,7 +1924,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "omayDi-12",
+                     "upgradeInstanceId" : "L73_XFkXV",
                      "variant" : "replace"
                   }
                ],
@@ -1929,6 +1945,8 @@
                "weaponId" : "dT086NsK"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "wvgi7_R",
          "joinToUnit" : null,
          "loadout" : [
@@ -1970,7 +1988,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "omayDi-12",
+               "instanceId" : "L73_XFkXV",
                "option" : {
                   "cost" : 55,
                   "costs" : [
@@ -2022,7 +2040,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "PBzQnXC",
+                  "id" : "BRCRLV5",
                   "label" : "Replace all Flux Carbines",
                   "options" : null,
                   "parentPackageUid" : "F1",
@@ -2102,6 +2120,8 @@
                "weaponId" : "_g6MjuFl"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "lcEWPMS",
          "joinToUnit" : null,
          "loadout" : [
@@ -2160,7 +2180,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "RCfK2w9Pt",
+               "instanceId" : "AuLVtainD",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2227,7 +2247,7 @@
                   "uid" : "pAgesdx"
                },
                "upgrade" : {
-                  "id" : "TsnP_iP",
+                  "id" : "SsdMt8N",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -2294,7 +2314,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "k-nZvKkVI",
+                     "upgradeInstanceId" : "JHBHUrQzT",
                      "variant" : "replace"
                   }
                ],
@@ -2320,7 +2340,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "k-nZvKkVI",
+                     "upgradeInstanceId" : "JHBHUrQzT",
                      "variant" : "replace"
                   }
                ],
@@ -2334,6 +2354,8 @@
                "weaponId" : "s8nfaQY3"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "xVuwyHf",
          "joinToUnit" : null,
          "loadout" : [
@@ -2390,7 +2412,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "k-nZvKkVI",
+               "instanceId" : "JHBHUrQzT",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2469,7 +2491,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "5m-XeVt",
+                  "id" : "4XKEHUI",
                   "label" : "Replace all Atom-Casters and Void Blades",
                   "options" : null,
                   "parentPackageUid" : "G1",
@@ -2550,6 +2572,8 @@
                "weaponId" : "_g6MjuFl"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "lcEWPMS",
          "joinToUnit" : null,
          "loadout" : [
@@ -2608,7 +2632,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "7OJrejBuP",
+               "instanceId" : "qXwctlXeI",
                "option" : {
                   "cost" : 30,
                   "costs" : [
@@ -2675,7 +2699,7 @@
                   "uid" : "a-G2qj8"
                },
                "upgrade" : {
-                  "id" : "TsnP_iP",
+                  "id" : "SsdMt8N",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -2769,6 +2793,8 @@
                "weaponId" : "_g6MjuFl"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "lcEWPMS",
          "joinToUnit" : null,
          "loadout" : [
@@ -2827,7 +2853,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "YT7d9x2F5",
+               "instanceId" : "KEvVL5fue",
                "option" : {
                   "cost" : 20,
                   "costs" : [
@@ -2894,7 +2920,7 @@
                   "uid" : "VHtYlsj"
                },
                "upgrade" : {
-                  "id" : "TsnP_iP",
+                  "id" : "SsdMt8N",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -3005,6 +3031,8 @@
                "weaponId" : "G2NVbL0A"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "R2d8LeD",
          "joinToUnit" : null,
          "loadout" : [
@@ -3130,6 +3158,8 @@
                "weaponId" : "IeCvRQZ2"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "0x2SCtg",
          "joinToUnit" : null,
          "loadout" : [
@@ -3214,6 +3244,8 @@
                "weaponId" : "NkTvh2sj"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "XgJtpyh",
          "joinToUnit" : null,
          "loadout" : [
@@ -3274,7 +3306,7 @@
       {
          "armyId" : "4k5amkxoybdiqotm",
          "combined" : false,
-         "cost" : 170,
+         "cost" : 185,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -3317,6 +3349,8 @@
                "weaponId" : "4ndrZnDN"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "obCuik6",
          "joinToUnit" : null,
          "loadout" : [
@@ -3365,6 +3399,11 @@
          "selectionId" : "u7xqR",
          "size" : 1,
          "specialRules" : [
+            {
+               "id" : 582,
+               "key" : "robot",
+               "name" : "Robot"
+            },
             {
                "id" : 964,
                "key" : "self-repair",
@@ -3428,6 +3467,8 @@
                "weaponId" : "_FPCvoHf"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "yhG8aeu",
          "joinToUnit" : null,
          "loadout" : [
@@ -3563,6 +3604,8 @@
                "weaponId" : "3OfJ65Xo"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "17TaNC2",
          "joinToUnit" : null,
          "loadout" : [
@@ -3729,6 +3772,8 @@
                "weaponId" : "NiErApPd"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "n9nkDBw",
          "joinToUnit" : null,
          "loadout" : [

@@ -6,7 +6,7 @@
    "isCloud" : false,
    "modified" : "2023-11-15T10:42:42.782Z",
    "name" : "Alien Hives 200pts - v0",
-   "points" : 185,
+   "points" : 175,
    "pointsLimit" : 200,
    "selectedUnitId" : "08grg",
    "specialRules" : [
@@ -19,10 +19,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
-         "hasRating" : false,
-         "id" : 62,
-         "name" : "Breath Attack"
+         "description" : "If this model is ever 1\" away from an enemy unit, it is immediately killed, and the enemy takes X*2 hits. This model automatically passes all morale tests.",
+         "hasRating" : true,
+         "id" : 96,
+         "name" : "Explode"
       },
       {
          "aliasedRuleId" : null,
@@ -33,52 +33,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).",
-         "hasRating" : true,
-         "id" : 110,
-         "name" : "Surprise Attack"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "If this model is ever 1\" away from an enemy unit, it is immediately killed, and the enemy takes X*2 hits. This model automatically passes all morale tests.",
-         "hasRating" : true,
-         "id" : 96,
-         "name" : "Explode"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Stealth next time they are shot at.",
          "hasRating" : false,
          "id" : 121,
          "name" : "Shrouding Mist"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of 6 Spores fully within 6” of it.",
-         "hasRating" : false,
-         "id" : 899,
-         "name" : "Release Spores"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Whenever this model takes a wound in melee, the attacker takes 1 hit.",
-         "hasRating" : false,
-         "id" : 115,
-         "name" : "Corrosive"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "For each missed attack you may place a new unit of 3 Spores or 1 Massive Spore 12” away from the target, but the position is decided by your opponent. Note that this new unit can’t be activated on the round in which it is placed.",
-         "hasRating" : false,
-         "id" : 109,
-         "name" : "Spores"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of 10 Assault Grunts, 10 Shooter Grunts, or 6 Hive Swarms fully within 6” of it.",
-         "hasRating" : false,
-         "id" : 122,
-         "name" : "Spawn Brood"
       },
       {
          "aliasedRuleId" : 424,
@@ -93,13 +51,6 @@
          "hasRating" : false,
          "id" : 221,
          "name" : "Psychic Synapse"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
-         "hasRating" : false,
-         "id" : 97,
-         "name" : "Takedown"
       },
       {
          "aliasedRuleId" : 281,
@@ -236,6 +187,8 @@
                "weaponId" : "eun-S-QP"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "jMgimMn",
          "joinToUnit" : null,
          "loadout" : [
@@ -293,7 +246,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "8dCBYggrL",
+               "instanceId" : "vXPPwWKO1",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -351,7 +304,7 @@
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "IQ7FhVO",
+                  "id" : "6-dNN2s",
                   "label" : "Upgrade with any",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -443,6 +396,8 @@
                "weaponId" : "UctLyaE6"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "_c1518l",
          "joinToUnit" : null,
          "loadout" : [
@@ -546,6 +501,8 @@
                "weaponId" : "soTcQuYH"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "CMADHYi",
          "joinToUnit" : null,
          "loadout" : [
@@ -645,6 +602,8 @@
                "weaponId" : "UctLyaE6"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "_c1518l",
          "joinToUnit" : null,
          "loadout" : [

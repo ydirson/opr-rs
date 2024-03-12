@@ -201,6 +201,8 @@
                "weaponId" : "wfEHdWKY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "hvNiOwU",
          "joinToUnit" : null,
          "loadout" : [
@@ -297,6 +299,8 @@
                "weaponId" : "wfEHdWKY"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "hvNiOwU",
          "joinToUnit" : null,
          "loadout" : [
@@ -398,6 +402,8 @@
                "weaponId" : "-_T9wTAv"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "NeuN0Gx",
          "joinToUnit" : null,
          "loadout" : [
@@ -502,6 +508,8 @@
                "weaponId" : "0EpTPX9H"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "qGGJpGt",
          "joinToUnit" : null,
          "loadout" : [
@@ -625,6 +633,8 @@
                "weaponId" : "-_T9wTAv"
             }
          ],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
          "id" : "NeuN0Gx",
          "joinToUnit" : null,
          "loadout" : [
