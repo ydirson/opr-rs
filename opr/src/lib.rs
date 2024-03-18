@@ -33,7 +33,7 @@ pub struct Army {
 pub struct Unit {
     pub id: String,
     pub name: String,
-    pub cost: usize,
+    pub cost: isize,
     #[serde(default)]
     pub custom_name: String,
     pub size: usize,
