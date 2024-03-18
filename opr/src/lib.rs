@@ -3,6 +3,7 @@ use serde_aux::field_attributes::{
     deserialize_number_from_string,
     deserialize_option_number_from_string,
 };
+use std::collections::HashMap;
 use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
@@ -67,6 +68,7 @@ pub struct Unit {
     pub defense: usize,
     pub special_rules: Vec<Rc<SpecialRule>>,
     pub loadout: Vec<Rc<UnitLoadout>>,
+    pub selected_upgrades: Vec<Rc<SelectedUpgrade>>,
     //
     pub selection_id: Rc<str>,
     pub combined: bool,
@@ -87,6 +89,7 @@ struct JsonUnit {
     pub defense: usize,
     pub special_rules: Vec<Rc<SpecialRule>>,
     pub loadout: Vec<Rc<UnitLoadout>>,
+    pub selected_upgrades: Vec<Rc<SelectedUpgrade>>,
     //
     pub selection_id: Rc<str>,
     pub combined: bool,
@@ -105,6 +108,7 @@ impl From<JsonUnit> for Unit {
             defense: json_unit.defense,
             special_rules: json_unit.special_rules.clone(),
             loadout: json_unit.loadout.clone(),
+            selected_upgrades: json_unit.selected_upgrades.clone(),
 
             selection_id: Rc::clone(&json_unit.selection_id),
             combined: json_unit.combined,
@@ -153,6 +157,49 @@ pub struct UnitUpgrade {
     pub content: Vec<Rc<SpecialRule>>,
 }
 
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct SelectedUpgrade {
+    pub option: UnitUpgradeOption,
+}
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct UnitUpgradeOption {
+    // pub label: String,
+    #[serde(with = "unit_upgrade_option")]
+    pub costs: HashMap<String, isize>,
+}
+
+mod unit_upgrade_option {
+    use std::collections::HashMap;
+    use serde::ser::Serializer;
+    use serde::de::{Deserialize, Deserializer};
+
+    #[derive(serde::Deserialize, serde::Serialize)]
+    #[serde(rename_all = "camelCase")]
+    struct Cost {
+        cost: isize,
+        unit_id: String,
+    }
+
+    pub fn serialize<S>(map: &HashMap<String, isize>, serializer: S) -> Result<S::Ok, S::Error>
+    where S: Serializer
+    {
+        serializer.collect_seq(map.iter().map(|(unit_id, cost)|
+                                              Cost{unit_id: unit_id.to_owned(),
+                                                   cost: cost.to_owned()}))
+    }
+
+    pub fn deserialize<'de, D>(deserializer: D) -> Result<HashMap<String, isize>, D::Error>
+    where D: Deserializer<'de>
+    {
+        let mut map = HashMap::new();
+        for item in Vec::<Cost>::deserialize(deserializer)? {
+            map.insert(item.unit_id, item.cost);
+        }
+        Ok(map)
+    }
+}
 
 // higher-level than deserialization
 
