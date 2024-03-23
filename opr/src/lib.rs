@@ -20,9 +20,9 @@ cfg_if::cfg_if! {
 #[derive(Clone, PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Army {
-    pub id: String,
-    pub name: String,
-    pub game_system: String,
+    pub id: Rc<str>,
+    pub name: Rc<str>,
+    pub game_system: Rc<str>,
     pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
@@ -31,26 +31,25 @@ pub struct Army {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Unit {
-    pub id: String,
-    pub name: String,
+    pub id: Rc<str>,
+    pub name: Rc<str>,
     pub cost: isize,
-    #[serde(default)]
-    pub custom_name: String,
+    pub custom_name: Option<Rc<str>>,
     pub size: usize,
     pub quality: usize,
     pub defense: usize,
     pub special_rules: Vec<Rc<SpecialRule>>,
     pub loadout: Vec<Rc<UnitLoadout>>,
     //
-    pub selection_id: String,
+    pub selection_id: Rc<str>,
     pub combined: bool,
-    pub join_to_unit: Option<String>,
+    pub join_to_unit: Option<Rc<str>>,
     // FIXME army_id for regrouping
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 pub struct SpecialRule {
-    pub name: String,
+    pub name: Rc<str>,
     #[serde(default)]
     #[serde(deserialize_with = "deserialize_string_from_number")]
     pub rating: String,
@@ -58,8 +57,8 @@ pub struct SpecialRule {
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 pub struct SpecialRuleDef {
-    pub name: String,
-    pub description: String,
+    pub name: Rc<str>,
+    pub description: Rc<str>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -72,7 +71,7 @@ pub enum UnitLoadout {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Equipment {
-    pub name: String,
+    pub name: Rc<str>,
     #[serde(default)]
     pub range: usize,
     #[serde(deserialize_with = "deserialize_number_from_string")]
@@ -84,7 +83,7 @@ pub struct Equipment {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct UnitUpgrade {
-    pub name: String,
+    pub name: Rc<str>,
     pub content: Vec<Rc<SpecialRule>>,
 }
 
@@ -94,10 +93,10 @@ pub struct UnitUpgrade {
 impl Unit {
     pub fn formatted_name(&self) -> String {
         let Unit{ref name, ref custom_name, size, ..} = *self;
-        let name = if custom_name.len() > 0 {
-            format!("{custom_name} ({name})")
-        } else {
-            name.to_string()
+        let name = match custom_name {
+            Some(custom_name) if custom_name.len() > 0
+                => format!("{custom_name} ({name})"),
+            _ => name.to_string()
         };
         if size > 1 {
             format!("{name} [{size}]")
