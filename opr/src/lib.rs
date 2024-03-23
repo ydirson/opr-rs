@@ -1,5 +1,8 @@
 use serde::{Deserialize, Serialize};
-use serde_aux::field_attributes::{deserialize_number_from_string, deserialize_string_from_number};
+use serde_aux::field_attributes::{
+    deserialize_number_from_string,
+    deserialize_option_number_from_string,
+};
 use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
@@ -51,8 +54,8 @@ pub struct Unit {
 pub struct SpecialRule {
     pub name: Rc<str>,
     #[serde(default)]
-    #[serde(deserialize_with = "deserialize_string_from_number")]
-    pub rating: String,
+    #[serde(deserialize_with = "deserialize_option_number_from_string")]
+    pub rating: Option<usize>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
