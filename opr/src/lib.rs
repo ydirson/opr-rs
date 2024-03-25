@@ -39,7 +39,7 @@ struct JsonArmy {
     pub game_system: Rc<str>,
     pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
-    pub units: Vec<Rc<Unit>>,
+    pub units: Vec<Unit>,
 }
 
 impl From<JsonArmy> for Army {
@@ -50,7 +50,9 @@ impl From<JsonArmy> for Army {
             game_system: Rc::clone(&json_army.game_system),
             points_limit: json_army.points_limit,
             special_rules: json_army.special_rules.clone(),
-            units: json_army.units.clone(),
+            units: json_army.units.into_iter()
+                .map(Rc::new)
+                .collect(),
         }
     }
 }
