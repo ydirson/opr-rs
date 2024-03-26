@@ -403,3 +403,8 @@ pub fn get_common_rules_url(game_system: GameSystem) -> String {
         }
     }
 }
+
+pub fn get_bookinfo_url(book_id: &str, game_system: GameSystem) -> String {
+    let gs_id: usize = game_system.into();
+    format!("https://army-forge.onepagerules.com/armyInfo?gameSystem={gs_id}&armyId={book_id}")
+}
