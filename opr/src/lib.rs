@@ -3,7 +3,7 @@ use serde_aux::field_attributes::{
     deserialize_number_from_string,
     deserialize_option_number_from_string,
 };
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use std::fmt;
 use std::rc::Rc;
 use std::str::FromStr;
@@ -30,6 +30,7 @@ pub struct Army {
     pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
+    pub armybook_ids: Vec<Rc<str>>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -45,6 +46,11 @@ struct JsonArmy {
 
 impl From<JsonArmy> for Army {
     fn from(json_army: JsonArmy) -> Army {
+        // collect unique army_id values
+        // FIXME looks pretty alloc-wasteful
+        let armybook_ids = HashSet::<String>::from_iter(
+            json_army.units.iter().map(|unit| unit.army_id.to_string()));
+
         Army {
             id: Rc::clone(&json_army.id),
             name: Rc::clone(&json_army.name),
@@ -53,6 +59,9 @@ impl From<JsonArmy> for Army {
             special_rules: json_army.special_rules.clone(),
             units: json_army.units.into_iter()
                 .map(Rc::new)
+                .collect(),
+            armybook_ids: armybook_ids.into_iter()
+                .map(|id| id.into())
                 .collect(),
         }
     }
@@ -76,7 +85,7 @@ pub struct Unit {
     pub selection_id: Rc<str>,
     pub combined: bool,
     pub join_to_unit: Option<Rc<str>>,
-    // FIXME army_id for regrouping
+    pub army_id: Rc<str>,
 }
 
 #[derive(serde::Deserialize, serde::Serialize)]
@@ -97,6 +106,7 @@ struct JsonUnit {
     pub selection_id: Rc<str>,
     pub combined: bool,
     pub join_to_unit: Option<Rc<str>>,
+    pub army_id: Rc<str>,
 }
 
 impl From<JsonUnit> for Unit {
@@ -127,6 +137,7 @@ impl From<JsonUnit> for Unit {
             selection_id: Rc::clone(&json_unit.selection_id),
             combined: json_unit.combined,
             join_to_unit: json_unit.join_to_unit.clone(),
+            army_id: Rc::clone(&json_unit.army_id),
         }
     }
 }
