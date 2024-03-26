@@ -24,6 +24,7 @@ pub struct Army {
     pub game_system: Result<GameSystem, String>,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub unit_groups: Vec<Rc<UnitGroup>>,
+    pub armybook_ids: Vec<Rc<str>>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -115,6 +116,11 @@ impl From<JsonArmy> for Army {
             }
         }
 
+        // collect unique army_id values
+        // FIXME looks pretty alloc-wasteful
+        let armybook_ids = HashSet::<String>::from_iter(
+            json_army.units.iter().map(|unit| unit.army_id.to_string()));
+
         Army {
             id: Rc::clone(&json_army.id),
             name: Rc::clone(&json_army.name),
@@ -122,6 +128,9 @@ impl From<JsonArmy> for Army {
 
             special_rules: json_army.special_rules.clone(),
             unit_groups: unit_groups,
+            armybook_ids: armybook_ids.into_iter()
+                .map(|id| id.into())
+                .collect(),
         }
     }
 }
@@ -145,7 +154,7 @@ pub struct Unit {
     pub selection_id: Rc<str>,
     pub combined: bool,
     pub join_to_unit: Option<Rc<str>>,
-    // FIXME army_id for regrouping
+    pub army_id: Rc<str>,
 }
 
 #[derive(serde::Deserialize, serde::Serialize)]
@@ -166,6 +175,7 @@ struct JsonUnit {
     pub selection_id: Rc<str>,
     pub combined: bool,
     pub join_to_unit: Option<Rc<str>>,
+    pub army_id: Rc<str>,
 }
 
 impl From<JsonUnit> for Unit {
@@ -199,6 +209,7 @@ impl From<JsonUnit> for Unit {
             selection_id: Rc::clone(&json_unit.selection_id),
             combined: json_unit.combined,
             join_to_unit: json_unit.join_to_unit.clone(),
+            army_id: Rc::clone(&json_unit.army_id),
         }
     }
 }
