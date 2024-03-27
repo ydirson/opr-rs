@@ -21,7 +21,7 @@ cfg_if::cfg_if! {
 // structs for deserialization
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
-#[serde(rename_all = "camelCase")]
+#[serde(from = "JsonArmy")]
 pub struct Army {
     pub id: Rc<str>,
     pub name: Rc<str>,
@@ -29,6 +29,30 @@ pub struct Army {
     pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
+}
+
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+struct JsonArmy {
+    pub id: Rc<str>,
+    pub name: Rc<str>,
+    pub game_system: Rc<str>,
+    pub points_limit: usize,
+    pub special_rules: Vec<Rc<SpecialRuleDef>>,
+    pub units: Vec<Rc<Unit>>,
+}
+
+impl From<JsonArmy> for Army {
+    fn from(json_army: JsonArmy) -> Army {
+        Army {
+            id: Rc::clone(&json_army.id),
+            name: Rc::clone(&json_army.name),
+            game_system: Rc::clone(&json_army.game_system),
+            points_limit: json_army.points_limit,
+            special_rules: json_army.special_rules.clone(),
+            units: json_army.units.clone(),
+        }
+    }
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
