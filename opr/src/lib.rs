@@ -62,6 +62,7 @@ pub struct Unit {
     pub id: Rc<str>,
     pub name: Rc<str>,
     pub cost: isize,
+    pub full_cost: isize,
     pub custom_name: Option<Rc<str>>,
     pub size: usize,
     pub quality: usize,
@@ -98,10 +99,21 @@ struct JsonUnit {
 
 impl From<JsonUnit> for Unit {
     fn from(json_unit: JsonUnit) -> Unit {
+        let full_cost = json_unit.selected_upgrades.iter()
+            .fold(json_unit.cost,
+                  |acc, upg| {
+                      if upg.option.costs.contains_key(json_unit.id.as_ref()) {
+                          acc + upg.option.costs[json_unit.id.as_ref()]
+                      } else {
+                          // not for this unit instance
+                          acc
+                      }
+                  });
         Unit {
             id: Rc::clone(&json_unit.id),
             name: Rc::clone(&json_unit.name),
             cost: json_unit.cost,
+            full_cost,
             custom_name: json_unit.custom_name.clone(),
             size: json_unit.size,
             quality: json_unit.quality,
