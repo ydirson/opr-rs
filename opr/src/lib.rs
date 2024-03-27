@@ -56,7 +56,7 @@ impl From<JsonArmy> for Army {
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
-#[serde(rename_all = "camelCase")]
+#[serde(from = "JsonUnit")]
 pub struct Unit {
     pub id: Rc<str>,
     pub name: Rc<str>,
@@ -72,6 +72,45 @@ pub struct Unit {
     pub combined: bool,
     pub join_to_unit: Option<Rc<str>>,
     // FIXME army_id for regrouping
+}
+
+#[derive(serde::Deserialize, serde::Serialize)]
+#[serde(rename_all = "camelCase")]
+struct JsonUnit {
+    pub id: Rc<str>,
+    pub name: Rc<str>,
+    pub cost: isize,
+    #[serde(default)]
+    pub custom_name: Option<Rc<str>>,
+    pub size: usize,
+    pub quality: usize,
+    pub defense: usize,
+    pub special_rules: Vec<Rc<SpecialRule>>,
+    pub loadout: Vec<Rc<UnitLoadout>>,
+    //
+    pub selection_id: Rc<str>,
+    pub combined: bool,
+    pub join_to_unit: Option<Rc<str>>,
+}
+
+impl From<JsonUnit> for Unit {
+    fn from(json_unit: JsonUnit) -> Unit {
+        Unit {
+            id: Rc::clone(&json_unit.id),
+            name: Rc::clone(&json_unit.name),
+            cost: json_unit.cost,
+            custom_name: json_unit.custom_name.clone(),
+            size: json_unit.size,
+            quality: json_unit.quality,
+            defense: json_unit.defense,
+            special_rules: json_unit.special_rules.clone(),
+            loadout: json_unit.loadout.clone(),
+
+            selection_id: Rc::clone(&json_unit.selection_id),
+            combined: json_unit.combined,
+            join_to_unit: json_unit.join_to_unit.clone(),
+        }
+    }
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
