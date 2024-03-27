@@ -20,7 +20,7 @@ cfg_if::cfg_if! {
 
 // structs for deserialization
 
-#[derive(Clone, PartialEq, Debug, Deserialize, Serialize)]
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Army {
     pub id: Rc<str>,
