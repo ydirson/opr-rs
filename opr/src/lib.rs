@@ -6,7 +6,6 @@ use serde_aux::field_attributes::{
 use std::collections::HashMap;
 use std::fmt;
 use std::rc::Rc;
-use std::str::FromStr;
 
 pub const ARMYFORGE_SHARE_URL: &str = "https://army-forge.onepagerules.com/share";
 
@@ -241,10 +240,10 @@ pub enum GameSystem {
     AoFR,
 }
 
-impl FromStr for GameSystem {
-    type Err = String;
+impl TryFrom<&str> for GameSystem {
+    type Error = String;
 
-    fn from_str(input: &str) -> Result<GameSystem, Self::Err> {
+    fn try_from(input: &str) -> Result<GameSystem, Self::Error> {
         match input {
             "GF"   | "gf"   => Ok(GameSystem::GF),
             "GFF"  | "gff"  => Ok(GameSystem::GFF),
