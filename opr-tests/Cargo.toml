@@ -8,5 +8,5 @@ opr-test-data = { path = "../opr-test-data" }
 
 [dev-dependencies]
 opr = { path = "../opr" }
-rstest = { version = "0.18.2", default-features = false }
+rstest = { version = "0.19.0", default-features = false }
 serde_json = "1.0"
