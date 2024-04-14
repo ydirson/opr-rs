@@ -8,6 +8,11 @@ if [ $# = 0 ]; then
     set -- "$DATADIR"/armies/*
 fi
 
+die() {
+    echo >&2 "ERROR: $*"
+    exit 1
+}
+
 for FILE in "$@"; do
     case "$FILE" in
         "$DATADIR"/armies/*)
@@ -24,7 +29,7 @@ for FILE in "$@"; do
             fi
             ;;
         *)
-            echo >&2 "ERROR: unrecognized datafile '$FILE'"
+            die "unrecognized datafile '$FILE'"
             ;;
     esac
     printf "."
