@@ -292,25 +292,12 @@ pub fn get_army_url(army_id: &str) -> String {
 }
 
 pub fn get_common_rules_url(game_system: GameSystem) -> String {
-    let query_description = match game_system {
-        GameSystem::GF | GameSystem::AoF => None,
-        GameSystem::GFF | GameSystem::AoFS => Some("skirmish"),
-        GameSystem::AoFR => Some("regiments"),
-    };
+    let gs_id:usize = game_system.into();
     cfg_if::cfg_if! {
         if #[cfg(feature = "local-files")] {
-            let url = "/data/common-rules";
-            match query_description {
-                None => url.to_string(),
-                Some(query_description) =>
-                    format!("{url}-{query_description}"),
-            }
+            format!("/data/common-rules-{gs_id}")
         } else {
-            match query_description {
-                None => GET_COMMON_RULES_URL.to_string(),
-                Some(query_description) =>
-                    format!("{GET_COMMON_RULES_URL}?description={query_description}"),
-            }
+            format!("{GET_COMMON_RULES_URL}?gameSystem={gs_id}")
         }
     }
 }

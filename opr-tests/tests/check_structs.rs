@@ -27,11 +27,16 @@ fn test_load_parse_armies(#[case] army_id: &str) -> Result<(), String> {
     Ok(())
 }
 
-#[test]
-fn test_load_parse_common_rules() -> Result<(), String> {
+#[rstest]
+#[case(2)]
+#[case(3)]
+#[case(4)]
+#[case(5)]
+#[case(6)]
+fn test_load_parse_common_rules(#[case] gs_id: usize) -> Result<(), String> {
     // locate test data from build.rs info
     let mut data_path = PathBuf::from(env!("OPR_DATA_DIR"));
-    data_path.push("common-rules");
+    data_path.push(format!("common-rules-{gs_id}"));
 
     let json_string = fs::read_to_string(&data_path)
         .expect(format!("data file {data_path:?} should to be readable").as_str());

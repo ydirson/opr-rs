@@ -1,0 +1,257 @@
+[
+   {
+      "description" : "Attacks at Quality 2+.",
+      "id" : 844,
+      "name" : "Reliable"
+   },
+   {
+      "description" : "May target enemies that are not in line of sight, and ignores cover from sight obstructions, but gets -1 to hit rolls when shooting after moving.",
+      "id" : 91,
+      "name" : "Indirect"
+   },
+   {
+      "description" : "This model gets +1 to hit when attacking.",
+      "id" : 83,
+      "name" : "Sergeant"
+   },
+   {
+      "description" : "Strikes first with this weapon when charged, and the charging unit gets -1 total Impact attacks (per model with this rule).",
+      "id" : 81,
+      "name" : "Counter"
+   },
+   {
+      "description" : "This model gets Magma when shooting.",
+      "id" : 884,
+      "name" : "Magma when Shooting"
+   },
+   {
+      "description" : "This model gets AP(4) in melee.",
+      "id" : 886,
+      "name" : "AP(4) in Melee"
+   },
+   {
+      "description" : "Assign each wound to one model, and multiply it by X. Hits from Deadly must be resolved first, and these wounds don't carry over to other models if the target is killed.",
+      "id" : 89,
+      "name" : "Deadly"
+   },
+   {
+      "description" : "May go through obstacles and ignores terrain effects when moving, and automatically passes jumping rolls.",
+      "id" : 573,
+      "name" : "Flying"
+   },
+   {
+      "description" : "Wounds can’t be regenerated, and unmodified results of 6 to hit count as having AP(4).",
+      "id" : 93,
+      "name" : "Rending"
+   },
+   {
+      "description" : "This model gets Sniper when shooting.",
+      "id" : 880,
+      "name" : "Sniper when Shooting"
+   },
+   {
+      "description" : "This model gets Rending when shooting.",
+      "id" : 879,
+      "name" : "Rending when Shooting"
+   },
+   {
+      "description" : "This model gets Beam when shooting.",
+      "id" : 885,
+      "name" : "Beam when Shooting"
+   },
+   {
+      "description" : "When failing a morale test, roll one die. On a 4+ it’s passed instead.",
+      "id" : 65,
+      "name" : "Fearless"
+   },
+   {
+      "description" : "Must deploy before all other units, ignores all units and terrain when moving/stopping, can’t seize objectives, and can’t be moved in contact with. May only use Advance actions, moving in a straight line by 30”-36” without turning. If it moves off-table, its activation ends, and it must be deployed on any table edge at the beginning of the next round. Units targeting this model get -12” range and -1 to hit rolls.",
+      "id" : 59,
+      "name" : "Aircraft"
+   },
+   {
+      "description" : "Wounds can’t be regenerated, and must re-roll unmodified Defense rolls of 6 when blocking hits.",
+      "id" : 92,
+      "name" : "Poison"
+   },
+   {
+      "description" : "This model gets AP(+1) when shooting.",
+      "id" : 883,
+      "name" : "AP(+1) when Shooting"
+   },
+   {
+      "description" : "When charging, hits from unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+      "id" : 67,
+      "name" : "Furious"
+   },
+   {
+      "description" : "When using Hold actions and shooting, hits from unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+      "id" : 74,
+      "name" : "Relentless"
+   },
+   {
+      "description" : "This model gets Ignores Cover when shooting.",
+      "id" : 881,
+      "name" : "Ignores Cover when Shooting"
+   },
+   {
+      "description" : "This model gets Poison in melee.",
+      "id" : 872,
+      "name" : "Poison in Melee"
+   },
+   {
+      "description" : "This model gets Poison when shooting.",
+      "id" : 873,
+      "name" : "Poison when Shooting"
+   },
+   {
+      "description" : "This model gets Indirect when shooting.",
+      "id" : 876,
+      "name" : "Indirect when Shooting"
+   },
+   {
+      "description" : "This model gets Counter in melee.",
+      "id" : 875,
+      "name" : "Counter in Melee"
+   },
+   {
+      "description" : "This model gets AP(+1) in melee.",
+      "id" : 882,
+      "name" : "AP(+1) in Melee"
+   },
+   {
+      "description" : "This model gets Lance in melee.",
+      "id" : 877,
+      "name" : "Lance in Melee"
+   },
+   {
+      "description" : "May only be used once.",
+      "id" : 1013,
+      "name" : "Limited"
+   },
+   {
+      "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
+      "id" : 870,
+      "name" : "Banner"
+   },
+   {
+      "description" : "Gets X spell tokens at the beginning of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. This model and other casters within 18” in line of sight may spend any number of tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+      "id" : 849,
+      "name" : "Caster"
+   },
+   {
+      "description" : "Each attack ignores cover and multiplies hits by X, but can’t deal more than one hit per model. Must split all hits evenly among enemy models within 3” of a single model (target picks how).",
+      "id" : 88,
+      "name" : "Blast"
+   },
+   {
+      "description" : "This model gets Rending in melee.",
+      "id" : 878,
+      "name" : "Rending in Melee"
+   },
+   {
+      "description" : "This model only rolls to see what happens from wounds once it has taken at least X wounds, and is only Knocked Out on rolls of 5+X or more. When Stunned and hit by shooting or charged, this model takes 1 wound instead of being Knocked Out, unless it already has X or more wounds.",
+      "id" : 80,
+      "name" : "Tough"
+   },
+   {
+      "description" : "Enemies get -2 to hit when shooting at this model from over 9” away, as long as it hasn’t moved since the beginning of its last activation.",
+      "id" : 61,
+      "name" : "Entrenched"
+   },
+   {
+      "description" : "Friendly units within 12” may take morale tests using the hero’s Quality and special rules, as long as it isn’t Stunned. ",
+      "id" : 68,
+      "name" : "Hero"
+   },
+   {
+      "description" : "This model may be deployed after all other units, and may then move by up to 12”, ignoring terrain. If both players have Scout, roll-off to see who goes first, and alternate deploying units.",
+      "id" : 76,
+      "name" : "Scout"
+   },
+   {
+      "description" : "When taking a wound, roll one die. On a 5+ it is ignored.",
+      "id" : 75,
+      "name" : "Regeneration"
+   },
+   {
+      "description" : "Shoots at Quality 2+, and may pick one model in a unit as its target, which is resolved as if it’s a unit of 1.",
+      "id" : 94,
+      "name" : "Sniper"
+   },
+   {
+      "description" : "Moves -2” when using Advance, and -4” when using Rush/Charge.",
+      "id" : 77,
+      "name" : "Slow"
+   },
+   {
+      "description" : "May only use Hold actions.",
+      "id" : 69,
+      "name" : "Immobile"
+   },
+   {
+      "description" : "Roll X dice when attacking after charging (may not be fatigued), for each 2+ the target takes one hit.",
+      "id" : 70,
+      "name" : "Impact"
+   },
+   {
+      "description" : "Counts as having dealt +X wounds when checking wound effects (must deal at least one wound from attacks to check wound effects).",
+      "id" : 64,
+      "name" : "Fear"
+   },
+   {
+      "description" : "Enemies get -1 to hit rolls when shooting at units where all models have this rule from over 9\" away.",
+      "id" : 78,
+      "name" : "Stealth"
+   },
+   {
+      "description" : "Gets +X to Defense rolls.",
+      "id" : 22,
+      "name" : "Defense"
+   },
+   {
+      "description" : "Moves +2” when using Advance, and +4” when using Rush/Charge.",
+      "id" : 63,
+      "name" : "Fast"
+   },
+   {
+      "description" : "This weapon ignores cover.",
+      "id" : 90,
+      "name" : "Ignores Cover"
+   },
+   {
+      "description" : "Ignores cover and all negative modifiers to hit rolls and range.",
+      "id" : 86,
+      "name" : "Lock-On"
+   },
+   {
+      "description" : "May ignore the effects of difficult terrain when moving, and only needs 2+ to pass jumping rolls.",
+      "id" : 79,
+      "name" : "Strider"
+   },
+   {
+      "description" : "Gets AP(+2) when charging.",
+      "id" : 843,
+      "name" : "Lance"
+   },
+   {
+      "description" : "Targets get -X to Defense rolls when blocking hits.",
+      "id" : 87,
+      "name" : "AP"
+   },
+   {
+      "description" : "May transport up to X models or Heroes with up to Tough(6), and non-Heroes with up to Tough(3) which occupy 3 spaces each. Units may deploy inside or embark by moving into contact, and may use any move action to disembark, but must stay within 6” of it. When a transport is destroyed, units inside must take a dangerous terrain test, are immediately Shaken, and surviving models must be placed within 6” of the transport before removing it.",
+      "id" : 73,
+      "name" : "Transport"
+   },
+   {
+      "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1” when using move actions. This effect lasts until the end of the round.",
+      "id" : 860,
+      "name" : "Musician"
+   },
+   {
+      "description" : "This model may be kept in reserve instead of deploying. At the start of any round after the first, you may place the model anywhere, over 9” away from enemy units. If both players have Ambush, roll-off to see who goes first, and alternate deploying units. Units that deploy like this on the last round can’t seize or contest objective markers.",
+      "id" : 60,
+      "name" : "Ambush"
+   }
+]
