@@ -268,6 +268,18 @@ impl fmt::Display for GameSystem {
     }
 }
 
+impl Into<usize> for GameSystem {
+    fn into(self) -> usize {
+        match self {
+            GameSystem::GF   => 2,
+            GameSystem::GFF  => 3,
+            GameSystem::AoF  => 4,
+            GameSystem::AoFS => 5,
+            GameSystem::AoFR => 6,
+        }
+    }
+}
+
 pub fn get_army_url(army_id: &str) -> String {
     cfg_if::cfg_if! {
         if #[cfg(feature = "local-files")] {
