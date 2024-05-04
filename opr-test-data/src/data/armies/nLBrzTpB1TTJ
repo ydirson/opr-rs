@@ -12,28 +12,28 @@
    "specialRules" : [
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
-         "hasRating" : false,
-         "id" : 263,
-         "name" : "Spell Warden"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "If this model is ever 1\" away from an enemy unit, it is immediately killed, and the enemy takes X*2 hits. This model automatically passes all morale tests.",
+         "description" : "This model automatically passes all morale test. If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
          "hasRating" : true,
          "id" : 96,
          "name" : "Explode"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
+         "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "hasRating" : false,
+         "id" : 263,
+         "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
          "hasRating" : null,
          "id" : 1012,
          "name" : "Poison Mist"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Stealth next time they are shot at.",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Stealth next time they are shot at.",
          "hasRating" : false,
          "id" : 121,
          "name" : "Shrouding Mist"
@@ -53,18 +53,18 @@
          "name" : "Psychic Synapse"
       },
       {
-         "aliasedRuleId" : 281,
-         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
-         "hasRating" : false,
-         "id" : 281,
-         "name" : "Psy-Barrier"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Whenever this unit fails a morale test, it takes one wound, and the morale test counts as passed instead.",
          "hasRating" : false,
          "id" : 99,
          "name" : "No Retreat"
+      },
+      {
+         "aliasedRuleId" : 281,
+         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : 281,
+         "name" : "Psy-Barrier"
       },
       {
          "aliasedRuleId" : null,
@@ -159,8 +159,12 @@
    "units" : [
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 55,
+         "cost" : 50,
          "defense" : 4,
          "disabledSections" : [
             "cRc_X"
@@ -246,7 +250,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "vXPPwWKO1",
+               "instanceId" : "2SEjCFu-_",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -259,7 +263,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "ambush",
                               "label" : "Ambush",
@@ -269,7 +272,6 @@
                               "type" : "ArmyBookRule"
                            },
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "flying",
                               "label" : "Flying",
@@ -304,10 +306,9 @@
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "6-dNN2s",
+                  "id" : "arTQf-0",
                   "label" : "Upgrade with any",
                   "options" : null,
-                  "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "any"
                   },
@@ -347,6 +348,10 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 40,
          "defense" : 5,
@@ -471,8 +476,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "25",
+            "square" : "20"
+         },
          "combined" : false,
-         "cost" : 40,
+         "cost" : 35,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -553,6 +562,10 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 40,
          "defense" : 5,

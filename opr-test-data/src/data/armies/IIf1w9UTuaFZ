@@ -15,31 +15,45 @@
    "specialRules" : [
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "description" : "This model automatically passes all morale test. If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
+         "hasRating" : true,
+         "id" : 96,
+         "name" : "Explode"
+      },
+      {
+         "aliasedRuleId" : 98,
+         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
+         "hasRating" : false,
+         "id" : 98,
+         "name" : "Exploding Spores"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
          "hasRating" : false,
          "id" : 263,
          "name" : "Spell Warden"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
+         "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
          "hasRating" : false,
          "id" : 62,
          "name" : "Breath Attack"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "If this model is ever 1\" away from an enemy unit, it is immediately killed, and the enemy takes X*2 hits. This model automatically passes all morale tests.",
-         "hasRating" : true,
-         "id" : 96,
-         "name" : "Explode"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
+         "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
          "hasRating" : null,
          "id" : 1012,
          "name" : "Poison Mist"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get Stealth next time they are shot at.",
+         "hasRating" : false,
+         "id" : 121,
+         "name" : "Shrouding Mist"
       },
       {
          "aliasedRuleId" : null,
@@ -50,24 +64,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick 2 friendly units within 6”, which get Stealth next time they are shot at.",
-         "hasRating" : false,
-         "id" : 121,
-         "name" : "Shrouding Mist"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Whenever this model takes a wound in melee, the attacker takes 1 hit.",
          "hasRating" : false,
          "id" : 115,
          "name" : "Corrosive"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "For each missed attack you may place a new unit of 3 Spores or 1 Massive Spore 12” away from the target, but the position is decided by your opponent. Note that this new unit can’t be activated on the round in which it is placed.",
-         "hasRating" : false,
-         "id" : 109,
-         "name" : "Spores"
       },
       {
          "aliasedRuleId" : null,
@@ -78,14 +78,14 @@
       },
       {
          "aliasedRuleId" : 424,
-         "description" : "Once per activation, before attacking, pick one other friendly unit within 12”, which may move by up to 6\".",
+         "description" : "Once per this unit's activation, before attacking, pick one other friendly unit within 12”, which may move by up to 6\".",
          "hasRating" : false,
          "id" : 424,
          "name" : "Pheromones"
       },
       {
          "aliasedRuleId" : 221,
-         "description" : "This model counts as having Caster(1). All models with this rule in a unit share spell tokens, but can’t hold more than 6 tokens at once in total, and only one of them may cast spells each round.",
+         "description" : "This model counts as having Caster(1). All models with this rule in a unit share spell tokens, but lose all unspent tokens at the end of the round, and only one of them may cast spells each round.",
          "hasRating" : false,
          "id" : 221,
          "name" : "Psychic Synapse"
@@ -98,18 +98,18 @@
          "name" : "Takedown"
       },
       {
-         "aliasedRuleId" : 281,
-         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
-         "hasRating" : false,
-         "id" : 281,
-         "name" : "Psy-Barrier"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Whenever this unit fails a morale test, it takes one wound, and the morale test counts as passed instead.",
          "hasRating" : false,
          "id" : 99,
          "name" : "No Retreat"
+      },
+      {
+         "aliasedRuleId" : 281,
+         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : 281,
+         "name" : "Psy-Barrier"
       },
       {
          "aliasedRuleId" : null,
@@ -122,8 +122,12 @@
    "units" : [
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "120x92",
+            "square" : "150x100"
+         },
          "combined" : false,
-         "cost" : 375,
+         "cost" : 345,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -233,20 +237,20 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "HmHyTAYCU",
+               "instanceId" : "GQZjrDZMN",
                "option" : {
-                  "cost" : 25,
+                  "cost" : 50,
                   "costs" : [
                      {
-                        "cost" : 25,
+                        "cost" : 50,
                         "unitId" : "lmZtl0E"
                      },
                      {
-                        "cost" : 25,
+                        "cost" : 50,
                         "unitId" : "jJP5jiL"
                      },
                      {
-                        "cost" : 25,
+                        "cost" : 50,
                         "unitId" : "jMgimMn"
                      }
                   ],
@@ -254,7 +258,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "pheromones",
                               "label" : "Pheromones",
@@ -279,20 +282,20 @@
                   "proposedCostHint" : [
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
+                        "newCostPrecise" : "48.0",
+                        "newCostRounded" : 50,
                         "unitName" : "Hive Lord"
                      },
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
+                        "newCostPrecise" : "48.0",
+                        "newCostRounded" : 50,
                         "unitName" : "Prime Warrior"
                      },
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
+                        "newCostPrecise" : "48.0",
+                        "newCostRounded" : 50,
                         "unitName" : "Veteran Warrior"
                      }
                   ],
@@ -301,7 +304,7 @@
                   "uid" : "WbrXk"
                },
                "upgrade" : {
-                  "id" : "aJAL_QN",
+                  "id" : "LQgaFln",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with any",
                   "options" : null,
@@ -350,8 +353,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 125,
+         "cost" : 120,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -457,8 +464,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "60",
+            "square" : "50"
+         },
          "combined" : false,
-         "cost" : 110,
+         "cost" : 100,
          "defense" : 4,
          "disabledSections" : [
             "cRc_X"
@@ -471,12 +482,12 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "LuAXm4-Mt",
+                     "upgradeInstanceId" : "7X8cAETsp",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "2MQv6zIct",
+                     "upgradeInstanceId" : "5dp8qsTnf",
                      "variant" : "replace"
                   }
                ],
@@ -543,7 +554,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "LuAXm4-Mt",
+               "instanceId" : "7X8cAETsp",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -605,7 +616,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "Xdub6VY",
+                  "id" : "0-mQuf7",
                   "label" : "Replace one Heavy Razor Claws",
                   "options" : null,
                   "parentPackageUid" : "mPtwD",
@@ -618,7 +629,7 @@
                }
             },
             {
-               "instanceId" : "2MQv6zIct",
+               "instanceId" : "5dp8qsTnf",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -677,7 +688,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "Cmz1pz7",
+                  "id" : "6Orj-SY",
                   "label" : "Replace one Heavy Razor Claws",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -720,8 +731,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "25",
+            "square" : "20"
+         },
          "combined" : false,
-         "cost" : 115,
+         "cost" : 110,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -783,8 +798,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "25",
+            "square" : "20"
+         },
          "combined" : false,
-         "cost" : 125,
+         "cost" : 120,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -865,6 +884,10 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 125,
          "defense" : 5,
@@ -989,6 +1012,10 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 125,
          "defense" : 5,
@@ -1113,8 +1140,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 210,
+         "cost" : 200,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1219,8 +1250,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "75x46",
+            "square" : "75x50"
+         },
          "combined" : false,
-         "cost" : 190,
+         "cost" : 180,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1297,8 +1332,12 @@
       },
       {
          "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "120x92",
+            "square" : "150x100"
+         },
          "combined" : false,
-         "cost" : 480,
+         "cost" : 410,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1329,12 +1368,13 @@
                "weaponId" : "WSkJKBlp"
             },
             {
-               "attacks" : 3,
-               "count" : 3,
+               "attacks" : "6",
+               "count" : 1,
                "id" : "PIp7xyja",
-               "label" : "Heavy Razor Claws (A3, AP(1))",
+               "label" : "Heavy Razor Claws (A6, AP(1))",
                "name" : "Heavy Razor Claws",
-               "originalCount" : 3,
+               "originalCount" : 1,
+               "range" : 0,
                "specialRules" : [
                   {
                      "key" : "ap",
@@ -1344,7 +1384,7 @@
                   }
                ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "PIp7xyja"
+               "weaponId" : "2fjA_7sm"
             },
             {
                "attacks" : 4,
@@ -1397,12 +1437,13 @@
                "weaponId" : "WSkJKBlp"
             },
             {
-               "attacks" : 3,
-               "count" : 3,
+               "attacks" : "6",
+               "count" : 1,
                "id" : "PIp7xyja",
-               "label" : "Heavy Razor Claws (A3, AP(1))",
+               "label" : "Heavy Razor Claws (A6, AP(1))",
                "name" : "Heavy Razor Claws",
-               "originalCount" : 3,
+               "originalCount" : 1,
+               "range" : 0,
                "specialRules" : [
                   {
                      "key" : "ap",
@@ -1412,7 +1453,7 @@
                   }
                ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "PIp7xyja"
+               "weaponId" : "2fjA_7sm"
             },
             {
                "attacks" : 4,
@@ -1448,11 +1489,6 @@
                "rating" : 2
             },
             {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
-            },
-            {
                "key" : "caster",
                "name" : "Caster",
                "rating" : 3
@@ -1470,7 +1506,6 @@
          ],
          "traits" : [],
          "upgrades" : [
-            "A2",
             "D2",
             "8R8Jo"
          ],

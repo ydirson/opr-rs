@@ -12,7 +12,7 @@
    "specialRules" : [
       {
          "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", hits from unmodified rolls of 5-6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : 991,
          "name" : "Highly Devout"
@@ -54,17 +54,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", hits from unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).\n",
          "hasRating" : null,
          "id" : 895,
          "name" : "Devout"
-      },
-      {
-         "aliasedRuleId" : 53,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : 53,
-         "name" : "Canticle Megaphone"
       },
       {
          "aliasedRuleId" : 128,
@@ -72,6 +65,13 @@
          "hasRating" : false,
          "id" : 128,
          "name" : "Celestial Infantry"
+      },
+      {
+         "aliasedRuleId" : 53,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : 53,
+         "name" : "Canticle Megaphone"
       },
       {
          "aliasedRuleId" : 561,
@@ -194,8 +194,12 @@
    "units" : [
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 45,
+         "cost" : 40,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -293,7 +297,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "NeELCMZ-z",
+               "instanceId" : "PoktRRjZi",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -310,7 +314,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "blind faith",
                               "label" : "Blind Faith",
@@ -335,13 +338,13 @@
                   "proposedCostHint" : [
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "11.9",
+                        "newCostPrecise" : "10.6",
                         "newCostRounded" : 10,
                         "unitName" : "High Sister"
                      },
                      {
                         "isValid" : true,
-                        "newCostPrecise" : "11.9",
+                        "newCostPrecise" : "10.6",
                         "newCostRounded" : 10,
                         "unitName" : "Novice Leader"
                      }
@@ -351,11 +354,9 @@
                   "uid" : "IJLtqfK"
                },
                "upgrade" : {
-                  "id" : "7mAxYqo",
-                  "isHeroUpgrade" : true,
+                  "id" : "u1bTRqw",
                   "label" : "Upgrade with one",
                   "options" : null,
-                  "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "exactly",
                      "value" : 1
@@ -397,6 +398,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 15,
          "defense" : 5,
@@ -475,6 +480,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 15,
          "customName" : "Flagellant Sister",
@@ -488,7 +497,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "WX2OQF9HL",
+                     "upgradeInstanceId" : "U1Q3PeZXE",
                      "variant" : "replace"
                   }
                ],
@@ -559,7 +568,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "AnC6t205z",
+               "instanceId" : "j3hPAdS5Q",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -572,7 +581,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "regeneration",
                               "label" : "Regeneration",
@@ -607,17 +615,16 @@
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "SKDv86N",
+                  "id" : "PsKsmDU",
                   "label" : "Upgrade with",
                   "options" : null,
-                  "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "Zl_L3",
                   "variant" : "upgrade"
                }
             },
             {
-               "instanceId" : "WX2OQF9HL",
+               "instanceId" : "U1Q3PeZXE",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -666,10 +673,9 @@
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "tbchMOH",
+                  "id" : "iMW8wEC",
                   "label" : "Replace Chainsaw Sword",
                   "options" : null,
-                  "parentPackageUid" : "H1",
                   "targets" : [
                      "Chainsaw Sword"
                   ],
@@ -702,6 +708,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 20,
          "defense" : 4,
@@ -726,7 +736,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Czf3Owy4k",
+                     "upgradeInstanceId" : "RGUxLWhoT",
                      "variant" : "replace"
                   }
                ],
@@ -787,7 +797,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Czf3Owy4k",
+               "instanceId" : "RGUxLWhoT",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -833,10 +843,9 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "s1GeXvw",
+                  "id" : "Ed85RqL",
                   "label" : "Replace Heavy Rifle",
                   "options" : null,
-                  "parentPackageUid" : "E1",
                   "targets" : [
                      "Heavy Rifle"
                   ],
@@ -867,6 +876,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 20,
          "defense" : 4,
@@ -891,7 +904,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "cUsXnjVs0",
+                     "upgradeInstanceId" : "Tr0ZumDvh",
                      "variant" : "replace"
                   }
                ],
@@ -952,7 +965,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "cUsXnjVs0",
+               "instanceId" : "Tr0ZumDvh",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -998,10 +1011,9 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "s1GeXvw",
+                  "id" : "Ed85RqL",
                   "label" : "Replace Heavy Rifle",
                   "options" : null,
-                  "parentPackageUid" : "E1",
                   "targets" : [
                      "Heavy Rifle"
                   ],
@@ -1032,6 +1044,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 25,
          "defense" : 4,
@@ -1044,7 +1060,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "rL-vUh0J7",
+                     "upgradeInstanceId" : "MeixYLEAn",
                      "variant" : "replace"
                   }
                ],
@@ -1063,7 +1079,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "rL-vUh0J7",
+                     "upgradeInstanceId" : "MeixYLEAn",
                      "variant" : "replace"
                   }
                ],
@@ -1150,7 +1166,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "rL-vUh0J7",
+               "instanceId" : "MeixYLEAn",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1193,7 +1209,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "E9BOaZazW",
+                              "upgradeInstanceId" : "rlFGBDi5a",
                               "variant" : "replace"
                            }
                         ],
@@ -1231,10 +1247,9 @@
                   "uid" : "3pqIMyr"
                },
                "upgrade" : {
-                  "id" : "56vWEO5",
+                  "id" : "DScR1p_",
                   "label" : "Replace Twin Heavy Pistols and CCW",
                   "options" : null,
-                  "parentPackageUid" : "J1",
                   "targets" : [
                      "Twin Heavy Pistols",
                      "CCW"
@@ -1245,7 +1260,7 @@
                }
             },
             {
-               "instanceId" : "E9BOaZazW",
+               "instanceId" : "rlFGBDi5a",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1302,10 +1317,9 @@
                   "uid" : "sr134"
                },
                "upgrade" : {
-                  "id" : "Y8NZTeH",
+                  "id" : "1itI7od",
                   "label" : "Replace  Sgt. Heavy Pistol",
                   "options" : null,
-                  "parentPackageUid" : "J1",
                   "targets" : [
                      "Sgt. Heavy Pistol"
                   ],

@@ -14,6 +14,13 @@
    "selectedUnitId" : null,
    "specialRules" : [
       {
+         "aliasedRuleId" : 51,
+         "description" : "This model and its unit get Ambush.",
+         "hasRating" : false,
+         "id" : 51,
+         "name" : "Shadow-Protocol"
+      },
+      {
          "aliasedRuleId" : 162,
          "description" : "This model and its unit may ignore the Slow rule.",
          "hasRating" : false,
@@ -21,11 +28,18 @@
          "name" : "Royal March"
       },
       {
-         "aliasedRuleId" : 51,
-         "description" : "This model and its unit get Ambush.",
+         "aliasedRuleId" : 159,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get Regeneration next time they take wounds.",
          "hasRating" : false,
-         "id" : 51,
-         "name" : "Shadow-Protocol"
+         "id" : 159,
+         "name" : "Reanimator"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : 165,
+         "name" : "Swift"
       },
       {
          "aliasedRuleId" : 561,
@@ -35,22 +49,15 @@
          "name" : "Regen-Protocol"
       },
       {
-         "aliasedRuleId" : 159,
-         "description" : "Once per activation, pick 2 friendly units within 6”, which get Regeneration next time they take wounds.",
-         "hasRating" : false,
-         "id" : 159,
-         "name" : "Reanimator"
-      },
-      {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
          "hasRating" : false,
          "id" : 263,
          "name" : "Spell Warden"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick one friendly unit within 12”, which may ignore the Slow rule next time it moves.",
+         "description" : "Once per this unit's activation, pick one friendly unit within 12”, which may ignore the Slow rule next time it moves.",
          "hasRating" : false,
          "id" : 269,
          "name" : "Royal March Order"
@@ -85,17 +92,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "description" : "Once per this model's activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : 126,
          "name" : "Repair"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
-         "hasRating" : false,
-         "id" : 370,
-         "name" : "Warning Cry"
       },
       {
          "aliasedRuleId" : null,
@@ -103,6 +103,13 @@
          "hasRating" : true,
          "id" : 1063,
          "name" : "Spawn"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
+         "hasRating" : false,
+         "id" : 370,
+         "name" : "Warning Cry"
       },
       {
          "aliasedRuleId" : null,
@@ -120,14 +127,14 @@
       },
       {
          "aliasedRuleId" : 216,
-         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule, and for each result of 1-3 the unit takes one wound, which can’t be ignored.",
+         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule, and for each result of 1-2 the unit takes one wound, which can’t be ignored.",
          "hasRating" : false,
          "id" : 216,
          "name" : "Robot"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : 846,
          "name" : "Flux"
@@ -296,8 +303,12 @@
    "units" : [
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 70,
+         "cost" : 65,
          "customName" : "Chronomancer",
          "defense" : 3,
          "disabledSections" : [],
@@ -309,7 +320,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mgQeygRwN",
+                     "upgradeInstanceId" : "1gDUBrSkN",
                      "variant" : "replace"
                   }
                ],
@@ -328,7 +339,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mgQeygRwN",
+                     "upgradeInstanceId" : "1gDUBrSkN",
                      "variant" : "replace"
                   }
                ],
@@ -417,7 +428,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "kCyP_CU-3",
+               "instanceId" : "ljgnf2IIT",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -438,7 +449,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "shadow-protocol",
                               "label" : "Shadow-Protocol",
@@ -484,7 +494,7 @@
                   "uid" : "iUPolg0"
                },
                "upgrade" : {
-                  "id" : "-I0OBoS",
+                  "id" : "Mn-Nzp1",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -499,7 +509,7 @@
                }
             },
             {
-               "instanceId" : "mgQeygRwN",
+               "instanceId" : "1gDUBrSkN",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -587,7 +597,7 @@
                   "uid" : "-3YN10I"
                },
                "upgrade" : {
-                  "id" : "HA4wqCX",
+                  "id" : "96eL_Ae",
                   "label" : "Replace  Lord Gauss Pistol and CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -641,6 +651,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 115,
          "customName" : "Warriors LR",
@@ -666,7 +680,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "8nDlDuZmv",
+                     "upgradeInstanceId" : "HMJZ-UElV",
                      "variant" : "replace"
                   }
                ],
@@ -710,7 +724,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "8nDlDuZmv",
+                     "upgradeInstanceId" : "HMJZ-UElV",
                      "variant" : "replace"
                   }
                ],
@@ -765,7 +779,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "8nDlDuZmv",
+               "instanceId" : "HMJZ-UElV",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -827,7 +841,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "BaaCJiB",
+                  "id" : "hPGnEn6",
                   "label" : "Replace one Gauss Rifle",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -868,8 +882,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 140,
+         "cost" : 135,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -951,6 +969,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
          "cost" : 75,
          "defense" : 6,
@@ -1036,8 +1058,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 70,
+         "cost" : 65,
          "customName" : "Overseer",
          "defense" : 3,
          "disabledSections" : [],
@@ -1049,7 +1075,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "bQZkLUdGn",
+                     "upgradeInstanceId" : "3g75RNW_N",
                      "variant" : "replace"
                   }
                ],
@@ -1068,7 +1094,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "bngyk3LfM",
+                     "upgradeInstanceId" : "XMv0euQoZ",
                      "variant" : "replace"
                   }
                ],
@@ -1166,7 +1192,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "HsdbLAZca",
+               "instanceId" : "SutICYn37",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -1187,7 +1213,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "royal-march",
                               "label" : "Royal March",
@@ -1233,7 +1258,7 @@
                   "uid" : "AZDWCqf"
                },
                "upgrade" : {
-                  "id" : "-I0OBoS",
+                  "id" : "Mn-Nzp1",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -1248,7 +1273,7 @@
                }
             },
             {
-               "instanceId" : "bngyk3LfM",
+               "instanceId" : "XMv0euQoZ",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1325,7 +1350,7 @@
                   "uid" : "Wf-4yd5"
                },
                "upgrade" : {
-                  "id" : "9xboiGv",
+                  "id" : "F4GG8Jj",
                   "label" : "Replace  Lord Gauss Pistol",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1338,7 +1363,7 @@
                }
             },
             {
-               "instanceId" : "bQZkLUdGn",
+               "instanceId" : "3g75RNW_N",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1406,7 +1431,7 @@
                   "uid" : "cYskqiN"
                },
                "upgrade" : {
-                  "id" : "xGyxJiG",
+                  "id" : "MEzFGFK",
                   "label" : "Replace CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1459,6 +1484,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 115,
          "customName" : "Warriors SR",
@@ -1484,7 +1513,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "AUW5Yi2R1",
+                     "upgradeInstanceId" : "DR1nraMAo",
                      "variant" : "replace"
                   }
                ],
@@ -1549,7 +1578,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "AUW5Yi2R1",
+               "instanceId" : "DR1nraMAo",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -1561,7 +1590,7 @@
                   "gains" : [
                      {
                         "attacks" : 1,
-                        "count" : 5,
+                        "count" : 1,
                         "dependencies" : [],
                         "id" : "YsdNdfjc",
                         "label" : "Reaper Rifle (18\", A1, AP(2))",
@@ -1602,7 +1631,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "Y1oOs-a",
+                  "id" : "d94c6LQ",
                   "label" : "Replace all Gauss Rifles",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -1643,8 +1672,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "60",
+            "square" : "50"
+         },
          "combined" : false,
-         "cost" : 210,
+         "cost" : 205,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1801,8 +1834,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 180,
+         "cost" : 175,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1825,7 +1862,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "wMnZvJVo-",
+                     "upgradeInstanceId" : "Z4GXubs_C",
                      "variant" : "replace"
                   }
                ],
@@ -1889,7 +1926,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "wMnZvJVo-",
+               "instanceId" : "Z4GXubs_C",
                "option" : {
                   "cost" : 55,
                   "costs" : [
@@ -1901,7 +1938,7 @@
                   "gains" : [
                      {
                         "attacks" : 2,
-                        "count" : 5,
+                        "count" : 1,
                         "dependencies" : [],
                         "id" : "K4rAVsIQ",
                         "label" : "Heavy Gauss Rifle (24\", A2, Rending)",
@@ -1941,7 +1978,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "HEj8Ngo",
+                  "id" : "O0WQWgF",
                   "label" : "Replace all Flux Carbines",
                   "options" : null,
                   "parentPackageUid" : "F1",
@@ -1982,8 +2019,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "120x92",
+            "square" : "150x100"
+         },
          "combined" : false,
-         "cost" : 505,
+         "cost" : 490,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -2162,8 +2203,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 70,
+         "cost" : 65,
          "customName" : "Technomancer",
          "defense" : 3,
          "disabledSections" : [],
@@ -2261,7 +2306,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "MBlpb-5Wh",
+               "instanceId" : "4YILs39RH",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2282,7 +2327,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "caster",
                               "label" : "Caster(2)",
@@ -2328,7 +2372,7 @@
                   "uid" : "pAgesdx"
                },
                "upgrade" : {
-                  "id" : "-I0OBoS",
+                  "id" : "Mn-Nzp1",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -2383,6 +2427,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 135,
          "defense" : 3,
@@ -2395,7 +2443,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "L0TzH3Zgw",
+                     "upgradeInstanceId" : "hipgTgf1r",
                      "variant" : "replace"
                   }
                ],
@@ -2421,7 +2469,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "L0TzH3Zgw",
+                     "upgradeInstanceId" : "hipgTgf1r",
                      "variant" : "replace"
                   }
                ],
@@ -2493,7 +2541,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "L0TzH3Zgw",
+               "instanceId" : "hipgTgf1r",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2505,7 +2553,7 @@
                   "gains" : [
                      {
                         "attacks" : 2,
-                        "count" : 5,
+                        "count" : 1,
                         "dependencies" : [],
                         "id" : "vWiXN7e7",
                         "label" : "Hyper Sword (A2, AP(1), Rending)",
@@ -2534,7 +2582,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 5,
                               "dependencies" : [],
                               "key" : "shield wall",
                               "label" : "Shield Wall",
@@ -2544,7 +2591,7 @@
                               "type" : "ArmyBookRule"
                            }
                         ],
-                        "count" : 5,
+                        "count" : 1,
                         "dependencies" : [],
                         "label" : "Combat Shields (Shield Wall)",
                         "name" : "Combat Shields",
@@ -2572,7 +2619,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "UHTHmFU",
+                  "id" : "4o1vrrl",
                   "label" : "Replace all Atom-Casters and Void Blades",
                   "options" : null,
                   "parentPackageUid" : "G1",

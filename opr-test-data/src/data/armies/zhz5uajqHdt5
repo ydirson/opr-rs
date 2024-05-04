@@ -32,13 +32,6 @@
          "name" : "Mutations"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
-         "hasRating" : false,
-         "id" : 370,
-         "name" : "Warning Cry"
-      },
-      {
          "aliasedRuleId" : 128,
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
@@ -46,8 +39,15 @@
          "name" : "Chosen Warrior"
       },
       {
+         "aliasedRuleId" : null,
+         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
+         "hasRating" : false,
+         "id" : 370,
+         "name" : "Warning Cry"
+      },
+      {
          "aliasedRuleId" : 488,
-         "description" : "Once per activation, before attacking, pick one enemy unit within 12”. That unit, and up to 3 enemy units within 6\" gets -2 to its next morale test roll.",
+         "description" : "Once per this unit's activation, before attacking, pick one enemy unit within 12”. That unit, and up to 3 enemy units within 6\" gets -2 to its next morale test roll.",
          "hasRating" : false,
          "id" : 488,
          "name" : "Doom Caller"
@@ -61,7 +61,7 @@
       },
       {
          "aliasedRuleId" : 55,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : 55,
          "name" : "Blood Icon"
@@ -150,8 +150,12 @@
    "units" : [
       {
          "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "25",
+            "square" : "20"
+         },
          "combined" : false,
-         "cost" : 30,
+         "cost" : 25,
          "defense" : 5,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -161,7 +165,7 @@
                "dependencies" : [
                   {
                      "count" : 3,
-                     "upgradeInstanceId" : "xz1SRHE3L",
+                     "upgradeInstanceId" : "6XlqPtQoS",
                      "variant" : "replace"
                   }
                ],
@@ -204,7 +208,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "xz1SRHE3L",
+               "instanceId" : "6XlqPtQoS",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -216,7 +220,7 @@
                   "gains" : [
                      {
                         "attacks" : 2,
-                        "count" : 3,
+                        "count" : 1,
                         "dependencies" : [],
                         "label" : "Dual Hand Weapons (A2)",
                         "name" : "Dual Hand Weapons",
@@ -246,10 +250,9 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "N_hhfbG",
+                  "id" : "jyUgXPy",
                   "label" : "Replace all Great Weapons",
                   "options" : null,
-                  "parentPackageUid" : "DSao1",
                   "targets" : [
                      "Great Weapons"
                   ],
@@ -278,8 +281,12 @@
       },
       {
          "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 30,
+         "cost" : 25,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -290,7 +297,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "ws5OGA9pT",
+                     "upgradeInstanceId" : "q1NuVDtjt",
                      "variant" : "replace"
                   }
                ],
@@ -355,7 +362,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "ws5OGA9pT",
+               "instanceId" : "q1NuVDtjt",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -405,10 +412,9 @@
                   "uid" : "CSJn0_u"
                },
                "upgrade" : {
-                  "id" : "vsUUVnq",
+                  "id" : "BnbuGtJ",
                   "label" : "Replace Hand Weapon",
                   "options" : null,
-                  "parentPackageUid" : "B1",
                   "targets" : [
                      "Hand Weapon"
                   ],
@@ -418,7 +424,7 @@
                }
             },
             {
-               "instanceId" : "P-VrbwUvL",
+               "instanceId" : "23cLbCb2n",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -431,7 +437,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "battle ready",
                               "label" : "Battle Ready",
@@ -466,11 +471,9 @@
                   "uid" : "g6drS"
                },
                "upgrade" : {
-                  "id" : "X99Axpi",
-                  "isHeroUpgrade" : true,
+                  "id" : "8_wsVDV",
                   "label" : "Upgrade with one",
                   "options" : null,
-                  "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "exactly",
                      "value" : 1
@@ -515,6 +518,10 @@
       },
       {
          "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 55,
          "defense" : 3,
@@ -527,7 +534,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "AB5Y0c2e-",
+                     "upgradeInstanceId" : "y9jBx7y6n",
                      "variant" : "replace"
                   }
                ],
@@ -598,7 +605,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Lfo1TyclV",
+               "instanceId" : "-au-F0Fvb",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -611,7 +618,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "blessing of war",
                               "label" : "Blessing of War",
@@ -642,11 +648,9 @@
                   "uid" : "VrJBEDg"
                },
                "upgrade" : {
-                  "id" : "Naa20qW",
-                  "isHeroUpgrade" : true,
+                  "id" : "AVjK7nS",
                   "label" : "Upgrade with one",
                   "options" : null,
-                  "parentPackageUid" : "A1",
                   "select" : {
                      "type" : "exactly",
                      "value" : 1
@@ -657,7 +661,7 @@
                }
             },
             {
-               "instanceId" : "AB5Y0c2e-",
+               "instanceId" : "y9jBx7y6n",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -707,10 +711,9 @@
                   "uid" : "p_mJ2mK"
                },
                "upgrade" : {
-                  "id" : "FX-WBS-",
+                  "id" : "eRN1TuE",
                   "label" : "Replace Heavy Hand Weapon",
                   "options" : null,
-                  "parentPackageUid" : "A1",
                   "targets" : [
                      "Heavy Hand Weapon"
                   ],
@@ -720,7 +723,7 @@
                }
             },
             {
-               "instanceId" : "sEjZj48l5",
+               "instanceId" : "fRJp8wlmB",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -759,10 +762,9 @@
                   "uid" : "wi3x0"
                },
                "upgrade" : {
-                  "id" : "sBVqCMG",
+                  "id" : "46Ng8ZV",
                   "label" : "Upgrade with",
                   "options" : null,
-                  "parentPackageUid" : "A1",
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "-Hw57ol",
                   "variant" : "upgrade"
@@ -803,6 +805,10 @@
       },
       {
          "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 15,
          "defense" : 3,
@@ -815,7 +821,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "MovimtUwn",
+                     "upgradeInstanceId" : "FDDBGrLY6",
                      "variant" : "replace"
                   }
                ],
@@ -868,7 +874,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "MovimtUwn",
+               "instanceId" : "FDDBGrLY6",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -918,10 +924,9 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "CE-il1n",
+                  "id" : "hDOF9xW",
                   "label" : "Replace Heavy Hand Weapon",
                   "options" : null,
-                  "parentPackageUid" : "F1",
                   "targets" : [
                      "Heavy Hand Weapon"
                   ],
@@ -931,7 +936,7 @@
                }
             },
             {
-               "instanceId" : "3jsU-Nv1W",
+               "instanceId" : "vC1GV4Q8I",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -970,11 +975,9 @@
                   "uid" : "9o3Qq"
                },
                "upgrade" : {
-                  "id" : "ygAGjom",
+                  "id" : "H7pH3Mc",
                   "label" : "Upgrade with",
-                  "model" : true,
                   "options" : null,
-                  "parentPackageUid" : "F1",
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "9w7Zgee",
                   "variant" : "upgrade"
@@ -1004,6 +1007,10 @@
       },
       {
          "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 15,
          "defense" : 3,
@@ -1016,7 +1023,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "LZJ-Nhrgu",
+                     "upgradeInstanceId" : "rXWHhrbCc",
                      "variant" : "replace"
                   }
                ],
@@ -1069,7 +1076,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "LZJ-Nhrgu",
+               "instanceId" : "rXWHhrbCc",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1119,10 +1126,9 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "CE-il1n",
+                  "id" : "hDOF9xW",
                   "label" : "Replace Heavy Hand Weapon",
                   "options" : null,
-                  "parentPackageUid" : "F1",
                   "targets" : [
                      "Heavy Hand Weapon"
                   ],
@@ -1132,7 +1138,7 @@
                }
             },
             {
-               "instanceId" : "apazAGpRC",
+               "instanceId" : "k0TVvciHm",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1171,11 +1177,9 @@
                   "uid" : "9o3Qq"
                },
                "upgrade" : {
-                  "id" : "ygAGjom",
+                  "id" : "H7pH3Mc",
                   "label" : "Upgrade with",
-                  "model" : true,
                   "options" : null,
-                  "parentPackageUid" : "F1",
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "9w7Zgee",
                   "variant" : "upgrade"

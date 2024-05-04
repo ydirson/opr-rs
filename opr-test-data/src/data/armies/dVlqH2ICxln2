@@ -11,6 +11,13 @@
    "selectedUnitId" : null,
    "specialRules" : [
       {
+         "aliasedRuleId" : 51,
+         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+         "hasRating" : false,
+         "id" : 51,
+         "name" : "Shadow-Protocol"
+      },
+      {
          "aliasedRuleId" : 162,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
          "hasRating" : false,
@@ -18,11 +25,11 @@
          "name" : "Royal March"
       },
       {
-         "aliasedRuleId" : 51,
-         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+         "aliasedRuleId" : null,
+         "description" : "This model may ignore the Slow rule.",
          "hasRating" : false,
-         "id" : 51,
-         "name" : "Shadow-Protocol"
+         "id" : 165,
+         "name" : "Swift"
       },
       {
          "aliasedRuleId" : 561,
@@ -75,14 +82,14 @@
       },
       {
          "aliasedRuleId" : 216,
-         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule (min. 1), and for each result of 1-3 the unit takes one wound, which can’t be ignored.",
+         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule (min. 1), and for each result of 1-2 the unit takes one wound, which can’t be ignored.",
          "hasRating" : false,
          "id" : 216,
          "name" : "Robot"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : 846,
          "name" : "Flux"
@@ -178,8 +185,12 @@
    "units" : [
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 70,
+         "cost" : 65,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -297,6 +308,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 25,
          "defense" : 4,
@@ -404,6 +419,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 25,
          "defense" : 4,
@@ -511,8 +530,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 30,
+         "cost" : 25,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -594,8 +617,12 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 30,
+         "cost" : 25,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -677,6 +704,10 @@
       },
       {
          "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
          "cost" : 25,
          "defense" : 6,

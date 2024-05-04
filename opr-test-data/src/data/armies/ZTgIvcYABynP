@@ -19,17 +19,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, before attacking, pick one enemy unit within 18”. That unit must take a morale test, and if failed it takes 3 hits.",
+         "description" : "Once per this model's activation, before attacking, pick one enemy unit within 18”. That unit must take a morale test, and if failed it takes 3 hits.",
          "hasRating" : false,
          "id" : 372,
          "name" : "Smite"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
-         "hasRating" : false,
-         "id" : 370,
-         "name" : "Warning Cry"
       },
       {
          "aliasedRuleId" : 46,
@@ -37,6 +30,13 @@
          "hasRating" : false,
          "id" : 46,
          "name" : "Direct Fire"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
+         "hasRating" : false,
+         "id" : 370,
+         "name" : "Warning Cry"
       },
       {
          "aliasedRuleId" : 424,
@@ -64,8 +64,12 @@
    "units" : [
       {
          "armyId" : "-MrGWaleoZR7pxIn",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 45,
+         "cost" : 40,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -150,8 +154,12 @@
       },
       {
          "armyId" : "-MrGWaleoZR7pxIn",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 45,
+         "cost" : 40,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -236,8 +244,12 @@
       },
       {
          "armyId" : "-MrGWaleoZR7pxIn",
+         "bases" : {
+            "round" : "60",
+            "square" : "50"
+         },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 80,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -328,8 +340,12 @@
       },
       {
          "armyId" : "-MrGWaleoZR7pxIn",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 60,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -340,7 +356,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "XcIq6BBs8",
+                     "upgradeInstanceId" : "YnGRxF_Ml",
                      "variant" : "replace"
                   }
                ],
@@ -397,7 +413,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "XcIq6BBs8",
+               "instanceId" : "YnGRxF_Ml",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -446,10 +462,9 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "7_4hcXJ",
+                  "id" : "W4lABEz",
                   "label" : "Replace Great Glaive",
                   "options" : null,
-                  "parentPackageUid" : "I1",
                   "targets" : [
                      "Great Glaive"
                   ],
@@ -484,8 +499,12 @@
       },
       {
          "armyId" : "-MrGWaleoZR7pxIn",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 60,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -496,7 +515,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "hsnrJI7DY",
+                     "upgradeInstanceId" : "YUSdRlrr_",
                      "variant" : "replace"
                   }
                ],
@@ -553,7 +572,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "hsnrJI7DY",
+               "instanceId" : "YUSdRlrr_",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -602,10 +621,9 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "7_4hcXJ",
+                  "id" : "W4lABEz",
                   "label" : "Replace Great Glaive",
                   "options" : null,
-                  "parentPackageUid" : "I1",
                   "targets" : [
                      "Great Glaive"
                   ],

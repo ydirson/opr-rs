@@ -28,14 +28,14 @@
       },
       {
          "aliasedRuleId" : 857,
-         "description" : "Attacks targeting units where all models have this rule count as having AP(-1), to a min. of AP(0).",
+         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
          "id" : 857,
          "name" : "Heavy Shield"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "description" : "Once per this model's activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : 126,
          "name" : "Repair"
@@ -56,7 +56,7 @@
       },
       {
          "aliasedRuleId" : 55,
-         "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits on unmodified rolls of 5-6 instead.",
+         "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead.",
          "hasRating" : false,
          "id" : 55,
          "name" : "War Chant"
@@ -91,7 +91,7 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "description" : "Once per this model's activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : 126,
          "name" : "Repair"
@@ -105,21 +105,21 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Enemies that roll to block hits from this weapon take one additional wound for each unmodified result of 1 that they roll.",
+         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
          "hasRating" : false,
          "id" : 98,
          "name" : "Radiation"
       },
       {
          "aliasedRuleId" : 846,
-         "description" : "Unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : 846,
          "name" : "Taser"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", hits from unmodified rolls of 5-6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : 991,
          "name" : "Highly Devout"
@@ -154,13 +154,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Attacks targeting units where all models have this rule count as having AP(-1), to a min. of AP(0).",
-         "hasRating" : false,
-         "id" : 857,
-         "name" : "Protected"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : 858,
@@ -168,24 +161,24 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", hits from unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
+         "hasRating" : false,
+         "id" : 857,
+         "name" : "Protected"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).\n",
          "hasRating" : null,
          "id" : 895,
          "name" : "Devout"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per activation, pick 2 friendly units within 6”, which get +1 to defense rolls next time they take hits.",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to defense rolls next time they take hits.",
          "hasRating" : false,
          "id" : 417,
          "name" : "Protective Aura"
-      },
-      {
-         "aliasedRuleId" : 53,
-         "description" : "This model and its unit get +1 to morale test rolls.",
-         "hasRating" : false,
-         "id" : 53,
-         "name" : "Canticle Megaphone"
       },
       {
          "aliasedRuleId" : 128,
@@ -195,15 +188,22 @@
          "name" : "Celestial Infantry"
       },
       {
+         "aliasedRuleId" : 53,
+         "description" : "This model and its unit get +1 to morale test rolls.",
+         "hasRating" : false,
+         "id" : 53,
+         "name" : "Canticle Megaphone"
+      },
+      {
          "aliasedRuleId" : 422,
-         "description" : "Once per activation, pick 2 friendly units within 6”, which get +1 to hit next time they fight in melee.",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to hit next time they fight in melee.",
          "hasRating" : false,
          "id" : 422,
          "name" : "Holy Statue"
       },
       {
          "aliasedRuleId" : 224,
-         "description" : "Once per activation, pick 2 friendly units within 12”, which get +1 to their next morale test roll.",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12”, which get +1 to their next morale test roll.",
          "hasRating" : false,
          "id" : 224,
          "name" : "Angelic Aura"
@@ -360,8 +360,12 @@
    "units" : [
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 60,
+         "cost" : 55,
          "customName" : "Archivist",
          "defense" : 3,
          "disabledSections" : [],
@@ -373,7 +377,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "eQNqBbce0",
+                     "upgradeInstanceId" : "tUjYHAmH5",
                      "variant" : "replace"
                   }
                ],
@@ -500,7 +504,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "sGWPQQ-R9",
+               "instanceId" : "QiFucEkV9",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -521,7 +525,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "caster",
                               "label" : "Caster(2)",
@@ -567,7 +570,7 @@
                   "uid" : "D3Dqx6h"
                },
                "upgrade" : {
-                  "id" : "2ZDqJ1J",
+                  "id" : "oPTRXUp",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -582,7 +585,7 @@
                }
             },
             {
-               "instanceId" : "eQNqBbce0",
+               "instanceId" : "tUjYHAmH5",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -647,7 +650,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "8K4vwEz",
+                  "id" : "cGL3nIx",
                   "label" : "Replace  CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -660,7 +663,7 @@
                }
             },
             {
-               "instanceId" : "YCVKenlg_",
+               "instanceId" : "CdeW4cj-8",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -673,7 +676,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "scout",
                               "label" : "Scout",
@@ -708,7 +710,7 @@
                   "uid" : "zOpXO"
                },
                "upgrade" : {
-                  "id" : "wnTSsnz",
+                  "id" : "X3SR6sm",
                   "label" : "Upgrade with one",
                   "options" : null,
                   "parentPackageUid" : "qIWMF",
@@ -763,8 +765,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 155,
+         "cost" : 165,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -773,13 +779,20 @@
                "attacks" : 2,
                "count" : 5,
                "id" : "c3nZkAfH",
-               "label" : "CCW (A2)",
-               "name" : "CCW",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
                "originalCount" : 5,
                "range" : 0,
-               "specialRules" : [],
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "83nhlNHF"
+               "weaponId" : "BN7Zr4vd"
             },
             {
                "attacks" : 1,
@@ -810,13 +823,20 @@
                "attacks" : 2,
                "count" : 5,
                "id" : "c3nZkAfH",
-               "label" : "CCW (A2)",
-               "name" : "CCW",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
                "originalCount" : 5,
                "range" : 0,
-               "specialRules" : [],
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "83nhlNHF"
+               "weaponId" : "BN7Zr4vd"
             },
             {
                "attacks" : 1,
@@ -861,8 +881,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 335,
+         "cost" : 315,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -977,8 +1001,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 75,
+         "cost" : 70,
          "customName" : "Captain",
          "defense" : 2,
          "disabledSections" : [],
@@ -990,7 +1018,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "J-Dc1U1kW",
+                     "upgradeInstanceId" : "cnh72MaGx",
                      "variant" : "replace"
                   }
                ],
@@ -1092,7 +1120,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "HiaCyPoeP",
+               "instanceId" : "aN3qOaEFz",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -1113,7 +1141,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "battle-rites",
                               "label" : "Battle Rites",
@@ -1159,7 +1186,7 @@
                   "uid" : "fwO6jFd"
                },
                "upgrade" : {
-                  "id" : "2ZDqJ1J",
+                  "id" : "oPTRXUp",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -1174,7 +1201,7 @@
                }
             },
             {
-               "instanceId" : "J-Dc1U1kW",
+               "instanceId" : "cnh72MaGx",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1234,7 +1261,7 @@
                   "uid" : "d6wOTSF"
                },
                "upgrade" : {
-                  "id" : "8K4vwEz",
+                  "id" : "cGL3nIx",
                   "label" : "Replace  CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1277,8 +1304,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 75,
+         "cost" : 70,
          "customName" : "Lieutenant",
          "defense" : 2,
          "disabledSections" : [],
@@ -1290,7 +1321,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "IWVESb1Qw",
+                     "upgradeInstanceId" : "o22OheUjD",
                      "variant" : "replace"
                   }
                ],
@@ -1416,7 +1447,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "ujB1nGqcr",
+               "instanceId" : "TMjQ3p7Ht",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -1437,7 +1468,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "precision-shots",
                               "label" : "Precision Shots",
@@ -1483,7 +1513,7 @@
                   "uid" : "VyigG9G"
                },
                "upgrade" : {
-                  "id" : "2ZDqJ1J",
+                  "id" : "oPTRXUp",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -1498,7 +1528,7 @@
                }
             },
             {
-               "instanceId" : "IWVESb1Qw",
+               "instanceId" : "o22OheUjD",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1563,7 +1593,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "8K4vwEz",
+                  "id" : "cGL3nIx",
                   "label" : "Replace  CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1576,7 +1606,7 @@
                }
             },
             {
-               "instanceId" : "_Ofq8etID",
+               "instanceId" : "bdp_Yc7uq",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1589,7 +1619,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "heavy shield",
                               "label" : "Heavy Shield",
@@ -1623,7 +1652,7 @@
                   "uid" : "cd-2wsN"
                },
                "upgrade" : {
-                  "id" : "GKaGYPh",
+                  "id" : "2mx6F9r",
                   "label" : "Upgrade with one",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -1667,8 +1696,12 @@
       },
       {
          "armyId" : "7el7k3hgy5pb9o9i",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 85,
          "customName" : "Skitarii Rangers",
          "defense" : 4,
          "disabledSections" : [],
@@ -1692,7 +1725,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YpVMwvTkp",
+                     "upgradeInstanceId" : "AXT8PXaVr",
                      "variant" : "replace"
                   }
                ],
@@ -1736,7 +1769,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YpVMwvTkp",
+                     "upgradeInstanceId" : "AXT8PXaVr",
                      "variant" : "replace"
                   }
                ],
@@ -1796,7 +1829,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "YpVMwvTkp",
+               "instanceId" : "AXT8PXaVr",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -1863,7 +1896,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "ok9-6DR",
+                  "id" : "7A2HtEr",
                   "label" : "Replace one R-Fusil",
                   "options" : null,
                   "parentPackageUid" : "D1",
@@ -1895,8 +1928,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 155,
+         "cost" : 165,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1905,13 +1942,20 @@
                "attacks" : 2,
                "count" : 5,
                "id" : "c3nZkAfH",
-               "label" : "CCW (A2)",
-               "name" : "CCW",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
                "originalCount" : 5,
                "range" : 0,
-               "specialRules" : [],
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "83nhlNHF"
+               "weaponId" : "BN7Zr4vd"
             },
             {
                "attacks" : 1,
@@ -1942,13 +1986,20 @@
                "attacks" : 2,
                "count" : 5,
                "id" : "c3nZkAfH",
-               "label" : "CCW (A2)",
-               "name" : "CCW",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
                "originalCount" : 5,
                "range" : 0,
-               "specialRules" : [],
+               "specialRules" : [
+                  {
+                     "key" : "ap",
+                     "modify" : false,
+                     "name" : "AP",
+                     "rating" : "1"
+                  }
+               ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "83nhlNHF"
+               "weaponId" : "BN7Zr4vd"
             },
             {
                "attacks" : 1,
@@ -1993,8 +2044,12 @@
       },
       {
          "armyId" : "7el7k3hgy5pb9o9i",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 85,
          "customName" : "Skitarii Rangers",
          "defense" : 4,
          "disabledSections" : [],
@@ -2006,7 +2061,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "JZJMiiY2H",
+                     "upgradeInstanceId" : "3hxUmlbKT",
                      "variant" : "replace"
                   }
                ],
@@ -2025,7 +2080,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "KjxxgJFvw",
+                     "upgradeInstanceId" : "LC0cKMC7D",
                      "variant" : "replace"
                   }
                ],
@@ -2057,7 +2112,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "JZJMiiY2H",
+                     "upgradeInstanceId" : "3hxUmlbKT",
                      "variant" : "replace"
                   }
                ],
@@ -2076,7 +2131,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "KjxxgJFvw",
+                     "upgradeInstanceId" : "LC0cKMC7D",
                      "variant" : "replace"
                   }
                ],
@@ -2118,7 +2173,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "JZJMiiY2H",
+               "instanceId" : "3hxUmlbKT",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -2134,7 +2189,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "fwHXUtq3X",
+                              "upgradeInstanceId" : "CM_2XrspW",
                               "variant" : "replace"
                            }
                         ],
@@ -2181,7 +2236,7 @@
                   "uid" : "1wkff"
                },
                "upgrade" : {
-                  "id" : "_4WXN8i",
+                  "id" : "lUffZwo",
                   "label" : "Replace  Leader R-Fusil and CCW",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -2195,7 +2250,7 @@
                }
             },
             {
-               "instanceId" : "fwHXUtq3X",
+               "instanceId" : "CM_2XrspW",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -2241,7 +2296,7 @@
                   "uid" : "aH5568p"
                },
                "upgrade" : {
-                  "id" : "9M6JLDb",
+                  "id" : "2DCBHgw",
                   "label" : "Replace  Leader R-Pistol",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -2254,7 +2309,7 @@
                }
             },
             {
-               "instanceId" : "KjxxgJFvw",
+               "instanceId" : "LC0cKMC7D",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2302,7 +2357,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "ok9-6DR",
+                  "id" : "7A2HtEr",
                   "label" : "Replace one R-Fusil",
                   "options" : null,
                   "parentPackageUid" : "D1",
@@ -2334,6 +2389,10 @@
       },
       {
          "armyId" : "7el7k3hgy5pb9o9i",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 85,
          "customName" : "Tech Priest Dominus",
@@ -2447,7 +2506,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "XH2_LLkBB",
+               "instanceId" : "ynaUiUcLr",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2468,7 +2527,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "caster",
                               "label" : "Caster(2)",
@@ -2514,7 +2572,7 @@
                   "uid" : "VC9Z-lM"
                },
                "upgrade" : {
-                  "id" : "HYy_YtA",
+                  "id" : "jPME0lh",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -2558,6 +2616,10 @@
       },
       {
          "armyId" : "7el7k3hgy5pb9o9i",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 85,
          "customName" : "Tech Priest Enginseer",
@@ -2671,7 +2733,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "CIr7A8ui-",
+               "instanceId" : "3H5CiMwqq",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -2692,7 +2754,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "repair",
                               "label" : "Repair",
@@ -2738,7 +2799,7 @@
                   "uid" : "WMrFSXc"
                },
                "upgrade" : {
-                  "id" : "HYy_YtA",
+                  "id" : "jPME0lh",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -2782,8 +2843,12 @@
       },
       {
          "armyId" : "7el7k3hgy5pb9o9i",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
          "combined" : false,
-         "cost" : 245,
+         "cost" : 240,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -2887,8 +2952,12 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 45,
+         "cost" : 40,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -2986,7 +3055,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "AzfoW-0n_",
+               "instanceId" : "YFl7-PRbg",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -3007,7 +3076,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 1,
                               "dependencies" : [],
                               "key" : "spiritual guidance",
                               "label" : "Spiritual Guidance",
@@ -3054,7 +3122,7 @@
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "m8irT79",
+                  "id" : "tFayPGG",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -3100,6 +3168,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 110,
          "defense" : 4,
@@ -3200,8 +3272,12 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 85,
+         "cost" : 75,
          "customName" : "Repentia Sisters",
          "defense" : 5,
          "disabledSections" : [],
@@ -3279,6 +3355,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 130,
          "defense" : 4,
@@ -3291,7 +3371,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "4m_Uhh39z",
+                     "upgradeInstanceId" : "n4mwpkgqh",
                      "variant" : "replace"
                   }
                ],
@@ -3310,7 +3390,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "4m_Uhh39z",
+                     "upgradeInstanceId" : "n4mwpkgqh",
                      "variant" : "replace"
                   }
                ],
@@ -3342,7 +3422,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "4m_Uhh39z",
+                     "upgradeInstanceId" : "n4mwpkgqh",
                      "variant" : "replace"
                   }
                ],
@@ -3361,7 +3441,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "4m_Uhh39z",
+                     "upgradeInstanceId" : "n4mwpkgqh",
                      "variant" : "replace"
                   }
                ],
@@ -3434,7 +3514,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "4m_Uhh39z",
+               "instanceId" : "n4mwpkgqh",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3513,7 +3593,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "281zgBm",
+                  "id" : "fzoQ6U-",
                   "label" : "Replace one Twin Heavy Pistols and CCW",
                   "options" : null,
                   "parentPackageUid" : "J1",
@@ -3556,6 +3636,10 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
          "cost" : 110,
          "defense" : 4,
@@ -3656,8 +3740,12 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 85,
+         "cost" : 75,
          "customName" : "Arco flagellant",
          "defense" : 5,
          "disabledSections" : [],
@@ -3669,7 +3757,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "cTFElz2Mr",
+                     "upgradeInstanceId" : "BY_p_LWvG",
                      "variant" : "replace"
                   }
                ],
@@ -3740,7 +3828,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "cTFElz2Mr",
+               "instanceId" : "BY_p_LWvG",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3752,7 +3840,7 @@
                   "gains" : [
                      {
                         "attacks" : 2,
-                        "count" : 5,
+                        "count" : 1,
                         "dependencies" : [],
                         "id" : "MKdDx8aj",
                         "label" : "Dual Arc-Flails (A2, Rending)",
@@ -3792,7 +3880,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "oRbpTO8",
+                  "id" : "Yx22dj3",
                   "label" : "Replace all Chainsaw Swords",
                   "options" : null,
                   "parentPackageUid" : "H1",
@@ -3805,7 +3893,7 @@
                }
             },
             {
-               "instanceId" : "iScFYNro4",
+               "instanceId" : "xbbSNqqA-",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -3818,7 +3906,6 @@
                      {
                         "content" : [
                            {
-                              "count" : 5,
                               "dependencies" : [],
                               "key" : "regeneration",
                               "label" : "Regeneration",
@@ -3828,7 +3915,7 @@
                               "type" : "ArmyBookRule"
                            }
                         ],
-                        "count" : 5,
+                        "count" : 1,
                         "dependencies" : [],
                         "label" : "Flagellants (Regeneration)",
                         "name" : "Flagellants",
@@ -3856,7 +3943,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "-XpzM6X",
+                  "id" : "_ngbJJ7",
                   "label" : "Upgrade all models with",
                   "model" : true,
                   "options" : null,
@@ -3890,8 +3977,12 @@
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "120x92",
+            "square" : "150x100"
+         },
          "combined" : false,
-         "cost" : 280,
+         "cost" : 265,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -4046,8 +4137,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "75x46",
+            "square" : "75x50"
+         },
          "combined" : false,
-         "cost" : 320,
+         "cost" : 300,
          "defense" : 2,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -4188,8 +4283,12 @@
       },
       {
          "armyId" : "7el7k3hgy5pb9o9i",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 45,
+         "cost" : 40,
          "customName" : "Sktarii Marshal",
          "defense" : 4,
          "disabledSections" : [],
@@ -4297,8 +4396,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 125,
+         "cost" : 120,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -4405,8 +4508,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 175,
+         "cost" : 170,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -4524,8 +4631,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 325,
+         "cost" : 320,
          "defense" : 2,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -4642,8 +4753,12 @@
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
+         "bases" : {
+            "round" : "32",
+            "square" : "25"
+         },
          "combined" : false,
-         "cost" : 125,
+         "cost" : 120,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
