@@ -5,7 +5,7 @@ DATADIR="opr-test-data/src/data"
 
 if [ $# = 0 ]; then
     echo "Updating all data files"
-    set -- "$DATADIR"/armies/*
+    set -- "$DATADIR"/armies/* "$DATADIR"/common-rules-*
 fi
 
 die() {
