@@ -31,6 +31,22 @@ fn test_load_parse_armies(#[case] army_id: &str, #[case] ngroups: usize) -> Resu
 }
 
 #[rstest]
+#[case("4k5amkxoybdiqotm-2")]
+#[case("4k5amkxoybdiqotm-3")]
+fn test_load_parse_book(#[case] book_file: &str) -> Result<(), String> {
+    // locate test data from build.rs info
+    let mut data_path = PathBuf::from(env!("OPR_DATA_DIR"));
+    data_path.push("books");
+    data_path.push(book_file);
+
+    let json_string = fs::read_to_string(&data_path)
+        .expect(format!("data file {data_path:?} should to be readable").as_str());
+    let _book_list: ArmyBook = serde_json::from_str(json_string.as_str())
+        .expect(format!("should parse data as json").as_str());
+    Ok(())
+}
+
+#[rstest]
 #[case(2)]
 #[case(3)]
 #[case(4)]

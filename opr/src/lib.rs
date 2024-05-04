@@ -294,6 +294,19 @@ pub struct CommonRules {
     // traits
 }
 
+#[derive(serde::Deserialize, serde::Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ArmyBook {
+    pub name: Rc<str>,
+    pub units: Vec<Rc<ArmyBookUnitDef>>,
+}
+
+#[derive(serde::Deserialize, serde::Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ArmyBookUnitDef {
+    pub id: Rc<str>,
+}
+
 // higher-level than deserialization
 
 impl Unit {
