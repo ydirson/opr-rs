@@ -26,7 +26,6 @@ pub struct Army {
     pub id: Rc<str>,
     pub name: Rc<str>,
     pub game_system: Result<GameSystem, String>,
-    pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
 }
@@ -37,7 +36,6 @@ struct JsonArmy {
     pub id: Rc<str>,
     pub name: Rc<str>,
     pub game_system: String,
-    pub points_limit: usize,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
     pub units: Vec<Rc<Unit>>,
 }
@@ -49,7 +47,6 @@ impl From<JsonArmy> for Army {
             name: Rc::clone(&json_army.name),
             game_system: GameSystem::try_from(json_army.game_system.as_str()),
 
-            points_limit: json_army.points_limit,
             special_rules: json_army.special_rules.clone(),
             units: json_army.units.clone(),
         }
