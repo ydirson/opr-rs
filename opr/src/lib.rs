@@ -9,15 +9,6 @@ use std::rc::Rc;
 
 pub const ARMYFORGE_SHARE_URL: &str = "https://army-forge.onepagerules.com/share";
 
-cfg_if::cfg_if! {
-    if #[cfg(not(feature = "local-files"))] {
-        const GET_ARMY_URL: &str =
-            "https://army-forge.onepagerules.com/api/tts";
-        const GET_COMMON_RULES_URL: &str =
-            "https://army-forge.onepagerules.com/api/rules/common";
-    }
-}
-
 // structs for deserialization
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -282,7 +273,7 @@ pub fn get_army_url(army_id: &str) -> String {
         if #[cfg(feature = "local-files")] {
             let url = format!("/data/armies/{army_id}");
         } else {
-            let url = format!("{}?id={army_id}", GET_ARMY_URL);
+            let url = format!("https://army-forge.onepagerules.com/api/tts?id={army_id}");
         }
     }
     url
@@ -294,7 +285,7 @@ pub fn get_common_rules_url(game_system: GameSystem) -> String {
         if #[cfg(feature = "local-files")] {
             format!("/data/common-rules-{gs_id}")
         } else {
-            format!("{GET_COMMON_RULES_URL}/{gs_id}")
+            format!("https://army-forge.onepagerules.com/api/rules/common/{gs_id}")
         }
     }
 }
