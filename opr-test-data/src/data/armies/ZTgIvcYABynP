@@ -1,9 +1,11 @@
 {
    "campaignMode" : false,
    "competitive" : true,
+   "creationTime" : "1697055051886",
    "gameSystem" : "aofs",
    "id" : "ZTgIvcYABynP",
    "isCloud" : false,
+   "key" : "AQOmzgAn8mUree5Neobg2",
    "modified" : "2023-10-11T20:43:53.257Z",
    "name" : "Eternal Wardens",
    "points" : 330,
@@ -54,7 +56,7 @@
       },
       {
          "aliasedRuleId" : 210,
-         "description" : "When in melee, roll one die and apply one bonus to models with this rule:\n* 1-3: Attacks get Rending\n* 4-6: Attacks get AP(+1)",
+         "description" : "When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).",
          "hasRating" : false,
          "id" : 210,
          "name" : "Empower"
@@ -249,7 +251,7 @@
             "square" : "50"
          },
          "combined" : false,
-         "cost" : 80,
+         "cost" : 85,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -345,7 +347,7 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 60,
+         "cost" : 65,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -356,7 +358,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YnGRxF_Ml",
+                     "upgradeInstanceId" : "M7bhAuk4D",
                      "variant" : "replace"
                   }
                ],
@@ -413,7 +415,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "YnGRxF_Ml",
+               "instanceId" : "M7bhAuk4D",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -462,7 +464,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "W4lABEz",
+                  "id" : "G0AAjju",
                   "label" : "Replace Great Glaive",
                   "options" : null,
                   "targets" : [
@@ -504,7 +506,7 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 60,
+         "cost" : 65,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -515,7 +517,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YUSdRlrr_",
+                     "upgradeInstanceId" : "UWEcHU7WB",
                      "variant" : "replace"
                   }
                ],
@@ -572,7 +574,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "YUSdRlrr_",
+               "instanceId" : "UWEcHU7WB",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -621,7 +623,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "W4lABEz",
+                  "id" : "G0AAjju",
                   "label" : "Replace Great Glaive",
                   "options" : null,
                   "targets" : [

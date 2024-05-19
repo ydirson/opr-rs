@@ -1,9 +1,11 @@
 {
    "campaignMode" : false,
    "competitive" : true,
+   "creationTime" : "1699916425376",
    "gameSystem" : "gff",
    "id" : "ybjR2-7kHUNY",
    "isCloud" : false,
+   "key" : "gvIJ4ga_ma1X5ChNDq3i1",
    "modified" : "2023-11-13T23:04:45.116Z",
    "name" : "Prime Brothers 200pts",
    "points" : 200,
@@ -33,17 +35,17 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
-         "hasRating" : false,
-         "id" : 126,
-         "name" : "Repair"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
          "id" : 128,
          "name" : "Veteran Infantry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "hasRating" : false,
+         "id" : 126,
+         "name" : "Repair"
       },
       {
          "aliasedRuleId" : 561,
@@ -54,7 +56,7 @@
       },
       {
          "aliasedRuleId" : 55,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified hit rolls of 5-6 instead. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : 55,
          "name" : "War Chant"

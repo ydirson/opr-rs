@@ -6,6 +6,7 @@
    "gameSystem" : "gf",
    "id" : "Mlwpoh1AGLC2",
    "isCloud" : false,
+   "key" : "9_yjUR3upg8itFu-K9jAB",
    "modelCount" : 33,
    "modified" : "2024-03-05T17:11:39.547Z",
    "name" : "Necrons 2000pts",
@@ -35,25 +36,11 @@
          "name" : "Reanimator"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "This model may ignore the Slow rule.",
-         "hasRating" : false,
-         "id" : 165,
-         "name" : "Swift"
-      },
-      {
          "aliasedRuleId" : 561,
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
          "id" : 561,
          "name" : "Regen-Protocol"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
-         "hasRating" : false,
-         "id" : 263,
-         "name" : "Spell Warden"
       },
       {
          "aliasedRuleId" : null,
@@ -71,10 +58,31 @@
       },
       {
          "aliasedRuleId" : null,
+         "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
+         "hasRating" : false,
+         "id" : 263,
+         "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : 165,
+         "name" : "Swift"
+      },
+      {
+         "aliasedRuleId" : null,
          "description" : "Counts as having the Ambush rule, and gets AP(+3) when shooting on the round in which it deploys.",
          "hasRating" : false,
          "id" : 261,
          "name" : "Hunter"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it.",
+         "hasRating" : true,
+         "id" : 1063,
+         "name" : "Spawn"
       },
       {
          "aliasedRuleId" : null,
@@ -92,17 +100,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : 126,
          "name" : "Repair"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it.",
-         "hasRating" : true,
-         "id" : 1063,
-         "name" : "Spawn"
       },
       {
          "aliasedRuleId" : null,
@@ -127,7 +128,7 @@
       },
       {
          "aliasedRuleId" : 216,
-         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule, and for each result of 1-2 the unit takes one wound, which can’t be ignored.",
+         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
          "id" : 216,
          "name" : "Robot"
@@ -308,7 +309,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 70,
          "customName" : "Chronomancer",
          "defense" : 3,
          "disabledSections" : [],
@@ -320,7 +321,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "1gDUBrSkN",
+                     "upgradeInstanceId" : "lHXrl4TZw",
                      "variant" : "replace"
                   }
                ],
@@ -339,7 +340,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "1gDUBrSkN",
+                     "upgradeInstanceId" : "lHXrl4TZw",
                      "variant" : "replace"
                   }
                ],
@@ -428,7 +429,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "ljgnf2IIT",
+               "instanceId" : "SngrjEHnS",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -494,7 +495,7 @@
                   "uid" : "iUPolg0"
                },
                "upgrade" : {
-                  "id" : "Mn-Nzp1",
+                  "id" : "AEQFDeK",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -509,7 +510,7 @@
                }
             },
             {
-               "instanceId" : "1gDUBrSkN",
+               "instanceId" : "lHXrl4TZw",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -597,7 +598,7 @@
                   "uid" : "-3YN10I"
                },
                "upgrade" : {
-                  "id" : "96eL_Ae",
+                  "id" : "J4lcYwE",
                   "label" : "Replace  Lord Gauss Pistol and CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -680,7 +681,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "HMJZ-UElV",
+                     "upgradeInstanceId" : "H4g4UvtEa",
                      "variant" : "replace"
                   }
                ],
@@ -724,7 +725,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "HMJZ-UElV",
+                     "upgradeInstanceId" : "H4g4UvtEa",
                      "variant" : "replace"
                   }
                ],
@@ -779,7 +780,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "HMJZ-UElV",
+               "instanceId" : "H4g4UvtEa",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -841,7 +842,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "hPGnEn6",
+                  "id" : "JliMsl-",
                   "label" : "Replace one Gauss Rifle",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -887,7 +888,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 135,
+         "cost" : 140,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -1063,7 +1064,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 70,
          "customName" : "Overseer",
          "defense" : 3,
          "disabledSections" : [],
@@ -1075,7 +1076,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "3g75RNW_N",
+                     "upgradeInstanceId" : "lGX_VT25u",
                      "variant" : "replace"
                   }
                ],
@@ -1094,7 +1095,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "XMv0euQoZ",
+                     "upgradeInstanceId" : "9f0mRDQFv",
                      "variant" : "replace"
                   }
                ],
@@ -1192,7 +1193,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "SutICYn37",
+               "instanceId" : "6m-Sxpin6",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -1258,7 +1259,7 @@
                   "uid" : "AZDWCqf"
                },
                "upgrade" : {
-                  "id" : "Mn-Nzp1",
+                  "id" : "AEQFDeK",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -1273,7 +1274,7 @@
                }
             },
             {
-               "instanceId" : "XMv0euQoZ",
+               "instanceId" : "9f0mRDQFv",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1350,7 +1351,7 @@
                   "uid" : "Wf-4yd5"
                },
                "upgrade" : {
-                  "id" : "F4GG8Jj",
+                  "id" : "0hH1xhN",
                   "label" : "Replace  Lord Gauss Pistol",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1363,7 +1364,7 @@
                }
             },
             {
-               "instanceId" : "3g75RNW_N",
+               "instanceId" : "lGX_VT25u",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1431,7 +1432,7 @@
                   "uid" : "cYskqiN"
                },
                "upgrade" : {
-                  "id" : "MEzFGFK",
+                  "id" : "kqh9mfY",
                   "label" : "Replace CCW",
                   "options" : null,
                   "parentPackageUid" : "A1",
@@ -1513,7 +1514,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "DR1nraMAo",
+                     "upgradeInstanceId" : "hVXzE7Rke",
                      "variant" : "replace"
                   }
                ],
@@ -1578,7 +1579,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "DR1nraMAo",
+               "instanceId" : "hVXzE7Rke",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -1631,7 +1632,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "d94c6LQ",
+                  "id" : "jGBmfBE",
                   "label" : "Replace all Gauss Rifles",
                   "options" : null,
                   "parentPackageUid" : "E1",
@@ -1677,7 +1678,7 @@
             "square" : "50"
          },
          "combined" : false,
-         "cost" : 205,
+         "cost" : 210,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1839,7 +1840,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 175,
+         "cost" : 180,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1862,7 +1863,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "Z4GXubs_C",
+                     "upgradeInstanceId" : "NtpUObcRv",
                      "variant" : "replace"
                   }
                ],
@@ -1926,7 +1927,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Z4GXubs_C",
+               "instanceId" : "NtpUObcRv",
                "option" : {
                   "cost" : 55,
                   "costs" : [
@@ -1978,7 +1979,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "O0WQWgF",
+                  "id" : "YZPezHl",
                   "label" : "Replace all Flux Carbines",
                   "options" : null,
                   "parentPackageUid" : "F1",
@@ -2024,7 +2025,7 @@
             "square" : "150x100"
          },
          "combined" : false,
-         "cost" : 490,
+         "cost" : 505,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -2208,7 +2209,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 70,
          "customName" : "Technomancer",
          "defense" : 3,
          "disabledSections" : [],
@@ -2306,7 +2307,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "4YILs39RH",
+               "instanceId" : "CXX7KDoWX",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2372,7 +2373,7 @@
                   "uid" : "pAgesdx"
                },
                "upgrade" : {
-                  "id" : "Mn-Nzp1",
+                  "id" : "AEQFDeK",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "options" : null,
@@ -2443,7 +2444,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "hipgTgf1r",
+                     "upgradeInstanceId" : "AH8iFm5cV",
                      "variant" : "replace"
                   }
                ],
@@ -2469,7 +2470,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "hipgTgf1r",
+                     "upgradeInstanceId" : "AH8iFm5cV",
                      "variant" : "replace"
                   }
                ],
@@ -2541,7 +2542,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "hipgTgf1r",
+               "instanceId" : "AH8iFm5cV",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2619,7 +2620,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "4o1vrrl",
+                  "id" : "RJOBFwL",
                   "label" : "Replace all Atom-Casters and Void Blades",
                   "options" : null,
                   "parentPackageUid" : "G1",

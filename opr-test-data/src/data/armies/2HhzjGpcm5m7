@@ -1,9 +1,11 @@
 {
    "campaignMode" : false,
    "competitive" : true,
+   "creationTime" : "1702076675796",
    "gameSystem" : "aofs",
    "id" : "2HhzjGpcm5m7",
    "isCloud" : false,
+   "key" : "AzbFkmiruV40ftDsGWMPw",
    "modified" : "2023-12-08T23:06:42.085Z",
    "name" : "Haters tribes",
    "points" : 300,
@@ -174,17 +176,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Hp6U8lH7G",
+                     "upgradeInstanceId" : "R0ZdTE-sk",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "6ANRHZYg1",
+                     "upgradeInstanceId" : "q3dj85sQh",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "wMweGhUYj",
+                     "upgradeInstanceId" : "cf3MXwtAr",
                      "variant" : "replace"
                   }
                ],
@@ -275,7 +277,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Hp6U8lH7G",
+               "instanceId" : "R0ZdTE-sk",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -334,7 +336,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "YxNrG4l",
+                  "id" : "DEGV3kj",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "targets" : [
@@ -346,7 +348,7 @@
                }
             },
             {
-               "instanceId" : "6ANRHZYg1",
+               "instanceId" : "q3dj85sQh",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -405,7 +407,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "YxNrG4l",
+                  "id" : "DEGV3kj",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "targets" : [
@@ -417,7 +419,7 @@
                }
             },
             {
-               "instanceId" : "wMweGhUYj",
+               "instanceId" : "cf3MXwtAr",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -475,7 +477,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "YxNrG4l",
+                  "id" : "DEGV3kj",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "targets" : [
@@ -500,7 +502,7 @@
       {
          "armyId" : "lIHGhJbnAUwW3684",
          "combined" : false,
-         "cost" : 25,
+         "cost" : 30,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -576,7 +578,7 @@
       {
          "armyId" : "lIHGhJbnAUwW3684",
          "combined" : false,
-         "cost" : 80,
+         "cost" : 90,
          "defense" : 3,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -731,17 +733,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "vLVhlu5Hk",
+                     "upgradeInstanceId" : "VQwJKBBvg",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "2fgvtY2Uc",
+                     "upgradeInstanceId" : "007P3xaij",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "rWdwU6yhy",
+                     "upgradeInstanceId" : "Q82ZeLl5j",
                      "variant" : "replace"
                   }
                ],
@@ -842,7 +844,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "vLVhlu5Hk",
+               "instanceId" : "VQwJKBBvg",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -906,7 +908,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "YxNrG4l",
+                  "id" : "DEGV3kj",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "targets" : [
@@ -918,7 +920,7 @@
                }
             },
             {
-               "instanceId" : "2fgvtY2Uc",
+               "instanceId" : "007P3xaij",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -982,7 +984,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "YxNrG4l",
+                  "id" : "DEGV3kj",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "targets" : [
@@ -994,7 +996,7 @@
                }
             },
             {
-               "instanceId" : "rWdwU6yhy",
+               "instanceId" : "Q82ZeLl5j",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1052,7 +1054,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "YxNrG4l",
+                  "id" : "DEGV3kj",
                   "label" : "Replace any Axe",
                   "options" : null,
                   "targets" : [
@@ -1077,7 +1079,7 @@
       {
          "armyId" : "lIHGhJbnAUwW3684",
          "combined" : false,
-         "cost" : 15,
+         "cost" : 20,
          "defense" : 5,
          "disabledUpgradeSections" : [],
          "equipment" : [

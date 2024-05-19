@@ -1,9 +1,11 @@
 {
    "campaignMode" : false,
    "competitive" : true,
+   "creationTime" : "1699916715455",
    "gameSystem" : "gff",
    "id" : "dVlqH2ICxln2",
    "isCloud" : false,
+   "key" : "Lr-W4G26O_0ogI4b4MwRf",
    "modified" : "2023-11-13T23:08:46.726Z",
    "name" : "Robot Legions 200pts",
    "points" : 200,
@@ -25,18 +27,18 @@
          "name" : "Royal March"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "This model may ignore the Slow rule.",
-         "hasRating" : false,
-         "id" : 165,
-         "name" : "Swift"
-      },
-      {
          "aliasedRuleId" : 561,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : 561,
          "name" : "Regen-Protocol"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : 165,
+         "name" : "Swift"
       },
       {
          "aliasedRuleId" : null,
@@ -82,7 +84,7 @@
       },
       {
          "aliasedRuleId" : 216,
-         "description" : "Whenever this unit fails a morale test, it counts as passed instead. Then, roll as many dice as remaining models/tough with this rule (min. 1), and for each result of 1-2 the unit takes one wound, which can’t be ignored.",
+         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
          "id" : 216,
          "name" : "Robot"
@@ -190,7 +192,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 70,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -535,7 +537,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 25,
+         "cost" : 30,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -622,7 +624,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 25,
+         "cost" : 30,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [

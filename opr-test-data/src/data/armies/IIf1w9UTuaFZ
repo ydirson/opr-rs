@@ -7,6 +7,7 @@
    "gameSystem" : "gf",
    "id" : "IIf1w9UTuaFZ",
    "isCloud" : false,
+   "key" : "5s9Jzj0ml4XE-hBdJsSQW",
    "modelCount" : 36,
    "modified" : "2024-03-11T23:03:56.563Z",
    "name" : "Alien Hives 2K",
@@ -36,6 +37,13 @@
       },
       {
          "aliasedRuleId" : null,
+         "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it.",
+         "hasRating" : true,
+         "id" : 1063,
+         "name" : "Spawn"
+      },
+      {
+         "aliasedRuleId" : null,
          "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
          "hasRating" : false,
          "id" : 62,
@@ -50,13 +58,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get Stealth next time they are shot at.",
-         "hasRating" : false,
-         "id" : 121,
-         "name" : "Shrouding Mist"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).",
          "hasRating" : true,
          "id" : 110,
@@ -64,17 +65,17 @@
       },
       {
          "aliasedRuleId" : null,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get Stealth next time they are shot at.",
+         "hasRating" : false,
+         "id" : 121,
+         "name" : "Shrouding Mist"
+      },
+      {
+         "aliasedRuleId" : null,
          "description" : "Whenever this model takes a wound in melee, the attacker takes 1 hit.",
          "hasRating" : false,
          "id" : 115,
          "name" : "Corrosive"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it.",
-         "hasRating" : true,
-         "id" : 1063,
-         "name" : "Spawn"
       },
       {
          "aliasedRuleId" : 424,
@@ -98,18 +99,18 @@
          "name" : "Takedown"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Whenever this unit fails a morale test, it takes one wound, and the morale test counts as passed instead.",
-         "hasRating" : false,
-         "id" : 99,
-         "name" : "No Retreat"
-      },
-      {
          "aliasedRuleId" : 281,
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : 281,
          "name" : "Psy-Barrier"
+      },
+      {
+         "aliasedRuleId" : 216,
+         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : 216,
+         "name" : "No Retreat"
       },
       {
          "aliasedRuleId" : null,
@@ -127,7 +128,7 @@
             "square" : "150x100"
          },
          "combined" : false,
-         "cost" : 345,
+         "cost" : 360,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -237,7 +238,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "GQZjrDZMN",
+               "instanceId" : "1Tdh7qWeG",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -304,7 +305,7 @@
                   "uid" : "WbrXk"
                },
                "upgrade" : {
-                  "id" : "LQgaFln",
+                  "id" : "GUa0Zrs",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with any",
                   "options" : null,
@@ -358,7 +359,7 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 120,
+         "cost" : 125,
          "defense" : 4,
          "disabledUpgradeSections" : [],
          "equipment" : [
@@ -465,11 +466,11 @@
       {
          "armyId" : "w7qor7b2kuifcyvk",
          "bases" : {
-            "round" : "60",
+            "round" : "50",
             "square" : "50"
          },
          "combined" : false,
-         "cost" : 100,
+         "cost" : 105,
          "defense" : 4,
          "disabledSections" : [
             "cRc_X"
@@ -482,12 +483,12 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "7X8cAETsp",
+                     "upgradeInstanceId" : "Dom1IEUvA",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "5dp8qsTnf",
+                     "upgradeInstanceId" : "D2hB8vZFY",
                      "variant" : "replace"
                   }
                ],
@@ -554,7 +555,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "7X8cAETsp",
+               "instanceId" : "Dom1IEUvA",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -616,7 +617,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "0-mQuf7",
+                  "id" : "5zsyF9z",
                   "label" : "Replace one Heavy Razor Claws",
                   "options" : null,
                   "parentPackageUid" : "mPtwD",
@@ -629,7 +630,7 @@
                }
             },
             {
-               "instanceId" : "5dp8qsTnf",
+               "instanceId" : "D2hB8vZFY",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -688,7 +689,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "6Orj-SY",
+                  "id" : "LlJm-Km",
                   "label" : "Replace one Heavy Razor Claws",
                   "options" : null,
                   "parentPackageUid" : "B1",
@@ -736,7 +737,7 @@
             "square" : "20"
          },
          "combined" : false,
-         "cost" : 110,
+         "cost" : 115,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -803,7 +804,7 @@
             "square" : "20"
          },
          "combined" : false,
-         "cost" : 120,
+         "cost" : 125,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1145,7 +1146,7 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 200,
+         "cost" : 210,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1251,11 +1252,11 @@
       {
          "armyId" : "w7qor7b2kuifcyvk",
          "bases" : {
-            "round" : "75x46",
-            "square" : "75x50"
+            "round" : "40",
+            "square" : "40"
          },
          "combined" : false,
-         "cost" : 180,
+         "cost" : 190,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1337,7 +1338,7 @@
             "square" : "150x100"
          },
          "combined" : false,
-         "cost" : 410,
+         "cost" : 450,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -1483,15 +1484,20 @@
          "size" : 1,
          "specialRules" : [
             {
+               "key" : "caster",
+               "name" : "Caster",
+               "rating" : 3
+            },
+            {
                "key" : "fear",
                "label" : "Fear(2)",
                "name" : "Fear",
                "rating" : 2
             },
             {
-               "key" : "caster",
-               "name" : "Caster",
-               "rating" : 3
+               "id" : 65,
+               "key" : "fearless",
+               "name" : "Fearless"
             },
             {
                "key" : "stealth",

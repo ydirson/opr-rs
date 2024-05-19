@@ -1,9 +1,11 @@
 {
    "campaignMode" : false,
    "competitive" : true,
+   "creationTime" : "-YIzDy2SxnW01kFI4rnLc",
    "gameSystem" : "gff",
    "id" : "nLBrzTpB1TTJ",
    "isCloud" : false,
+   "key" : "senXmMFn2Y7Vn1vTjnVja",
    "modified" : "2023-11-15T10:42:42.782Z",
    "name" : "Alien Hives 200pts - v0",
    "points" : 175,
@@ -53,18 +55,18 @@
          "name" : "Psychic Synapse"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Whenever this unit fails a morale test, it takes one wound, and the morale test counts as passed instead.",
-         "hasRating" : false,
-         "id" : 99,
-         "name" : "No Retreat"
-      },
-      {
          "aliasedRuleId" : 281,
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : 281,
          "name" : "Psy-Barrier"
+      },
+      {
+         "aliasedRuleId" : 216,
+         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : 216,
+         "name" : "No Retreat"
       },
       {
          "aliasedRuleId" : null,
@@ -160,7 +162,7 @@
       {
          "armyId" : "w7qor7b2kuifcyvk",
          "bases" : {
-            "round" : "32",
+            "round" : "40",
             "square" : "25"
          },
          "combined" : false,
@@ -250,7 +252,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "2SEjCFu-_",
+               "instanceId" : "6jjZtDtH2",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -306,7 +308,7 @@
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "arTQf-0",
+                  "id" : "IofYhdP",
                   "label" : "Upgrade with any",
                   "options" : null,
                   "select" : {
@@ -481,7 +483,7 @@
             "square" : "20"
          },
          "combined" : false,
-         "cost" : 35,
+         "cost" : 40,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],

@@ -14,7 +14,7 @@ cfg_if::cfg_if! {
         const GET_ARMY_URL: &str =
             "https://army-forge.onepagerules.com/api/tts";
         const GET_COMMON_RULES_URL: &str =
-            "https://army-forge.onepagerules.com/api/afs/common-rules";
+            "https://army-forge.onepagerules.com/api/rules/common";
     }
 }
 
@@ -297,7 +297,7 @@ pub fn get_common_rules_url(game_system: GameSystem) -> String {
         if #[cfg(feature = "local-files")] {
             format!("/data/common-rules-{gs_id}")
         } else {
-            format!("{GET_COMMON_RULES_URL}?gameSystem={gs_id}")
+            format!("{GET_COMMON_RULES_URL}/{gs_id}")
         }
     }
 }

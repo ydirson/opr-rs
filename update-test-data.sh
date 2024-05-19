@@ -20,12 +20,10 @@ for FILE in "$@"; do
             URL="https://army-forge.onepagerules.com/api/tts?id=$ID"
             ;;
         "$DATADIR"/common-rules-*) # maybe followed by a dash amd a query arg
-            URL="https://army-forge.onepagerules.com/api/afs/common-rules"
+            URL="https://army-forge.onepagerules.com/api/rules/common"
             FILENAME=$(basename "$FILE")
-            QUERYARG="${FILENAME#common-rules-}"
-            if [ -n "$QUERYARG" ]; then
-                URL="${URL}?gameSystem=${QUERYARG}"
-            fi
+            GSID="${FILENAME#common-rules-}"
+            URL="${URL}/${GSID}"
             ;;
         *)
             die "unrecognized datafile '$FILE'"
