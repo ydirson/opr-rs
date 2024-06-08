@@ -1,9 +1,11 @@
+use itertools::Itertools;
 use serde::{Deserialize, Serialize};
 use serde_aux::field_attributes::{
     deserialize_number_from_string,
     deserialize_option_number_from_string,
 };
-use std::collections::HashMap;
+use std::cell::RefCell;
+use std::collections::{HashMap, HashSet};
 use std::fmt;
 use std::rc::Rc;
 
@@ -20,6 +22,11 @@ pub struct Army {
     pub name: Rc<str>,
     pub game_system: Result<GameSystem, String>,
     pub special_rules: Vec<Rc<SpecialRuleDef>>,
+    pub unit_groups: Vec<Rc<UnitGroup>>,
+}
+
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+pub struct UnitGroup {
     pub units: Vec<Rc<Unit>>,
 }
 
@@ -35,13 +42,77 @@ struct JsonArmy {
 
 impl From<JsonArmy> for Army {
     fn from(json_army: JsonArmy) -> Army {
+        // (likely to be improved, not very rusty, not very efficient)
+        // - first, group unit ids in sets (not units, as we may not
+        // have the join_to_unit unit indexed yet, and index units
+        type SelIdGroup = Rc<RefCell<HashSet<Rc<str>>>>;
+        let mut groups_of_selid: HashMap<Rc<str>, SelIdGroup> = Default::default();
+        let mut units_by_selid: HashMap<Rc<str>, Rc<Unit>> = Default::default();
+        for unit in json_army.units.iter() {
+            match (
+                groups_of_selid.get(&Rc::clone(&unit.selection_id))
+                    .map(Rc::clone),
+                unit.join_to_unit.as_ref()
+                    .map(|x| (Rc::clone(&x), groups_of_selid.get(&Rc::clone(&x)).map(Rc::clone)))
+            ) {
+                (Some(set), None) =>
+                    assert!(set.borrow().contains(&Rc::clone(&unit.selection_id))),
+                (None, None) => {
+                    let mut set: HashSet<Rc<str>> = Default::default();
+                    set.insert(Rc::clone(&unit.selection_id));
+                    groups_of_selid.insert(Rc::clone(&unit.selection_id), Rc::new(RefCell::new(set)));
+                },
+                (Some(set), Some((join_to_unit, None))) => {
+                    groups_of_selid.insert(Rc::clone(&join_to_unit), Rc::clone(&set));
+                    { set.borrow_mut().insert(Rc::clone(&join_to_unit)); }
+                },
+                (None, Some((_join_to_unit, Some(set)))) => {
+                    groups_of_selid.insert(Rc::clone(&unit.selection_id), Rc::clone(&set));
+                    { set.borrow_mut().insert(Rc::clone(&unit.selection_id)); }
+                },
+                (Some(_set1), Some((_join_to_unit, Some(_set2)))) =>
+                    panic!("unhandled merging"), // FIXME should merge, but should not happen
+                (None, Some((join_to_unit, None))) => {
+                    let mut set: HashSet<Rc<str>> = Default::default();
+                    set.insert(Rc::clone(&join_to_unit));
+                    set.insert(Rc::clone(&unit.selection_id));
+                    let set = Rc::new(RefCell::new(set));
+                    groups_of_selid.insert(Rc::clone(&unit.selection_id), Rc::clone(&set));
+                    groups_of_selid.insert(Rc::clone(&join_to_unit), set);
+                },
+            }
+
+            units_by_selid.insert(Rc::clone(&unit.selection_id), Rc::clone(&unit));
+        }
+
+        // - then create groups for selid groups without dups
+        let mut unit_groups: Vec<Rc<UnitGroup>> = Default::default();
+        {
+            let mut seen_selid: HashSet<Rc<str>> = Default::default();
+            for (selid, group) in groups_of_selid.iter() {
+                if seen_selid.contains(selid) {
+                    continue;
+                }
+                let group = group.as_ref().borrow();
+                for member in group.iter() {
+                    seen_selid.insert(Rc::clone(member));
+                }
+                unit_groups.push(
+                    Rc::new(UnitGroup {
+                        units: group.iter()
+                            .map(|id| Rc::clone(units_by_selid.get(id).unwrap()))
+                            .collect(),
+                    }));
+            }
+        }
+
         Army {
             id: Rc::clone(&json_army.id),
             name: Rc::clone(&json_army.name),
             game_system: GameSystem::try_from(json_army.game_system.as_str()),
 
             special_rules: json_army.special_rules.clone(),
-            units: json_army.units.clone(),
+            unit_groups: unit_groups,
         }
     }
 }
@@ -229,6 +300,15 @@ impl Unit {
         } else {
             name
         }
+    }
+}
+
+impl UnitGroup {
+    pub fn formatted_name(&self) -> String {
+        self.units.iter()
+            .map(|unit| unit.formatted_name())
+            .intersperse(" + ".into())
+            .collect()
     }
 }
 
