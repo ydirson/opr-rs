@@ -1,257 +1,531 @@
-[
-   {
-      "description" : "Must deploy before all other units. Ignores all units and terrain when moving and stopping, can’t seize objectives, and can’t be moved in contact with. May only use Advance actions, moving in a straight line by 30”-36” without turning. If it moves off-table, it ends its activation, and must deploy on any table edge at the beginning of the next round. Units targeting Aircraft get -12” range and -1 to hit rolls.",
-      "id" : 59,
-      "name" : "Aircraft"
-   },
-   {
-      "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 12” away from enemy units. If both players have Ambush, roll-off to see who goes first, and then alternate deploying units. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
-      "id" : 60,
-      "name" : "Ambush"
-   },
-   {
-      "description" : "Targets get -X to Defense rolls when blocking hits.",
-      "id" : 87,
-      "name" : "AP"
-   },
-   {
-      "description" : "This model's melee weapons get AP(+1).",
-      "id" : 882,
-      "name" : "AP(+1) in Melee"
-   },
-   {
-      "description" : "This model's ranged weapons get AP(+1).",
-      "id" : 883,
-      "name" : "AP(+1) when Shooting"
-   },
-   {
-      "description" : "This model's melee weapons get AP(4).",
-      "id" : 886,
-      "name" : "AP(4) in Melee"
-   },
-   {
-      "description" : "This model and its unit get +1 to morale test rolls.",
-      "id" : 870,
-      "name" : "Banner"
-   },
-   {
-      "description" : "This model's ranged weapons get Beam.",
-      "id" : 885,
-      "name" : "Beam when Shooting"
-   },
-   {
-      "description" : "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as models in the target unit.",
-      "id" : 88,
-      "name" : "Blast"
-   },
-   {
-      "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. This model and other casters within 18” in line of sight may spend any number of tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
-      "id" : 849,
-      "name" : "Caster"
-   },
-   {
-      "description" : "Strikes first with this weapon when charged, and the charging unit gets -1 total Impact rolls per model with Counter in the two front rows if charging in the front.",
-      "id" : 81,
-      "name" : "Counter"
-   },
-   {
-      "description" : "This model's melee weapons get Counter.",
-      "id" : 875,
-      "name" : "Counter in Melee"
-   },
-   {
-      "description" : "Assign each wound to one model, and multiply it by X. Hits from Deadly must be resolved first, and these wounds don’t carry over to other models if the original target is killed.",
-      "id" : 89,
-      "name" : "Deadly"
-   },
-   {
-      "description" : "Gets +X to Defense rolls.",
-      "id" : 22,
-      "name" : "Defense"
-   },
-   {
-      "description" : "Enemies get -2 to hit when shooting at this model from over 9” away, as long as it hasn’t moved since the beginning of its last activation.",
-      "id" : 61,
-      "name" : "Entrenched"
-   },
-   {
-      "description" : "Moves +2” when using Advance, and +4” when using Rush/Charge.",
-      "id" : 63,
-      "name" : "Fast"
-   },
-   {
-      "description" : "Counts as having dealt +X wounds when checking who won melee.",
-      "id" : 64,
-      "name" : "Fear"
-   },
-   {
-      "description" : "Whenever a unit where most models have this rule fails a morale test, roll one die. On a 4+ it counts as passed instead.",
-      "id" : 65,
-      "name" : "Fearless"
-   },
-   {
-      "description" : "May move through obstacles, and ignores terrain effects when moving.",
-      "id" : 573,
-      "name" : "Flying"
-   },
-   {
-      "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
-      "id" : 67,
-      "name" : "Furious"
-   },
-   {
-      "description" : "Heroes with up to Tough(6) may deploy as part of one multi-model unit without another Hero. The hero may take morale tests on behalf of the unit, but must use the unit’s Defense until all other models have been killed.",
-      "id" : 68,
-      "name" : "Hero"
-   },
-   {
-      "description" : "This weapon ignores cover.",
-      "id" : 90,
-      "name" : "Ignores Cover"
-   },
-   {
-      "description" : "This model's ranged weapons get Ignores Cover.",
-      "id" : 881,
-      "name" : "Ignores Cover when Shooting"
-   },
-   {
-      "description" : "May only use Hold actions.",
-      "id" : 69,
-      "name" : "Immobile"
-   },
-   {
-      "description" : "Roll X dice when attacking after charging (may not be fatigued), for each 2+ the target takes one hit.",
-      "id" : 70,
-      "name" : "Impact"
-   },
-   {
-      "description" : "May target enemies that are not in line of sight, and ignores cover from sight obstructions, but gets -1 to hit rolls when shooting after moving.",
-      "id" : 91,
-      "name" : "Indirect"
-   },
-   {
-      "description" : "This model's ranged weapons get Indirect.",
-      "id" : 876,
-      "name" : "Indirect when Shooting"
-   },
-   {
-      "description" : "Gets AP(+2) when charging.",
-      "id" : 843,
-      "name" : "Lance"
-   },
-   {
-      "description" : "This model's melee weapons get Lance.",
-      "id" : 877,
-      "name" : "Lance in Melee"
-   },
-   {
-      "description" : "May only be used once.",
-      "id" : 1013,
-      "name" : "Limited"
-   },
-   {
-      "description" : "Ignores cover and all negative modifiers to hit rolls and range.",
-      "id" : 86,
-      "name" : "Lock-On"
-   },
-   {
-      "description" : "This model's ranged weapons get Magma.",
-      "id" : 884,
-      "name" : "Magma when Shooting"
-   },
-   {
-      "description" : "This model and its unit move by +1” when taking move actions.",
-      "id" : 860,
-      "name" : "Musician"
-   },
-   {
-      "description" : "Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.",
-      "id" : 92,
-      "name" : "Poison"
-   },
-   {
-      "description" : "This model's melee weapons get Poison.",
-      "id" : 872,
-      "name" : "Poison in Melee"
-   },
-   {
-      "description" : "This model's ranged weapons get Poison.",
-      "id" : 873,
-      "name" : "Poison when Shooting"
-   },
-   {
-      "description" : "When taking a wound, roll one die. On a 5+ it is ignored.",
-      "id" : 75,
-      "name" : "Regeneration"
-   },
-   {
-      "description" : "When using Hold actions and shooting, unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-      "id" : 74,
-      "name" : "Relentless"
-   },
-   {
-      "description" : "Attacks at Quality 2+.",
-      "id" : 844,
-      "name" : "Reliable"
-   },
-   {
-      "description" : "Ignores Regeneration, and unmodified results of 6 to hit get AP(4).",
-      "id" : 93,
-      "name" : "Rending"
-   },
-   {
-      "description" : "This model's melee weapons get Rending.",
-      "id" : 878,
-      "name" : "Rending in Melee"
-   },
-   {
-      "description" : "This model's ranged weapons get Rending.",
-      "id" : 879,
-      "name" : "Rending when Shooting"
-   },
-   {
-      "description" : "May be set aside before deployment. After all other units finish, must be deployed and may move by up to 12”, ignoring terrain. If both players have Scout, roll-off to see who goes first, and then alternate deploying units.",
-      "id" : 76,
-      "name" : "Scout"
-   },
-   {
-      "description" : "This model gets +1 to hit rolls.",
-      "id" : 83,
-      "name" : "Sergeant"
-   },
-   {
-      "description" : "Moves -2” when using Advance, and -4” when using Rush/Charge.",
-      "id" : 77,
-      "name" : "Slow"
-   },
-   {
-      "description" : "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1.",
-      "id" : 94,
-      "name" : "Sniper"
-   },
-   {
-      "description" : "This model's ranged weapons get Sniper.",
-      "id" : 880,
-      "name" : "Sniper when Shooting"
-   },
-   {
-      "description" : "Enemies get -1 to hit rolls when shooting at units where all models have this rule from over 9\" away.",
-      "id" : 78,
-      "name" : "Stealth"
-   },
-   {
-      "description" : "May ignore the effects of difficult terrain when moving. ",
-      "id" : 79,
-      "name" : "Strider"
-   },
-   {
-      "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
-      "id" : 80,
-      "name" : "Tough"
-   },
-   {
-      "description" : "May transport up to X models or Heroes with up to Tough(6), and non-Heroes with up to Tough(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay within 6” of it when exiting. When a transport is destroyed, units inside must take a dangerous terrain test, are immediately Shaken, and surviving models must be placed within 6” of the transport before removing it.",
-      "id" : 73,
-      "name" : "Transport"
-   }
-]
+{
+   "rules" : [
+      {
+         "description" : "Must deploy before all other units. Ignores all units and terrain when moving and stopping, can’t seize objectives, and can’t be moved in contact with. May only use Advance actions, moving in a straight line by 30”-36” without turning. If it moves off-table, it ends its activation, and must deploy on any table edge at the beginning of the next round. Units targeting Aircraft get -12” range and -1 to hit rolls.",
+         "id" : "3FeiOe3krHMa",
+         "name" : "Aircraft"
+      },
+      {
+         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 12” away from enemy units. If both players have Ambush, roll-off to see who goes first, and then alternate deploying units. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
+         "id" : "6mJw5IdqSqNC",
+         "name" : "Ambush"
+      },
+      {
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "id" : "17crjK7P6_w6",
+         "name" : "AP"
+      },
+      {
+         "description" : "This model's melee weapons get AP(+1).",
+         "id" : "dXIyxxpzYh-6",
+         "name" : "AP(+1) in Melee"
+      },
+      {
+         "description" : "This model's ranged weapons get AP(+1).",
+         "id" : "WQAR5CBvkiCm",
+         "name" : "AP(+1) when Shooting"
+      },
+      {
+         "description" : "This model's melee weapons get AP(4).",
+         "id" : "Od0t8Hxi1Dmh",
+         "name" : "AP(4) in Melee"
+      },
+      {
+         "description" : "This model and its unit get +1 to morale test rolls.",
+         "id" : "ywXKQKPOLjTF",
+         "name" : "Banner"
+      },
+      {
+         "description" : "This model's ranged weapons get Beam.",
+         "id" : "9q1yOOuDz4GD",
+         "name" : "Beam when Shooting"
+      },
+      {
+         "description" : "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as models in the target unit.",
+         "id" : "w_vX0mi58KKt",
+         "name" : "Blast"
+      },
+      {
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. This model and other casters within 18” in line of sight may spend any number of tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster"
+      },
+      {
+         "description" : "Strikes first with this weapon when charged, and the charging unit gets -1 total Impact rolls per model with Counter in the two front rows if charging in the front.",
+         "id" : "c45Fw0D2oGOk",
+         "name" : "Counter"
+      },
+      {
+         "description" : "This model's melee weapons get Counter.",
+         "id" : "qzwC_3btlkuQ",
+         "name" : "Counter in Melee"
+      },
+      {
+         "description" : "Assign each wound to one model, and multiply it by X. Hits from Deadly must be resolved first, and these wounds don’t carry over to other models if the original target is killed.",
+         "id" : "_mrPya5SXSqW",
+         "name" : "Deadly"
+      },
+      {
+         "description" : "Gets +X to Defense rolls.",
+         "id" : "74RjQ1k41DoO",
+         "name" : "Defense"
+      },
+      {
+         "description" : "Enemies get -2 to hit when shooting at this model from over 9” away, as long as it hasn’t moved since the beginning of its last activation.",
+         "id" : "wHfLIdlnEQ1a",
+         "name" : "Entrenched"
+      },
+      {
+         "description" : "Moves +2” when using Advance, and +4” when using Rush/Charge.",
+         "id" : "KdgwlPb8LuD2",
+         "name" : "Fast"
+      },
+      {
+         "description" : "Counts as having dealt +X wounds when checking who won melee.",
+         "id" : "dIQ3SGl2J2Ew",
+         "name" : "Fear"
+      },
+      {
+         "description" : "Whenever a unit where most models have this rule fails a morale test, roll one die. On a 4+ it counts as passed instead.",
+         "id" : "2atvlmICQSCV",
+         "name" : "Fearless"
+      },
+      {
+         "description" : "May move through obstacles, and ignores terrain effects when moving.",
+         "id" : "-QJdqJEKjIpE",
+         "name" : "Flying"
+      },
+      {
+         "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "id" : "JoOCVPx1xT1G",
+         "name" : "Furious"
+      },
+      {
+         "description" : "Heroes with up to Tough(6) may deploy as part of one multi-model unit without another Hero. The hero may take morale tests on behalf of the unit, but must use the unit’s Defense until all other models have been killed.",
+         "id" : "T08VkBuVmNZ_",
+         "name" : "Hero"
+      },
+      {
+         "description" : "This weapon ignores cover.",
+         "id" : "efmjJPTe0Yzd",
+         "name" : "Ignores Cover"
+      },
+      {
+         "description" : "This model's ranged weapons get Ignores Cover.",
+         "id" : "jM5Fa1yw8Tm6",
+         "name" : "Ignores Cover when Shooting"
+      },
+      {
+         "description" : "May only use Hold actions.",
+         "id" : "HWtnPV9LQF1D",
+         "name" : "Immobile"
+      },
+      {
+         "description" : "Roll X dice when attacking after charging (may not be fatigued), for each 2+ the target takes one hit.",
+         "id" : "62-mYKVM9MLd",
+         "name" : "Impact"
+      },
+      {
+         "description" : "May target enemies that are not in line of sight, and ignores cover from sight obstructions, but gets -1 to hit rolls when shooting after moving.",
+         "id" : "8Ck9GAwUK824",
+         "name" : "Indirect"
+      },
+      {
+         "description" : "This model's ranged weapons get Indirect.",
+         "id" : "pQ1Vs5Z5X8yc",
+         "name" : "Indirect when Shooting"
+      },
+      {
+         "description" : "Gets AP(+2) when charging.",
+         "id" : "umbiz4tnEyF8",
+         "name" : "Lance"
+      },
+      {
+         "description" : "This model's melee weapons get Lance.",
+         "id" : "PmeEdujeBnNT",
+         "name" : "Lance in Melee"
+      },
+      {
+         "description" : "May only be used once.",
+         "id" : "9042COVrLCsI",
+         "name" : "Limited"
+      },
+      {
+         "description" : "Ignores cover and all negative modifiers to hit rolls and range.",
+         "id" : "QXyt-zV_bjpg",
+         "name" : "Lock-On"
+      },
+      {
+         "description" : "This model's ranged weapons get Magma.",
+         "id" : "jtJeaQ4yJOdG",
+         "name" : "Magma when Shooting"
+      },
+      {
+         "description" : "This model and its unit move by +1” when taking move actions.",
+         "id" : "qrG_DXJez5Dg",
+         "name" : "Musician"
+      },
+      {
+         "description" : "Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.",
+         "id" : "Naqc5mga9Uha",
+         "name" : "Poison"
+      },
+      {
+         "description" : "This model's melee weapons get Poison.",
+         "id" : "lFp16bk55gKW",
+         "name" : "Poison in Melee"
+      },
+      {
+         "description" : "This model's ranged weapons get Poison.",
+         "id" : "av3bc-cMLHEU",
+         "name" : "Poison when Shooting"
+      },
+      {
+         "description" : "When taking a wound, roll one die. On a 5+ it is ignored.",
+         "id" : "8KujvrTG8k9p",
+         "name" : "Regeneration"
+      },
+      {
+         "description" : "When using Hold actions and shooting, unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "id" : "H9E9PIWpGRdw",
+         "name" : "Relentless"
+      },
+      {
+         "description" : "Attacks at Quality 2+.",
+         "id" : "Zx4mWN0SbmK8",
+         "name" : "Reliable"
+      },
+      {
+         "description" : "Ignores Regeneration, and unmodified results of 6 to hit get AP(4).",
+         "id" : "cavWDboL4ubs",
+         "name" : "Rending"
+      },
+      {
+         "description" : "This model's melee weapons get Rending.",
+         "id" : "9XKGY848ZScT",
+         "name" : "Rending in Melee"
+      },
+      {
+         "description" : "This model's ranged weapons get Rending.",
+         "id" : "4moEzgA4Lnzu",
+         "name" : "Rending when Shooting"
+      },
+      {
+         "description" : "May be set aside before deployment. After all other units finish, must be deployed and may move by up to 12”, ignoring terrain. If both players have Scout, roll-off to see who goes first, and then alternate deploying units.",
+         "id" : "FAMbscK5vhSu",
+         "name" : "Scout"
+      },
+      {
+         "description" : "This model gets +1 to hit rolls.",
+         "id" : "8HWdOwMYcI0p",
+         "name" : "Sergeant"
+      },
+      {
+         "description" : "Moves -2” when using Advance, and -4” when using Rush/Charge.",
+         "id" : "Ldhtmr4H8b6G",
+         "name" : "Slow"
+      },
+      {
+         "description" : "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1.",
+         "id" : "LGYXUcXfcJac",
+         "name" : "Sniper"
+      },
+      {
+         "description" : "This model's ranged weapons get Sniper.",
+         "id" : "LIP4xWyDdYkE",
+         "name" : "Sniper when Shooting"
+      },
+      {
+         "description" : "Enemies get -1 to hit rolls when shooting at units where all models have this rule from over 9\" away.",
+         "id" : "9jyvRoBODD-O",
+         "name" : "Stealth"
+      },
+      {
+         "description" : "May ignore the effects of difficult terrain when moving. ",
+         "id" : "JSKVyurtWIyW",
+         "name" : "Strider"
+      },
+      {
+         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
+         "id" : "a0YtInGiUDd6",
+         "name" : "Tough"
+      },
+      {
+         "description" : "May transport up to X models or Heroes with up to Tough(6), and non-Heroes with up to Tough(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay within 6” of it when exiting. When a transport is destroyed, units inside must take a dangerous terrain test, are immediately Shaken, and surviving models must be placed within 6” of the transport before removing it.",
+         "id" : "aogQZcOOQrDI",
+         "name" : "Transport"
+      }
+   ],
+   "traits" : [
+      {
+         "campaign" : true,
+         "description" : "The hero ignores difficult terrain effects.",
+         "id" : "pBR-QW17pjHk",
+         "name" : "Climber",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Moves +1” on advance and +2” on rush and charge.",
+         "id" : "hiagKvNsOM20",
+         "name" : "Agile",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6” of the Hero get +1 to hit when shooting.",
+         "id" : "b3IvWc00wOKz",
+         "name" : "Tactician",
+         "skillSet" : "Captain",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero may shoot even after rush actions.",
+         "id" : "Y7bfyRCJxIRt",
+         "name" : "Hunter",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Remove the hero from your army sheet.",
+         "id" : "_eH8ha6fF-o8",
+         "name" : "Dead",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units within 6” of the Hero get +1 to morale test rolls.",
+         "id" : "Ptk6pCHYAE5R",
+         "name" : "Leader",
+         "skillSet" : "Captain",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero gets AP(+1) when shooting.",
+         "id" : "zn4TDsCqqpNY",
+         "name" : "Destroyer",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when in melee.",
+         "id" : "z41zENyo3kqr",
+         "name" : "Arm Injury",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Moves -1” on advance and -2” on rush and charge actions.",
+         "id" : "pkVg1PtDvSrT",
+         "name" : "Smashed Leg",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units within 6” of the Hero get -1 Defense.",
+         "id" : "EGqZa9aHpJuA",
+         "name" : "Mastermind",
+         "skillSet" : "Support",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
+         "id" : "1X8qwmnAx7zH",
+         "name" : "Suppressor",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when blocking hits.",
+         "id" : "5Fk4ZrL0aMsd",
+         "name" : "Chest Wound",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "May pick any other trait from the list.",
+         "id" : "CR2fiwz197J5",
+         "name" : "Fast Learner",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to hit against enemy heroes.",
+         "id" : "F22Oi8eBT14B",
+         "name" : "Bitter Rivalry",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6” move +4” when using Charge actions.",
+         "id" : "5FaqLcntZqCn",
+         "name" : "Vanguard",
+         "skillSet" : "Support",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero always moves +2” (even in terrain).",
+         "id" : "v3_8JnEoKVRl",
+         "name" : "Runner",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units further than 12” get -1 to hit rolls when shooting at the hero.",
+         "id" : "TzWvsygpdGTW",
+         "name" : "Prowler",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when taking morale tests.",
+         "id" : "UaKBFqWpoqh5",
+         "name" : "Traumatized",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "When the hero is activated all friendly units within 6” of the hero stop being shaken.",
+         "id" : "SzTrZqhTR0B3",
+         "name" : "Warden",
+         "skillSet" : "Healer",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to rolls when blocking hits.",
+         "id" : "x4cVUdcHv7xH",
+         "name" : "Resilient",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Always passes the first morale test of the match.",
+         "id" : "P-v7MVazLrsj",
+         "name" : "Motivated",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero gets +1 attack when in melee.",
+         "id" : "hP5o_avSAEDF",
+         "name" : "Fanatic",
+         "skillSet" : "Fighter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemies get -1 to morale test rolls when in melee with the hero.",
+         "id" : "Y5PogWw-dOua",
+         "name" : "Berserker",
+         "skillSet" : "Fighter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when shooting.",
+         "id" : "AILF-vySXt6E",
+         "name" : "Blinded Eye",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero recovers and gets +1 XP.",
+         "id" : "jVtk2swsNw5H",
+         "name" : "Natural Talent",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units get -1 to hit when in melee against the hero.",
+         "id" : "BHoKITdB4x64",
+         "name" : "Horrible Scars",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units within 6” of the Hero get +1 to morale tests when in melee.",
+         "id" : "tX9l1C2VKmjD",
+         "name" : "Chemist",
+         "skillSet" : "Healer",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to rolls in melee or shooting (pick one).",
+         "id" : "4PeGOHXKO3XI",
+         "name" : "Specialist",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units within 6” may ignore wounds on a roll of 6+.",
+         "id" : "D8Qd0Fo-fxaP",
+         "name" : "Herbalist",
+         "skillSet" : "Healer",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to rolls when taking morale tests.",
+         "id" : "OqKHcKa33Z7O",
+         "name" : "Headstrong",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "May re-roll one roll of any kind once per game.",
+         "id" : "6I603fnrXO8P",
+         "name" : "Elite",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 attack in melee when charging.",
+         "id" : "fA9h7z0DFKgl",
+         "name" : "Crazed",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6” of the Hero get +1 to hit when in melee.",
+         "id" : "WhQW_mmIt6no",
+         "name" : "Instigator",
+         "skillSet" : "Captain",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units get -1 in melee against the hero.",
+         "id" : "r2keEvl4bbGu",
+         "name" : "Duellist",
+         "skillSet" : "Fighter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets Tough(+1).",
+         "id" : "2gz89dFkFOpA",
+         "name" : "Toughened",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6” of the Hero get +6” range when shooting.",
+         "id" : "QHfTFom-JFN4",
+         "name" : "Scavenger",
+         "skillSet" : "Support",
+         "type" : 3
+      }
+   ]
+}

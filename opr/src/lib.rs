@@ -203,6 +203,13 @@ mod unit_upgrade_option {
     }
 }
 
+#[derive(PartialEq, Debug, Deserialize, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct CommonRules {
+    pub rules: Vec<Rc<SpecialRuleDef>>,
+    // traits
+}
+
 // higher-level than deserialization
 
 impl Unit {
