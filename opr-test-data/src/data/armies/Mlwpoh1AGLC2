@@ -15,130 +15,130 @@
    "selectedUnitId" : null,
    "specialRules" : [
       {
-         "aliasedRuleId" : 51,
+         "aliasedRuleId" : "gOFh4u_LGrwP",
          "description" : "This model and its unit get Ambush.",
          "hasRating" : false,
-         "id" : 51,
+         "id" : "gOFh4u_LGrwP",
          "name" : "Shadow-Protocol"
       },
       {
-         "aliasedRuleId" : 162,
-         "description" : "This model and its unit may ignore the Slow rule.",
-         "hasRating" : false,
-         "id" : 162,
-         "name" : "Royal March"
-      },
-      {
-         "aliasedRuleId" : 159,
+         "aliasedRuleId" : "KQMfAioCQSSV",
          "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get Regeneration next time they take wounds.",
          "hasRating" : false,
-         "id" : 159,
+         "id" : "KQMfAioCQSSV",
          "name" : "Reanimator"
       },
       {
-         "aliasedRuleId" : 561,
+         "aliasedRuleId" : "V3YzPPkZm8at",
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
-         "id" : 561,
+         "id" : "V3YzPPkZm8at",
          "name" : "Regen-Protocol"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick one friendly unit within 12”, which may ignore the Slow rule next time it moves.",
-         "hasRating" : false,
-         "id" : 269,
-         "name" : "Royal March Order"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
-         "hasRating" : false,
-         "id" : 262,
-         "name" : "Spell Master"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
          "hasRating" : false,
-         "id" : 263,
+         "id" : "NU_zB3p0uJIP",
          "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per this unit's activation, pick one friendly unit within 12”, which may ignore the Slow rule next time it moves.",
+         "hasRating" : false,
+         "id" : "tGtFFP5259Kd",
+         "name" : "Royal March Order"
       },
       {
          "aliasedRuleId" : null,
          "description" : "This model may ignore the Slow rule.",
          "hasRating" : false,
-         "id" : 165,
+         "id" : "leFm23MTiJxO",
          "name" : "Swift"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Counts as having the Ambush rule, and gets AP(+3) when shooting on the round in which it deploys.",
-         "hasRating" : false,
-         "id" : 261,
-         "name" : "Hunter"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it.",
          "hasRating" : true,
-         "id" : 1063,
+         "id" : "ZHykLbU6nUWl",
          "name" : "Spawn"
       },
       {
          "aliasedRuleId" : null,
          "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
          "hasRating" : false,
-         "id" : 964,
+         "id" : "AlIZbh-afBYi",
          "name" : "Self-Repair"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : 858,
-         "name" : "Shield Wall"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
-         "hasRating" : false,
-         "id" : 126,
-         "name" : "Repair"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
          "hasRating" : false,
-         "id" : 370,
+         "id" : "C6MzEy1CnxTs",
          "name" : "Warning Cry"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units.",
+         "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
-         "id" : 166,
-         "name" : "Tunneller"
+         "id" : "mETdyZ__yMVj",
+         "name" : "Repair"
       },
       {
-         "aliasedRuleId" : 149,
-         "description" : "When this model and its unit take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "aliasedRuleId" : null,
+         "description" : "Counts as having the Ambush rule, and gets AP(+3) when shooting on the round in which it deploys.",
          "hasRating" : false,
-         "id" : 149,
-         "name" : "Gloom-Protocol"
-      },
-      {
-         "aliasedRuleId" : 216,
-         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
-         "hasRating" : false,
-         "id" : 216,
-         "name" : "Robot"
+         "id" : "CCShas9-9K4N",
+         "name" : "Hunter"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : 846,
+         "id" : "5v6oaGfrdf29",
          "name" : "Flux"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
+         "hasRating" : false,
+         "id" : "A_CGmdvlO0Lr",
+         "name" : "Spell Master"
+      },
+      {
+         "aliasedRuleId" : "LRFrnVp661tS",
+         "description" : "This model and its unit may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : "LRFrnVp661tS",
+         "name" : "Royal March"
+      },
+      {
+         "aliasedRuleId" : "B--NHwOGx3_9",
+         "description" : "When this model and its unit take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : "B--NHwOGx3_9",
+         "name" : "Gloom-Protocol"
+      },
+      {
+         "aliasedRuleId" : "O2Cd7OibBBA5",
+         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : "O2Cd7OibBBA5",
+         "name" : "Robot"
       }
    ],
    "undoUnitRemove" : [
@@ -321,7 +321,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "lHXrl4TZw",
+                     "upgradeInstanceId" : "j7uQvnfV1",
                      "variant" : "replace"
                   }
                ],
@@ -340,7 +340,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "lHXrl4TZw",
+                     "upgradeInstanceId" : "j7uQvnfV1",
                      "variant" : "replace"
                   }
                ],
@@ -429,7 +429,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "SngrjEHnS",
+               "instanceId" : "Nw7Oq43FO",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -468,37 +468,15 @@
                   "id" : "iUPolg0",
                   "label" : "Chronomancer (Shadow-Protocol)",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
-                        "unitName" : "Robot Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
-                        "unitName" : "Annihilator Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
-                        "unitName" : "Tri-Scorpion Lord"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "iUPolg0"
                },
                "upgrade" : {
-                  "id" : "AEQFDeK",
+                  "id" : "x-LBbD7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -510,7 +488,7 @@
                }
             },
             {
-               "instanceId" : "lHXrl4TZw",
+               "instanceId" : "j7uQvnfV1",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -571,36 +549,14 @@
                   "id" : "-3YN10I",
                   "label" : "Staff-Shots (12\", A3, AP(1)), Combat Staff (A3, AP(1))",
                   "parentPackageUid" : "A1",
+                  "parentSectionId" : "If4pcVH",
                   "parentSectionUid" : "If4pcVH",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "13.8",
-                        "newCostRounded" : 15,
-                        "unitName" : "Robot Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "13.8",
-                        "newCostRounded" : 15,
-                        "unitName" : "Annihilator Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "13.8",
-                        "newCostRounded" : 15,
-                        "unitName" : "Support Platform"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "-3YN10I"
                },
                "upgrade" : {
-                  "id" : "J4lcYwE",
+                  "id" : "ZxT_RXT",
                   "label" : "Replace  Lord Gauss Pistol and CCW",
-                  "options" : null,
                   "parentPackageUid" : "A1",
                   "targets" : [
                      "Lord Gauss Pistol",
@@ -681,7 +637,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "H4g4UvtEa",
+                     "upgradeInstanceId" : "FF3j73iw_",
                      "variant" : "replace"
                   }
                ],
@@ -725,7 +681,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "H4g4UvtEa",
+                     "upgradeInstanceId" : "FF3j73iw_",
                      "variant" : "replace"
                   }
                ],
@@ -780,7 +736,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "H4g4UvtEa",
+               "instanceId" : "FF3j73iw_",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -823,17 +779,8 @@
                   "id" : "bhUJI",
                   "label" : "Ray Caster (30\", A3, AP(2), Lock-On)",
                   "parentPackageUid" : "E1",
+                  "parentSectionId" : "869IcMY",
                   "parentSectionUid" : "869IcMY",
-                  "proposedCost" : 85,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "48.7",
-                        "newCostRounded" : 50,
-                        "unitName" : "Warriors"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "bhUJI"
                },
@@ -842,9 +789,8 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "JliMsl-",
+                  "id" : "bdr3Gd9",
                   "label" : "Replace one Gauss Rifle",
-                  "options" : null,
                   "parentPackageUid" : "E1",
                   "targets" : [
                      "Gauss Rifle"
@@ -1076,7 +1022,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "lGX_VT25u",
+                     "upgradeInstanceId" : "Yq33ItpTV",
                      "variant" : "replace"
                   }
                ],
@@ -1095,7 +1041,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "9f0mRDQFv",
+                     "upgradeInstanceId" : "sE945e1SX",
                      "variant" : "replace"
                   }
                ],
@@ -1193,7 +1139,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "6m-Sxpin6",
+               "instanceId" : "mnroSzqdl",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -1232,37 +1178,15 @@
                   "id" : "AZDWCqf",
                   "label" : "Overseer (Royal March)",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
-                        "unitName" : "Robot Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
-                        "unitName" : "Annihilator Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "24.0",
-                        "newCostRounded" : 25,
-                        "unitName" : "Tri-Scorpion Lord"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "AZDWCqf"
                },
                "upgrade" : {
-                  "id" : "AEQFDeK",
+                  "id" : "x-LBbD7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -1274,7 +1198,7 @@
                }
             },
             {
-               "instanceId" : "9f0mRDQFv",
+               "instanceId" : "sE945e1SX",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1324,36 +1248,14 @@
                   "id" : "Wf-4yd5",
                   "label" : "Wrist-Flamer (12\", A1, Blast(3), Reliable)",
                   "parentPackageUid" : "A1",
+                  "parentSectionId" : "i2wAxsw",
                   "parentSectionUid" : "i2wAxsw",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "5.0",
-                        "newCostRounded" : 5,
-                        "unitName" : "Robot Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "5.0",
-                        "newCostRounded" : 5,
-                        "unitName" : "Annihilator Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "5.0",
-                        "newCostRounded" : 5,
-                        "unitName" : "Support Platform"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "Wf-4yd5"
                },
                "upgrade" : {
-                  "id" : "0hH1xhN",
+                  "id" : "w5I5byD",
                   "label" : "Replace  Lord Gauss Pistol",
-                  "options" : null,
                   "parentPackageUid" : "A1",
                   "targets" : [
                      "Lord Gauss Pistol"
@@ -1364,7 +1266,7 @@
                }
             },
             {
-               "instanceId" : "lGX_VT25u",
+               "instanceId" : "Yq33ItpTV",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1406,35 +1308,14 @@
                   "id" : "cYskqiN",
                   "label" : "Doom Scythe (A1, AP(2), Deadly(3))",
                   "parentPackageUid" : "A1",
+                  "parentSectionId" : "nl8X7bN",
                   "parentSectionUid" : "nl8X7bN",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Robot Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Annihilator Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Support Platform"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "cYskqiN"
                },
                "upgrade" : {
-                  "id" : "kqh9mfY",
+                  "id" : "q9IySNF",
                   "label" : "Replace CCW",
-                  "options" : null,
                   "parentPackageUid" : "A1",
                   "targets" : [
                      "CCW"
@@ -1514,7 +1395,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "hVXzE7Rke",
+                     "upgradeInstanceId" : "tJKErwz23",
                      "variant" : "replace"
                   }
                ],
@@ -1579,7 +1460,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "hVXzE7Rke",
+               "instanceId" : "tJKErwz23",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -1614,17 +1495,8 @@
                   "id" : "r_yHp",
                   "label" : "Reaper Rifle (18\", A1, AP(2))",
                   "parentPackageUid" : "E1",
+                  "parentSectionId" : "sPruWe5",
                   "parentSectionUid" : "sPruWe5",
-                  "proposedCost" : -5,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "-6.5",
-                        "newCostRounded" : -5,
-                        "unitName" : "Warriors"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "r_yHp"
                },
@@ -1632,9 +1504,8 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "jGBmfBE",
+                  "id" : "-pQi8wa",
                   "label" : "Replace all Gauss Rifles",
-                  "options" : null,
                   "parentPackageUid" : "E1",
                   "targets" : [
                      "Gauss Rifles"
@@ -1863,7 +1734,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "NtpUObcRv",
+                     "upgradeInstanceId" : "8QdqLYcN_",
                      "variant" : "replace"
                   }
                ],
@@ -1927,7 +1798,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "NtpUObcRv",
+               "instanceId" : "8QdqLYcN_",
                "option" : {
                   "cost" : 55,
                   "costs" : [
@@ -1961,17 +1832,8 @@
                   "id" : "4wl6uX1",
                   "label" : "Heavy Gauss Rifle (24\", A2, Rending)",
                   "parentPackageUid" : "F1",
+                  "parentSectionId" : "Lo_uRxc",
                   "parentSectionUid" : "Lo_uRxc",
-                  "proposedCost" : 15,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.0",
-                        "newCostRounded" : 55,
-                        "unitName" : "Eternals"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "4wl6uX1"
                },
@@ -1979,9 +1841,8 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "YZPezHl",
+                  "id" : "psdGzUN",
                   "label" : "Replace all Flux Carbines",
-                  "options" : null,
                   "parentPackageUid" : "F1",
                   "targets" : [
                      "Flux Carbines"
@@ -2307,7 +2168,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "CXX7KDoWX",
+               "instanceId" : "3Hs4AMclV",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2346,37 +2207,15 @@
                   "id" : "pAgesdx",
                   "label" : "Technomancer (Caster(2))",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
-                  "proposedCost" : 20,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Robot Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Annihilator Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Tri-Scorpion Lord"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "pAgesdx"
                },
                "upgrade" : {
-                  "id" : "AEQFDeK",
+                  "id" : "x-LBbD7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -2444,7 +2283,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "AH8iFm5cV",
+                     "upgradeInstanceId" : "Nvaepp1Vm",
                      "variant" : "replace"
                   }
                ],
@@ -2470,7 +2309,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "AH8iFm5cV",
+                     "upgradeInstanceId" : "Nvaepp1Vm",
                      "variant" : "replace"
                   }
                ],
@@ -2542,7 +2381,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "AH8iFm5cV",
+               "instanceId" : "Nvaepp1Vm",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2602,17 +2441,8 @@
                   "id" : "dCcieks",
                   "label" : "Hyper Sword (A2, AP(1), Rending), Combat Shields (Shield Wall)",
                   "parentPackageUid" : "G1",
+                  "parentSectionId" : "lLgBGjy",
                   "parentSectionUid" : "lLgBGjy",
-                  "proposedCost" : -10,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "12.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Guardians"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "dCcieks"
                },
@@ -2620,9 +2450,8 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "RJOBFwL",
+                  "id" : "VukiBPv",
                   "label" : "Replace all Atom-Casters and Void Blades",
-                  "options" : null,
                   "parentPackageUid" : "G1",
                   "targets" : [
                      "Atom-Casters",

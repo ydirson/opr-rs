@@ -18,105 +18,105 @@
          "aliasedRuleId" : null,
          "description" : "This model automatically passes all morale test. If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
          "hasRating" : true,
-         "id" : 96,
+         "id" : "F_1wfmpAyYwT",
          "name" : "Explode"
       },
       {
-         "aliasedRuleId" : 98,
+         "aliasedRuleId" : "IEJp3a4vE0CB",
          "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
          "hasRating" : false,
-         "id" : 98,
+         "id" : "IEJp3a4vE0CB",
          "name" : "Exploding Spores"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
          "hasRating" : false,
-         "id" : 263,
+         "id" : "NU_zB3p0uJIP",
          "name" : "Spell Warden"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6” of it.",
          "hasRating" : true,
-         "id" : 1063,
+         "id" : "ZHykLbU6nUWl",
          "name" : "Spawn"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6” in line of sight takes 1 hit with Blast(3) and AP(1).",
          "hasRating" : false,
-         "id" : 62,
+         "id" : "fHg1uKwkuiBP",
          "name" : "Breath Attack"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
          "hasRating" : null,
-         "id" : 1012,
+         "id" : "4Nay818dLPu2",
          "name" : "Poison Mist"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).",
-         "hasRating" : true,
-         "id" : 110,
-         "name" : "Surprise Attack"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get Stealth next time they are shot at.",
          "hasRating" : false,
-         "id" : 121,
+         "id" : "cnKvLv8ErzIc",
          "name" : "Shrouding Mist"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Whenever this model takes a wound in melee, the attacker takes 1 hit.",
          "hasRating" : false,
-         "id" : 115,
+         "id" : "zCjAFXut7Gsg",
          "name" : "Corrosive"
       },
       {
-         "aliasedRuleId" : 424,
+         "aliasedRuleId" : "5XvPNuYy1sW1",
          "description" : "Once per this unit's activation, before attacking, pick one other friendly unit within 12”, which may move by up to 6\".",
          "hasRating" : false,
-         "id" : 424,
+         "id" : "5XvPNuYy1sW1",
          "name" : "Pheromones"
       },
       {
-         "aliasedRuleId" : 221,
+         "aliasedRuleId" : "nLQCr5OiSlYz",
          "description" : "This model counts as having Caster(1). All models with this rule in a unit share spell tokens, but lose all unspent tokens at the end of the round, and only one of them may cast spells each round.",
          "hasRating" : false,
-         "id" : 221,
+         "id" : "nLQCr5OiSlYz",
          "name" : "Psychic Synapse"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
          "hasRating" : false,
-         "id" : 97,
+         "id" : "eyMkgYDVrP7C",
          "name" : "Takedown"
       },
       {
-         "aliasedRuleId" : 281,
+         "aliasedRuleId" : "h-Cj1XrX00JE",
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
-         "id" : 281,
+         "id" : "h-Cj1XrX00JE",
          "name" : "Psy-Barrier"
       },
       {
-         "aliasedRuleId" : 216,
+         "aliasedRuleId" : "O2Cd7OibBBA5",
          "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
-         "id" : 216,
+         "id" : "O2Cd7OibBBA5",
          "name" : "No Retreat"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1” away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).",
+         "hasRating" : true,
+         "id" : "99DXMN96LnI8",
+         "name" : "Surprise Attack"
       },
       {
          "aliasedRuleId" : null,
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
-         "id" : 281,
+         "id" : "h-Cj1XrX00JE",
          "name" : "Resistance"
       }
    ],
@@ -238,7 +238,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "1Tdh7qWeG",
+               "instanceId" : "oDDppB6AO",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -278,37 +278,15 @@
                   "id" : "WbrXk",
                   "label" : "Brood Leader (Pheromones)",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "iiWjuL3",
                   "parentSectionUid" : "iiWjuL3",
-                  "proposedCost" : 35,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "48.0",
-                        "newCostRounded" : 50,
-                        "unitName" : "Hive Lord"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "48.0",
-                        "newCostRounded" : 50,
-                        "unitName" : "Prime Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "48.0",
-                        "newCostRounded" : 50,
-                        "unitName" : "Veteran Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "WbrXk"
                },
                "upgrade" : {
-                  "id" : "GUa0Zrs",
+                  "id" : "LpHu85v",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with any",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "any"
@@ -483,12 +461,12 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Dom1IEUvA",
+                     "upgradeInstanceId" : "tAfZDeSKQ",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "D2hB8vZFY",
+                     "upgradeInstanceId" : "hTyV-s6UY",
                      "variant" : "replace"
                   }
                ],
@@ -555,7 +533,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Dom1IEUvA",
+               "instanceId" : "tAfZDeSKQ",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -593,22 +571,8 @@
                   "id" : "mcYhc",
                   "label" : "Piercing Spike (A1, AP(2), Deadly(3))",
                   "parentPackageUid" : "mPtwD",
+                  "parentSectionId" : "VfKRk",
                   "parentSectionUid" : "VfKRk",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "-4.4",
-                        "newCostRounded" : -5,
-                        "unitName" : "Prime Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "-5.9",
-                        "newCostRounded" : -5,
-                        "unitName" : "Shadow Hunter"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "mcYhc"
                },
@@ -617,9 +581,8 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "5zsyF9z",
+                  "id" : "xvYXNoS",
                   "label" : "Replace one Heavy Razor Claws",
-                  "options" : null,
                   "parentPackageUid" : "mPtwD",
                   "targets" : [
                      "Heavy Razor Claws"
@@ -630,7 +593,7 @@
                }
             },
             {
-               "instanceId" : "D2hB8vZFY",
+               "instanceId" : "hTyV-s6UY",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -664,23 +627,8 @@
                   "id" : "FJsPG",
                   "label" : "Shredder Gun (18\", A2, Rending)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "A_Ko4Rk",
                   "parentSectionUid" : "A_Ko4Rk",
-                  "proposedCost" : 5,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "-4.3",
-                        "newCostRounded" : -5,
-                        "unitName" : "Prime Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "6.9",
-                        "newCostRounded" : 5,
-                        "unitName" : "Veteran Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "FJsPG"
                },
@@ -689,9 +637,8 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "LlJm-Km",
+                  "id" : "4RNVgC_",
                   "label" : "Replace one Heavy Razor Claws",
-                  "options" : null,
                   "parentPackageUid" : "B1",
                   "targets" : [
                      "Heavy Razor Claws"

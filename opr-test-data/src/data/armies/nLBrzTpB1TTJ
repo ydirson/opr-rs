@@ -16,63 +16,63 @@
          "aliasedRuleId" : null,
          "description" : "This model automatically passes all morale test. If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
          "hasRating" : true,
-         "id" : 96,
+         "id" : "F_1wfmpAyYwT",
          "name" : "Explode"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick one friendly Caster within 6”, which gets +1 to its next spell casting roll.",
          "hasRating" : false,
-         "id" : 263,
+         "id" : "NU_zB3p0uJIP",
          "name" : "Spell Warden"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6” take 1 hit with Blast(6) and Poison.",
          "hasRating" : null,
-         "id" : 1012,
+         "id" : "4Nay818dLPu2",
          "name" : "Poison Mist"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick 2 friendly units within 6”. Those units, and up to 3 friendly units within 6\" get Stealth next time they are shot at.",
          "hasRating" : false,
-         "id" : 121,
+         "id" : "cnKvLv8ErzIc",
          "name" : "Shrouding Mist"
       },
       {
-         "aliasedRuleId" : 424,
+         "aliasedRuleId" : "5XvPNuYy1sW1",
          "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
          "hasRating" : false,
-         "id" : 424,
+         "id" : "5XvPNuYy1sW1",
          "name" : "Pheromones"
       },
       {
-         "aliasedRuleId" : 221,
+         "aliasedRuleId" : "nLQCr5OiSlYz",
          "description" : "This model counts as having Caster(1).",
          "hasRating" : false,
-         "id" : 221,
+         "id" : "nLQCr5OiSlYz",
          "name" : "Psychic Synapse"
       },
       {
-         "aliasedRuleId" : 281,
+         "aliasedRuleId" : "h-Cj1XrX00JE",
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
-         "id" : 281,
+         "id" : "h-Cj1XrX00JE",
          "name" : "Psy-Barrier"
       },
       {
-         "aliasedRuleId" : 216,
-         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "aliasedRuleId" : "O2Cd7OibBBA5",
+         "description" : "Whenever a unit where most models have this rule fails a morale test, it counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
-         "id" : 216,
+         "id" : "O2Cd7OibBBA5",
          "name" : "No Retreat"
       },
       {
          "aliasedRuleId" : null,
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
-         "id" : 281,
+         "id" : "h-Cj1XrX00JE",
          "name" : "Resistance"
       }
    ],
@@ -252,9 +252,9 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "6jjZtDtH2",
+               "instanceId" : "icVLgcAkl",
                "option" : {
-                  "cost" : 10,
+                  "cost" : 25,
                   "costs" : [
                      {
                         "cost" : 10,
@@ -293,24 +293,15 @@
                   "id" : "RS4rKkQ",
                   "label" : "Wings (Ambush, Flying)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "ijbm7zF",
                   "parentSectionUid" : "ijbm7zF",
-                  "proposedCost" : 35,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "12.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Veteran Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "IofYhdP",
+                  "id" : "shx2lKs",
                   "label" : "Upgrade with any",
-                  "options" : null,
+                  "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "any"
                   },

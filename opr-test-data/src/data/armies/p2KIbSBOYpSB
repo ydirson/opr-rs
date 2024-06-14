@@ -14,207 +14,207 @@
    "selectedUnitId" : "5MDVA",
    "specialRules" : [
       {
-         "aliasedRuleId" : 48,
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : 48,
-         "name" : "Precision Shots"
-      },
-      {
-         "aliasedRuleId" : 45,
+         "aliasedRuleId" : "-p-8I5BpotTm",
          "description" : "This model and its unit get +1 to hit when shooting.",
          "hasRating" : false,
-         "id" : 45,
+         "id" : "-p-8I5BpotTm",
          "name" : "Battle Rites"
       },
       {
-         "aliasedRuleId" : 857,
+         "aliasedRuleId" : "IyLY1212wacW",
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
-         "id" : 857,
+         "id" : "IyLY1212wacW",
          "name" : "Heavy Shield"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
-         "id" : 128,
+         "id" : "bd26Yb52DH42",
          "name" : "Veteran Infantry"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
-         "id" : 126,
+         "id" : "mETdyZ__yMVj",
          "name" : "Repair"
       },
       {
-         "aliasedRuleId" : 561,
-         "description" : "This model and its unit get Regeneration.",
-         "hasRating" : false,
-         "id" : 561,
-         "name" : "Medical Training"
-      },
-      {
-         "aliasedRuleId" : 55,
+         "aliasedRuleId" : "Jm_snOMYIAZI",
          "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified hit rolls of 5-6 instead.",
          "hasRating" : false,
-         "id" : 55,
+         "id" : "Jm_snOMYIAZI",
          "name" : "War Chant"
       },
       {
-         "aliasedRuleId" : 358,
+         "aliasedRuleId" : "V3YzPPkZm8at",
+         "description" : "This model and its unit get Regeneration.",
+         "hasRating" : false,
+         "id" : "V3YzPPkZm8at",
+         "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "description" : "This model and its unit get AP(+1) when shooting.",
+         "hasRating" : false,
+         "id" : "n3jD5Uf1k4C4",
+         "name" : "Precision Shots"
+      },
+      {
+         "aliasedRuleId" : "paOPFddMOffa",
          "description" : "Whenever this model moves over enemy units, pick one of them and roll one die, on a 6+ it takes 1 hit.",
          "hasRating" : false,
-         "id" : 358,
+         "id" : "paOPFddMOffa",
          "name" : "Cluster Grenades"
       },
       {
-         "aliasedRuleId" : 48,
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : 48,
-         "name" : "Canticles"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This weapon ignores cover.",
-         "hasRating" : false,
-         "id" : 505,
-         "name" : "Phosphor"
-      },
-      {
-         "aliasedRuleId" : 52,
+         "aliasedRuleId" : "S3v99IAu__In",
          "description" : "This model and its unit move +2” on Advance, and +4” on Rush/Charge.",
          "hasRating" : false,
-         "id" : 52,
+         "id" : "S3v99IAu__In",
          "name" : "Psalms"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
          "hasRating" : false,
-         "id" : 98,
+         "id" : "IEJp3a4vE0CB",
          "name" : "Radiation"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model gets AP(+2) in melee against units where most models have Tough(3) or higher.",
+         "description" : "This weapon ignores cover.",
          "hasRating" : false,
-         "id" : 164,
-         "name" : "Slayer"
+         "id" : "1uAwP9ywkaFO",
+         "name" : "Phosphor"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
-         "id" : 126,
+         "id" : "mETdyZ__yMVj",
          "name" : "Repair"
       },
       {
-         "aliasedRuleId" : 846,
+         "aliasedRuleId" : "5v6oaGfrdf29",
          "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : 846,
+         "id" : "5v6oaGfrdf29",
          "name" : "Taser"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "description" : "This model and its unit get AP(+1) when shooting.",
+         "hasRating" : false,
+         "id" : "n3jD5Uf1k4C4",
+         "name" : "Canticles"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model's melee weapons get AP(+2) against units where most models have Tough(3) or higher.",
+         "hasRating" : false,
+         "id" : "TTL5RNmwotoh",
+         "name" : "Slayer"
       },
       {
          "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : 991,
+         "id" : "j2CURXzqqKaK",
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : 422,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : 422,
-         "name" : "Holy Statue"
-      },
-      {
-         "aliasedRuleId" : 48,
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : 48,
-         "name" : "Spiritual Guidance"
-      },
-      {
-         "aliasedRuleId" : 50,
+         "aliasedRuleId" : "O4RvQUoR77mP",
          "description" : "This model and its unit get Stealth.",
          "hasRating" : false,
-         "id" : 50,
+         "id" : "O4RvQUoR77mP",
          "name" : "Blind Faith"
       },
       {
-         "aliasedRuleId" : 224,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12”, which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : 224,
-         "name" : "Angelic Aura"
-      },
-      {
-         "aliasedRuleId" : 47,
+         "aliasedRuleId" : "1dM_PBIn2v3p",
          "description" : "This model and its unit get AP(+1) in melee.",
          "hasRating" : false,
-         "id" : 47,
+         "id" : "1dM_PBIn2v3p",
          "name" : "War Hymns"
+      },
+      {
+         "aliasedRuleId" : "ILPGCU9Y9xhe",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12”, which get +1 to their next morale test roll.",
+         "hasRating" : false,
+         "id" : "ILPGCU9Y9xhe",
+         "name" : "Angelic Aura"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
-         "id" : 212,
+         "id" : "fpXLibfT38MT",
          "name" : "Frenzy"
       },
       {
          "aliasedRuleId" : null,
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
-         "id" : 857,
+         "id" : "IyLY1212wacW",
          "name" : "Protected"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : 858,
-         "name" : "Shield Wall"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : null,
-         "id" : 895,
-         "name" : "Devout"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to defense rolls next time they take hits.",
          "hasRating" : false,
-         "id" : 417,
+         "id" : "7rd_tPzHseje",
          "name" : "Protective Aura"
       },
       {
-         "aliasedRuleId" : 128,
-         "description" : "Gets +1 to hit in melee and shooting.",
-         "hasRating" : false,
-         "id" : 128,
-         "name" : "Celestial Infantry"
-      },
-      {
-         "aliasedRuleId" : 53,
+         "aliasedRuleId" : "IXtPlY7K4Wku",
          "description" : "This model and its unit get +1 to morale test rolls.",
          "hasRating" : false,
-         "id" : 53,
+         "id" : "IXtPlY7K4Wku",
          "name" : "Canticle Megaphone"
       },
       {
-         "aliasedRuleId" : 561,
+         "aliasedRuleId" : "bd26Yb52DH42",
+         "description" : "Gets +1 to hit in melee and shooting.",
+         "hasRating" : false,
+         "id" : "bd26Yb52DH42",
+         "name" : "Celestial Infantry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : "V3YzPPkZm8at",
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
-         "id" : 561,
+         "id" : "V3YzPPkZm8at",
          "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "kqma1pPDpN3w",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to hit next time they fight in melee.",
+         "hasRating" : false,
+         "id" : "kqma1pPDpN3w",
+         "name" : "Holy Statue"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "description" : "This model and its unit get AP(+1) when shooting.",
+         "hasRating" : false,
+         "id" : "n3jD5Uf1k4C4",
+         "name" : "Spiritual Guidance"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : null,
+         "id" : "j_GPMzrugrCj",
+         "name" : "Devout"
       }
    ],
    "undoUnitRemove" : [
@@ -378,7 +378,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "_7YJx7DFP",
+                     "upgradeInstanceId" : "cLq6foTMd",
                      "variant" : "replace"
                   }
                ],
@@ -505,7 +505,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "kD6ADUx5c",
+               "instanceId" : "_kF_wkiNI",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -544,37 +544,15 @@
                   "id" : "D3Dqx6h",
                   "label" : "Archivist (Caster(2))",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "BCvkhSe",
                   "parentSectionUid" : "BCvkhSe",
-                  "proposedCost" : 20,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Grave Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "D3Dqx6h"
                },
                "upgrade" : {
-                  "id" : "W2_tios",
+                  "id" : "T_WN936",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -586,7 +564,7 @@
                }
             },
             {
-               "instanceId" : "_7YJx7DFP",
+               "instanceId" : "cLq6foTMd",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -631,29 +609,14 @@
                   "id" : "OYm4knK",
                   "label" : "Energy Sword (A2, AP(1), Rending)",
                   "parentPackageUid" : "A1",
+                  "parentSectionId" : "MovgoCq",
                   "parentSectionUid" : "MovgoCq",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.9",
-                        "newCostRounded" : 10,
-                        "unitName" : "Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "6.9",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "EApynuG",
+                  "id" : "5pEk9Yt",
                   "label" : "Replace  CCW",
-                  "options" : null,
                   "parentPackageUid" : "A1",
                   "targets" : [
                      "CCW"
@@ -664,7 +627,7 @@
                }
             },
             {
-               "instanceId" : "Bq7-5bjzD",
+               "instanceId" : "xWjNfOUVl",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -696,24 +659,14 @@
                   "id" : "zOpXO",
                   "label" : "Infiltration Gear (Scout)",
                   "parentPackageUid" : "qIWMF",
+                  "parentSectionId" : "BwY_m",
                   "parentSectionUid" : "BwY_m",
-                  "proposedCost" : 5,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "6.0",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "zOpXO"
                },
                "upgrade" : {
-                  "id" : "sWLPzxs",
+                  "id" : "wXZAnua",
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "qIWMF",
                   "select" : {
                      "type" : "exactly",
@@ -1019,7 +972,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "cX1DWmDvv",
+                     "upgradeInstanceId" : "_FtLRyWfY",
                      "variant" : "replace"
                   }
                ],
@@ -1121,7 +1074,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "1jLH7S5xc",
+               "instanceId" : "r5wCpv3ne",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -1160,37 +1113,15 @@
                   "id" : "fwO6jFd",
                   "label" : "Captain (Battle Rites)",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "BCvkhSe",
                   "parentSectionUid" : "BCvkhSe",
-                  "proposedCost" : 70,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "47.9",
-                        "newCostRounded" : 50,
-                        "unitName" : "Grave Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "47.9",
-                        "newCostRounded" : 50,
-                        "unitName" : "Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "47.9",
-                        "newCostRounded" : 50,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "fwO6jFd"
                },
                "upgrade" : {
-                  "id" : "W2_tios",
+                  "id" : "T_WN936",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -1202,7 +1133,7 @@
                }
             },
             {
-               "instanceId" : "cX1DWmDvv",
+               "instanceId" : "_FtLRyWfY",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1241,30 +1172,14 @@
                   "id" : "d6wOTSF",
                   "label" : "Relic Sword (A1, AP(2), Deadly(3))",
                   "parentPackageUid" : "A1",
+                  "parentSectionId" : "MovgoCq",
                   "parentSectionUid" : "MovgoCq",
-                  "proposedCost" : 45,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "13.3",
-                        "newCostRounded" : 15,
-                        "unitName" : "Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "11.1",
-                        "newCostRounded" : 10,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "d6wOTSF"
                },
                "upgrade" : {
-                  "id" : "EApynuG",
+                  "id" : "5pEk9Yt",
                   "label" : "Replace  CCW",
-                  "options" : null,
                   "parentPackageUid" : "A1",
                   "targets" : [
                      "CCW"
@@ -1322,7 +1237,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "K60KpLIIL",
+                     "upgradeInstanceId" : "g5aLnH_Fi",
                      "variant" : "replace"
                   }
                ],
@@ -1448,7 +1363,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "pTZZxJaZk",
+               "instanceId" : "IR4W3StQ7",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -1487,37 +1402,15 @@
                   "id" : "VyigG9G",
                   "label" : "Lieutenant (Precision Shots)",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "BCvkhSe",
                   "parentSectionUid" : "BCvkhSe",
-                  "proposedCost" : 85,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.6",
-                        "newCostRounded" : 60,
-                        "unitName" : "Grave Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.6",
-                        "newCostRounded" : 60,
-                        "unitName" : "Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.6",
-                        "newCostRounded" : 60,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VyigG9G"
                },
                "upgrade" : {
-                  "id" : "W2_tios",
+                  "id" : "T_WN936",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -1529,7 +1422,7 @@
                }
             },
             {
-               "instanceId" : "K60KpLIIL",
+               "instanceId" : "g5aLnH_Fi",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1574,29 +1467,14 @@
                   "id" : "OYm4knK",
                   "label" : "Energy Sword (A2, AP(1), Rending)",
                   "parentPackageUid" : "A1",
+                  "parentSectionId" : "MovgoCq",
                   "parentSectionUid" : "MovgoCq",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.9",
-                        "newCostRounded" : 10,
-                        "unitName" : "Prime Master"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "6.9",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Raider"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "EApynuG",
+                  "id" : "5pEk9Yt",
                   "label" : "Replace  CCW",
-                  "options" : null,
                   "parentPackageUid" : "A1",
                   "targets" : [
                      "CCW"
@@ -1607,7 +1485,7 @@
                }
             },
             {
-               "instanceId" : "enWKSOsu2",
+               "instanceId" : "3iBBVYoJD",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1638,24 +1516,14 @@
                   "id" : "cd-2wsN",
                   "label" : "Combat Shield (Heavy Shield)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "80QB0Hq",
                   "parentSectionUid" : "80QB0Hq",
-                  "proposedCost" : 5,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.9",
-                        "newCostRounded" : 10,
-                        "unitName" : "Prime Master"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "cd-2wsN"
                },
                "upgrade" : {
-                  "id" : "hCvsdsp",
+                  "id" : "RNLINCe",
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "exactly",
@@ -1726,7 +1594,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "MQtdCUe4f",
+                     "upgradeInstanceId" : "hzP2etSxz",
                      "variant" : "replace"
                   }
                ],
@@ -1770,7 +1638,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "MQtdCUe4f",
+                     "upgradeInstanceId" : "hzP2etSxz",
                      "variant" : "replace"
                   }
                ],
@@ -1830,7 +1698,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "MQtdCUe4f",
+               "instanceId" : "hzP2etSxz",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -1878,17 +1746,8 @@
                   "id" : "re-VF2_",
                   "label" : "Uranium Rifle (30\", A1, AP(1), Radiation, Sniper)",
                   "parentPackageUid" : "D1",
+                  "parentSectionId" : "cwC0Lvj",
                   "parentSectionUid" : "cwC0Lvj",
-                  "proposedCost" : 50,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "36.9",
-                        "newCostRounded" : 35,
-                        "unitName" : "Cult Rangers"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "re-VF2_"
                },
@@ -1897,9 +1756,8 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "Qo7cdDG",
+                  "id" : "Y-Og99w",
                   "label" : "Replace one R-Fusil",
-                  "options" : null,
                   "parentPackageUid" : "D1",
                   "targets" : [
                      "R-Fusil"
@@ -2062,7 +1920,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Bm0d4JxBO",
+                     "upgradeInstanceId" : "zDg9Aowh1",
                      "variant" : "replace"
                   }
                ],
@@ -2081,7 +1939,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "bcnqREEnz",
+                     "upgradeInstanceId" : "A0cREOZpS",
                      "variant" : "replace"
                   }
                ],
@@ -2113,7 +1971,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Bm0d4JxBO",
+                     "upgradeInstanceId" : "zDg9Aowh1",
                      "variant" : "replace"
                   }
                ],
@@ -2132,7 +1990,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "bcnqREEnz",
+                     "upgradeInstanceId" : "A0cREOZpS",
                      "variant" : "replace"
                   }
                ],
@@ -2174,7 +2032,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Bm0d4JxBO",
+               "instanceId" : "zDg9Aowh1",
                "option" : {
                   "cost" : -5,
                   "costs" : [
@@ -2190,7 +2048,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "fxmbKTK98",
+                              "upgradeInstanceId" : "WsORcqYAZ",
                               "variant" : "replace"
                            }
                         ],
@@ -2223,23 +2081,14 @@
                   "id" : "1wkff",
                   "label" : "Leader R-Pistol (9\", A2, Radiation), Tech-Sword (A2)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "LHMyy15",
                   "parentSectionUid" : "LHMyy15",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "-3.0",
-                        "newCostRounded" : -5,
-                        "unitName" : "Cult Leader"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "1wkff"
                },
                "upgrade" : {
-                  "id" : "mUyHlz1",
+                  "id" : "bZ3ly5P",
                   "label" : "Replace  Leader R-Fusil and CCW",
-                  "options" : null,
                   "parentPackageUid" : "B1",
                   "targets" : [
                      "Leader R-Fusil",
@@ -2251,7 +2100,7 @@
                }
             },
             {
-               "instanceId" : "fxmbKTK98",
+               "instanceId" : "WsORcqYAZ",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -2283,23 +2132,14 @@
                   "id" : "aH5568p",
                   "label" : "Leader P-Pistol (9\", A3, Phosphor)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "FdiNqBV",
                   "parentSectionUid" : "FdiNqBV",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "4.3",
-                        "newCostRounded" : 5,
-                        "unitName" : "Cult Leader"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "aH5568p"
                },
                "upgrade" : {
-                  "id" : "S7bWXZG",
+                  "id" : "S0JUGE7",
                   "label" : "Replace  Leader R-Pistol",
-                  "options" : null,
                   "parentPackageUid" : "B1",
                   "targets" : [
                      "Leader R-Pistol"
@@ -2310,7 +2150,7 @@
                }
             },
             {
-               "instanceId" : "bcnqREEnz",
+               "instanceId" : "A0cREOZpS",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2340,16 +2180,8 @@
                   "id" : "nTanhQn",
                   "label" : "Arc Gun (18\", A2, Rending)",
                   "parentPackageUid" : "D1",
+                  "parentSectionId" : "cwC0Lvj",
                   "parentSectionUid" : "cwC0Lvj",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "11.2",
-                        "newCostRounded" : 10,
-                        "unitName" : "Cult Rangers"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "nTanhQn"
                },
@@ -2358,9 +2190,8 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "Qo7cdDG",
+                  "id" : "Y-Og99w",
                   "label" : "Replace one R-Fusil",
-                  "options" : null,
                   "parentPackageUid" : "D1",
                   "targets" : [
                      "R-Fusil"
@@ -2507,7 +2338,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "1JXNeXpJT",
+               "instanceId" : "GCfop5Rwy",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2546,37 +2377,15 @@
                   "id" : "VC9Z-lM",
                   "label" : "Machine Lore (Caster(2))",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "ilLvqMc",
                   "parentSectionUid" : "ilLvqMc",
-                  "proposedCost" : 20,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "High Priest"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Sect Leader"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "40.0",
-                        "newCostRounded" : 40,
-                        "unitName" : "Cult Leader"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VC9Z-lM"
                },
                "upgrade" : {
-                  "id" : "lApWOn-",
+                  "id" : "K-iMhXL",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -2734,7 +2543,7 @@
          "quality" : 3,
          "selectedUpgrades" : [
             {
-               "instanceId" : "r-I4DvRao",
+               "instanceId" : "0dpub2lgG",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -2773,37 +2582,15 @@
                   "id" : "WMrFSXc",
                   "label" : "Engineer (Repair)",
                   "parentPackageUid" : "C1",
+                  "parentSectionId" : "ilLvqMc",
                   "parentSectionUid" : "ilLvqMc",
-                  "proposedCost" : 20,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "36.8",
-                        "newCostRounded" : 35,
-                        "unitName" : "High Priest"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "36.8",
-                        "newCostRounded" : 35,
-                        "unitName" : "Sect Leader"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "36.8",
-                        "newCostRounded" : 35,
-                        "unitName" : "Cult Leader"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "WMrFSXc"
                },
                "upgrade" : {
-                  "id" : "lApWOn-",
+                  "id" : "K-iMhXL",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "C1",
                   "select" : {
                      "type" : "exactly",
@@ -3056,7 +2843,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "ywlSYUz2G",
+               "instanceId" : "wLLf_MK5c",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -3096,37 +2883,15 @@
                   "id" : "vdVRg",
                   "label" : "Canoness (Spiritual Guidance)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
-                  "proposedCost" : 85,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.6",
-                        "newCostRounded" : 60,
-                        "unitName" : "High Destroyer Sister"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.6",
-                        "newCostRounded" : 60,
-                        "unitName" : "High Sister"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "57.6",
-                        "newCostRounded" : 60,
-                        "unitName" : "Novice Leader"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "qtKUf5_",
+                  "id" : "EHjSIFZ",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
                   "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "exactly",
@@ -3372,7 +3137,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Stwfm-BkI",
+                     "upgradeInstanceId" : "dVY6J8w9B",
                      "variant" : "replace"
                   }
                ],
@@ -3391,7 +3156,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Stwfm-BkI",
+                     "upgradeInstanceId" : "dVY6J8w9B",
                      "variant" : "replace"
                   }
                ],
@@ -3423,7 +3188,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Stwfm-BkI",
+                     "upgradeInstanceId" : "dVY6J8w9B",
                      "variant" : "replace"
                   }
                ],
@@ -3442,7 +3207,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Stwfm-BkI",
+                     "upgradeInstanceId" : "dVY6J8w9B",
                      "variant" : "replace"
                   }
                ],
@@ -3515,7 +3280,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "Stwfm-BkI",
+               "instanceId" : "dVY6J8w9B",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3576,16 +3341,8 @@
                   "id" : "3pqIMyr",
                   "label" : "Energy Sword (A2, AP(1), Rending), Sgt. Heavy Pistol (12\", A1, AP(1))",
                   "parentPackageUid" : "J1",
+                  "parentSectionId" : "H1Ka5oX",
                   "parentSectionUid" : "H1Ka5oX",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "4.3",
-                        "newCostRounded" : 5,
-                        "unitName" : "Pistoleer Sisters"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "3pqIMyr"
                },
@@ -3594,9 +3351,8 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "q7Syj06",
+                  "id" : "kTWBE5W",
                   "label" : "Replace one Twin Heavy Pistols and CCW",
-                  "options" : null,
                   "parentPackageUid" : "J1",
                   "targets" : [
                      "Twin Heavy Pistols",
@@ -3758,7 +3514,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "RoBuuwcTU",
+                     "upgradeInstanceId" : "Y1YwN6jI5",
                      "variant" : "replace"
                   }
                ],
@@ -3829,7 +3585,7 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "RoBuuwcTU",
+               "instanceId" : "Y1YwN6jI5",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3863,17 +3619,8 @@
                   "id" : "AwpWO",
                   "label" : "Dual Arc-Flails (A2, Rending)",
                   "parentPackageUid" : "H1",
+                  "parentSectionId" : "kNZAW",
                   "parentSectionUid" : "kNZAW",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "3.5",
-                        "newCostRounded" : 5,
-                        "unitName" : "Fanatic Sisters"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "AwpWO"
                },
@@ -3881,9 +3628,8 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "wRhvIg6",
+                  "id" : "JRzJj2A",
                   "label" : "Replace all Chainsaw Swords",
-                  "options" : null,
                   "parentPackageUid" : "H1",
                   "targets" : [
                      "Chainsaw Swords"
@@ -3894,7 +3640,7 @@
                }
             },
             {
-               "instanceId" : "nHsuyvdn6",
+               "instanceId" : "E_f469mRt",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -3926,17 +3672,8 @@
                   "id" : "q4Db3",
                   "label" : "Flagellants (Regeneration)",
                   "parentPackageUid" : "H1",
+                  "parentSectionId" : "Zl_L3",
                   "parentSectionUid" : "Zl_L3",
-                  "proposedCost" : 10,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "13.3",
-                        "newCostRounded" : 15,
-                        "unitName" : "Fanatic Sisters"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "q4Db3"
                },
@@ -3944,10 +3681,9 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "l0bM7g_",
+                  "id" : "_gB4F4l",
                   "label" : "Upgrade all models with",
                   "model" : true,
-                  "options" : null,
                   "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "Zl_L3",

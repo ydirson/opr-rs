@@ -13,17 +13,17 @@
    "selectedUnitId" : "14fxz",
    "specialRules" : [
       {
-         "aliasedRuleId" : 857,
+         "aliasedRuleId" : "IyLY1212wacW",
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
-         "id" : 857,
+         "id" : "IyLY1212wacW",
          "name" : "Heavy Shield"
       },
       {
-         "aliasedRuleId" : 39,
+         "aliasedRuleId" : "6HdjfaiDd60x",
          "description" : "Calculate cost difference of A1.5 melee weapon at Q4+ and Q3+.",
          "hasRating" : false,
-         "id" : 39,
+         "id" : "6HdjfaiDd60x",
          "name" : "Champion (+1 to Hit Melee)"
       }
    ],
@@ -176,17 +176,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "R0ZdTE-sk",
+                     "upgradeInstanceId" : "4EGsiYNK5",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "q3dj85sQh",
+                     "upgradeInstanceId" : "JFeTgz_V2",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "cf3MXwtAr",
+                     "upgradeInstanceId" : "1a9ywHnuc",
                      "variant" : "replace"
                   }
                ],
@@ -277,9 +277,9 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "R0ZdTE-sk",
+               "instanceId" : "4EGsiYNK5",
                "option" : {
-                  "cost" : 5,
+                  "cost" : 10,
                   "costs" : [
                      {
                         "cost" : 5,
@@ -314,21 +314,7 @@
                   ],
                   "id" : "vF4VS",
                   "label" : "Twin Hammer (A2, AP(1))",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "5.2",
-                        "newCostRounded" : 5,
-                        "unitName" : "Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.4",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
+                  "parentSectionId" : "79ETZ",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "vF4VS"
                },
@@ -336,9 +322,9 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "DEGV3kj",
+                  "id" : "hLzPyut",
                   "label" : "Replace any Axe",
-                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
                   "targets" : [
                      "Axe"
                   ],
@@ -348,9 +334,9 @@
                }
             },
             {
-               "instanceId" : "q3dj85sQh",
+               "instanceId" : "JFeTgz_V2",
                "option" : {
-                  "cost" : 5,
+                  "cost" : 10,
                   "costs" : [
                      {
                         "cost" : 5,
@@ -385,21 +371,7 @@
                   ],
                   "id" : "vF4VS",
                   "label" : "Twin Hammer (A2, AP(1))",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "5.2",
-                        "newCostRounded" : 5,
-                        "unitName" : "Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.4",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
+                  "parentSectionId" : "79ETZ",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "vF4VS"
                },
@@ -407,9 +379,9 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "DEGV3kj",
+                  "id" : "hLzPyut",
                   "label" : "Replace any Axe",
-                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
                   "targets" : [
                      "Axe"
                   ],
@@ -419,7 +391,7 @@
                }
             },
             {
-               "instanceId" : "cf3MXwtAr",
+               "instanceId" : "1a9ywHnuc",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -455,21 +427,7 @@
                   ],
                   "id" : "oFHX6",
                   "label" : "Twin Axe (A2, Rending)",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "6.0",
-                        "newCostRounded" : 5,
-                        "unitName" : "Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.5",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
+                  "parentSectionId" : "79ETZ",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "oFHX6"
                },
@@ -477,9 +435,9 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "DEGV3kj",
+                  "id" : "hLzPyut",
                   "label" : "Replace any Axe",
-                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
                   "targets" : [
                      "Axe"
                   ],
@@ -733,17 +691,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "VQwJKBBvg",
+                     "upgradeInstanceId" : "P90gSnzQz",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "007P3xaij",
+                     "upgradeInstanceId" : "alp-SJf0N",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Q82ZeLl5j",
+                     "upgradeInstanceId" : "VoT08ywBI",
                      "variant" : "replace"
                   }
                ],
@@ -844,7 +802,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "VQwJKBBvg",
+               "instanceId" : "P90gSnzQz",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -886,21 +844,7 @@
                   ],
                   "id" : "VkdIj",
                   "label" : "Heavy Axe (A2, AP(1), Rending)",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.4",
-                        "newCostRounded" : 10,
-                        "unitName" : "Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "11.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Elite Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
+                  "parentSectionId" : "79ETZ",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VkdIj"
                },
@@ -908,9 +852,9 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "DEGV3kj",
+                  "id" : "hLzPyut",
                   "label" : "Replace any Axe",
-                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
                   "targets" : [
                      "Axe"
                   ],
@@ -920,7 +864,7 @@
                }
             },
             {
-               "instanceId" : "007P3xaij",
+               "instanceId" : "alp-SJf0N",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -962,21 +906,7 @@
                   ],
                   "id" : "VkdIj",
                   "label" : "Heavy Axe (A2, AP(1), Rending)",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.4",
-                        "newCostRounded" : 10,
-                        "unitName" : "Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "11.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Elite Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
+                  "parentSectionId" : "79ETZ",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VkdIj"
                },
@@ -984,9 +914,9 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "DEGV3kj",
+                  "id" : "hLzPyut",
                   "label" : "Replace any Axe",
-                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
                   "targets" : [
                      "Axe"
                   ],
@@ -996,7 +926,7 @@
                }
             },
             {
-               "instanceId" : "Q82ZeLl5j",
+               "instanceId" : "VoT08ywBI",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1032,21 +962,7 @@
                   ],
                   "id" : "oFHX6",
                   "label" : "Twin Axe (A2, Rending)",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "6.0",
-                        "newCostRounded" : 5,
-                        "unitName" : "Warrior"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "7.5",
-                        "newCostRounded" : 5,
-                        "unitName" : "Elite Warrior"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
+                  "parentSectionId" : "79ETZ",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "oFHX6"
                },
@@ -1054,9 +970,9 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "DEGV3kj",
+                  "id" : "hLzPyut",
                   "label" : "Replace any Axe",
-                  "options" : null,
+                  "parentPackageUid" : "OUHlX",
                   "targets" : [
                      "Axe"
                   ],

@@ -16,71 +16,71 @@
          "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : 991,
+         "id" : "j2CURXzqqKaK",
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : 48,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : 48,
-         "name" : "Spiritual Guidance"
-      },
-      {
-         "aliasedRuleId" : 50,
+         "aliasedRuleId" : "O4RvQUoR77mP",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : 50,
+         "id" : "O4RvQUoR77mP",
          "name" : "Blind Faith"
       },
       {
-         "aliasedRuleId" : 47,
+         "aliasedRuleId" : "1dM_PBIn2v3p",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : 47,
+         "id" : "1dM_PBIn2v3p",
          "name" : "War Hymns"
       },
       {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
-         "id" : 212,
+         "id" : "fpXLibfT38MT",
          "name" : "Frenzy"
+      },
+      {
+         "aliasedRuleId" : "IXtPlY7K4Wku",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "IXtPlY7K4Wku",
+         "name" : "Canticle Megaphone"
+      },
+      {
+         "aliasedRuleId" : "bd26Yb52DH42",
+         "description" : "Gets +1 to hit in melee and shooting.",
+         "hasRating" : false,
+         "id" : "bd26Yb52DH42",
+         "name" : "Celestial Infantry"
       },
       {
          "aliasedRuleId" : null,
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
-         "id" : 858,
+         "id" : "wsqfB0fq69eG",
          "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : "V3YzPPkZm8at",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "V3YzPPkZm8at",
+         "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "n3jD5Uf1k4C4",
+         "name" : "Spiritual Guidance"
       },
       {
          "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : null,
-         "id" : 895,
+         "id" : "j_GPMzrugrCj",
          "name" : "Devout"
-      },
-      {
-         "aliasedRuleId" : 128,
-         "description" : "Gets +1 to hit in melee and shooting.",
-         "hasRating" : false,
-         "id" : 128,
-         "name" : "Celestial Infantry"
-      },
-      {
-         "aliasedRuleId" : 53,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : 53,
-         "name" : "Canticle Megaphone"
-      },
-      {
-         "aliasedRuleId" : 561,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : 561,
-         "name" : "Medical Training"
       }
    ],
    "undoUnitRemove" : [
@@ -299,9 +299,9 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "xudA4trUk",
+               "instanceId" : "8znB7Y5Sx",
                "option" : {
-                  "cost" : 10,
+                  "cost" : 25,
                   "costs" : [
                      {
                         "cost" : 10,
@@ -335,30 +335,16 @@
                   "id" : "IJLtqfK",
                   "label" : "Superior (Blind Faith)",
                   "parentPackageUid" : "B1",
+                  "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "11.9",
-                        "newCostRounded" : 10,
-                        "unitName" : "High Sister"
-                     },
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "11.9",
-                        "newCostRounded" : 10,
-                        "unitName" : "Novice Leader"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "IJLtqfK"
                },
                "upgrade" : {
-                  "id" : "46z_eDK",
+                  "id" : "SC60_mB",
+                  "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
-                  "options" : null,
+                  "parentPackageUid" : "B1",
                   "select" : {
                      "type" : "exactly",
                      "value" : 1
@@ -499,7 +485,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "6mQnNpfxk",
+                     "upgradeInstanceId" : "ygb4aTwQE",
                      "variant" : "replace"
                   }
                ],
@@ -570,9 +556,9 @@
          "quality" : 5,
          "selectedUpgrades" : [
             {
-               "instanceId" : "kQg_KOzmp",
+               "instanceId" : "xz-f31O2S",
                "option" : {
-                  "cost" : 5,
+                  "cost" : 15,
                   "costs" : [
                      {
                         "cost" : 5,
@@ -602,31 +588,22 @@
                   "id" : "q4Db3",
                   "label" : "Flagellants (Regeneration)",
                   "parentPackageUid" : "H1",
+                  "parentSectionId" : "Zl_L3",
                   "parentSectionUid" : "Zl_L3",
-                  "proposedCost" : 10,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "2.7",
-                        "newCostRounded" : 5,
-                        "unitName" : "Fanatic Sister"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "nFk67lF",
+                  "id" : "ZjGPZzR",
                   "label" : "Upgrade with",
-                  "options" : null,
+                  "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "Zl_L3",
                   "variant" : "upgrade"
                }
             },
             {
-               "instanceId" : "6mQnNpfxk",
+               "instanceId" : "ygb4aTwQE",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -660,24 +637,15 @@
                   "id" : "AwpWO",
                   "label" : "Dual Arc-Flails (A2, Rending)",
                   "parentPackageUid" : "H1",
+                  "parentSectionId" : "kNZAW",
                   "parentSectionUid" : "kNZAW",
-                  "proposedCost" : 25,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "0.7",
-                        "newCostRounded" : 5,
-                        "unitName" : "Fanatic Sister"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "WbBMN_w",
+                  "id" : "B_u-CqB",
                   "label" : "Replace Chainsaw Sword",
-                  "options" : null,
+                  "parentPackageUid" : "H1",
                   "targets" : [
                      "Chainsaw Sword"
                   ],
@@ -738,7 +706,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "ntzDLf_Fd",
+                     "upgradeInstanceId" : "Zzxdycymb",
                      "variant" : "replace"
                   }
                ],
@@ -799,7 +767,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "ntzDLf_Fd",
+               "instanceId" : "Zzxdycymb",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -830,24 +798,15 @@
                   "id" : "OeJC4E7",
                   "label" : "Plasma Rifle (24\", A1, AP(4))",
                   "parentPackageUid" : "E1",
+                  "parentSectionId" : "rwrkjbz",
                   "parentSectionUid" : "rwrkjbz",
-                  "proposedCost" : 10,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Warrior Sister"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "x1mBej3",
+                  "id" : "HKrD2od",
                   "label" : "Replace Heavy Rifle",
-                  "options" : null,
+                  "parentPackageUid" : "E1",
                   "targets" : [
                      "Heavy Rifle"
                   ],
@@ -906,7 +865,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "SwirphSsI",
+                     "upgradeInstanceId" : "g8ph4S9Ty",
                      "variant" : "replace"
                   }
                ],
@@ -967,7 +926,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "SwirphSsI",
+               "instanceId" : "g8ph4S9Ty",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -998,24 +957,15 @@
                   "id" : "OeJC4E7",
                   "label" : "Plasma Rifle (24\", A1, AP(4))",
                   "parentPackageUid" : "E1",
+                  "parentSectionId" : "rwrkjbz",
                   "parentSectionUid" : "rwrkjbz",
-                  "proposedCost" : 10,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "8.0",
-                        "newCostRounded" : 10,
-                        "unitName" : "Warrior Sister"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "x1mBej3",
+                  "id" : "HKrD2od",
                   "label" : "Replace Heavy Rifle",
-                  "options" : null,
+                  "parentPackageUid" : "E1",
                   "targets" : [
                      "Heavy Rifle"
                   ],
@@ -1062,7 +1012,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "rL7gXfljO",
+                     "upgradeInstanceId" : "mkJ_wgaBU",
                      "variant" : "replace"
                   }
                ],
@@ -1081,7 +1031,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "rL7gXfljO",
+                     "upgradeInstanceId" : "mkJ_wgaBU",
                      "variant" : "replace"
                   }
                ],
@@ -1168,7 +1118,7 @@
          "quality" : 4,
          "selectedUpgrades" : [
             {
-               "instanceId" : "rL7gXfljO",
+               "instanceId" : "mkJ_wgaBU",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1211,7 +1161,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "dWZI0R0-f",
+                              "upgradeInstanceId" : "5g90ILgO-",
                               "variant" : "replace"
                            }
                         ],
@@ -1235,23 +1185,15 @@
                   "id" : "3pqIMyr",
                   "label" : "Energy Sword (A2, AP(1), Rending), Sgt. Heavy Pistol (12\", A1, AP(1))",
                   "parentPackageUid" : "J1",
+                  "parentSectionId" : "H1Ka5oX",
                   "parentSectionUid" : "H1Ka5oX",
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "4.3",
-                        "newCostRounded" : 5,
-                        "unitName" : "Pistoleer Sister"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "3pqIMyr"
                },
                "upgrade" : {
-                  "id" : "Y5K14Nx",
+                  "id" : "GOtjhcI",
                   "label" : "Replace Twin Heavy Pistols and CCW",
-                  "options" : null,
+                  "parentPackageUid" : "J1",
                   "targets" : [
                      "Twin Heavy Pistols",
                      "CCW"
@@ -1262,7 +1204,7 @@
                }
             },
             {
-               "instanceId" : "dWZI0R0-f",
+               "instanceId" : "5g90ILgO-",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1304,24 +1246,15 @@
                   "id" : "sr134",
                   "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
                   "parentPackageUid" : "J1",
+                  "parentSectionId" : "VIce1",
                   "parentSectionUid" : "VIce1",
-                  "proposedCost" : 10,
-                  "proposedCostHint" : [
-                     {
-                        "isValid" : true,
-                        "newCostPrecise" : "4.9",
-                        "newCostRounded" : 5,
-                        "unitName" : "Pistoleer Sister"
-                     }
-                  ],
-                  "proposedVersion" : "2.50",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "sr134"
                },
                "upgrade" : {
-                  "id" : "yGisfoZ",
+                  "id" : "EGPkh4P",
                   "label" : "Replace  Sgt. Heavy Pistol",
-                  "options" : null,
+                  "parentPackageUid" : "J1",
                   "targets" : [
                      "Sgt. Heavy Pistol"
                   ],
