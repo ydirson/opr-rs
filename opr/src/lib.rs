@@ -8,6 +8,8 @@ use std::fmt;
 use std::rc::Rc;
 
 pub const ARMYFORGE_SHARE_URL: &str = "https://army-forge.onepagerules.com/share";
+pub const AF_API_SRV: &str = "https://army-forge.onepagerules.com";
+pub const AF_API_RELAY: &str = "https://generals-familiar-relay-ydirson-aa7362b7.koyeb.app/opr";
 
 // structs for deserialization
 
@@ -273,7 +275,7 @@ pub fn get_army_url(army_id: &str) -> String {
         if #[cfg(feature = "local-files")] {
             let url = format!("/data/armies/{army_id}");
         } else {
-            let url = format!("https://army-forge.onepagerules.com/api/tts?id={army_id}");
+            let url = format!("{AF_API_SRV}/api/tts?id={army_id}");
         }
     }
     url
@@ -285,7 +287,7 @@ pub fn get_common_rules_url(game_system: GameSystem) -> String {
         if #[cfg(feature = "local-files")] {
             format!("/data/common-rules-{gs_id}")
         } else {
-            format!("https://army-forge.onepagerules.com/api/rules/common/{gs_id}")
+            format!("{AF_API_RELAY}/api/rules/common/{gs_id}")
         }
     }
 }
