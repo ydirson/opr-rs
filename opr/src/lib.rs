@@ -29,6 +29,7 @@ pub struct Army {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 pub struct UnitGroup {
     pub units: Vec<Rc<Unit>>,
+    pub full_cost: isize,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -98,16 +99,18 @@ impl From<JsonArmy> for Army {
                 for member in group.iter() {
                     seen_selid.insert(Rc::clone(member));
                 }
+                let units: Vec<Rc<Unit>> = group.iter()
+                    .map(|id| Rc::clone(units_by_selid.get(id).unwrap()))
+                    .sorted_by(|a, b| match (a.is_hero, b.is_hero) {
+                        (true, false) => Ordering::Less,
+                        (false, true) => Ordering::Greater,
+                        _ => Ordering::Equal,
+                    })
+                    .collect();
                 unit_groups.push(
                     Rc::new(UnitGroup {
-                        units: group.iter()
-                            .map(|id| Rc::clone(units_by_selid.get(id).unwrap()))
-                            .sorted_by(|a, b| match (a.is_hero, b.is_hero) {
-                                (true, false) => Ordering::Less,
-                                (false, true) => Ordering::Greater,
-                                _ => Ordering::Equal,
-                            })
-                            .collect(),
+                        full_cost: units.iter().fold(0, |cost, unit| cost + unit.full_cost),
+                        units,
                     }));
             }
         }
