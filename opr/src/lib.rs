@@ -1,3 +1,4 @@
+use core::cmp::Ordering;
 use itertools::Itertools;
 use serde::{Deserialize, Serialize};
 use serde_aux::field_attributes::{
@@ -101,6 +102,11 @@ impl From<JsonArmy> for Army {
                     Rc::new(UnitGroup {
                         units: group.iter()
                             .map(|id| Rc::clone(units_by_selid.get(id).unwrap()))
+                            .sorted_by(|a, b| match (a.is_hero, b.is_hero) {
+                                (true, false) => Ordering::Less,
+                                (false, true) => Ordering::Greater,
+                                _ => Ordering::Equal,
+                            })
                             .collect(),
                     }));
             }
