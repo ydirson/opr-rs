@@ -148,7 +148,7 @@ pub struct Unit {
     // FIXME army_id for regrouping
 }
 
-#[derive(serde::Deserialize, serde::Serialize)]
+#[derive(Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct JsonUnit {
     pub id: Rc<str>,
