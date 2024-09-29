@@ -15,6 +15,27 @@
    "pointsLimit" : 2000,
    "specialRules" : [
       {
+         "aliasedRuleId" : "O4RvQUoR77mP",
+         "description" : "This model and its unit get Stealth.",
+         "hasRating" : false,
+         "id" : "EE80BCU66oFu",
+         "name" : "Blind Faith"
+      },
+      {
+         "aliasedRuleId" : "KskX8qPX3I8G",
+         "description" : "Once per this unit's activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit next time it shoots.",
+         "hasRating" : false,
+         "id" : "5Z_UdFAz1-0R",
+         "name" : "Rangefinder Backpack"
+      },
+      {
+         "aliasedRuleId" : "bd26Yb52DH42",
+         "description" : "Gets +1 to hit in melee and shooting.",
+         "hasRating" : false,
+         "id" : "5fNdzNcQm0Pt",
+         "name" : "Celestial Veteran"
+      },
+      {
          "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
@@ -22,24 +43,10 @@
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : "O4RvQUoR77mP",
-         "description" : "This model and its unit get Stealth.",
-         "hasRating" : false,
-         "id" : "O4RvQUoR77mP",
-         "name" : "Blind Faith"
-      },
-      {
-         "aliasedRuleId" : "1dM_PBIn2v3p",
-         "description" : "This model and its unit get AP(+1) in melee.",
-         "hasRating" : false,
-         "id" : "1dM_PBIn2v3p",
-         "name" : "War Hymns"
-      },
-      {
          "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12”, which get +1 to their next morale test roll.",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
          "hasRating" : false,
-         "id" : "ILPGCU9Y9xhe",
+         "id" : "SJI8muKSgh9p",
          "name" : "Angelic Aura"
       },
       {
@@ -50,6 +57,13 @@
          "name" : "Frenzy"
       },
       {
+         "aliasedRuleId" : "1dM_PBIn2v3p",
+         "description" : "This model and its unit get AP(+1) in melee.",
+         "hasRating" : false,
+         "id" : "CZXPTpxQT-7_",
+         "name" : "War Hymns"
+      },
+      {
          "aliasedRuleId" : null,
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
@@ -58,7 +72,7 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to defense rolls next time they take hits.",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
          "hasRating" : false,
          "id" : "7rd_tPzHseje",
          "name" : "Protective Aura"
@@ -67,15 +81,29 @@
          "aliasedRuleId" : "IXtPlY7K4Wku",
          "description" : "This model and its unit get +1 to morale test rolls.",
          "hasRating" : false,
-         "id" : "IXtPlY7K4Wku",
+         "id" : "dlmwwGTjuk0n",
          "name" : "Canticle Megaphone"
       },
       {
-         "aliasedRuleId" : "bd26Yb52DH42",
-         "description" : "Gets +1 to hit in melee and shooting.",
+         "aliasedRuleId" : "kqma1pPDpN3w",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
          "hasRating" : false,
-         "id" : "bd26Yb52DH42",
-         "name" : "Celestial Infantry"
+         "id" : "KauMx287bYqE",
+         "name" : "Holy Statue"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : null,
+         "id" : "j_GPMzrugrCj",
+         "name" : "Devout"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "description" : "This model and its unit get AP(+1) when shooting.",
+         "hasRating" : false,
+         "id" : "lsYKfk0eU8xT",
+         "name" : "Spiritual Guidance"
       },
       {
          "aliasedRuleId" : null,
@@ -85,32 +113,18 @@
          "name" : "Shield Wall"
       },
       {
+         "aliasedRuleId" : null,
+         "description" : "This unit may only be taken once per army.",
+         "hasRating" : false,
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique"
+      },
+      {
          "aliasedRuleId" : "V3YzPPkZm8at",
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
-         "id" : "V3YzPPkZm8at",
+         "id" : "bLVZU4onzi2E",
          "name" : "Medical Training"
-      },
-      {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 6”, which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "kqma1pPDpN3w",
-         "name" : "Holy Statue"
-      },
-      {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : "n3jD5Uf1k4C4",
-         "name" : "Spiritual Guidance"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : null,
-         "id" : "j_GPMzrugrCj",
-         "name" : "Devout"
       }
    ],
    "units" : [
@@ -121,60 +135,41 @@
             "square" : "50"
          },
          "combined" : false,
-         "cost" : 185,
+         "cost" : 190,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 3,
-               "count" : 1,
-               "id" : "ywxRIDQs",
-               "label" : "Stomp (A3, AP(1))",
-               "name" : "Stomp",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "-iQKsJot"
-            },
-            {
-               "attacks" : "6",
-               "count" : 1,
-               "id" : "UrqqI8fS",
-               "label" : "Great Energy Sword (A6, AP(2), Rending)",
-               "name" : "Great Energy Sword",
-               "originalCount" : 1,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "2"
-                  },
-                  {
-                     "key" : "rending",
-                     "modify" : false,
-                     "name" : "Rending",
-                     "rating" : ""
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "UrqqI8fS"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "JzHY_1g",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
+            {
+               "attacks" : "6",
+               "count" : 1,
+               "id" : "UrqqI8fS",
+               "label" : "Great Energy Sword (A6, AP(2), Rending)",
+               "name" : "Great Energy Sword",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UrqqI8fS"
+            },
             {
                "attacks" : 3,
                "count" : 1,
@@ -185,131 +180,137 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : "1"
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "-iQKsJot"
-            },
-            {
-               "attacks" : "6",
-               "count" : 1,
-               "id" : "UrqqI8fS",
-               "label" : "Great Energy Sword (A6, AP(2), Rending)",
-               "name" : "Great Energy Sword",
-               "originalCount" : 1,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "2"
-                  },
-                  {
-                     "key" : "rending",
-                     "modify" : false,
-                     "name" : "Rending",
-                     "rating" : ""
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "UrqqI8fS"
             }
          ],
          "name" : "Exo-Suit High Sister",
          "notes" : null,
          "quality" : 4,
-         "selectedUpgrades" : [],
-         "selectionId" : "jyWr3",
-         "size" : 1,
-         "specialRules" : [
+         "rules" : [
             {
-               "id" : 140,
-               "key" : "devout",
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
                "name" : "Devout"
             },
             {
-               "id" : 64,
-               "key" : "fear",
+               "id" : "dIQ3SGl2J2Ew",
                "label" : "Fear(2)",
                "name" : "Fear",
                "rating" : 2
             },
             {
-               "id" : 68,
-               "key" : "hero",
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
                "name" : "Hero"
             },
             {
-               "id" : 80,
-               "key" : "tough",
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(9)",
                "name" : "Tough",
                "rating" : 9
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "jyWr3",
+         "size" : 1,
          "traits" : [],
          "upgrades" : [
             "EDMfI"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : "6",
+               "count" : 1,
+               "id" : "UrqqI8fS",
+               "label" : "Great Energy Sword (A6, AP(2), Rending)",
+               "name" : "Great Energy Sword",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UrqqI8fS"
+            },
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "ywxRIDQs",
+               "label" : "Stomp (A3, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "-iQKsJot"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
-         "cost" : 45,
+         "cost" : 35,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "WWqUi2Wx",
-               "label" : "CCW (A2)",
-               "name" : "CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "83nhlNHF"
-            },
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "lXOrCYv-",
-               "label" : "Master Heavy Pistol (12\", A2, AP(1))",
-               "name" : "Master Heavy Pistol",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "r63zpLTC"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "2TXWi3B",
+         "items" : [
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shield Wall",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "9hERK",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
+            }
+         ],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 2,
                "count" : 1,
-               "id" : "WWqUi2Wx",
+               "id" : "lXOrCYv-",
                "label" : "CCW (A2)",
                "name" : "CCW",
                "originalCount" : 1,
@@ -319,34 +320,26 @@
                "weaponId" : "83nhlNHF"
             },
             {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "lXOrCYv-",
-               "label" : "Master Heavy Pistol (12\", A2, AP(1))",
-               "name" : "Master Heavy Pistol",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
+               "bases" : null,
+               "content" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shield Wall",
+                     "type" : "ArmyBookRule"
                   }
                ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "r63zpLTC"
+               "count" : 1,
+               "id" : "9hERK",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
             },
             {
                "content" : [
                   {
                      "count" : 1,
                      "dependencies" : [],
-                     "key" : "spiritual guidance",
-                     "label" : "Spiritual Guidance",
-                     "modify" : false,
+                     "id" : "lsYKfk0eU8xT",
                      "name" : "Spiritual Guidance",
-                     "rating" : "",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -360,22 +353,45 @@
          "name" : "High Sister",
          "notes" : null,
          "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "oQbcLXQB2",
+               "instanceId" : "lgSSOQVxR",
                "option" : {
                   "cost" : 60,
                   "costs" : [
                      {
-                        "cost" : 60,
+                        "cost" : 70,
                         "unitId" : "sF4ltO_"
                      },
                      {
-                        "cost" : 60,
+                        "cost" : 70,
+                        "unitId" : "W-crN7f"
+                     },
+                     {
+                        "cost" : 70,
                         "unitId" : "2TXWi3B"
                      },
                      {
-                        "cost" : 60,
+                        "cost" : 70,
                         "unitId" : "_nVdDbE"
                      }
                   ],
@@ -384,11 +400,8 @@
                         "content" : [
                            {
                               "dependencies" : [],
-                              "key" : "spiritual guidance",
-                              "label" : "Spiritual Guidance",
-                              "modify" : false,
+                              "id" : "lsYKfk0eU8xT",
                               "name" : "Spiritual Guidance",
-                              "rating" : "",
                               "type" : "ArmyBookRule"
                            }
                         ],
@@ -400,7 +413,7 @@
                      }
                   ],
                   "id" : "vdVRg",
-                  "label" : "Canoness (Spiritual Guidance)",
+                  "label" : "Spiritual Guidance",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
@@ -408,7 +421,7 @@
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "J9qEXBt",
+                  "id" : "vXVXckC",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -424,24 +437,6 @@
          ],
          "selectionId" : "vOvEM",
          "size" : 1,
-         "specialRules" : [
-            {
-               "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
-            },
-            {
-               "key" : "hero",
-               "name" : "Hero",
-               "rating" : ""
-            },
-            {
-               "key" : "tough",
-               "name" : "Tough",
-               "rating" : "3"
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "A1",
@@ -449,43 +444,37 @@
             "C1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "32",
+            "round" : "25",
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 30,
+         "cost" : 35,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "4MIc_Zub",
-               "label" : "Dual Shock Whip (A1, Blast(3))",
-               "name" : "Dual Shock Whip",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "D1uTGvYI"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "BT_-pdh",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -498,10 +487,11 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "blast",
-                     "modify" : false,
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
                      "name" : "Blast",
-                     "rating" : "3"
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -511,74 +501,76 @@
          "name" : "Fanatic Superior",
          "notes" : null,
          "quality" : 5,
-         "selectedUpgrades" : [],
-         "selectionId" : "bWlYF",
-         "size" : 1,
-         "specialRules" : [
+         "rules" : [
             {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
             },
             {
-               "id" : 212,
-               "key" : "frenzy",
+               "id" : "fpXLibfT38MT",
+               "label" : "Frenzy",
                "name" : "Frenzy"
             },
             {
-               "id" : 68,
-               "key" : "hero",
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
                "name" : "Hero"
             },
             {
-               "id" : 80,
-               "key" : "tough",
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "bWlYF",
+         "size" : 1,
          "traits" : [],
          "upgrades" : [
             "zKN2X"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "4MIc_Zub",
+               "label" : "Dual Shock Whip (A1, Blast(3))",
+               "name" : "Dual Shock Whip",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "D1uTGvYI"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "32",
-            "square" : "25"
+            "round" : "25",
+            "square" : "30"
          },
          "combined" : false,
-         "cost" : 80,
+         "cost" : 95,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : "2",
-               "count" : 5,
-               "id" : "4MIc_Zub",
-               "label" : "Chainsaw Sword (A2, AP(1))",
-               "name" : "Chainsaw Sword",
-               "originalCount" : 5,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "CClql4IC"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "R3sC7UX",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -591,10 +583,11 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : "1"
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -604,80 +597,90 @@
          "name" : "Fanatic Sisters",
          "notes" : null,
          "quality" : 5,
-         "selectedUpgrades" : [],
-         "selectionId" : "ZSN-B",
-         "size" : 5,
-         "specialRules" : [
+         "rules" : [
             {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
             },
             {
-               "id" : 212,
-               "key" : "frenzy",
+               "id" : "fpXLibfT38MT",
+               "label" : "Frenzy",
                "name" : "Frenzy"
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "ZSN-B",
+         "size" : 5,
          "traits" : [],
          "upgrades" : [
             "H1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : "2",
+               "count" : 5,
+               "id" : "4MIc_Zub",
+               "label" : "Chainsaw Sword (A2, AP(1))",
+               "name" : "Chainsaw Sword",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "CClql4IC"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "32",
+            "round" : "25",
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 110,
+         "cost" : 115,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "WWqUi2Wx",
-               "label" : "CCW (A1)",
-               "name" : "CCW",
-               "originalCount" : 5,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "lXOrCYv-",
-               "label" : "Heavy Rifle (24\", A1, AP(1))",
-               "name" : "Heavy Rifle",
-               "originalCount" : 5,
-               "range" : 24,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "lXOrCYv-"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "0Bc4px2",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 1,
                "count" : 5,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
                "name" : "CCW",
@@ -686,41 +689,22 @@
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "lXOrCYv-",
-               "label" : "Heavy Rifle (24\", A1, AP(1))",
-               "name" : "Heavy Rifle",
-               "originalCount" : 5,
-               "range" : 24,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "lXOrCYv-"
             }
          ],
          "name" : "Warrior Sisters",
          "notes" : null,
          "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            }
+         ],
          "selectedUpgrades" : [],
          "selectionId" : "GHRW8",
          "size" : 5,
-         "specialRules" : [
-            {
-               "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "E1",
@@ -728,57 +712,79 @@
             "vo3TX"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "32",
+            "round" : "25",
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 130,
+         "cost" : 145,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "WWqUi2Wx",
-               "label" : "CCW (A1)",
-               "name" : "CCW",
-               "originalCount" : 5,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 2,
-               "count" : 5,
-               "id" : "GKm7CCrS",
-               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
-               "name" : "Twin Heavy Pistol",
-               "originalCount" : 5,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "GKm7CCrS"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "qgESKb_",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 5,
+               "id" : "GKm7CCrS",
+               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
+               "name" : "Twin Heavy Pistol",
+               "originalCount" : 5,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "GKm7CCrS"
+            },
             {
                "attacks" : 1,
                "count" : 5,
@@ -790,63 +796,78 @@
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 2,
-               "count" : 5,
-               "id" : "GKm7CCrS",
-               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
-               "name" : "Twin Heavy Pistol",
-               "originalCount" : 5,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "GKm7CCrS"
             }
          ],
          "name" : "Pistoleer Sisters",
          "notes" : null,
          "quality" : 4,
-         "selectedUpgrades" : [],
-         "selectionId" : "HpAr_",
-         "size" : 5,
-         "specialRules" : [
+         "rules" : [
             {
-               "key" : "ambush",
-               "name" : "Ambush",
-               "rating" : ""
+               "id" : "6mJw5IdqSqNC",
+               "label" : "Ambush",
+               "name" : "Ambush"
             },
             {
                "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
             },
             {
-               "key" : "flying",
-               "name" : "Flying",
-               "rating" : ""
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "HpAr_",
+         "size" : 5,
          "traits" : [],
          "upgrades" : [
             "J1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 5,
+               "id" : "GKm7CCrS",
+               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
+               "name" : "Twin Heavy Pistol",
+               "originalCount" : 5,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "GKm7CCrS"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "120x92",
-            "square" : "150x100"
+            "round" : "60",
+            "square" : "50"
          },
          "combined" : false,
          "cost" : 100,
@@ -856,76 +877,12 @@
             "29r4mTF"
          ],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "L2BZ_q3X",
-               "label" : "Stomp (A2, AP(1))",
-               "name" : "Stomp",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "hyB0WaAL"
-            },
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "5gKLE",
-               "label" : "Energy Mace (A1, AP(2), Blast(3))",
-               "name" : "Energy Mace",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "2"
-                  },
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "UEYa2Rys"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "G-oYVEJ",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "L2BZ_q3X",
-               "label" : "Stomp (A2, AP(1))",
-               "name" : "Stomp",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "hyB0WaAL"
-            },
             {
                "attacks" : 1,
                "count" : 1,
@@ -936,60 +893,132 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
                      "name" : "AP",
-                     "rating" : "2"
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
                   },
                   {
-                     "key" : "blast",
-                     "modify" : false,
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
                      "name" : "Blast",
-                     "rating" : "3"
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "UEYa2Rys"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "L2BZ_q3X",
+               "label" : "Stomp (A2, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "hyB0WaAL"
             }
          ],
          "name" : "Exo-Suit",
          "notes" : null,
          "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "additional" : false,
+               "id" : "dIQ3SGl2J2Ew",
+               "label" : "Fear(1)",
+               "name" : "Fear",
+               "rating" : 1
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(6)",
+               "name" : "Tough",
+               "rating" : 6
+            }
+         ],
          "selectedUpgrades" : [],
          "selectionId" : "GLDQu",
          "size" : 1,
-         "specialRules" : [
-            {
-               "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
-            },
-            {
-               "additional" : false,
-               "key" : "fear",
-               "label" : "Fear(1)",
-               "name" : "Fear",
-               "rating" : 1
-            },
-            {
-               "key" : "tough",
-               "name" : "Tough",
-               "rating" : "6"
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "L1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "5gKLE",
+               "label" : "Energy Mace (A1, AP(2), Blast(3))",
+               "name" : "Energy Mace",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UEYa2Rys"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "L2BZ_q3X",
+               "label" : "Stomp (A2, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "hyB0WaAL"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "120x92",
-            "square" : "150x100"
+            "round" : "60",
+            "square" : "50"
          },
          "combined" : false,
          "cost" : 100,
@@ -999,76 +1028,12 @@
             "29r4mTF"
          ],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "L2BZ_q3X",
-               "label" : "Stomp (A2, AP(1))",
-               "name" : "Stomp",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "hyB0WaAL"
-            },
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "5gKLE",
-               "label" : "Energy Mace (A1, AP(2), Blast(3))",
-               "name" : "Energy Mace",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "2"
-                  },
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "UEYa2Rys"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "G-oYVEJ",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "L2BZ_q3X",
-               "label" : "Stomp (A2, AP(1))",
-               "name" : "Stomp",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "hyB0WaAL"
-            },
             {
                "attacks" : 1,
                "count" : 1,
@@ -1079,117 +1044,171 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
                      "name" : "AP",
-                     "rating" : "2"
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
                   },
                   {
-                     "key" : "blast",
-                     "modify" : false,
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
                      "name" : "Blast",
-                     "rating" : "3"
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "UEYa2Rys"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "L2BZ_q3X",
+               "label" : "Stomp (A2, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "hyB0WaAL"
             }
          ],
          "name" : "Exo-Suit",
          "notes" : null,
          "quality" : 4,
-         "selectedUpgrades" : [],
-         "selectionId" : "XT6qN",
-         "size" : 1,
-         "specialRules" : [
+         "rules" : [
             {
                "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
             },
             {
                "additional" : false,
-               "key" : "fear",
+               "id" : "dIQ3SGl2J2Ew",
                "label" : "Fear(1)",
                "name" : "Fear",
                "rating" : 1
             },
             {
-               "key" : "tough",
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(6)",
                "name" : "Tough",
-               "rating" : "6"
+               "rating" : 6
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "XT6qN",
+         "size" : 1,
          "traits" : [],
          "upgrades" : [
             "L1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "5gKLE",
+               "label" : "Energy Mace (A1, AP(2), Blast(3))",
+               "name" : "Energy Mace",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UEYa2Rys"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "L2BZ_q3X",
+               "label" : "Stomp (A2, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "hyB0WaAL"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
             "round" : "120x92",
-            "square" : "150x100"
+            "square" : "100x50"
          },
          "combined" : false,
-         "cost" : 275,
+         "cost" : 280,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 3,
-               "count" : 1,
-               "id" : "ywxRIDQs",
-               "label" : "Stomp (A3, AP(1))",
-               "name" : "Stomp",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "-iQKsJot"
-            },
-            {
-               "attacks" : 1,
-               "count" : 2,
-               "id" : "mdn1RlHy",
-               "label" : "Heavy Flail (A1, AP(1), Blast(3))",
-               "name" : "Heavy Flail",
-               "originalCount" : 2,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  },
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "mdn1RlHy"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "2K2sl7L",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 2,
+               "id" : "mdn1RlHy",
+               "label" : "2x Heavy Flail (A1, AP(1), Blast(3))",
+               "name" : "Heavy Flail",
+               "originalCount" : 2,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "mdn1RlHy"
+            },
             {
                "attacks" : 3,
                "count" : 1,
@@ -1200,146 +1219,160 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : "1"
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "-iQKsJot"
-            },
-            {
-               "attacks" : 1,
-               "count" : 2,
-               "id" : "mdn1RlHy",
-               "label" : "Heavy Flail (A1, AP(1), Blast(3))",
-               "name" : "Heavy Flail",
-               "originalCount" : 2,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  },
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "mdn1RlHy"
             }
          ],
          "name" : "Assault Walker",
          "notes" : null,
          "quality" : 4,
-         "selectedUpgrades" : [],
-         "selectionId" : "8IVWb",
-         "size" : 1,
-         "specialRules" : [
+         "rules" : [
             {
                "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
             },
             {
-               "key" : "fear",
+               "id" : "dIQ3SGl2J2Ew",
                "label" : "Fear(2)",
                "name" : "Fear",
                "rating" : 2
             },
             {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
             },
             {
-               "key" : "furious",
-               "name" : "Furious",
-               "rating" : ""
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
             },
             {
-               "key" : "regeneration",
-               "name" : "Regeneration",
-               "rating" : ""
+               "id" : "8KujvrTG8k9p",
+               "label" : "Regeneration",
+               "name" : "Regeneration"
             },
             {
-               "id" : 76,
-               "key" : "scout",
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
                "name" : "Scout"
             },
             {
-               "key" : "tough",
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(9)",
                "name" : "Tough",
-               "rating" : "9"
+               "rating" : 9
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "8IVWb",
+         "size" : 1,
          "traits" : [],
          "upgrades" : [
             "viyjq",
             "ObQny"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 2,
+               "id" : "mdn1RlHy",
+               "label" : "2x Heavy Flail (A1, AP(1), Blast(3))",
+               "name" : "Heavy Flail",
+               "originalCount" : 2,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "mdn1RlHy"
+            },
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "ywxRIDQs",
+               "label" : "Stomp (A3, AP(1))",
+               "name" : "Stomp",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "-iQKsJot"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
-            "round" : "32",
+            "round" : "25",
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 110,
+         "cost" : 115,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "WWqUi2Wx",
-               "label" : "CCW (A1)",
-               "name" : "CCW",
-               "originalCount" : 5,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "lXOrCYv-",
-               "label" : "Heavy Rifle (24\", A1, AP(1))",
-               "name" : "Heavy Rifle",
-               "originalCount" : 5,
-               "range" : 24,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "lXOrCYv-"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "0Bc4px2",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 1,
                "count" : 5,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
                "name" : "CCW",
@@ -1348,41 +1381,22 @@
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 1,
-               "count" : 5,
-               "id" : "lXOrCYv-",
-               "label" : "Heavy Rifle (24\", A1, AP(1))",
-               "name" : "Heavy Rifle",
-               "originalCount" : 5,
-               "range" : 24,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "lXOrCYv-"
             }
          ],
          "name" : "Warrior Sisters",
          "notes" : null,
          "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            }
+         ],
          "selectedUpgrades" : [],
          "selectionId" : "Mw8YW",
          "size" : 5,
-         "specialRules" : [
-            {
-               "additional" : false,
-               "key" : "devout",
-               "name" : "Devout",
-               "rating" : ""
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "E1",
@@ -1390,6 +1404,40 @@
             "vo3TX"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 5,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 5,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 5,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
          "xp" : 0
       }
    ]

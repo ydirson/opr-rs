@@ -16,8 +16,15 @@
          "aliasedRuleId" : "Tdyu4Tn-rFN6",
          "description" : "This model and up to half of its army get Scout (must deploy within 3” of this model).",
          "hasRating" : false,
-         "id" : "Tdyu4Tn-rFN6",
+         "id" : "N1jcDB7oemqy",
          "name" : "Battle Ready"
+      },
+      {
+         "aliasedRuleId" : "5XvPNuYy1sW1",
+         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+         "hasRating" : false,
+         "id" : "cASg2EWE6GN5",
+         "name" : "Dark March"
       },
       {
          "aliasedRuleId" : null,
@@ -27,11 +34,11 @@
          "name" : "Frenzy"
       },
       {
-         "aliasedRuleId" : "5XvPNuYy1sW1",
-         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+         "aliasedRuleId" : null,
+         "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6\" in line of sight takes 1 hit with Blast(3) and AP(1).",
          "hasRating" : false,
-         "id" : "5XvPNuYy1sW1",
-         "name" : "Dark March"
+         "id" : "fHg1uKwkuiBP",
+         "name" : "Breath Attack"
       },
       {
          "aliasedRuleId" : null,
@@ -41,38 +48,38 @@
          "name" : "Mutations"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Enemy units can’t be set up within 12” of this model when using Ambush.",
-         "hasRating" : false,
-         "id" : "C6MzEy1CnxTs",
-         "name" : "Warning Cry"
-      },
-      {
          "aliasedRuleId" : "bd26Yb52DH42",
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
-         "id" : "bd26Yb52DH42",
-         "name" : "Chosen Warrior"
+         "id" : "G1gClgMVGj8t",
+         "name" : "Chosen Veteran"
       },
       {
          "aliasedRuleId" : "TE5Yx2XcY4k8",
-         "description" : "Once per this unit's activation, before attacking, pick one enemy unit within 12”. That unit, and up to 3 enemy units within 6\" gets -2 to its next morale test roll.",
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 enemy unit within 12\", which gets -2 to its next morale test roll.",
          "hasRating" : false,
-         "id" : "TE5Yx2XcY4k8",
+         "id" : "NNoWIXzITK2g",
          "name" : "Doom Caller"
       },
       {
-         "aliasedRuleId" : "Jm_snOMYIAZI",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified hit rolls of 5-6 instead. This effect lasts until the end of the round.",
+         "aliasedRuleId" : "kqma1pPDpN3w",
+         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to hit next time they fight in melee.",
          "hasRating" : false,
-         "id" : "Jm_snOMYIAZI",
+         "id" : "9_IE2GNkClVN",
+         "name" : "Dark Blessing"
+      },
+      {
+         "aliasedRuleId" : "Jm_snOMYIAZI",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "R1MLjrzLsF-3",
          "name" : "Blood Icon"
       },
       {
          "aliasedRuleId" : "GIUL_hv-YvHP",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to hit in melee. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "GIUL_hv-YvHP",
+         "id" : "SyZ9COlGubUd",
          "name" : "Blessing of War"
       }
    ],
@@ -153,44 +160,17 @@
       {
          "armyId" : "TjNtGnCDVts3l3ER",
          "bases" : {
-            "round" : "25",
-            "square" : "20"
+            "round" : "32",
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 30,
          "defense" : 5,
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 3,
-               "dependencies" : [
-                  {
-                     "count" : 3,
-                     "upgradeInstanceId" : "tgw6uo1ET",
-                     "variant" : "replace"
-                  }
-               ],
-               "id" : "B27AB",
-               "label" : "Great Weapon (A1, AP(2))",
-               "name" : "Great Weapon",
-               "originalCount" : 3,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "2"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "uDtOR3Iw"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "If65t6B",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -208,14 +188,21 @@
          "name" : "War Gore Reavers",
          "notes" : null,
          "quality" : 5,
+         "rules" : [
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            }
+         ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "tgw6uo1ET",
+               "instanceId" : "58ySvKcE6",
                "option" : {
                   "cost" : 5,
                   "costs" : [
                      {
-                        "cost" : 5,
+                        "cost" : 0,
                         "unitId" : "If65t6B"
                      }
                   ],
@@ -244,7 +231,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "b9sx3xr",
+                  "id" : "sZ3ubfQ",
                   "label" : "Replace all Great Weapons",
                   "parentPackageUid" : "DSao1",
                   "targets" : [
@@ -258,56 +245,58 @@
          ],
          "selectionId" : "nOYhq",
          "size" : 3,
-         "specialRules" : [
-            {
-               "id" : 67,
-               "key" : "furious",
-               "name" : "Furious"
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "D1",
             "DSao1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 3,
+               "dependencies" : [
+                  {
+                     "count" : 3,
+                     "upgradeInstanceId" : "58ySvKcE6",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "B27AB",
+               "label" : "Great Weapon (A1, AP(2))",
+               "name" : "Great Weapon",
+               "originalCount" : 3,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "uDtOR3Iw"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "TjNtGnCDVts3l3ER",
          "bases" : {
-            "round" : "32",
-            "square" : "25"
+            "round" : "25",
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 30,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 3,
-               "count" : 1,
-               "dependencies" : [
-                  {
-                     "count" : 1,
-                     "upgradeInstanceId" : "-M74JRPF8",
-                     "variant" : "replace"
-                  }
-               ],
-               "id" : "dtP-4K0j",
-               "label" : "Hand Weapon (A3)",
-               "name" : "Hand Weapon",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "LrcnOP7B"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "v9qR4skis",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -320,9 +309,7 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "label" : "AP(2)",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
                      "name" : "AP",
                      "rating" : 2,
                      "type" : "ArmyBookRule"
@@ -336,11 +323,8 @@
                   {
                      "count" : 1,
                      "dependencies" : [],
-                     "key" : "battle ready",
-                     "label" : "Battle Ready",
-                     "modify" : false,
+                     "id" : "N1jcDB7oemqy",
                      "name" : "Battle Ready",
-                     "rating" : "",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -354,14 +338,32 @@
          "name" : "War Barbarian Champion",
          "notes" : null,
          "quality" : 5,
+         "rules" : [
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "fpXLibfT38MT",
+               "label" : "Frenzy",
+               "name" : "Frenzy"
+            }
+         ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "-M74JRPF8",
+               "instanceId" : "6gud3nCX6",
                "option" : {
                   "cost" : 5,
                   "costs" : [
                      {
-                        "cost" : 5,
+                        "cost" : 10,
                         "unitId" : "v9qR4skis"
                      }
                   ],
@@ -376,9 +378,7 @@
                         "range" : 0,
                         "specialRules" : [
                            {
-                              "key" : "ap",
-                              "label" : "AP(2)",
-                              "modify" : false,
+                              "id" : "17crjK7P6_w6",
                               "name" : "AP",
                               "rating" : 2,
                               "type" : "ArmyBookRule"
@@ -397,7 +397,7 @@
                   "uid" : "CSJn0_u"
                },
                "upgrade" : {
-                  "id" : "i16pl3g",
+                  "id" : "13muOSG",
                   "label" : "Replace Hand Weapon",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -409,7 +409,7 @@
                }
             },
             {
-               "instanceId" : "V9euErFCd",
+               "instanceId" : "a1WsBtdJ6",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -423,11 +423,8 @@
                         "content" : [
                            {
                               "dependencies" : [],
-                              "key" : "battle ready",
-                              "label" : "Battle Ready",
-                              "modify" : false,
+                              "id" : "N1jcDB7oemqy",
                               "name" : "Battle Ready",
-                              "rating" : "",
                               "type" : "ArmyBookRule"
                            }
                         ],
@@ -439,7 +436,7 @@
                      }
                   ],
                   "id" : "g6drS",
-                  "label" : "Marauder (Battle Ready)",
+                  "label" : "Battle Ready",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "xlVu8PO",
                   "parentSectionUid" : "xlVu8PO",
@@ -447,7 +444,7 @@
                   "uid" : "g6drS"
                },
                "upgrade" : {
-                  "id" : "9xfwEa8",
+                  "id" : "Sw-oO1s",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -463,24 +460,6 @@
          ],
          "selectionId" : "Ix8MC",
          "size" : 1,
-         "specialRules" : [
-            {
-               "key" : "hero",
-               "modify" : false,
-               "name" : "Hero",
-               "rating" : ""
-            },
-            {
-               "key" : "tough",
-               "modify" : false,
-               "name" : "Tough",
-               "rating" : "3"
-            },
-            {
-               "key" : "frenzy",
-               "name" : "Frenzy"
-            }
-         ],
          "sync" : {
             "parentArmyBookId" : "PGxKcq4R571OtwqD",
             "syncAutomatic" : true,
@@ -491,50 +470,44 @@
             "B1"
          ],
          "valid" : true,
-         "xp" : 0
-      },
-      {
-         "armyId" : "TjNtGnCDVts3l3ER",
-         "bases" : {
-            "round" : "32",
-            "square" : "25"
-         },
-         "combined" : false,
-         "cost" : 55,
-         "defense" : 3,
-         "disabledSections" : [],
-         "disabledUpgradeSections" : [],
-         "equipment" : [
+         "weapons" : [
             {
                "attacks" : 3,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mAoc1urzq",
+                     "upgradeInstanceId" : "6gud3nCX6",
                      "variant" : "replace"
                   }
                ],
-               "id" : "Jaz3Qv3M",
-               "label" : "Heavy Hand Weapon (A3, AP(1))",
-               "name" : "Heavy Hand Weapon",
+               "id" : "dtP-4K0j",
+               "label" : "Hand Weapon (A3)",
+               "name" : "Hand Weapon",
                "originalCount" : 1,
                "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
+               "specialRules" : [],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "6_Zqzqib"
+               "weaponId" : "LrcnOP7B"
             }
          ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 60,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "bjpRsHS_a",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -542,9 +515,7 @@
                   {
                      "count" : 1,
                      "dependencies" : [],
-                     "key" : "blessing of war",
-                     "label" : "Blessing of War",
-                     "modify" : false,
+                     "id" : "SyZ9COlGubUd",
                      "name" : "Blessing of War",
                      "type" : "ArmyBookRule"
                   }
@@ -565,9 +536,7 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "label" : "AP(3)",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
                      "name" : "AP",
                      "rating" : 3,
                      "type" : "ArmyBookRule"
@@ -580,12 +549,33 @@
          "name" : "War Master",
          "notes" : null,
          "quality" : 3,
+         "rules" : [
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            }
+         ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "JgzBqrVgK",
+               "instanceId" : "BMGYxkL5k",
                "option" : {
-                  "cost" : 25,
                   "costs" : [
+                     {
+                        "cost" : 10,
+                        "unitId" : "S-zHRg9wO"
+                     },
                      {
                         "cost" : 10,
                         "unitId" : "bjpRsHS_a"
@@ -596,9 +586,7 @@
                         "content" : [
                            {
                               "dependencies" : [],
-                              "key" : "blessing of war",
-                              "label" : "Blessing of War",
-                              "modify" : false,
+                              "id" : "SyZ9COlGubUd",
                               "name" : "Blessing of War",
                               "type" : "ArmyBookRule"
                            }
@@ -611,13 +599,13 @@
                      }
                   ],
                   "id" : "VrJBEDg",
-                  "label" : "War Lord (Blessing of War)",
+                  "label" : "Blessing of War",
                   "parentSectionId" : "19qVgHF",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VrJBEDg"
                },
                "upgrade" : {
-                  "id" : "IO5xmRU",
+                  "id" : "X4ujyyJ",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "A1",
@@ -631,12 +619,16 @@
                }
             },
             {
-               "instanceId" : "mAoc1urzq",
+               "instanceId" : "RAJ_y2Yeo",
                "option" : {
                   "cost" : 10,
                   "costs" : [
                      {
-                        "cost" : 10,
+                        "cost" : 25,
+                        "unitId" : "S-zHRg9wO"
+                     },
+                     {
+                        "cost" : 15,
                         "unitId" : "bjpRsHS_a"
                      }
                   ],
@@ -651,9 +643,7 @@
                         "range" : 0,
                         "specialRules" : [
                            {
-                              "key" : "ap",
-                              "label" : "AP(3)",
-                              "modify" : false,
+                              "id" : "17crjK7P6_w6",
                               "name" : "AP",
                               "rating" : 3,
                               "type" : "ArmyBookRule"
@@ -672,7 +662,7 @@
                   "uid" : "p_mJ2mK"
                },
                "upgrade" : {
-                  "id" : "fjA_LJg",
+                  "id" : "o0D7rBj",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -682,67 +672,10 @@
                   "uid" : "qPsrtux",
                   "variant" : "replace"
                }
-            },
-            {
-               "instanceId" : "ag41n4rkf",
-               "option" : {
-                  "cost" : 10,
-                  "costs" : [
-                     {
-                        "cost" : 10,
-                        "unitId" : "bjpRsHS_a"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "count" : 1,
-                        "dependencies" : [],
-                        "key" : "chosen warrior",
-                        "label" : "Chosen Warrior",
-                        "modify" : false,
-                        "name" : "Chosen Warrior",
-                        "rating" : "",
-                        "type" : "ArmyBookRule"
-                     }
-                  ],
-                  "id" : "wi3x0",
-                  "label" : "Chosen Warrior",
-                  "parentPackageUid" : "A1",
-                  "parentSectionId" : "-Hw57ol",
-                  "parentSectionUid" : "-Hw57ol",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "wi3x0"
-               },
-               "upgrade" : {
-                  "id" : "wxfIj-u",
-                  "label" : "Upgrade with",
-                  "parentPackageUid" : "A1",
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "-Hw57ol",
-                  "variant" : "upgrade"
-               }
             }
          ],
          "selectionId" : "cfUYK",
          "size" : 1,
-         "specialRules" : [
-            {
-               "key" : "hero",
-               "modify" : false,
-               "name" : "Hero",
-               "rating" : ""
-            },
-            {
-               "key" : "tough",
-               "modify" : false,
-               "name" : "Tough",
-               "rating" : "3"
-            },
-            {
-               "key" : "furious",
-               "name" : "Furious"
-            }
-         ],
          "sync" : {
             "parentArmyBookId" : "PGxKcq4R571OtwqD",
             "syncAutomatic" : true,
@@ -753,50 +686,52 @@
             "A1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "RAJ_y2Yeo",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "Jaz3Qv3M",
+               "label" : "Heavy Hand Weapon (A3, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "6_Zqzqib"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "TjNtGnCDVts3l3ER",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 15,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "dependencies" : [
-                  {
-                     "count" : 1,
-                     "upgradeInstanceId" : "pFBBxpvA_",
-                     "variant" : "replace"
-                  }
-               ],
-               "id" : "rwF2mZO0",
-               "label" : "Heavy Hand Weapon (A1, AP(1))",
-               "name" : "Heavy Hand Weapon",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "NNpI7jdV"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "GSOrDficq",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -809,9 +744,7 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "label" : "AP(1)",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
                      "name" : "AP",
                      "rating" : 1,
                      "type" : "ArmyBookRule"
@@ -824,15 +757,26 @@
          "name" : "War Warrior",
          "notes" : null,
          "quality" : 3,
+         "rules" : [
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            }
+         ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "pFBBxpvA_",
+               "instanceId" : "S8DDWlbHi",
                "option" : {
-                  "cost" : 40,
+                  "cost" : 35,
                   "costs" : [
                      {
                         "cost" : 10,
                         "unitId" : "GSOrDficq"
+                     },
+                     {
+                        "cost" : 15,
+                        "unitId" : "2-V99hmLa"
                      }
                   ],
                   "gains" : [
@@ -846,9 +790,7 @@
                         "range" : 0,
                         "specialRules" : [
                            {
-                              "key" : "ap",
-                              "label" : "AP(1)",
-                              "modify" : false,
+                              "id" : "17crjK7P6_w6",
                               "name" : "AP",
                               "rating" : 1,
                               "type" : "ArmyBookRule"
@@ -867,7 +809,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "a5JJ8G3",
+                  "id" : "tS1DkyE",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -876,57 +818,11 @@
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "02QBHyf",
                   "variant" : "replace"
-               }
-            },
-            {
-               "instanceId" : "7ogzTYEeQ",
-               "option" : {
-                  "cost" : 20,
-                  "costs" : [
-                     {
-                        "cost" : 5,
-                        "unitId" : "GSOrDficq"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "count" : 1,
-                        "dependencies" : [],
-                        "key" : "chosen warrior",
-                        "label" : "Chosen Warrior",
-                        "modify" : false,
-                        "name" : "Chosen Warrior",
-                        "rating" : "",
-                        "type" : "ArmyBookRule"
-                     }
-                  ],
-                  "id" : "9o3Qq",
-                  "label" : "Chosen Warrior",
-                  "parentPackageUid" : "F1",
-                  "parentSectionId" : "9w7Zgee",
-                  "parentSectionUid" : "9w7Zgee",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "9o3Qq"
-               },
-               "upgrade" : {
-                  "id" : "PmjDSxz",
-                  "label" : "Upgrade with",
-                  "model" : true,
-                  "parentPackageUid" : "F1",
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "9w7Zgee",
-                  "variant" : "upgrade"
                }
             }
          ],
          "selectionId" : "2OkH7",
          "size" : 1,
-         "specialRules" : [
-            {
-               "key" : "furious",
-               "name" : "Furious"
-            }
-         ],
          "sync" : {
             "parentArmyBookId" : "PGxKcq4R571OtwqD",
             "syncAutomatic" : true,
@@ -938,27 +834,14 @@
             "F1"
          ],
          "valid" : true,
-         "xp" : 0
-      },
-      {
-         "armyId" : "TjNtGnCDVts3l3ER",
-         "bases" : {
-            "round" : "32",
-            "square" : "25"
-         },
-         "combined" : false,
-         "cost" : 15,
-         "defense" : 3,
-         "disabledSections" : [],
-         "disabledUpgradeSections" : [],
-         "equipment" : [
+         "weapons" : [
             {
                "attacks" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "dApfE8ZJE",
+                     "upgradeInstanceId" : "S8DDWlbHi",
                      "variant" : "replace"
                   }
                ],
@@ -969,19 +852,34 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : "1"
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "NNpI7jdV"
             }
          ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "TjNtGnCDVts3l3ER",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 15,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "GSOrDficq",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
@@ -994,9 +892,7 @@
                "range" : 0,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "label" : "AP(1)",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
                      "name" : "AP",
                      "rating" : 1,
                      "type" : "ArmyBookRule"
@@ -1009,15 +905,26 @@
          "name" : "War Warrior",
          "notes" : null,
          "quality" : 3,
+         "rules" : [
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            }
+         ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "dApfE8ZJE",
+               "instanceId" : "BayKY1QlL",
                "option" : {
-                  "cost" : 40,
+                  "cost" : 35,
                   "costs" : [
                      {
                         "cost" : 10,
                         "unitId" : "GSOrDficq"
+                     },
+                     {
+                        "cost" : 15,
+                        "unitId" : "2-V99hmLa"
                      }
                   ],
                   "gains" : [
@@ -1031,9 +938,7 @@
                         "range" : 0,
                         "specialRules" : [
                            {
-                              "key" : "ap",
-                              "label" : "AP(1)",
-                              "modify" : false,
+                              "id" : "17crjK7P6_w6",
                               "name" : "AP",
                               "rating" : 1,
                               "type" : "ArmyBookRule"
@@ -1052,7 +957,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "a5JJ8G3",
+                  "id" : "tS1DkyE",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -1062,56 +967,10 @@
                   "uid" : "02QBHyf",
                   "variant" : "replace"
                }
-            },
-            {
-               "instanceId" : "8e2LoDQmf",
-               "option" : {
-                  "cost" : 20,
-                  "costs" : [
-                     {
-                        "cost" : 5,
-                        "unitId" : "GSOrDficq"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "count" : 1,
-                        "dependencies" : [],
-                        "key" : "chosen warrior",
-                        "label" : "Chosen Warrior",
-                        "modify" : false,
-                        "name" : "Chosen Warrior",
-                        "rating" : "",
-                        "type" : "ArmyBookRule"
-                     }
-                  ],
-                  "id" : "9o3Qq",
-                  "label" : "Chosen Warrior",
-                  "parentPackageUid" : "F1",
-                  "parentSectionId" : "9w7Zgee",
-                  "parentSectionUid" : "9w7Zgee",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "9o3Qq"
-               },
-               "upgrade" : {
-                  "id" : "PmjDSxz",
-                  "label" : "Upgrade with",
-                  "model" : true,
-                  "parentPackageUid" : "F1",
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "9w7Zgee",
-                  "variant" : "upgrade"
-               }
             }
          ],
          "selectionId" : "5m43D",
          "size" : 1,
-         "specialRules" : [
-            {
-               "key" : "furious",
-               "name" : "Furious"
-            }
-         ],
          "sync" : {
             "parentArmyBookId" : "PGxKcq4R571OtwqD",
             "syncAutomatic" : true,
@@ -1123,6 +982,35 @@
             "F1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "BayKY1QlL",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "rwF2mZO0",
+               "label" : "Heavy Hand Weapon (A1, AP(1))",
+               "name" : "Heavy Hand Weapon",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "NNpI7jdV"
+            }
+         ],
          "xp" : 0
       }
    ]

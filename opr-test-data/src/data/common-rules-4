@@ -1,12 +1,12 @@
 {
    "rules" : [
       {
-         "description" : "Must deploy before all other units. Ignores all units and terrain when moving and stopping, can’t seize objectives, and can’t be moved in contact with. May only use Advance actions, moving in a straight line by 30”-36” without turning. If it moves off-table, it ends its activation, and must deploy on any table edge at the beginning of the next round. Units targeting Aircraft get -12” range and -1 to hit rolls.",
+         "description" : "May only use Advance actions, moving in a straight line, and adding 30\" to its total move (even if Shaken). Aircraft ignore all units and terrain when moving and stopping, can’t seize objectives, can’t be charged, and units targeting it get -12” range and -1 to hit.",
          "id" : "3FeiOe3krHMa",
          "name" : "Aircraft"
       },
       {
-         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. If both players have Ambush, roll-off to see who goes first, and then alternate deploying units. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
+         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
          "id" : "6mJw5IdqSqNC",
          "name" : "Ambush"
       },
@@ -46,7 +46,7 @@
          "name" : "Blast"
       },
       {
-         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. This model and other casters within 18” in line of sight may spend any number of tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. This model and other casters within 18\" in line of sight may spend any number of tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
          "id" : "47CAqf7ySlfc",
          "name" : "Caster"
       },
@@ -71,17 +71,17 @@
          "name" : "Defense"
       },
       {
-         "description" : "Enemies get -2 to hit when shooting at this model from over 9” away, as long as it hasn’t moved since the beginning of its last activation.",
+         "description" : "Enemies get -2 to hit when shooting at this model from over 9\" away, as long as it hasn’t moved since the beginning of its last activation.",
          "id" : "wHfLIdlnEQ1a",
          "name" : "Entrenched"
       },
       {
-         "description" : "Moves +2” when using Advance, and +4” when using Rush/Charge.",
+         "description" : "Moves +2\" when using Advance, and +4” when using Rush/Charge.",
          "id" : "KdgwlPb8LuD2",
          "name" : "Fast"
       },
       {
-         "description" : "Counts as having dealt +X wounds when checking who won melee.",
+         "description" : "This model counts as having dealt +X wounds when checking who won melee.",
          "id" : "dIQ3SGl2J2Ew",
          "name" : "Fear"
       },
@@ -91,7 +91,7 @@
          "name" : "Fearless"
       },
       {
-         "description" : "May move through obstacles, and ignores terrain effects when moving.",
+         "description" : "May move through obstacles and ignores terrain effects whilst moving.",
          "id" : "-QJdqJEKjIpE",
          "name" : "Flying"
       },
@@ -116,17 +116,22 @@
          "name" : "Ignores Cover when Shooting"
       },
       {
+         "description" : "This weapon ignores Regeneration.",
+         "id" : "0TfnG5G4JEv0",
+         "name" : "Ignores Regeneration"
+      },
+      {
          "description" : "May only use Hold actions.",
          "id" : "HWtnPV9LQF1D",
          "name" : "Immobile"
       },
       {
-         "description" : "Roll X dice when attacking after charging (may not be fatigued), for each 2+ the target takes one hit.",
+         "description" : "Roll X dice when attacking after charging, unless fatigued. For each 2+ the target takes one hit.",
          "id" : "62-mYKVM9MLd",
          "name" : "Impact"
       },
       {
-         "description" : "May target enemies that are not in line of sight, and ignores cover from sight obstructions, but gets -1 to hit rolls when shooting after moving.",
+         "description" : "Gets -1 to hit rolls when shooting after moving. May target enemies that are not in line of sight as if in line of sight, and ignores cover from sight obstructions.",
          "id" : "8Ck9GAwUK824",
          "name" : "Indirect"
       },
@@ -136,7 +141,7 @@
          "name" : "Indirect when Shooting"
       },
       {
-         "description" : "Gets AP(+2) when charging.",
+         "description" : "When charging, gets +1 to hit rolls and AP(+1) in melee.",
          "id" : "umbiz4tnEyF8",
          "name" : "Lance"
       },
@@ -146,7 +151,7 @@
          "name" : "Lance in Melee"
       },
       {
-         "description" : "May only be used once.",
+         "description" : "May only be used once per game.",
          "id" : "9042COVrLCsI",
          "name" : "Limited"
       },
@@ -156,12 +161,17 @@
          "name" : "Lock-On"
       },
       {
+         "description" : "This model's ranged weapons get Lock-On.",
+         "id" : "IWz9IUZ4OUzD",
+         "name" : "Lock-On when Shooting"
+      },
+      {
          "description" : "This model's ranged weapons get Magma.",
          "id" : "jtJeaQ4yJOdG",
          "name" : "Magma when Shooting"
       },
       {
-         "description" : "This model and its unit move by +1” when taking move actions.",
+         "description" : "This model and its unit move by +1\" when taking move actions.",
          "id" : "qrG_DXJez5Dg",
          "name" : "Musician"
       },
@@ -196,7 +206,7 @@
          "name" : "Reliable"
       },
       {
-         "description" : "Ignores Regeneration, and unmodified results of 6 to hit get AP(4).",
+         "description" : "Ignores Regeneration, and unmodified rolls of 6 to hit get AP(4).",
          "id" : "cavWDboL4ubs",
          "name" : "Rending"
       },
@@ -211,7 +221,7 @@
          "name" : "Rending when Shooting"
       },
       {
-         "description" : "May be set aside before deployment. After all other units finish, must be deployed and may move by up to 12”, ignoring terrain. If both players have Scout, roll-off to see who goes first, and then alternate deploying units.",
+         "description" : "May be set aside before deployment. After all other units finish, must be deployed and may then be placed anywhere within 12”. Players alternate in placing Scout units, starting with the player that activates next.",
          "id" : "FAMbscK5vhSu",
          "name" : "Scout"
       },
@@ -221,12 +231,12 @@
          "name" : "Sergeant"
       },
       {
-         "description" : "Moves -2” when using Advance, and -4” when using Rush/Charge.",
+         "description" : "Moves -2\" when using Advance, and -4” when using Rush/Charge.",
          "id" : "Ldhtmr4H8b6G",
          "name" : "Slow"
       },
       {
-         "description" : "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1.",
+         "description" : "Shoots at Quality 2+, and each model with Sniper may pick any model in the target unit as its individual target, which is resolved as if it was a unit of 1. Sniper shooting must be resolved before other weapons.",
          "id" : "LGYXUcXfcJac",
          "name" : "Sniper"
       },
@@ -251,103 +261,12 @@
          "name" : "Tough"
       },
       {
-         "description" : "May transport up to X models or Heroes with up to Tough(6), and non-Heroes with up to Tough(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay within 6” of it when exiting. When a transport is destroyed, units inside must take a dangerous terrain test, are immediately Shaken, and surviving models must be placed within 6” of the transport before removing it.",
+         "description" : "May transport up to X models or Heroes with up to Tough(6), and non-Heroes with up to Tough(3) which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay fully within 6\" of it when exiting. When a transport is destroyed, units inside must take a dangerous terrain test, are Shaken, and must be placed fully within 6” of the transport before removing it.",
          "id" : "aogQZcOOQrDI",
          "name" : "Transport"
       }
    ],
    "traits" : [
-      {
-         "campaign" : true,
-         "description" : "The hero ignores difficult terrain effects.",
-         "id" : "pBR-QW17pjHk",
-         "name" : "Climber",
-         "skillSet" : "Pathfinder",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Moves +1” on advance and +2” on rush and charge.",
-         "id" : "hiagKvNsOM20",
-         "name" : "Agile",
-         "type" : 0
-      },
-      {
-         "campaign" : true,
-         "description" : "Friendly units that activate within 6” of the Hero get +1 to hit when shooting.",
-         "id" : "b3IvWc00wOKz",
-         "name" : "Tactician",
-         "skillSet" : "Captain",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero may shoot even after rush actions.",
-         "id" : "Y7bfyRCJxIRt",
-         "name" : "Hunter",
-         "skillSet" : "Shooter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Remove the hero from your army sheet.",
-         "id" : "_eH8ha6fF-o8",
-         "name" : "Dead",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Friendly units within 6” of the Hero get +1 to morale test rolls.",
-         "id" : "Ptk6pCHYAE5R",
-         "name" : "Leader",
-         "skillSet" : "Captain",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero gets AP(+1) when shooting.",
-         "id" : "zn4TDsCqqpNY",
-         "name" : "Destroyer",
-         "skillSet" : "Shooter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets -1 to rolls when in melee.",
-         "id" : "z41zENyo3kqr",
-         "name" : "Arm Injury",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Moves -1” on advance and -2” on rush and charge actions.",
-         "id" : "pkVg1PtDvSrT",
-         "name" : "Smashed Leg",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Enemy units within 6” of the Hero get -1 Defense.",
-         "id" : "EGqZa9aHpJuA",
-         "name" : "Mastermind",
-         "skillSet" : "Support",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
-         "id" : "1X8qwmnAx7zH",
-         "name" : "Suppressor",
-         "skillSet" : "Shooter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets -1 to rolls when blocking hits.",
-         "id" : "5Fk4ZrL0aMsd",
-         "name" : "Chest Wound",
-         "type" : 1
-      },
       {
          "campaign" : true,
          "description" : "May pick any other trait from the list.",
@@ -364,26 +283,94 @@
       },
       {
          "campaign" : true,
-         "description" : "Friendly units that activate within 6” move +4” when using Charge actions.",
-         "id" : "5FaqLcntZqCn",
-         "name" : "Vanguard",
+         "description" : "Enemies get -1 to morale test rolls when in melee with the hero.",
+         "id" : "Y5PogWw-dOua",
+         "name" : "Berserker",
+         "skillSet" : "Fighter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Moves +1\" on advance and +2” on rush and charge.",
+         "id" : "hiagKvNsOM20",
+         "name" : "Agile",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6\" of the Hero get +1 to hit when shooting.",
+         "id" : "b3IvWc00wOKz",
+         "name" : "Tactician",
+         "skillSet" : "Captain",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units within 6\" of the Hero get -1 Defense.",
+         "id" : "EGqZa9aHpJuA",
+         "name" : "Mastermind",
          "skillSet" : "Support",
          "type" : 3
       },
       {
          "campaign" : true,
-         "description" : "The hero always moves +2” (even in terrain).",
-         "id" : "v3_8JnEoKVRl",
-         "name" : "Runner",
+         "description" : "Enemy units get -1 in melee against the hero.",
+         "id" : "r2keEvl4bbGu",
+         "name" : "Duellist",
+         "skillSet" : "Fighter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero ignores difficult terrain effects.",
+         "id" : "pBR-QW17pjHk",
+         "name" : "Climber",
          "skillSet" : "Pathfinder",
          "type" : 3
       },
       {
          "campaign" : true,
-         "description" : "Enemy units further than 12” get -1 to hit rolls when shooting at the hero.",
-         "id" : "TzWvsygpdGTW",
-         "name" : "Prowler",
-         "skillSet" : "Pathfinder",
+         "description" : "Remove the hero from your army sheet.",
+         "id" : "_eH8ha6fF-o8",
+         "name" : "Dead",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero may shoot even after rush actions.",
+         "id" : "Y7bfyRCJxIRt",
+         "name" : "Hunter",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units within 6\" of the Hero get +1 to morale test rolls.",
+         "id" : "Ptk6pCHYAE5R",
+         "name" : "Leader",
+         "skillSet" : "Captain",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Moves -1\" on advance and -2” on rush and charge actions.",
+         "id" : "pkVg1PtDvSrT",
+         "name" : "Smashed Leg",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when in melee.",
+         "id" : "z41zENyo3kqr",
+         "name" : "Arm Injury",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero gets AP(+1) when shooting.",
+         "id" : "zn4TDsCqqpNY",
+         "name" : "Destroyer",
+         "skillSet" : "Shooter",
          "type" : 3
       },
       {
@@ -395,7 +382,46 @@
       },
       {
          "campaign" : true,
-         "description" : "When the hero is activated all friendly units within 6” of the hero stop being shaken.",
+         "description" : "Gets -1 to rolls when blocking hits.",
+         "id" : "5Fk4ZrL0aMsd",
+         "name" : "Chest Wound",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
+         "id" : "1X8qwmnAx7zH",
+         "name" : "Suppressor",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units further than 12\" get -1 to hit rolls when shooting at the hero.",
+         "id" : "TzWvsygpdGTW",
+         "name" : "Prowler",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero always moves +2\" (even in terrain).",
+         "id" : "v3_8JnEoKVRl",
+         "name" : "Runner",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6\" move +4” when using Charge actions.",
+         "id" : "5FaqLcntZqCn",
+         "name" : "Vanguard",
+         "skillSet" : "Support",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "When the hero is activated all friendly units within 6\" of the hero stop being shaken.",
          "id" : "SzTrZqhTR0B3",
          "name" : "Warden",
          "skillSet" : "Healer",
@@ -403,17 +429,17 @@
       },
       {
          "campaign" : true,
-         "description" : "Gets +1 to rolls when blocking hits.",
-         "id" : "x4cVUdcHv7xH",
-         "name" : "Resilient",
-         "type" : 0
-      },
-      {
-         "campaign" : true,
          "description" : "Always passes the first morale test of the match.",
          "id" : "P-v7MVazLrsj",
          "name" : "Motivated",
          "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to rolls when blocking hits.",
+         "id" : "x4cVUdcHv7xH",
+         "name" : "Resilient",
+         "type" : 0
       },
       {
          "campaign" : true,
@@ -425,40 +451,10 @@
       },
       {
          "campaign" : true,
-         "description" : "Enemies get -1 to morale test rolls when in melee with the hero.",
-         "id" : "Y5PogWw-dOua",
-         "name" : "Berserker",
-         "skillSet" : "Fighter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets -1 to rolls when shooting.",
-         "id" : "AILF-vySXt6E",
-         "name" : "Blinded Eye",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero recovers and gets +1 XP.",
-         "id" : "jVtk2swsNw5H",
-         "name" : "Natural Talent",
-         "type" : 2
-      },
-      {
-         "campaign" : true,
          "description" : "Enemy units get -1 to hit when in melee against the hero.",
          "id" : "BHoKITdB4x64",
          "name" : "Horrible Scars",
          "type" : 2
-      },
-      {
-         "campaign" : true,
-         "description" : "Friendly units within 6” of the Hero get +1 to morale tests when in melee.",
-         "id" : "tX9l1C2VKmjD",
-         "name" : "Chemist",
-         "skillSet" : "Healer",
-         "type" : 3
       },
       {
          "campaign" : true,
@@ -469,7 +465,29 @@
       },
       {
          "campaign" : true,
-         "description" : "Friendly units within 6” may ignore wounds on a roll of 6+.",
+         "description" : "The hero recovers and gets +1 XP.",
+         "id" : "jVtk2swsNw5H",
+         "name" : "Natural Talent",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when shooting.",
+         "id" : "AILF-vySXt6E",
+         "name" : "Blinded Eye",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units within 6\" of the Hero get +1 to morale tests when in melee.",
+         "id" : "tX9l1C2VKmjD",
+         "name" : "Chemist",
+         "skillSet" : "Healer",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units within 6\" may ignore wounds on a roll of 6+.",
          "id" : "D8Qd0Fo-fxaP",
          "name" : "Herbalist",
          "skillSet" : "Healer",
@@ -498,18 +516,10 @@
       },
       {
          "campaign" : true,
-         "description" : "Friendly units that activate within 6” of the Hero get +1 to hit when in melee.",
+         "description" : "Friendly units that activate within 6\" of the Hero get +1 to hit when in melee.",
          "id" : "WhQW_mmIt6no",
          "name" : "Instigator",
          "skillSet" : "Captain",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Enemy units get -1 in melee against the hero.",
-         "id" : "r2keEvl4bbGu",
-         "name" : "Duellist",
-         "skillSet" : "Fighter",
          "type" : 3
       },
       {
@@ -521,7 +531,7 @@
       },
       {
          "campaign" : true,
-         "description" : "Friendly units that activate within 6” of the Hero get +6” range when shooting.",
+         "description" : "Friendly units that activate within 6\" of the Hero get +6” range when shooting.",
          "id" : "QHfTFom-JFN4",
          "name" : "Scavenger",
          "skillSet" : "Support",
