@@ -16,14 +16,14 @@
          "aliasedRuleId" : "-p-8I5BpotTm",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to hit when shooting. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "-p-8I5BpotTm",
+         "id" : "ZLkWVDVW6foS",
          "name" : "Battle Rites"
       },
       {
          "aliasedRuleId" : "IyLY1212wacW",
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
-         "id" : "IyLY1212wacW",
+         "id" : "AcDwQ6MYiTO4",
          "name" : "Heavy Shield"
       },
       {
@@ -31,35 +31,42 @@
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
          "id" : "bd26Yb52DH42",
-         "name" : "Veteran Infantry"
+         "name" : "War Veteran"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "iYxL5B5nHGmp",
+         "name" : "Precision Shots"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
-         "id" : "mETdyZ__yMVj",
-         "name" : "Repair"
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
       },
       {
          "aliasedRuleId" : "Jm_snOMYIAZI",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified hit rolls of 5-6 instead. This effect lasts until the end of the round.",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "Jm_snOMYIAZI",
+         "id" : "FWP4aR4iYo8w",
          "name" : "War Chant"
       },
       {
          "aliasedRuleId" : "V3YzPPkZm8at",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "V3YzPPkZm8at",
+         "id" : "bLVZU4onzi2E",
          "name" : "Medical Training"
       },
       {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+         "aliasedRuleId" : null,
+         "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
-         "id" : "n3jD5Uf1k4C4",
-         "name" : "Precision Shots"
+         "id" : "mETdyZ__yMVj",
+         "name" : "Repair"
       }
    ],
    "undoUnitRemove" : [
@@ -167,77 +174,19 @@
          "armyId" : "oqnnu0gk8q6hyyny",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 35,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "c3nZkAfH",
-               "label" : "Heavy CCW (A2, AP(1))",
-               "name" : "Heavy CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "BN7Zr4vd"
-            },
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "wfEHdWKY",
-               "label" : "Heavy Pistol (12\", A1, AP(1))",
-               "name" : "Heavy Pistol",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "wfEHdWKY"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "hvNiOwU",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "c3nZkAfH",
-               "label" : "Heavy CCW (A2, AP(1))",
-               "name" : "Heavy CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "BN7Zr4vd"
-            },
             {
                "attacks" : 1,
                "count" : 1,
@@ -248,112 +197,117 @@
                "range" : 12,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : "1"
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "c3nZkAfH",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "BN7Zr4vd"
             }
          ],
          "name" : "Assault Prime Brother",
          "notes" : null,
          "quality" : 3,
+         "rules" : [
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            }
+         ],
          "selectedUpgrades" : [],
          "selectionId" : "9mH34",
          "size" : 1,
-         "specialRules" : [
-            {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "D1",
             "G1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "wfEHdWKY",
+               "label" : "Heavy Pistol (12\", A1, AP(1))",
+               "name" : "Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "c3nZkAfH",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "BN7Zr4vd"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 35,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "c3nZkAfH",
-               "label" : "Heavy CCW (A2, AP(1))",
-               "name" : "Heavy CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "BN7Zr4vd"
-            },
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "wfEHdWKY",
-               "label" : "Heavy Pistol (12\", A1, AP(1))",
-               "name" : "Heavy Pistol",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "wfEHdWKY"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "hvNiOwU",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "c3nZkAfH",
-               "label" : "Heavy CCW (A2, AP(1))",
-               "name" : "Heavy CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "BN7Zr4vd"
-            },
             {
                "attacks" : 1,
                "count" : 1,
@@ -364,94 +318,145 @@
                "range" : 12,
                "specialRules" : [
                   {
-                     "key" : "ap",
-                     "modify" : false,
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : "1"
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "c3nZkAfH",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "BN7Zr4vd"
             }
          ],
          "name" : "Assault Prime Brother",
          "notes" : null,
          "quality" : 3,
+         "rules" : [
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            }
+         ],
          "selectedUpgrades" : [],
          "selectionId" : "-38vE",
          "size" : 1,
-         "specialRules" : [
-            {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
-            }
-         ],
          "traits" : [],
          "upgrades" : [
             "D1",
             "G1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "wfEHdWKY",
+               "label" : "Heavy Pistol (12\", A1, AP(1))",
+               "name" : "Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "c3nZkAfH",
+               "label" : "Heavy CCW (A2, AP(1))",
+               "name" : "Heavy CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "BN7Zr4vd"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 40,
          "defense" : 2,
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "8aOOK33l",
-               "label" : "CCW (A1)",
-               "name" : "CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "-_T9wTAv",
-               "label" : "Flamer (12\", A1, Blast(3), Reliable)",
-               "name" : "Flamer",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  },
-                  {
-                     "key" : "reliable",
-                     "modify" : false,
-                     "name" : "Reliable",
-                     "rating" : ""
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "-_T9wTAv"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "NeuN0Gx",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 1,
                "count" : 1,
+               "id" : "-_T9wTAv",
+               "label" : "Flamer (12\", A1, Blast(3), Reliable)",
+               "name" : "Flamer",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "-_T9wTAv"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
                "name" : "CCW",
@@ -460,7 +465,30 @@
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Infernal",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
             },
+            {
+               "id" : "H9E9PIWpGRdw",
+               "label" : "Relentless",
+               "name" : "Relentless"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "wSM6O",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
             {
                "attacks" : 1,
                "count" : 1,
@@ -471,94 +499,80 @@
                "range" : 12,
                "specialRules" : [
                   {
-                     "key" : "blast",
-                     "modify" : false,
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
                      "name" : "Blast",
-                     "rating" : "3"
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
                   },
                   {
-                     "key" : "reliable",
-                     "modify" : false,
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
                      "name" : "Reliable",
-                     "rating" : ""
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "-_T9wTAv"
-            }
-         ],
-         "name" : "Infernal",
-         "notes" : null,
-         "quality" : 3,
-         "selectedUpgrades" : [],
-         "selectionId" : "wSM6O",
-         "size" : 1,
-         "specialRules" : [
-            {
-               "id" : 65,
-               "key" : "fearless",
-               "name" : "Fearless"
             },
             {
-               "id" : 74,
-               "key" : "relentless",
-               "name" : "Relentless"
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "8aOOK33l",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
             }
          ],
-         "traits" : [],
-         "upgrades" : [],
-         "valid" : true,
          "xp" : 0
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 55,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "c3nZkAfH",
-               "label" : "CCW (A2)",
-               "name" : "CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "83nhlNHF"
-            },
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "wfEHdWKY",
-               "label" : "Master Heavy Pistol (12\", A2, AP(1))",
-               "name" : "Master Heavy Pistol",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "0EpTPX9H"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "qGGJpGt",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "wfEHdWKY",
+               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
+               "name" : "Flamer Pistol",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "agIlKQ_g"
+            },
             {
                "attacks" : 2,
                "count" : 1,
@@ -570,61 +584,43 @@
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "83nhlNHF"
-            },
-            {
-               "attacks" : 2,
-               "count" : 1,
-               "id" : "wfEHdWKY",
-               "label" : "Master Heavy Pistol (12\", A2, AP(1))",
-               "name" : "Master Heavy Pistol",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "ap",
-                     "modify" : false,
-                     "name" : "AP",
-                     "rating" : "1"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "0EpTPX9H"
             }
          ],
          "name" : "Elite Raider",
          "notes" : null,
          "quality" : 4,
-         "selectedUpgrades" : [],
-         "selectionId" : "ui7dg",
-         "size" : 1,
-         "specialRules" : [
+         "rules" : [
             {
-               "key" : "fearless",
-               "name" : "Fearless",
-               "rating" : ""
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
             },
             {
                "additional" : false,
-               "key" : "furious",
-               "name" : "Furious",
-               "rating" : ""
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
             },
             {
-               "key" : "hero",
-               "name" : "Hero",
-               "rating" : ""
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
             },
             {
-               "key" : "strider",
-               "name" : "Strider",
-               "rating" : ""
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
             },
             {
-               "key" : "tough",
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
                "name" : "Tough",
-               "rating" : "3"
+               "rating" : 3
             }
          ],
+         "selectedUpgrades" : [],
+         "selectionId" : "ui7dg",
+         "size" : 1,
          "traits" : [],
          "upgrades" : [
             "C1",
@@ -632,65 +628,93 @@
             "A1"
          ],
          "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "wfEHdWKY",
+               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
+               "name" : "Flamer Pistol",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "agIlKQ_g"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "c3nZkAfH",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
          "xp" : 0
       },
       {
          "armyId" : "oqnnu0gk8q6hyyny",
          "bases" : {
             "round" : "32",
-            "square" : "25"
+            "square" : "30"
          },
          "combined" : false,
          "cost" : 40,
          "defense" : 2,
          "disabledUpgradeSections" : [],
-         "equipment" : [
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "8aOOK33l",
-               "label" : "CCW (A1)",
-               "name" : "CCW",
-               "originalCount" : 1,
-               "range" : 0,
-               "specialRules" : [],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "4o5CBBZC"
-            },
-            {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "-_T9wTAv",
-               "label" : "Flamer (12\", A1, Blast(3), Reliable)",
-               "name" : "Flamer",
-               "originalCount" : 1,
-               "range" : 12,
-               "specialRules" : [
-                  {
-                     "key" : "blast",
-                     "modify" : false,
-                     "name" : "Blast",
-                     "rating" : "3"
-                  },
-                  {
-                     "key" : "reliable",
-                     "modify" : false,
-                     "name" : "Reliable",
-                     "rating" : ""
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "-_T9wTAv"
-            }
-         ],
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "NeuN0Gx",
+         "items" : [],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 1,
                "count" : 1,
+               "id" : "-_T9wTAv",
+               "label" : "Flamer (12\", A1, Blast(3), Reliable)",
+               "name" : "Flamer",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "-_T9wTAv"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
                "name" : "CCW",
@@ -699,7 +723,30 @@
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Infernal",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
             },
+            {
+               "id" : "H9E9PIWpGRdw",
+               "label" : "Relentless",
+               "name" : "Relentless"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "4AxnW",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
             {
                "attacks" : 1,
                "count" : 1,
@@ -710,43 +757,35 @@
                "range" : 12,
                "specialRules" : [
                   {
-                     "key" : "blast",
-                     "modify" : false,
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
                      "name" : "Blast",
-                     "rating" : "3"
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
                   },
                   {
-                     "key" : "reliable",
-                     "modify" : false,
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
                      "name" : "Reliable",
-                     "rating" : ""
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "-_T9wTAv"
-            }
-         ],
-         "name" : "Infernal",
-         "notes" : null,
-         "quality" : 3,
-         "selectedUpgrades" : [],
-         "selectionId" : "4AxnW",
-         "size" : 1,
-         "specialRules" : [
-            {
-               "id" : 65,
-               "key" : "fearless",
-               "name" : "Fearless"
             },
             {
-               "id" : 74,
-               "key" : "relentless",
-               "name" : "Relentless"
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "8aOOK33l",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
             }
          ],
-         "traits" : [],
-         "upgrades" : [],
-         "valid" : true,
          "xp" : 0
       }
    ]

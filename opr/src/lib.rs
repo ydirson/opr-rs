@@ -159,7 +159,7 @@ struct JsonUnit {
     pub size: usize,
     pub quality: usize,
     pub defense: usize,
-    pub special_rules: Vec<Rc<SpecialRule>>,
+    pub rules: Vec<Rc<SpecialRule>>,
     pub loadout: Vec<Rc<UnitLoadout>>,
     pub selected_upgrades: Vec<Rc<SelectedUpgrade>>,
     //
@@ -189,8 +189,8 @@ impl From<JsonUnit> for Unit {
             size: json_unit.size,
             quality: json_unit.quality,
             defense: json_unit.defense,
-            special_rules: json_unit.special_rules.clone(),
-            is_hero: json_unit.special_rules.iter()
+            special_rules: json_unit.rules.clone(),
+            is_hero: json_unit.rules.iter()
                 .find(|rule| rule.name.as_ref() == "Hero")
                 .is_some(),
             loadout: json_unit.loadout.clone(),
