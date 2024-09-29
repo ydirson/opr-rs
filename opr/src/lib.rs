@@ -24,6 +24,7 @@ pub struct Army {
     pub game_system: Result<GameSystem, String>,
     pub special_rules: Vec<Arc<SpecialRuleDef>>,
     pub unit_groups: Vec<Arc<UnitGroup>>,
+    pub armybook_ids: Vec<Arc<str>>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -127,6 +128,11 @@ impl From<JsonArmy> for Army {
             }
         }
 
+        // collect unique army_id values
+        // FIXME looks pretty alloc-wasteful
+        let armybook_ids = HashSet::<String>::from_iter(
+            json_army.units.iter().map(|unit| unit.army_id.to_string()));
+
         Army {
             id: Arc::clone(&json_army.id),
             name: Arc::clone(&json_army.name),
@@ -134,6 +140,9 @@ impl From<JsonArmy> for Army {
 
             special_rules: json_army.special_rules.clone(),
             unit_groups: unit_groups,
+            armybook_ids: armybook_ids.into_iter()
+                .map(|id| id.into())
+                .collect(),
         }
     }
 }
@@ -157,7 +166,7 @@ pub struct Unit {
     pub selection_id: Arc<str>,
     pub combined: bool,
     pub join_to_unit: Option<Arc<str>>,
-    // FIXME army_id for regrouping
+    pub army_id: Arc<str>,
 }
 
 #[derive(Deserialize, Serialize)]
@@ -178,6 +187,7 @@ struct JsonUnit {
     pub selection_id: Arc<str>,
     pub combined: bool,
     pub join_to_unit: Option<Arc<str>>,
+    pub army_id: Arc<str>,
 }
 
 impl From<JsonUnit> for Unit {
@@ -211,6 +221,7 @@ impl From<JsonUnit> for Unit {
             selection_id: Arc::clone(&json_unit.selection_id),
             combined: json_unit.combined,
             join_to_unit: json_unit.join_to_unit.clone(),
+            army_id: Arc::clone(&json_unit.army_id),
         }
     }
 }
@@ -309,25 +320,25 @@ pub struct CommonRules {
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct ArmyBook {
-    pub uid: Rc<str>,
-    pub name: Rc<str>,
-    pub units: Vec<Rc<ArmyBookUnitDef>>,
-    pub spells: Vec<Rc<Spell>>,
+    pub uid: Arc<str>,
+    pub name: Arc<str>,
+    pub units: Vec<Arc<ArmyBookUnitDef>>,
+    pub spells: Vec<Arc<Spell>>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct ArmyBookUnitDef {
-    pub id: Rc<str>,
+    pub id: Arc<str>,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Spell {
-    pub name: Rc<str>,
+    pub name: Arc<str>,
     pub threshold: isize,
-    pub effect: Rc<str>,
-    pub effect_skirmish: Rc<str>,
+    pub effect: Arc<str>,
+    pub effect_skirmish: Arc<str>,
 }
 
 // higher-level than deserialization
