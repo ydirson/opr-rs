@@ -8,7 +8,7 @@ use serde_aux::field_attributes::{
 use std::cell::RefCell;
 use std::collections::{HashMap, HashSet};
 use std::fmt;
-use std::rc::Rc;
+use std::sync::Arc;
 
 pub const ARMYFORGE_SHARE_URL: &str = "https://army-forge.onepagerules.com/share";
 pub const AF_API_SRV: &str = "https://army-forge.onepagerules.com";
@@ -19,27 +19,27 @@ pub const AF_API_RELAY: &str = "https://generals-familiar-relay-ydirson-aa7362b7
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(from = "JsonArmy")]
 pub struct Army {
-    pub id: Rc<str>,
-    pub name: Rc<str>,
+    pub id: Arc<str>,
+    pub name: Arc<str>,
     pub game_system: Result<GameSystem, String>,
-    pub special_rules: Vec<Rc<SpecialRuleDef>>,
-    pub unit_groups: Vec<Rc<UnitGroup>>,
+    pub special_rules: Vec<Arc<SpecialRuleDef>>,
+    pub unit_groups: Vec<Arc<UnitGroup>>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 pub struct UnitGroup {
-    pub units: Vec<Rc<Unit>>,
+    pub units: Vec<Arc<Unit>>,
     pub full_cost: isize,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct JsonArmy {
-    pub id: Rc<str>,
-    pub name: Rc<str>,
+    pub id: Arc<str>,
+    pub name: Arc<str>,
     pub game_system: String,
-    pub special_rules: Vec<Rc<SpecialRuleDef>>,
-    pub units: Vec<Rc<Unit>>,
+    pub special_rules: Vec<Arc<SpecialRuleDef>>,
+    pub units: Vec<Arc<Unit>>,
 }
 
 impl From<JsonArmy> for Army {
@@ -47,60 +47,60 @@ impl From<JsonArmy> for Army {
         // (likely to be improved, not very rusty, not very efficient)
         // - first, group unit ids in sets (not units, as we may not
         // have the join_to_unit unit indexed yet, and index units
-        type SelIdGroup = Rc<RefCell<HashSet<Rc<str>>>>;
-        let mut groups_of_selid: HashMap<Rc<str>, SelIdGroup> = Default::default();
-        let mut units_by_selid: HashMap<Rc<str>, Rc<Unit>> = Default::default();
+        type SelIdGroup = Arc<RefCell<HashSet<Arc<str>>>>;
+        let mut groups_of_selid: HashMap<Arc<str>, SelIdGroup> = Default::default();
+        let mut units_by_selid: HashMap<Arc<str>, Arc<Unit>> = Default::default();
         for unit in json_army.units.iter() {
             match (
-                groups_of_selid.get(&Rc::clone(&unit.selection_id))
-                    .map(Rc::clone),
+                groups_of_selid.get(&Arc::clone(&unit.selection_id))
+                    .map(Arc::clone),
                 unit.join_to_unit.as_ref()
-                    .map(|x| (Rc::clone(&x), groups_of_selid.get(&Rc::clone(&x)).map(Rc::clone)))
+                    .map(|x| (Arc::clone(&x), groups_of_selid.get(&Arc::clone(&x)).map(Arc::clone)))
             ) {
                 (Some(set), None) =>
-                    assert!(set.borrow().contains(&Rc::clone(&unit.selection_id))),
+                    assert!(set.borrow().contains(&Arc::clone(&unit.selection_id))),
                 (None, None) => {
-                    let mut set: HashSet<Rc<str>> = Default::default();
-                    set.insert(Rc::clone(&unit.selection_id));
-                    groups_of_selid.insert(Rc::clone(&unit.selection_id), Rc::new(RefCell::new(set)));
+                    let mut set: HashSet<Arc<str>> = Default::default();
+                    set.insert(Arc::clone(&unit.selection_id));
+                    groups_of_selid.insert(Arc::clone(&unit.selection_id), Arc::new(RefCell::new(set)));
                 },
                 (Some(set), Some((join_to_unit, None))) => {
-                    groups_of_selid.insert(Rc::clone(&join_to_unit), Rc::clone(&set));
-                    { set.borrow_mut().insert(Rc::clone(&join_to_unit)); }
+                    groups_of_selid.insert(Arc::clone(&join_to_unit), Arc::clone(&set));
+                    { set.borrow_mut().insert(Arc::clone(&join_to_unit)); }
                 },
                 (None, Some((_join_to_unit, Some(set)))) => {
-                    groups_of_selid.insert(Rc::clone(&unit.selection_id), Rc::clone(&set));
-                    { set.borrow_mut().insert(Rc::clone(&unit.selection_id)); }
+                    groups_of_selid.insert(Arc::clone(&unit.selection_id), Arc::clone(&set));
+                    { set.borrow_mut().insert(Arc::clone(&unit.selection_id)); }
                 },
                 (Some(_set1), Some((_join_to_unit, Some(_set2)))) =>
                     panic!("unhandled merging"), // FIXME should merge, but should not happen
                 (None, Some((join_to_unit, None))) => {
-                    let mut set: HashSet<Rc<str>> = Default::default();
-                    set.insert(Rc::clone(&join_to_unit));
-                    set.insert(Rc::clone(&unit.selection_id));
-                    let set = Rc::new(RefCell::new(set));
-                    groups_of_selid.insert(Rc::clone(&unit.selection_id), Rc::clone(&set));
-                    groups_of_selid.insert(Rc::clone(&join_to_unit), set);
+                    let mut set: HashSet<Arc<str>> = Default::default();
+                    set.insert(Arc::clone(&join_to_unit));
+                    set.insert(Arc::clone(&unit.selection_id));
+                    let set = Arc::new(RefCell::new(set));
+                    groups_of_selid.insert(Arc::clone(&unit.selection_id), Arc::clone(&set));
+                    groups_of_selid.insert(Arc::clone(&join_to_unit), set);
                 },
             }
 
-            units_by_selid.insert(Rc::clone(&unit.selection_id), Rc::clone(&unit));
+            units_by_selid.insert(Arc::clone(&unit.selection_id), Arc::clone(&unit));
         }
 
         // - then create groups for selid groups without dups
-        let mut unit_groups: Vec<Rc<UnitGroup>> = Default::default();
+        let mut unit_groups: Vec<Arc<UnitGroup>> = Default::default();
         {
-            let mut seen_selid: HashSet<Rc<str>> = Default::default();
+            let mut seen_selid: HashSet<Arc<str>> = Default::default();
             for (selid, group) in groups_of_selid.iter() {
                 if seen_selid.contains(selid) {
                     continue;
                 }
                 let group = group.as_ref().borrow();
                 for member in group.iter() {
-                    seen_selid.insert(Rc::clone(member));
+                    seen_selid.insert(Arc::clone(member));
                 }
-                let units: Vec<Rc<Unit>> = group.iter()
-                    .map(|id| Rc::clone(units_by_selid.get(id).unwrap()))
+                let units: Vec<Arc<Unit>> = group.iter()
+                    .map(|id| Arc::clone(units_by_selid.get(id).unwrap()))
                     .sorted_by(|a, b| match (a.is_hero, b.is_hero) {
                         (true, false) => Ordering::Less,
                         (false, true) => Ordering::Greater,
@@ -108,7 +108,7 @@ impl From<JsonArmy> for Army {
                     })
                     .collect();
                 unit_groups.push(
-                    Rc::new(UnitGroup {
+                    Arc::new(UnitGroup {
                         full_cost: units.iter().fold(0, |cost, unit| cost + unit.full_cost),
                         units,
                     }));
@@ -116,8 +116,8 @@ impl From<JsonArmy> for Army {
         }
 
         Army {
-            id: Rc::clone(&json_army.id),
-            name: Rc::clone(&json_army.name),
+            id: Arc::clone(&json_army.id),
+            name: Arc::clone(&json_army.name),
             game_system: GameSystem::try_from(json_army.game_system.as_str()),
 
             special_rules: json_army.special_rules.clone(),
@@ -129,43 +129,43 @@ impl From<JsonArmy> for Army {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(from = "JsonUnit")]
 pub struct Unit {
-    pub id: Rc<str>,
-    pub name: Rc<str>,
+    pub id: Arc<str>,
+    pub name: Arc<str>,
     pub cost: isize,
     pub full_cost: isize,
-    pub custom_name: Option<Rc<str>>,
+    pub custom_name: Option<Arc<str>>,
     pub size: usize,
     pub quality: usize,
     pub defense: usize,
-    pub special_rules: Vec<Rc<SpecialRule>>,
+    pub special_rules: Vec<Arc<SpecialRule>>,
     pub is_hero: bool,
-    pub loadout: Vec<Rc<UnitLoadout>>,
-    pub selected_upgrades: Vec<Rc<SelectedUpgrade>>,
+    pub loadout: Vec<Arc<UnitLoadout>>,
+    pub selected_upgrades: Vec<Arc<SelectedUpgrade>>,
     //
-    pub selection_id: Rc<str>,
+    pub selection_id: Arc<str>,
     pub combined: bool,
-    pub join_to_unit: Option<Rc<str>>,
+    pub join_to_unit: Option<Arc<str>>,
     // FIXME army_id for regrouping
 }
 
 #[derive(Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct JsonUnit {
-    pub id: Rc<str>,
-    pub name: Rc<str>,
+    pub id: Arc<str>,
+    pub name: Arc<str>,
     pub cost: isize,
     #[serde(default)]
-    pub custom_name: Option<Rc<str>>,
+    pub custom_name: Option<Arc<str>>,
     pub size: usize,
     pub quality: usize,
     pub defense: usize,
-    pub rules: Vec<Rc<SpecialRule>>,
-    pub loadout: Vec<Rc<UnitLoadout>>,
-    pub selected_upgrades: Vec<Rc<SelectedUpgrade>>,
+    pub rules: Vec<Arc<SpecialRule>>,
+    pub loadout: Vec<Arc<UnitLoadout>>,
+    pub selected_upgrades: Vec<Arc<SelectedUpgrade>>,
     //
-    pub selection_id: Rc<str>,
+    pub selection_id: Arc<str>,
     pub combined: bool,
-    pub join_to_unit: Option<Rc<str>>,
+    pub join_to_unit: Option<Arc<str>>,
 }
 
 impl From<JsonUnit> for Unit {
@@ -181,8 +181,8 @@ impl From<JsonUnit> for Unit {
                       }
                   });
         Unit {
-            id: Rc::clone(&json_unit.id),
-            name: Rc::clone(&json_unit.name),
+            id: Arc::clone(&json_unit.id),
+            name: Arc::clone(&json_unit.name),
             cost: json_unit.cost,
             full_cost,
             custom_name: json_unit.custom_name.clone(),
@@ -196,7 +196,7 @@ impl From<JsonUnit> for Unit {
             loadout: json_unit.loadout.clone(),
             selected_upgrades: json_unit.selected_upgrades.clone(),
 
-            selection_id: Rc::clone(&json_unit.selection_id),
+            selection_id: Arc::clone(&json_unit.selection_id),
             combined: json_unit.combined,
             join_to_unit: json_unit.join_to_unit.clone(),
         }
@@ -205,7 +205,7 @@ impl From<JsonUnit> for Unit {
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 pub struct SpecialRule {
-    pub name: Rc<str>,
+    pub name: Arc<str>,
     #[serde(default)]
     #[serde(deserialize_with = "deserialize_option_number_from_string")]
     pub rating: Option<usize>,
@@ -213,8 +213,8 @@ pub struct SpecialRule {
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 pub struct SpecialRuleDef {
-    pub name: Rc<str>,
-    pub description: Rc<str>,
+    pub name: Arc<str>,
+    pub description: Arc<str>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -227,20 +227,20 @@ pub enum UnitLoadout {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Equipment {
-    pub name: Rc<str>,
+    pub name: Arc<str>,
     #[serde(default)]
     pub range: usize,
     #[serde(deserialize_with = "deserialize_number_from_string")]
     pub attacks: usize,
     pub count: usize,
-    pub special_rules: Vec<Rc<SpecialRule>>,
+    pub special_rules: Vec<Arc<SpecialRule>>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct UnitUpgrade {
-    pub name: Rc<str>,
-    pub content: Vec<Rc<SpecialRule>>,
+    pub name: Arc<str>,
+    pub content: Vec<Arc<SpecialRule>>,
 }
 
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
@@ -290,7 +290,7 @@ mod unit_upgrade_option {
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct CommonRules {
-    pub rules: Vec<Rc<SpecialRuleDef>>,
+    pub rules: Vec<Arc<SpecialRuleDef>>,
     // traits
 }
 
