@@ -1,7 +1,7 @@
 {
    "rules" : [
       {
-         "description" : "May only use Advance actions, moving in a straight line, and adding 30\" to its total move (even if Shaken). Aircraft ignore all units and terrain when moving and stopping, can’t seize objectives, can’t be charged, and units targeting it get -12” range and -1 to hit.",
+         "description" : "May only use Advance actions, moving in a straight line, and adding 30” to its total move (even if Shaken). Aircraft ignore all units and terrain when moving and stopping, can’t seize objectives, can’t be charged, and units targeting them get -12” range and -1 to hit.",
          "id" : "3FeiOe3krHMa",
          "name" : "Aircraft"
       },
@@ -31,7 +31,7 @@
          "name" : "AP(4) in Melee"
       },
       {
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
+         "description" : "This unit and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
          "id" : "ywXKQKPOLjTF",
          "name" : "Banner"
       },
@@ -46,7 +46,7 @@
          "name" : "Blast"
       },
       {
-         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. This model and other casters within 18\" in line of sight may spend any number of tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
          "id" : "47CAqf7ySlfc",
          "name" : "Caster"
       },
@@ -91,7 +91,7 @@
          "name" : "Fearless"
       },
       {
-         "description" : "May move through obstacles and ignores terrain effects whilst moving, and automatically passes jumping rolls.",
+         "description" : "May move through units and terrain, and ignores terrain effects whilst moving, and automatically passes jumping rolls.",
          "id" : "-QJdqJEKjIpE",
          "name" : "Flying"
       },
@@ -171,7 +171,7 @@
          "name" : "Magma when Shooting"
       },
       {
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1” when using move actions. This effect lasts until the end of the round.",
+         "description" : "This unit and up to 3 friendly units that are within 12” at the beginning of the round get +1” when using move actions. This effect lasts until the end of the round.",
          "id" : "qrG_DXJez5Dg",
          "name" : "Musician"
       },
@@ -221,7 +221,7 @@
          "name" : "Rending when Shooting"
       },
       {
-         "description" : "May be set aside before deployment. After all other units finish, must be deployed and may then be placed anywhere within 12”. Players alternate in placing Scout units, starting with the player that activates next.",
+         "description" : "May be set aside before deployment. After all other units are deployed, must be deployed and may then be placed anywhere within 12” of their position. Players alternate in placing Scout units, starting with the player that activates next.",
          "id" : "FAMbscK5vhSu",
          "name" : "Scout"
       },
@@ -389,14 +389,6 @@
       },
       {
          "campaign" : true,
-         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
-         "id" : "1X8qwmnAx7zH",
-         "name" : "Suppressor",
-         "skillSet" : "Shooter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
          "description" : "Enemy units further than 12\" get -1 to hit rolls when shooting at the hero.",
          "id" : "TzWvsygpdGTW",
          "name" : "Prowler",
@@ -409,6 +401,14 @@
          "id" : "v3_8JnEoKVRl",
          "name" : "Runner",
          "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
+         "id" : "1X8qwmnAx7zH",
+         "name" : "Suppressor",
+         "skillSet" : "Shooter",
          "type" : 3
       },
       {
@@ -458,6 +458,21 @@
       },
       {
          "campaign" : true,
+         "description" : "Friendly units within 6\" of the Hero get +1 to morale tests when in melee.",
+         "id" : "tX9l1C2VKmjD",
+         "name" : "Chemist",
+         "skillSet" : "Healer",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when shooting.",
+         "id" : "AILF-vySXt6E",
+         "name" : "Blinded Eye",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
          "description" : "Gets +1 to rolls in melee or shooting (pick one).",
          "id" : "4PeGOHXKO3XI",
          "name" : "Specialist",
@@ -472,21 +487,6 @@
       },
       {
          "campaign" : true,
-         "description" : "Gets -1 to rolls when shooting.",
-         "id" : "AILF-vySXt6E",
-         "name" : "Blinded Eye",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Friendly units within 6\" of the Hero get +1 to morale tests when in melee.",
-         "id" : "tX9l1C2VKmjD",
-         "name" : "Chemist",
-         "skillSet" : "Healer",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
          "description" : "Friendly units within 6\" may ignore wounds on a roll of 6+.",
          "id" : "D8Qd0Fo-fxaP",
          "name" : "Herbalist",
@@ -495,16 +495,16 @@
       },
       {
          "campaign" : true,
-         "description" : "Gets +1 to rolls when taking morale tests.",
-         "id" : "OqKHcKa33Z7O",
-         "name" : "Headstrong",
+         "description" : "May re-roll one roll of any kind once per game.",
+         "id" : "6I603fnrXO8P",
+         "name" : "Elite",
          "type" : 0
       },
       {
          "campaign" : true,
-         "description" : "May re-roll one roll of any kind once per game.",
-         "id" : "6I603fnrXO8P",
-         "name" : "Elite",
+         "description" : "Gets +1 to rolls when taking morale tests.",
+         "id" : "OqKHcKa33Z7O",
+         "name" : "Headstrong",
          "type" : 0
       },
       {

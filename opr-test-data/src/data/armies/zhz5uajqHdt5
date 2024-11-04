@@ -20,13 +20,6 @@
          "name" : "Battle Ready"
       },
       {
-         "aliasedRuleId" : "5XvPNuYy1sW1",
-         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
-         "hasRating" : false,
-         "id" : "cASg2EWE6GN5",
-         "name" : "Dark March"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
@@ -34,11 +27,11 @@
          "name" : "Frenzy"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6\" in line of sight takes 1 hit with Blast(3) and AP(1).",
+         "aliasedRuleId" : "5XvPNuYy1sW1",
+         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
          "hasRating" : false,
-         "id" : "fHg1uKwkuiBP",
-         "name" : "Breath Attack"
+         "id" : "cASg2EWE6GN5",
+         "name" : "Dark March"
       },
       {
          "aliasedRuleId" : null,
@@ -56,21 +49,14 @@
       },
       {
          "aliasedRuleId" : "TE5Yx2XcY4k8",
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 enemy unit within 12\", which gets -2 to its next morale test roll.",
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 enemy units within 12\", which gets -2 to its next morale test roll.",
          "hasRating" : false,
          "id" : "NNoWIXzITK2g",
          "name" : "Doom Caller"
       },
       {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "9_IE2GNkClVN",
-         "name" : "Dark Blessing"
-      },
-      {
          "aliasedRuleId" : "Jm_snOMYIAZI",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "R1MLjrzLsF-3",
          "name" : "Blood Icon"
@@ -197,7 +183,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "58ySvKcE6",
+               "instanceId" : "DEiFiSkDs",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -231,7 +217,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "sZ3ubfQ",
+                  "id" : "NyVHz9A",
                   "label" : "Replace all Great Weapons",
                   "parentPackageUid" : "DSao1",
                   "targets" : [
@@ -258,7 +244,7 @@
                "dependencies" : [
                   {
                      "count" : 3,
-                     "upgradeInstanceId" : "58ySvKcE6",
+                     "upgradeInstanceId" : "DEiFiSkDs",
                      "variant" : "replace"
                   }
                ],
@@ -358,7 +344,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "6gud3nCX6",
+               "instanceId" : "Qg1wHmyVh",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -397,7 +383,7 @@
                   "uid" : "CSJn0_u"
                },
                "upgrade" : {
-                  "id" : "13muOSG",
+                  "id" : "HgJ815I",
                   "label" : "Replace Hand Weapon",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -409,7 +395,7 @@
                }
             },
             {
-               "instanceId" : "a1WsBtdJ6",
+               "instanceId" : "6x6KjuMAo",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -436,7 +422,7 @@
                      }
                   ],
                   "id" : "g6drS",
-                  "label" : "Battle Ready",
+                  "label" : "Marauder (Battle Ready)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "xlVu8PO",
                   "parentSectionUid" : "xlVu8PO",
@@ -444,7 +430,7 @@
                   "uid" : "g6drS"
                },
                "upgrade" : {
-                  "id" : "Sw-oO1s",
+                  "id" : "qf2GR0j",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -477,7 +463,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "6gud3nCX6",
+                     "upgradeInstanceId" : "Qg1wHmyVh",
                      "variant" : "replace"
                   }
                ],
@@ -569,7 +555,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "BMGYxkL5k",
+               "instanceId" : "9A6irfCUn",
                "option" : {
                   "costs" : [
                      {
@@ -599,13 +585,13 @@
                      }
                   ],
                   "id" : "VrJBEDg",
-                  "label" : "Blessing of War",
+                  "label" : "War Lord (Blessing of War)",
                   "parentSectionId" : "19qVgHF",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VrJBEDg"
                },
                "upgrade" : {
-                  "id" : "X4ujyyJ",
+                  "id" : "8jeSSRp",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "A1",
@@ -619,7 +605,7 @@
                }
             },
             {
-               "instanceId" : "RAJ_y2Yeo",
+               "instanceId" : "cfKosCmsK",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -662,7 +648,7 @@
                   "uid" : "p_mJ2mK"
                },
                "upgrade" : {
-                  "id" : "o0D7rBj",
+                  "id" : "O36oMVA",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -693,7 +679,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "RAJ_y2Yeo",
+                     "upgradeInstanceId" : "cfKosCmsK",
                      "variant" : "replace"
                   }
                ],
@@ -766,7 +752,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "S8DDWlbHi",
+               "instanceId" : "e4ZEKZmq_",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -809,7 +795,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "tS1DkyE",
+                  "id" : "I_O2PgR",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -841,7 +827,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "S8DDWlbHi",
+                     "upgradeInstanceId" : "e4ZEKZmq_",
                      "variant" : "replace"
                   }
                ],
@@ -914,7 +900,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "BayKY1QlL",
+               "instanceId" : "o9AM_Dcs8",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -957,7 +943,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "tS1DkyE",
+                  "id" : "I_O2PgR",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -989,7 +975,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "BayKY1QlL",
+                     "upgradeInstanceId" : "o9AM_Dcs8",
                      "variant" : "replace"
                   }
                ],

@@ -15,18 +15,18 @@
    "pointsLimit" : 2000,
    "specialRules" : [
       {
-         "aliasedRuleId" : "RSi9ftRd-hvr",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead.",
-         "hasRating" : false,
-         "id" : "gr5L7YfDaYyO",
-         "name" : "For the Hive!"
-      },
-      {
          "aliasedRuleId" : "sCmjgdwkLiGT",
          "description" : "For each unmodified roll of 6 to hit in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
          "hasRating" : false,
          "id" : "6iDumjvyoQq8",
          "name" : "Born for War"
+      },
+      {
+         "aliasedRuleId" : "RSi9ftRd-hvr",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
+         "hasRating" : false,
+         "id" : "gr5L7YfDaYyO",
+         "name" : "For the Hive!"
       },
       {
          "aliasedRuleId" : null,
@@ -72,7 +72,7 @@
       },
       {
          "aliasedRuleId" : "nLQCr5OiSlYz",
-         "description" : "This model counts as having Caster(1). All models with this rule in a unit share spell tokens, but lose all unspent tokens at the end of the round, and only one of them may cast spells each round.",
+         "description" : "Pick one model in this unit to have Caster(X), where X is the total number of models in this unit. If the model is killed, pick another to be the new caster, and transfer all spell tokens to it. The caster loses all unspent spell tokens at the end of the round.",
          "hasRating" : false,
          "id" : "E0Lp0CO-Hk7u",
          "name" : "Psychic Synapse"
@@ -86,17 +86,17 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
-         "hasRating" : false,
-         "id" : "eyMkgYDVrP7C",
-         "name" : "Takedown"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick one friendly unit within 12\", which gets +1 to Regeneration rolls next time it takes wounds.",
          "hasRating" : false,
          "id" : "z9JPDwiGd3u0",
          "name" : "Regenerator"
+      },
+      {
+         "aliasedRuleId" : null,
+         "description" : "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
+         "hasRating" : false,
+         "id" : "eyMkgYDVrP7C",
+         "name" : "Takedown"
       },
       {
          "aliasedRuleId" : "O2Cd7OibBBA5",
@@ -244,7 +244,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "vN097uD1Q",
+               "instanceId" : "HYdgAnhep",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -283,7 +283,7 @@
                      }
                   ],
                   "id" : "WbrXk",
-                  "label" : "Pheromones",
+                  "label" : "Brood Leader (Pheromones)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "iiWjuL3",
                   "parentSectionUid" : "iiWjuL3",
@@ -291,7 +291,7 @@
                   "uid" : "WbrXk"
                },
                "upgrade" : {
-                  "id" : "kcdWfF5",
+                  "id" : "mhRcNb8",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with any",
                   "parentPackageUid" : "C1",
@@ -496,7 +496,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "JajvyftEa",
+                     "upgradeInstanceId" : "ukghhOy61",
                      "variant" : "replace"
                   }
                ],
@@ -557,7 +557,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "JajvyftEa",
+               "instanceId" : "ukghhOy61",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -602,7 +602,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "NAnBqt9",
+                  "id" : "KkDGzBA",
                   "label" : "Replace one Heavy Razor Claws",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -630,7 +630,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "JajvyftEa",
+                     "upgradeInstanceId" : "ukghhOy61",
                      "variant" : "replace"
                   }
                ],

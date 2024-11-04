@@ -21,7 +21,7 @@
       },
       {
          "aliasedRuleId" : "KskX8qPX3I8G",
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly unit within 12\", which gets +1 to hit next time it shoots.",
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
          "hasRating" : false,
          "id" : "5Z_UdFAz1-0R",
          "name" : "Rangefinder Backpack"
@@ -41,13 +41,6 @@
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
@@ -62,32 +55,11 @@
          "name" : "War Hymns"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
-         "hasRating" : false,
-         "id" : "IyLY1212wacW",
-         "name" : "Protected"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
-         "hasRating" : false,
-         "id" : "7rd_tPzHseje",
-         "name" : "Protective Aura"
-      },
-      {
          "aliasedRuleId" : "IXtPlY7K4Wku",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "dlmwwGTjuk0n",
          "name" : "Canticle Megaphone"
-      },
-      {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "KauMx287bYqE",
-         "name" : "Holy Statue"
       },
       {
          "aliasedRuleId" : null,
@@ -335,7 +307,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "jTVq8--h1",
+               "instanceId" : "WplBQcchy",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -374,7 +346,7 @@
                      }
                   ],
                   "id" : "IJLtqfK",
-                  "label" : "Blind Faith",
+                  "label" : "Superior (Blind Faith)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
@@ -382,7 +354,7 @@
                   "uid" : "IJLtqfK"
                },
                "upgrade" : {
-                  "id" : "sUMMql7",
+                  "id" : "o01Mzjp",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -576,7 +548,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "gKLm1bNky",
+               "instanceId" : "oezNoqu1j",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -603,7 +575,7 @@
                      }
                   ],
                   "id" : "q4Db3",
-                  "label" : "Regeneration",
+                  "label" : "Flagellants (Regeneration)",
                   "parentPackageUid" : "H1",
                   "parentSectionId" : "Zl_L3",
                   "parentSectionUid" : "Zl_L3",
@@ -611,7 +583,7 @@
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "_5TOFah",
+                  "id" : "pLhCWPR",
                   "label" : "Upgrade with",
                   "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
@@ -620,7 +592,7 @@
                }
             },
             {
-               "instanceId" : "XzfhZIVjd",
+               "instanceId" : "kWhri3mja",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -658,7 +630,7 @@
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "1xFY9F0",
+                  "id" : "DFUPS9T",
                   "label" : "Replace Chainsaw Sword",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -684,7 +656,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "XzfhZIVjd",
+                     "upgradeInstanceId" : "kWhri3mja",
                      "variant" : "replace"
                   }
                ],
@@ -769,7 +741,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "EUlTjMevT",
+               "instanceId" : "KmLtN6joa",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -807,7 +779,7 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "wCunH8N",
+                  "id" : "ymlBqJK",
                   "label" : "Replace Heavy Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -835,7 +807,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "EUlTjMevT",
+                     "upgradeInstanceId" : "KmLtN6joa",
                      "variant" : "replace"
                   }
                ],
@@ -932,7 +904,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "GOLEwCXkp",
+               "instanceId" : "CcDNPMT5a",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -970,7 +942,7 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "wCunH8N",
+                  "id" : "ymlBqJK",
                   "label" : "Replace Heavy Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -998,7 +970,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "GOLEwCXkp",
+                     "upgradeInstanceId" : "CcDNPMT5a",
                      "variant" : "replace"
                   }
                ],
@@ -1122,7 +1094,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "WKWlP961u",
+               "instanceId" : "jL6CgFsKI",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1161,7 +1133,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "HmodNqG6I",
+                              "upgradeInstanceId" : "9BHPEiIPo",
                               "variant" : "replace"
                            }
                         ],
@@ -1189,7 +1161,7 @@
                   "uid" : "3pqIMyr"
                },
                "upgrade" : {
-                  "id" : "1POBxBW",
+                  "id" : "TnZkvTD",
                   "label" : "Replace Twin Heavy Pistols and CCW",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -1202,7 +1174,7 @@
                }
             },
             {
-               "instanceId" : "HmodNqG6I",
+               "instanceId" : "9BHPEiIPo",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1246,7 +1218,7 @@
                   "uid" : "sr134"
                },
                "upgrade" : {
-                  "id" : "hE_KxFK",
+                  "id" : "iA7593p",
                   "label" : "Replace Sgt. Heavy Pistol",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -1272,7 +1244,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "WKWlP961u",
+                     "upgradeInstanceId" : "jL6CgFsKI",
                      "variant" : "replace"
                   }
                ],
@@ -1299,7 +1271,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "WKWlP961u",
+                     "upgradeInstanceId" : "jL6CgFsKI",
                      "variant" : "replace"
                   }
                ],

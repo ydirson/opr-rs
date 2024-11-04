@@ -13,20 +13,6 @@
    "selectedUnitId" : "08grg",
    "specialRules" : [
       {
-         "aliasedRuleId" : "RSi9ftRd-hvr",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead.",
-         "hasRating" : false,
-         "id" : "gr5L7YfDaYyO",
-         "name" : "For the Hive!"
-      },
-      {
-         "aliasedRuleId" : "sCmjgdwkLiGT",
-         "description" : "For each unmodified roll of 6 to hit in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
-         "hasRating" : false,
-         "id" : "6iDumjvyoQq8",
-         "name" : "Born for War"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
          "hasRating" : true,
@@ -34,39 +20,11 @@
          "name" : "Explode"
       },
       {
-         "aliasedRuleId" : "IEJp3a4vE0CB",
-         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
-         "hasRating" : false,
-         "id" : "y9VfjbfGVI7R",
-         "name" : "Exploding Spores"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Once per this unit's activation, pick one friendly Caster within 12\", which gets +1 to its next spell casting roll.",
          "hasRating" : false,
          "id" : "NU_zB3p0uJIP",
          "name" : "Spell Warden"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6\" of it.",
-         "hasRating" : true,
-         "id" : "ZHykLbU6nUWl",
-         "name" : "Spawn"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6\" in line of sight takes 1 hit with Blast(3) and AP(1).",
-         "hasRating" : false,
-         "id" : "fHg1uKwkuiBP",
-         "name" : "Breath Attack"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Whenever this model takes a wound in melee, the attacker takes 1 hit.",
-         "hasRating" : false,
-         "id" : "zCjAFXut7Gsg",
-         "name" : "Corrosive"
       },
       {
          "aliasedRuleId" : "nLQCr5OiSlYz",
@@ -81,20 +39,6 @@
          "hasRating" : false,
          "id" : "pJUW586Zs6FJ",
          "name" : "Pheromones"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
-         "hasRating" : false,
-         "id" : "eyMkgYDVrP7C",
-         "name" : "Takedown"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick up to 4 friendly unit within 12\", which gets +1 to Regeneration rolls next time it takes wounds.",
-         "hasRating" : false,
-         "id" : "z9JPDwiGd3u0",
-         "name" : "Regenerator"
       },
       {
          "aliasedRuleId" : "O2Cd7OibBBA5",
@@ -116,13 +60,6 @@
          "hasRating" : false,
          "id" : "UDzzxUT_N1cp",
          "name" : "Psy-Barrier"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).",
-         "hasRating" : true,
-         "id" : "99DXMN96LnI8",
-         "name" : "Surprise Attack"
       },
       {
          "aliasedRuleId" : null,
@@ -308,7 +245,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "Zh8UbTJES",
+               "instanceId" : "vablEGhU0",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -345,7 +282,7 @@
                      }
                   ],
                   "id" : "RS4rKkQ",
-                  "label" : "Ambush, Flying",
+                  "label" : "Wings (Ambush, Flying)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "ijbm7zF",
                   "parentSectionUid" : "ijbm7zF",
@@ -353,7 +290,7 @@
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "A0fTVpE",
+                  "id" : "uwutQc5",
                   "label" : "Upgrade with any",
                   "parentPackageUid" : "B1",
                   "select" : {

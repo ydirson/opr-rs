@@ -43,13 +43,6 @@
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
@@ -62,6 +55,13 @@
          "hasRating" : false,
          "id" : "CZXPTpxQT-7_",
          "name" : "War Hymns"
+      },
+      {
+         "aliasedRuleId" : "ILPGCU9Y9xhe",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
+         "hasRating" : false,
+         "id" : "SJI8muKSgh9p",
+         "name" : "Angelic Aura"
       },
       {
          "aliasedRuleId" : null,
@@ -85,18 +85,18 @@
          "name" : "Canticle Megaphone"
       },
       {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "KauMx287bYqE",
-         "name" : "Holy Statue"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : null,
          "id" : "j_GPMzrugrCj",
          "name" : "Devout"
+      },
+      {
+         "aliasedRuleId" : "kqma1pPDpN3w",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
+         "hasRating" : false,
+         "id" : "KauMx287bYqE",
+         "name" : "Holy Statue"
       },
       {
          "aliasedRuleId" : "n3jD5Uf1k4C4",
@@ -374,7 +374,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "lgSSOQVxR",
+               "instanceId" : "L6VJmbZRJ",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -413,7 +413,7 @@
                      }
                   ],
                   "id" : "vdVRg",
-                  "label" : "Spiritual Guidance",
+                  "label" : "Canoness (Spiritual Guidance)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
@@ -421,7 +421,7 @@
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "vXVXckC",
+                  "id" : "kqi68Hq",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",

@@ -34,11 +34,11 @@
          "name" : "Smite"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, roll one die. On a 2+ one enemy unit within 6\" in line of sight takes 1 hit with Blast(3) and AP(1).",
+         "aliasedRuleId" : "PelNCrYC31pg",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +6\" range when shooting. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "fHg1uKwkuiBP",
-         "name" : "Breath Attack"
+         "id" : "OZTHRndRqRPD",
+         "name" : "Direct Fire"
       },
       {
          "aliasedRuleId" : "5XvPNuYy1sW1",
@@ -60,13 +60,6 @@
          "hasRating" : false,
          "id" : "HIpAzw67ggUv",
          "name" : "Empower"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick one friendly unit with Entrenched within 6\", which may either immediately shoot or move by up to 6\".",
-         "hasRating" : false,
-         "id" : "j3aYuDMhPKdS",
-         "name" : "Artillerist"
       }
    ],
    "unitPreview" : null,
@@ -415,7 +408,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "IU-3Cu4K-",
+               "instanceId" : "UWuKJcKgL",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -453,7 +446,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "rnpwHYv",
+                  "id" : "H09XE_j",
                   "label" : "Replace Great Glaive",
                   "parentPackageUid" : "I1",
                   "targets" : [
@@ -479,7 +472,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "IU-3Cu4K-",
+                     "upgradeInstanceId" : "UWuKJcKgL",
                      "variant" : "replace"
                   }
                ],
@@ -562,7 +555,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "Iq_3zifqj",
+               "instanceId" : "VS4ycT-Wc",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -600,7 +593,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "rnpwHYv",
+                  "id" : "H09XE_j",
                   "label" : "Replace Great Glaive",
                   "parentPackageUid" : "I1",
                   "targets" : [
@@ -626,7 +619,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Iq_3zifqj",
+                     "upgradeInstanceId" : "VS4ycT-Wc",
                      "variant" : "replace"
                   }
                ],

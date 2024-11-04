@@ -13,13 +13,6 @@
    "selectedUnitId" : null,
    "specialRules" : [
       {
-         "aliasedRuleId" : "KQMfAioCQSSV",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Regeneration next time they take wounds.",
-         "hasRating" : false,
-         "id" : "HwJ3tik0OEmS",
-         "name" : "Reanimator"
-      },
-      {
          "aliasedRuleId" : "O4RvQUoR77mP",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
          "hasRating" : false,
@@ -56,27 +49,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick up to 4 friendly unit within 12\", which may ignore the Slow rule next time it moves.",
-         "hasRating" : false,
-         "id" : "tGtFFP5259Kd",
-         "name" : "Royal March Order"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick one friendly Caster within 12\", which gets +1 to its next spell casting roll.",
-         "hasRating" : false,
-         "id" : "NU_zB3p0uJIP",
-         "name" : "Spell Warden"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6\" of it.",
-         "hasRating" : true,
-         "id" : "ZHykLbU6nUWl",
-         "name" : "Spawn"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
          "hasRating" : false,
          "id" : "AlIZbh-afBYi",
@@ -91,17 +63,24 @@
       },
       {
          "aliasedRuleId" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller"
+      },
+      {
+         "aliasedRuleId" : null,
          "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "5v6oaGfrdf29",
          "name" : "Flux"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "aliasedRuleId" : "LRFrnVp661tS",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "djJahpu0Ciut",
-         "name" : "Tunneller"
+         "id" : "4TuYQKX2Ss0S",
+         "name" : "Royal March"
       },
       {
          "aliasedRuleId" : null,
@@ -112,24 +91,10 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
-         "hasRating" : false,
-         "id" : "A_CGmdvlO0Lr",
-         "name" : "Spell Master"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
          "name" : "Unique"
-      },
-      {
-         "aliasedRuleId" : "LRFrnVp661tS",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "4TuYQKX2Ss0S",
-         "name" : "Royal March"
       },
       {
          "aliasedRuleId" : "B--NHwOGx3_9",
@@ -137,13 +102,6 @@
          "hasRating" : false,
          "id" : "tFIv-8UscOMm",
          "name" : "Gloom-Protocol"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
-         "hasRating" : false,
-         "id" : "mETdyZ__yMVj",
-         "name" : "Repair"
       },
       {
          "aliasedRuleId" : "O2Cd7OibBBA5",

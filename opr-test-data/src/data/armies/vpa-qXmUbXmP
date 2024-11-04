@@ -19,7 +19,7 @@
       },
       {
          "aliasedRuleId" : "KskX8qPX3I8G",
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly unit within 12\", which gets +1 to hit next time it shoots.",
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
          "hasRating" : false,
          "id" : "5Z_UdFAz1-0R",
          "name" : "Rangefinder Backpack"
@@ -39,13 +39,6 @@
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
@@ -60,32 +53,11 @@
          "name" : "War Hymns"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
-         "hasRating" : false,
-         "id" : "IyLY1212wacW",
-         "name" : "Protected"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
-         "hasRating" : false,
-         "id" : "7rd_tPzHseje",
-         "name" : "Protective Aura"
-      },
-      {
          "aliasedRuleId" : "IXtPlY7K4Wku",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "dlmwwGTjuk0n",
          "name" : "Canticle Megaphone"
-      },
-      {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "KauMx287bYqE",
-         "name" : "Holy Statue"
       },
       {
          "aliasedRuleId" : null,
@@ -151,25 +123,18 @@
          "name" : "Precision Shots"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
-      },
-      {
-         "aliasedRuleId" : "Jm_snOMYIAZI",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "FWP4aR4iYo8w",
-         "name" : "War Chant"
-      },
-      {
          "aliasedRuleId" : "V3YzPPkZm8at",
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
          "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "Jm_snOMYIAZI",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "FWP4aR4iYo8w",
+         "name" : "War Chant"
       },
       {
          "aliasedRuleId" : null,
@@ -291,7 +256,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "1-RMWyi3M",
+               "instanceId" : "dBqXxySvR",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -344,7 +309,7 @@
                   "uid" : "4CCh_tP"
                },
                "upgrade" : {
-                  "id" : "iVImvjR",
+                  "id" : "0OD6LQH",
                   "label" : "Replace Combat Shield",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -356,7 +321,7 @@
                }
             },
             {
-               "instanceId" : "rqflDBTgd",
+               "instanceId" : "ySIEkE3b3",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -396,7 +361,7 @@
                      }
                   ],
                   "id" : "mtMOvqG",
-                  "label" : "Caster(3)",
+                  "label" : "Master Witch (Caster(3))",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
@@ -404,7 +369,7 @@
                   "uid" : "mtMOvqG"
                },
                "upgrade" : {
-                  "id" : "7AXixUq",
+                  "id" : "7LSnXld",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -512,7 +477,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "3stuIFCDo",
+               "instanceId" : "L9CFr-gFd",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -539,7 +504,7 @@
                      }
                   ],
                   "id" : "q4Db3",
-                  "label" : "Regeneration",
+                  "label" : "Flagellants (Regeneration)",
                   "parentPackageUid" : "H1",
                   "parentSectionId" : "Zl_L3",
                   "parentSectionUid" : "Zl_L3",
@@ -547,7 +512,7 @@
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "fN3035v",
+                  "id" : "C9yDbjY",
                   "label" : "Upgrade with",
                   "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
@@ -556,7 +521,7 @@
                }
             },
             {
-               "instanceId" : "VXj5uj_nm",
+               "instanceId" : "s_2vGFtM4",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -594,7 +559,7 @@
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "-vLJjQx",
+                  "id" : "Ap4wQwV",
                   "label" : "Replace Chainsaw Sword",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -620,7 +585,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "VXj5uj_nm",
+                     "upgradeInstanceId" : "s_2vGFtM4",
                      "variant" : "replace"
                   }
                ],
@@ -713,7 +678,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "dkkHTQaiK",
+               "instanceId" : "wmEjfsUCs",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -740,7 +705,7 @@
                      }
                   ],
                   "id" : "q4Db3",
-                  "label" : "Regeneration",
+                  "label" : "Flagellants (Regeneration)",
                   "parentPackageUid" : "H1",
                   "parentSectionId" : "Zl_L3",
                   "parentSectionUid" : "Zl_L3",
@@ -748,7 +713,7 @@
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "fN3035v",
+                  "id" : "C9yDbjY",
                   "label" : "Upgrade with",
                   "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
@@ -757,7 +722,7 @@
                }
             },
             {
-               "instanceId" : "H9eWJ7SJr",
+               "instanceId" : "LXBvzsUd6",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -795,7 +760,7 @@
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "-vLJjQx",
+                  "id" : "Ap4wQwV",
                   "label" : "Replace Chainsaw Sword",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -821,7 +786,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "H9eWJ7SJr",
+                     "upgradeInstanceId" : "LXBvzsUd6",
                      "variant" : "replace"
                   }
                ],
@@ -1028,7 +993,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "sjSUZFeRU",
+               "instanceId" : "5LN-zriYB",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1071,7 +1036,7 @@
                   "uid" : "7-kZL_B"
                },
                "upgrade" : {
-                  "id" : "klNHB6m",
+                  "id" : "qpJw5kN",
                   "label" : "Replace Precision Rifle",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -1099,7 +1064,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "sjSUZFeRU",
+                     "upgradeInstanceId" : "5LN-zriYB",
                      "variant" : "replace"
                   }
                ],
@@ -1199,7 +1164,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "LZWt_kX05",
+               "instanceId" : "NdcQCMlvT",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1242,7 +1207,7 @@
                   "uid" : "7-kZL_B"
                },
                "upgrade" : {
-                  "id" : "klNHB6m",
+                  "id" : "qpJw5kN",
                   "label" : "Replace Precision Rifle",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -1270,7 +1235,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "LZWt_kX05",
+                     "upgradeInstanceId" : "NdcQCMlvT",
                      "variant" : "replace"
                   }
                ],

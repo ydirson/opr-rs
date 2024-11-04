@@ -91,13 +91,6 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : false,
-         "id" : "5v6oaGfrdf29",
-         "name" : "Flux"
-      },
-      {
-         "aliasedRuleId" : null,
          "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
          "hasRating" : false,
          "id" : "djJahpu0Ciut",
@@ -105,10 +98,17 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
+         "id" : "5v6oaGfrdf29",
+         "name" : "Flux"
+      },
+      {
+         "aliasedRuleId" : "LRFrnVp661tS",
+         "description" : "This model and its unit may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : "4TuYQKX2Ss0S",
+         "name" : "Royal March"
       },
       {
          "aliasedRuleId" : null,
@@ -119,17 +119,17 @@
       },
       {
          "aliasedRuleId" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
          "name" : "Unique"
-      },
-      {
-         "aliasedRuleId" : "LRFrnVp661tS",
-         "description" : "This model and its unit may ignore the Slow rule.",
-         "hasRating" : false,
-         "id" : "4TuYQKX2Ss0S",
-         "name" : "Royal March"
       },
       {
          "aliasedRuleId" : "B--NHwOGx3_9",
@@ -443,7 +443,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "MNwxfENh9",
+               "instanceId" : "DRj-x1_ib",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -478,7 +478,7 @@
                      }
                   ],
                   "id" : "AZDWCqf",
-                  "label" : "Royal March",
+                  "label" : "Overseer (Royal March)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
@@ -486,7 +486,7 @@
                   "uid" : "AZDWCqf"
                },
                "upgrade" : {
-                  "id" : "6i0tBIL",
+                  "id" : "qFZ7ete",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -500,7 +500,7 @@
                }
             },
             {
-               "instanceId" : "7zWARlYXu",
+               "instanceId" : "0ItOyUIOz",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -548,7 +548,7 @@
                   "uid" : "Wf-4yd5"
                },
                "upgrade" : {
-                  "id" : "8rmj-gv",
+                  "id" : "9S8x2Ad",
                   "label" : "Replace Combat Shield",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -560,7 +560,7 @@
                }
             },
             {
-               "instanceId" : "D1qhdJpsh",
+               "instanceId" : "E9hJe44H-",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -606,7 +606,7 @@
                   "uid" : "cYskqiN"
                },
                "upgrade" : {
-                  "id" : "rD67OIr",
+                  "id" : "sldMBDv",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -634,7 +634,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "D1qhdJpsh",
+                     "upgradeInstanceId" : "E9hJe44H-",
                      "variant" : "replace"
                   }
                ],
@@ -674,7 +674,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "x_hSdaqK4",
+                     "upgradeInstanceId" : "NU-Bd_MgX",
                      "variant" : "replace"
                   }
                ],
@@ -754,7 +754,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "x_hSdaqK4",
+               "instanceId" : "NU-Bd_MgX",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -802,7 +802,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "e8cAjl_",
+                  "id" : "rTcV5du",
                   "label" : "Replace one Reaper Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -828,7 +828,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "x_hSdaqK4",
+                     "upgradeInstanceId" : "NU-Bd_MgX",
                      "variant" : "replace"
                   }
                ],
@@ -888,7 +888,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "pxJ1yIOsS",
+                     "upgradeInstanceId" : "4Ma8RCEBS",
                      "variant" : "replace"
                   }
                ],
@@ -968,7 +968,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "pxJ1yIOsS",
+               "instanceId" : "4Ma8RCEBS",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -1016,7 +1016,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "e8cAjl_",
+                  "id" : "rTcV5du",
                   "label" : "Replace one Reaper Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -1042,7 +1042,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "pxJ1yIOsS",
+                     "upgradeInstanceId" : "4Ma8RCEBS",
                      "variant" : "replace"
                   }
                ],
@@ -1609,7 +1609,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "9IERZ28zI",
+               "instanceId" : "0ouE_dmP2",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -1644,7 +1644,7 @@
                      }
                   ],
                   "id" : "iUPolg0",
-                  "label" : "Shadow-Protocol",
+                  "label" : "Chronomancer (Shadow-Protocol)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
@@ -1652,7 +1652,7 @@
                   "uid" : "iUPolg0"
                },
                "upgrade" : {
-                  "id" : "6i0tBIL",
+                  "id" : "qFZ7ete",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1666,7 +1666,7 @@
                }
             },
             {
-               "instanceId" : "ZlyDta9fQ",
+               "instanceId" : "0ckfpC5zx",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1727,7 +1727,7 @@
                   "uid" : "-3YN10I"
                },
                "upgrade" : {
-                  "id" : "QegwQhT",
+                  "id" : "F2WQX2l",
                   "label" : "Replace Combat Shield and CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1756,7 +1756,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "ZlyDta9fQ",
+                     "upgradeInstanceId" : "0ckfpC5zx",
                      "variant" : "replace"
                   }
                ],
@@ -1842,7 +1842,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "8tQSlVfmi",
+               "instanceId" : "yT6M7YgDi",
                "option" : {
                   "cost" : 55,
                   "costs" : [
@@ -1883,7 +1883,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "UEwUnH4",
+                  "id" : "ukNblJH",
                   "label" : "Replace all Flux Carbines",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -1909,7 +1909,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "8tQSlVfmi",
+                     "upgradeInstanceId" : "yT6M7YgDi",
                      "variant" : "replace"
                   }
                ],
@@ -2054,7 +2054,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "0gs5-xjvg",
+               "instanceId" : "_StoVa6v7",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2090,7 +2090,7 @@
                      }
                   ],
                   "id" : "pAgesdx",
-                  "label" : "Caster(2)",
+                  "label" : "Technomancer (Caster(2))",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
@@ -2098,7 +2098,7 @@
                   "uid" : "pAgesdx"
                },
                "upgrade" : {
-                  "id" : "6i0tBIL",
+                  "id" : "qFZ7ete",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2217,7 +2217,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "k825hpswo",
+               "instanceId" : "ct3eOib2n",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2268,7 +2268,7 @@
                      }
                   ],
                   "id" : "dCcieks",
-                  "label" : "Hyper Sword (A2, AP(1), Rending), Shield Wall",
+                  "label" : "Hyper Sword (A2, AP(1), Rending), Combat Shields (Shield Wall)",
                   "parentPackageUid" : "G1",
                   "parentSectionId" : "lLgBGjy",
                   "parentSectionUid" : "lLgBGjy",
@@ -2279,7 +2279,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "5CuHe7w",
+                  "id" : "RLU3RTV",
                   "label" : "Replace all Atom-Casters and Void Blades",
                   "parentPackageUid" : "G1",
                   "targets" : [
@@ -2306,7 +2306,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "k825hpswo",
+                     "upgradeInstanceId" : "ct3eOib2n",
                      "variant" : "replace"
                   }
                ],
@@ -2333,7 +2333,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "k825hpswo",
+                     "upgradeInstanceId" : "ct3eOib2n",
                      "variant" : "replace"
                   }
                ],
@@ -2458,7 +2458,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "8xpOUIor5",
+               "instanceId" : "5OgrZLdWW",
                "option" : {
                   "cost" : 30,
                   "costs" : [
@@ -2493,7 +2493,7 @@
                      }
                   ],
                   "id" : "a-G2qj8",
-                  "label" : "Regen-Protocol",
+                  "label" : "Warden (Regen-Protocol)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
@@ -2501,7 +2501,7 @@
                   "uid" : "a-G2qj8"
                },
                "upgrade" : {
-                  "id" : "6i0tBIL",
+                  "id" : "qFZ7ete",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2649,7 +2649,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "cUIpF_NfW",
+               "instanceId" : "gVfDGojSw",
                "option" : {
                   "cost" : 20,
                   "costs" : [
@@ -2684,7 +2684,7 @@
                      }
                   ],
                   "id" : "VHtYlsj",
-                  "label" : "Gloom-Protocol",
+                  "label" : "Psychomancer (Gloom-Protocol)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "IxcS2nP",
                   "parentSectionUid" : "IxcS2nP",
@@ -2692,7 +2692,7 @@
                   "uid" : "VHtYlsj"
                },
                "upgrade" : {
-                  "id" : "6i0tBIL",
+                  "id" : "qFZ7ete",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",

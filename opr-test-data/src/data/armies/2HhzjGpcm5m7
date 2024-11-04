@@ -239,7 +239,7 @@
          "rules" : [],
          "selectedUpgrades" : [
             {
-               "instanceId" : "JFCATC9Xd",
+               "instanceId" : "NE8qjlQeC",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -283,7 +283,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "4QioGsh",
+                  "id" : "QjNF52B",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -295,7 +295,7 @@
                }
             },
             {
-               "instanceId" : "NTzCPeLB3",
+               "instanceId" : "jtqVctz5V",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -339,7 +339,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "4QioGsh",
+                  "id" : "QjNF52B",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -351,7 +351,7 @@
                }
             },
             {
-               "instanceId" : "qZrkUnArT",
+               "instanceId" : "KtGvPl-6m",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -394,7 +394,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "4QioGsh",
+                  "id" : "QjNF52B",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -420,17 +420,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "JFCATC9Xd",
+                     "upgradeInstanceId" : "NE8qjlQeC",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "NTzCPeLB3",
+                     "upgradeInstanceId" : "jtqVctz5V",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "qZrkUnArT",
+                     "upgradeInstanceId" : "KtGvPl-6m",
                      "variant" : "replace"
                   }
                ],
@@ -762,7 +762,7 @@
          "rules" : [],
          "selectedUpgrades" : [
             {
-               "instanceId" : "IVIBnoCrF",
+               "instanceId" : "CtfcPV4Rx",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -810,7 +810,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "4QioGsh",
+                  "id" : "QjNF52B",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -822,7 +822,7 @@
                }
             },
             {
-               "instanceId" : "XgMhZZeW8",
+               "instanceId" : "SIGEZ7XUw",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -870,7 +870,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "4QioGsh",
+                  "id" : "QjNF52B",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -882,7 +882,7 @@
                }
             },
             {
-               "instanceId" : "Xtaha6Lk5",
+               "instanceId" : "-0wXK_tAg",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -925,7 +925,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "4QioGsh",
+                  "id" : "QjNF52B",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -951,17 +951,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "IVIBnoCrF",
+                     "upgradeInstanceId" : "CtfcPV4Rx",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "XgMhZZeW8",
+                     "upgradeInstanceId" : "SIGEZ7XUw",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Xtaha6Lk5",
+                     "upgradeInstanceId" : "-0wXK_tAg",
                      "variant" : "replace"
                   }
                ],
@@ -1002,7 +1002,6 @@
                "id" : "Dx5HN",
                "label" : "Heavy Bash (A2, AP(1))",
                "name" : "Heavy Bash",
-               "newWeapon" : false,
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -1043,7 +1042,6 @@
                "id" : "Dx5HN",
                "label" : "Heavy Bash (A2, AP(1))",
                "name" : "Heavy Bash",
-               "newWeapon" : false,
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [

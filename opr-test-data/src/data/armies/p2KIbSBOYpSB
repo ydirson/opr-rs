@@ -42,25 +42,18 @@
          "name" : "Precision Shots"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
-      },
-      {
-         "aliasedRuleId" : "Jm_snOMYIAZI",
-         "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 instead.",
-         "hasRating" : false,
-         "id" : "FWP4aR4iYo8w",
-         "name" : "War Chant"
-      },
-      {
          "aliasedRuleId" : "V3YzPPkZm8at",
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
          "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "Jm_snOMYIAZI",
+         "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
+         "hasRating" : false,
+         "id" : "FWP4aR4iYo8w",
+         "name" : "War Chant"
       },
       {
          "aliasedRuleId" : null,
@@ -89,6 +82,13 @@
          "hasRating" : false,
          "id" : "OxqZNENtow9I",
          "name" : "Psalms"
+      },
+      {
+         "aliasedRuleId" : "efmjJPTe0Yzd",
+         "description" : "This weapon ignores cover.",
+         "hasRating" : false,
+         "id" : "BFLMrfDSQk5v",
+         "name" : "Phosphor"
       },
       {
          "aliasedRuleId" : "5v6oaGfrdf29",
@@ -154,13 +154,6 @@
          "name" : "Highly Devout"
       },
       {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
@@ -173,6 +166,13 @@
          "hasRating" : false,
          "id" : "CZXPTpxQT-7_",
          "name" : "War Hymns"
+      },
+      {
+         "aliasedRuleId" : "ILPGCU9Y9xhe",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
+         "hasRating" : false,
+         "id" : "SJI8muKSgh9p",
+         "name" : "Angelic Aura"
       },
       {
          "aliasedRuleId" : null,
@@ -196,18 +196,18 @@
          "name" : "Canticle Megaphone"
       },
       {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "KauMx287bYqE",
-         "name" : "Holy Statue"
-      },
-      {
          "aliasedRuleId" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : null,
          "id" : "j_GPMzrugrCj",
          "name" : "Devout"
+      },
+      {
+         "aliasedRuleId" : "kqma1pPDpN3w",
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
+         "hasRating" : false,
+         "id" : "KauMx287bYqE",
+         "name" : "Holy Statue"
       },
       {
          "aliasedRuleId" : "n3jD5Uf1k4C4",
@@ -515,7 +515,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "zjBVTtAEm",
+               "instanceId" : "lteBhtT6b",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -555,7 +555,7 @@
                      }
                   ],
                   "id" : "D3Dqx6h",
-                  "label" : "Caster(2)",
+                  "label" : "Archivist (Caster(2))",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "BCvkhSe",
                   "parentSectionUid" : "BCvkhSe",
@@ -563,7 +563,7 @@
                   "uid" : "D3Dqx6h"
                },
                "upgrade" : {
-                  "id" : "2FfJEfS",
+                  "id" : "dXZw80e",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -577,7 +577,7 @@
                }
             },
             {
-               "instanceId" : "8mEDMA6p_",
+               "instanceId" : "I-EO2Ti-v",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -628,7 +628,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "k2p2Sos",
+                  "id" : "mFlMssu",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -640,7 +640,7 @@
                }
             },
             {
-               "instanceId" : "Lu3p0Rt6k",
+               "instanceId" : "GOy93fK_D",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -667,7 +667,7 @@
                      }
                   ],
                   "id" : "zOpXO",
-                  "label" : "Scout",
+                  "label" : "Infiltration Gear (Scout)",
                   "parentPackageUid" : "qIWMF",
                   "parentSectionId" : "BwY_m",
                   "parentSectionUid" : "BwY_m",
@@ -675,7 +675,7 @@
                   "uid" : "zOpXO"
                },
                "upgrade" : {
-                  "id" : "3wOcUGO",
+                  "id" : "1hMU81B",
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "qIWMF",
                   "select" : {
@@ -730,7 +730,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "8mEDMA6p_",
+                     "upgradeInstanceId" : "I-EO2Ti-v",
                      "variant" : "replace"
                   }
                ],
@@ -1098,7 +1098,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "2qTWhvGCA",
+               "instanceId" : "cc_tgyKqF",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -1137,7 +1137,7 @@
                      }
                   ],
                   "id" : "fwO6jFd",
-                  "label" : "Battle Rites",
+                  "label" : "Captain (Battle Rites)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "BCvkhSe",
                   "parentSectionUid" : "BCvkhSe",
@@ -1145,7 +1145,7 @@
                   "uid" : "fwO6jFd"
                },
                "upgrade" : {
-                  "id" : "2FfJEfS",
+                  "id" : "dXZw80e",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1159,7 +1159,7 @@
                }
             },
             {
-               "instanceId" : "VeWALlvqF",
+               "instanceId" : "g9LUIktq4",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1210,7 +1210,7 @@
                   "uid" : "d6wOTSF"
                },
                "upgrade" : {
-                  "id" : "k2p2Sos",
+                  "id" : "mFlMssu",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1264,7 +1264,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "VeWALlvqF",
+                     "upgradeInstanceId" : "g9LUIktq4",
                      "variant" : "replace"
                   }
                ],
@@ -1403,7 +1403,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "9_V2NBT1a",
+               "instanceId" : "rpv8dr5UW",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -1442,7 +1442,7 @@
                      }
                   ],
                   "id" : "VyigG9G",
-                  "label" : "Precision Shots",
+                  "label" : "Lieutenant (Precision Shots)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "BCvkhSe",
                   "parentSectionUid" : "BCvkhSe",
@@ -1450,7 +1450,7 @@
                   "uid" : "VyigG9G"
                },
                "upgrade" : {
-                  "id" : "2FfJEfS",
+                  "id" : "dXZw80e",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1464,7 +1464,7 @@
                }
             },
             {
-               "instanceId" : "mzXtF6-bW",
+               "instanceId" : "cQ1TmSDZx",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1515,7 +1515,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "k2p2Sos",
+                  "id" : "mFlMssu",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1527,7 +1527,7 @@
                }
             },
             {
-               "instanceId" : "F5rDVHNCI",
+               "instanceId" : "Xy_cNcCTi",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1558,7 +1558,7 @@
                      }
                   ],
                   "id" : "cd-2wsN",
-                  "label" : "Heavy Shield",
+                  "label" : "Combat Shield (Heavy Shield)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "80QB0Hq",
                   "parentSectionUid" : "80QB0Hq",
@@ -1566,7 +1566,7 @@
                   "uid" : "cd-2wsN"
                },
                "upgrade" : {
-                  "id" : "9BKn8zW",
+                  "id" : "bAVNotY",
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
                   "select" : {
@@ -1621,7 +1621,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mzXtF6-bW",
+                     "upgradeInstanceId" : "cQ1TmSDZx",
                      "variant" : "replace"
                   }
                ],
@@ -1661,7 +1661,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "nQ-2mx99I",
+                     "upgradeInstanceId" : "UZmBf8KLL",
                      "variant" : "replace"
                   }
                ],
@@ -1735,7 +1735,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "nQ-2mx99I",
+               "instanceId" : "UZmBf8KLL",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -1788,7 +1788,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "zf-5lCi",
+                  "id" : "PCnEZQR",
                   "label" : "Replace one R-Fusil",
                   "parentPackageUid" : "D1",
                   "targets" : [
@@ -1815,7 +1815,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "nQ-2mx99I",
+                     "upgradeInstanceId" : "UZmBf8KLL",
                      "variant" : "replace"
                   }
                ],
@@ -1995,7 +1995,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "GILiNdEMN",
+                     "upgradeInstanceId" : "DiOoEX1rl",
                      "variant" : "replace"
                   }
                ],
@@ -2028,6 +2028,23 @@
                "weaponId" : "4o5CBBZC"
             },
             {
+               "attacks" : "3",
+               "count" : 1,
+               "dependencies" : [],
+               "label" : "Leader P-Pistol (9\", A3, Phosphor)",
+               "name" : "Leader P-Pistol",
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "BFLMrfDSQk5v",
+                     "name" : "Phosphor",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "TOskpb88"
+            },
+            {
                "attacks" : 2,
                "count" : 1,
                "dependencies" : [],
@@ -2057,7 +2074,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "1dMWtYxsh",
+               "instanceId" : "vg_NOXt-o",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -2094,7 +2111,7 @@
                   "uid" : "aH5568p"
                },
                "upgrade" : {
-                  "id" : "VWXLJlK",
+                  "id" : "ktUzNxr",
                   "label" : "Replace Leader R-Pistol",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -2106,7 +2123,7 @@
                }
             },
             {
-               "instanceId" : "GILiNdEMN",
+               "instanceId" : "DiOoEX1rl",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2147,7 +2164,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "zf-5lCi",
+                  "id" : "PCnEZQR",
                   "label" : "Replace one R-Fusil",
                   "parentPackageUid" : "D1",
                   "targets" : [
@@ -2174,7 +2191,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "GILiNdEMN",
+                     "upgradeInstanceId" : "DiOoEX1rl",
                      "variant" : "replace"
                   }
                ],
@@ -2308,7 +2325,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "oFP7Kw6Go",
+               "instanceId" : "W2QDK1y64",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2344,7 +2361,7 @@
                      }
                   ],
                   "id" : "VC9Z-lM",
-                  "label" : "Caster(2)",
+                  "label" : "Machine Lore (Caster(2))",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "ilLvqMc",
                   "parentSectionUid" : "ilLvqMc",
@@ -2352,7 +2369,7 @@
                   "uid" : "VC9Z-lM"
                },
                "upgrade" : {
-                  "id" : "lOEbf0R",
+                  "id" : "R_dbkTI",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2516,7 +2533,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "XaddLHztB",
+               "instanceId" : "nC2YqUgUz",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -2551,7 +2568,7 @@
                      }
                   ],
                   "id" : "WMrFSXc",
-                  "label" : "Repair",
+                  "label" : "Engineer (Repair)",
                   "parentPackageUid" : "C1",
                   "parentSectionId" : "ilLvqMc",
                   "parentSectionUid" : "ilLvqMc",
@@ -2559,7 +2576,7 @@
                   "uid" : "WMrFSXc"
                },
                "upgrade" : {
-                  "id" : "lOEbf0R",
+                  "id" : "R_dbkTI",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2835,7 +2852,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "8AtO-ZpD1",
+               "instanceId" : "DSZrqLvYS",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -2874,7 +2891,7 @@
                      }
                   ],
                   "id" : "vdVRg",
-                  "label" : "Spiritual Guidance",
+                  "label" : "Canoness (Spiritual Guidance)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "jDPiWW0",
                   "parentSectionUid" : "jDPiWW0",
@@ -2882,7 +2899,7 @@
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "uHNW3_s",
+                  "id" : "SDTVdo2",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -3137,7 +3154,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mCFopFl48",
+                     "upgradeInstanceId" : "BbsdvIu79",
                      "variant" : "replace"
                   }
                ],
@@ -3164,7 +3181,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mCFopFl48",
+                     "upgradeInstanceId" : "BbsdvIu79",
                      "variant" : "replace"
                   }
                ],
@@ -3242,7 +3259,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "mCFopFl48",
+               "instanceId" : "BbsdvIu79",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3307,7 +3324,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "m0yppF2",
+                  "id" : "56B9Zxa",
                   "label" : "Replace one Twin Heavy Pistols and CCW",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -3334,7 +3351,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mCFopFl48",
+                     "upgradeInstanceId" : "BbsdvIu79",
                      "variant" : "replace"
                   }
                ],
@@ -3361,7 +3378,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "mCFopFl48",
+                     "upgradeInstanceId" : "BbsdvIu79",
                      "variant" : "replace"
                   }
                ],
@@ -3554,7 +3571,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "lNBUDIjnv",
+               "instanceId" : "5V5maOHPf",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3595,7 +3612,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "5snDNzV",
+                  "id" : "JvwmE2G",
                   "label" : "Replace all Chainsaw Swords",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -3607,7 +3624,7 @@
                }
             },
             {
-               "instanceId" : "T1N78Bn-X",
+               "instanceId" : "WHbzM5A6e",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -3634,7 +3651,7 @@
                      }
                   ],
                   "id" : "q4Db3",
-                  "label" : "Regeneration",
+                  "label" : "Flagellants (Regeneration)",
                   "parentPackageUid" : "H1",
                   "parentSectionId" : "Zl_L3",
                   "parentSectionUid" : "Zl_L3",
@@ -3645,7 +3662,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "uyQUqMk",
+                  "id" : "-dIBVM4",
                   "label" : "Upgrade all models with",
                   "model" : true,
                   "parentPackageUid" : "H1",
@@ -3669,7 +3686,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "lNBUDIjnv",
+                     "upgradeInstanceId" : "5V5maOHPf",
                      "variant" : "replace"
                   }
                ],
