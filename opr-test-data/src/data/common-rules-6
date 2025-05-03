@@ -269,16 +269,16 @@
    "traits" : [
       {
          "campaign" : true,
-         "description" : "May pick any other trait from the list.",
-         "id" : "CR2fiwz197J5",
-         "name" : "Fast Learner",
-         "type" : 0
+         "description" : "Enemy units get -1 to hit when in melee against the hero.",
+         "id" : "BHoKITdB4x64",
+         "name" : "Horrible Scars",
+         "type" : 2
       },
       {
          "campaign" : true,
-         "description" : "Gets +1 to hit against enemy heroes.",
-         "id" : "F22Oi8eBT14B",
-         "name" : "Bitter Rivalry",
+         "description" : "The hero recovers and gets +1 XP.",
+         "id" : "jVtk2swsNw5H",
+         "name" : "Natural Talent",
          "type" : 2
       },
       {
@@ -314,29 +314,6 @@
       },
       {
          "campaign" : true,
-         "description" : "Enemy units get -1 in melee against the hero.",
-         "id" : "r2keEvl4bbGu",
-         "name" : "Duellist",
-         "skillSet" : "Fighter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero ignores difficult terrain effects.",
-         "id" : "pBR-QW17pjHk",
-         "name" : "Climber",
-         "skillSet" : "Pathfinder",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Remove the hero from your army sheet.",
-         "id" : "_eH8ha6fF-o8",
-         "name" : "Dead",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
          "description" : "The hero may shoot even after rush actions.",
          "id" : "Y7bfyRCJxIRt",
          "name" : "Hunter",
@@ -353,6 +330,13 @@
       },
       {
          "campaign" : true,
+         "description" : "Remove the hero from your army sheet.",
+         "id" : "_eH8ha6fF-o8",
+         "name" : "Dead",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
          "description" : "Moves -1\" on advance and -2” on rush and charge actions.",
          "id" : "pkVg1PtDvSrT",
          "name" : "Smashed Leg",
@@ -364,60 +348,6 @@
          "id" : "z41zENyo3kqr",
          "name" : "Arm Injury",
          "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero gets AP(+1) when shooting.",
-         "id" : "zn4TDsCqqpNY",
-         "name" : "Destroyer",
-         "skillSet" : "Shooter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets -1 to rolls when taking morale tests.",
-         "id" : "UaKBFqWpoqh5",
-         "name" : "Traumatized",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets -1 to rolls when blocking hits.",
-         "id" : "5Fk4ZrL0aMsd",
-         "name" : "Chest Wound",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Enemy units further than 12\" get -1 to hit rolls when shooting at the hero.",
-         "id" : "TzWvsygpdGTW",
-         "name" : "Prowler",
-         "skillSet" : "Pathfinder",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero always moves +2\" (even in terrain).",
-         "id" : "v3_8JnEoKVRl",
-         "name" : "Runner",
-         "skillSet" : "Pathfinder",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
-         "id" : "1X8qwmnAx7zH",
-         "name" : "Suppressor",
-         "skillSet" : "Shooter",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Friendly units that activate within 6\" move +4” when using Charge actions.",
-         "id" : "5FaqLcntZqCn",
-         "name" : "Vanguard",
-         "skillSet" : "Support",
-         "type" : 3
       },
       {
          "campaign" : true,
@@ -436,54 +366,11 @@
       },
       {
          "campaign" : true,
-         "description" : "Gets +1 to rolls when blocking hits.",
-         "id" : "x4cVUdcHv7xH",
-         "name" : "Resilient",
-         "type" : 0
-      },
-      {
-         "campaign" : true,
          "description" : "The hero gets +1 attack when in melee.",
          "id" : "hP5o_avSAEDF",
          "name" : "Fanatic",
          "skillSet" : "Fighter",
          "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Enemy units get -1 to hit when in melee against the hero.",
-         "id" : "BHoKITdB4x64",
-         "name" : "Horrible Scars",
-         "type" : 2
-      },
-      {
-         "campaign" : true,
-         "description" : "Friendly units within 6\" of the Hero get +1 to morale tests when in melee.",
-         "id" : "tX9l1C2VKmjD",
-         "name" : "Chemist",
-         "skillSet" : "Healer",
-         "type" : 3
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets -1 to rolls when shooting.",
-         "id" : "AILF-vySXt6E",
-         "name" : "Blinded Eye",
-         "type" : 1
-      },
-      {
-         "campaign" : true,
-         "description" : "Gets +1 to rolls in melee or shooting (pick one).",
-         "id" : "4PeGOHXKO3XI",
-         "name" : "Specialist",
-         "type" : 0
-      },
-      {
-         "campaign" : true,
-         "description" : "The hero recovers and gets +1 XP.",
-         "id" : "jVtk2swsNw5H",
-         "name" : "Natural Talent",
-         "type" : 2
       },
       {
          "campaign" : true,
@@ -524,6 +411,119 @@
       },
       {
          "campaign" : true,
+         "description" : "Friendly units that activate within 6\" of the Hero get +6” range when shooting.",
+         "id" : "QHfTFom-JFN4",
+         "name" : "Scavenger",
+         "skillSet" : "Support",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "May pick any other trait from the list.",
+         "id" : "CR2fiwz197J5",
+         "name" : "Fast Learner",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to hit against enemy heroes.",
+         "id" : "F22Oi8eBT14B",
+         "name" : "Bitter Rivalry",
+         "type" : 2
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemies that are shot at by the hero get -1 to hit when shooting until the end of the round.",
+         "id" : "1X8qwmnAx7zH",
+         "name" : "Suppressor",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when shooting.",
+         "id" : "AILF-vySXt6E",
+         "name" : "Blinded Eye",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units get -1 in melee against the hero.",
+         "id" : "r2keEvl4bbGu",
+         "name" : "Duellist",
+         "skillSet" : "Fighter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero ignores difficult terrain effects.",
+         "id" : "pBR-QW17pjHk",
+         "name" : "Climber",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero always moves +2\" (even in terrain).",
+         "id" : "v3_8JnEoKVRl",
+         "name" : "Runner",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Enemy units further than 12\" get -1 to hit rolls when shooting at the hero.",
+         "id" : "TzWvsygpdGTW",
+         "name" : "Prowler",
+         "skillSet" : "Pathfinder",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when blocking hits.",
+         "id" : "5Fk4ZrL0aMsd",
+         "name" : "Chest Wound",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "The hero gets AP(+1) when shooting.",
+         "id" : "zn4TDsCqqpNY",
+         "name" : "Destroyer",
+         "skillSet" : "Shooter",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets -1 to rolls when taking morale tests.",
+         "id" : "UaKBFqWpoqh5",
+         "name" : "Traumatized",
+         "type" : 1
+      },
+      {
+         "campaign" : true,
+         "description" : "Friendly units that activate within 6\" move +4” when using Charge actions.",
+         "id" : "5FaqLcntZqCn",
+         "name" : "Vanguard",
+         "skillSet" : "Support",
+         "type" : 3
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to rolls in melee or shooting (pick one).",
+         "id" : "4PeGOHXKO3XI",
+         "name" : "Specialist",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
+         "description" : "Gets +1 to rolls when blocking hits.",
+         "id" : "x4cVUdcHv7xH",
+         "name" : "Resilient",
+         "type" : 0
+      },
+      {
+         "campaign" : true,
          "description" : "Gets Tough(+1).",
          "id" : "2gz89dFkFOpA",
          "name" : "Toughened",
@@ -531,10 +531,10 @@
       },
       {
          "campaign" : true,
-         "description" : "Friendly units that activate within 6\" of the Hero get +6” range when shooting.",
-         "id" : "QHfTFom-JFN4",
-         "name" : "Scavenger",
-         "skillSet" : "Support",
+         "description" : "Friendly units within 6\" of the Hero get +1 to morale tests when in melee.",
+         "id" : "tX9l1C2VKmjD",
+         "name" : "Chemist",
+         "skillSet" : "Healer",
          "type" : 3
       }
    ]

@@ -2,10 +2,12 @@
    "campaignMode" : false,
    "competitive" : true,
    "creationTime" : "1699916715455",
+   "forceOrgErrors" : [],
    "gameSystem" : "gff",
    "id" : "dVlqH2ICxln2",
    "isCloud" : false,
    "key" : "Lr-W4G26O_0ogI4b4MwRf",
+   "listPoints" : 200,
    "modified" : "2023-11-13T23:08:46.726Z",
    "name" : "Robot Legions 200pts",
    "points" : 200,
@@ -13,7 +15,16 @@
    "selectedUnitId" : null,
    "specialRules" : [
       {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : "leFm23MTiJxO",
+         "name" : "Swift"
+      },
+      {
          "aliasedRuleId" : "O4RvQUoR77mP",
+         "coreType" : 2,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "TpyBi5Rhkkac",
@@ -21,69 +32,31 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "This model may ignore the Slow rule.",
-         "hasRating" : false,
-         "id" : "leFm23MTiJxO",
-         "name" : "Swift"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
-         "hasRating" : false,
-         "id" : "C6MzEy1CnxTs",
-         "name" : "Warning Cry"
-      },
-      {
-         "aliasedRuleId" : "gOFh4u_LGrwP",
-         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
-         "hasRating" : false,
-         "id" : "FWEooNV3A01C",
-         "name" : "Shadow-Protocol"
-      },
-      {
-         "aliasedRuleId" : "V3YzPPkZm8at",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "wF35XZ2faHCI",
-         "name" : "Regen-Protocol"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
-         "hasRating" : false,
-         "id" : "AlIZbh-afBYi",
-         "name" : "Self-Repair"
-      },
-      {
-         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "Counts as having the Ambush rule, and gets AP(+2) when shooting on the round in which it deploys.",
          "hasRating" : false,
          "id" : "CCShas9-9K4N",
          "name" : "Hunter"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "aliasedRuleId" : "V3YzPPkZm8at",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "djJahpu0Ciut",
-         "name" : "Tunneller"
+         "id" : "wF35XZ2faHCI",
+         "name" : "Regen-Protocol"
+      },
+      {
+         "aliasedRuleId" : "gOFh4u_LGrwP",
+         "coreType" : 2,
+         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+         "hasRating" : false,
+         "id" : "FWEooNV3A01C",
+         "name" : "Shadow-Protocol"
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : false,
-         "id" : "5v6oaGfrdf29",
-         "name" : "Flux"
-      },
-      {
-         "aliasedRuleId" : "LRFrnVp661tS",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "4TuYQKX2Ss0S",
-         "name" : "Royal March"
-      },
-      {
-         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
@@ -91,24 +64,67 @@
       },
       {
          "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
          "name" : "Unique"
       },
       {
+         "aliasedRuleId" : "LRFrnVp661tS",
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "4TuYQKX2Ss0S",
+         "name" : "Royal March"
+      },
+      {
+         "aliasedRuleId" : "O2Cd7OibBBA5",
+         "coreType" : null,
+         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : "hR8IoOxeKnLp",
+         "name" : "Robot"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "5v6oaGfrdf29",
+         "name" : "Flux"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller"
+      },
+      {
          "aliasedRuleId" : "B--NHwOGx3_9",
+         "coreType" : null,
          "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "tFIv-8UscOMm",
          "name" : "Gloom-Protocol"
       },
       {
-         "aliasedRuleId" : "O2Cd7OibBBA5",
-         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
          "hasRating" : false,
-         "id" : "hR8IoOxeKnLp",
-         "name" : "Robot"
+         "id" : "C6MzEy1CnxTs",
+         "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
+         "hasRating" : false,
+         "id" : "AlIZbh-afBYi",
+         "name" : "Self-Repair"
       }
    ],
    "undoUnitRemove" : [

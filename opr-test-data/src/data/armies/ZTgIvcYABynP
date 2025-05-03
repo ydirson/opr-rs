@@ -2,10 +2,14 @@
    "campaignMode" : false,
    "competitive" : true,
    "creationTime" : "1697055051886",
+   "forceOrgErrors" : [
+      "Points limit exceeded: 320/300"
+   ],
    "gameSystem" : "aofs",
    "id" : "ZTgIvcYABynP",
    "isCloud" : false,
    "key" : "AQOmzgAn8mUree5Neobg2",
+   "listPoints" : 320,
    "modified" : "2023-10-11T20:43:53.257Z",
    "name" : "Eternal Wardens",
    "points" : 330,
@@ -13,35 +17,24 @@
    "selectedUnitId" : "-qbQV",
    "specialRules" : [
       {
-         "aliasedRuleId" : null,
-         "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
+         "aliasedRuleId" : "DEeVIJcfNfS6",
+         "coreType" : null,
+         "description" : "When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).",
          "hasRating" : false,
-         "id" : "C6MzEy1CnxTs",
-         "name" : "Warning Cry"
+         "id" : "HIpAzw67ggUv",
+         "name" : "Empower"
       },
       {
          "aliasedRuleId" : "gOFh4u_LGrwP",
+         "coreType" : 2,
          "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
          "hasRating" : false,
          "id" : "xoUPV20OWdsZ",
          "name" : "Celestial Beacon"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Once per this model's activation, before attacking, pick one enemy unit within 18\". That unit must take a morale test, and if failed it takes 3 hits.",
-         "hasRating" : false,
-         "id" : "e92LBKPwrkQT",
-         "name" : "Smite"
-      },
-      {
-         "aliasedRuleId" : "PelNCrYC31pg",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +6\" range when shooting. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "OZTHRndRqRPD",
-         "name" : "Direct Fire"
-      },
-      {
          "aliasedRuleId" : "5XvPNuYy1sW1",
+         "coreType" : null,
          "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
          "hasRating" : false,
          "id" : "2hKYC9366CyE",
@@ -49,17 +42,35 @@
       },
       {
          "aliasedRuleId" : "TTL5RNmwotoh",
+         "coreType" : null,
          "description" : "This model's melee weapons get AP(+2) against units where most models have Tough(3) or higher.",
          "hasRating" : false,
          "id" : "WqEojKIA0oe5",
          "name" : "Headtaker"
       },
       {
-         "aliasedRuleId" : "DEeVIJcfNfS6",
-         "description" : "When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).",
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
          "hasRating" : false,
-         "id" : "HIpAzw67ggUv",
-         "name" : "Empower"
+         "id" : "C6MzEy1CnxTs",
+         "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per this model's activation, before attacking, pick one enemy unit within 18\". That unit must take a morale test, and if failed it takes 3 hits.",
+         "hasRating" : false,
+         "id" : "e92LBKPwrkQT",
+         "name" : "Smite"
+      },
+      {
+         "aliasedRuleId" : "PelNCrYC31pg",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +6\" range when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "OZTHRndRqRPD",
+         "name" : "Direct Fire"
       }
    ],
    "unitPreview" : null,
@@ -408,7 +419,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "UWuKJcKgL",
+               "instanceId" : "vBrwX1mqL",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -446,7 +457,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "H09XE_j",
+                  "id" : "yPcjzJO",
                   "label" : "Replace Great Glaive",
                   "parentPackageUid" : "I1",
                   "targets" : [
@@ -472,7 +483,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "UWuKJcKgL",
+                     "upgradeInstanceId" : "vBrwX1mqL",
                      "variant" : "replace"
                   }
                ],
@@ -555,7 +566,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "VS4ycT-Wc",
+               "instanceId" : "hEXJAgaYr",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -593,7 +604,7 @@
                   "uid" : "KFqGgq_"
                },
                "upgrade" : {
-                  "id" : "H09XE_j",
+                  "id" : "yPcjzJO",
                   "label" : "Replace Great Glaive",
                   "parentPackageUid" : "I1",
                   "targets" : [
@@ -619,7 +630,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "VS4ycT-Wc",
+                     "upgradeInstanceId" : "hEXJAgaYr",
                      "variant" : "replace"
                   }
                ],

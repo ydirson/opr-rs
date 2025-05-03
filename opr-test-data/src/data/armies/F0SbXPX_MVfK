@@ -4,10 +4,12 @@
    "cloudModified" : null,
    "description" : "",
    "forceOrg" : true,
+   "forceOrgErrors" : [],
    "gameSystem" : "gf",
    "id" : "F0SbXPX_MVfK",
    "isCloud" : false,
    "key" : "bE37jR8V4eAe10W6d_70u",
+   "listPoints" : 1280,
    "modelCount" : 26,
    "modified" : "2024-03-11T23:15:45.664Z",
    "name" : "Blessed Sisters 2K",
@@ -16,6 +18,7 @@
    "specialRules" : [
       {
          "aliasedRuleId" : "O4RvQUoR77mP",
+         "coreType" : 2,
          "description" : "This model and its unit get Stealth.",
          "hasRating" : false,
          "id" : "EE80BCU66oFu",
@@ -23,20 +26,23 @@
       },
       {
          "aliasedRuleId" : "KskX8qPX3I8G",
+         "coreType" : null,
          "description" : "Once per this unit's activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit next time it shoots.",
          "hasRating" : false,
          "id" : "5Z_UdFAz1-0R",
          "name" : "Rangefinder Backpack"
       },
       {
-         "aliasedRuleId" : "bd26Yb52DH42",
-         "description" : "Gets +1 to hit in melee and shooting.",
+         "aliasedRuleId" : "kqma1pPDpN3w",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
          "hasRating" : false,
-         "id" : "5fNdzNcQm0Pt",
-         "name" : "Celestial Veteran"
+         "id" : "KauMx287bYqE",
+         "name" : "Holy Statue"
       },
       {
          "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "j2CURXzqqKaK",
@@ -44,69 +50,7 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
-         "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy"
-      },
-      {
-         "aliasedRuleId" : "1dM_PBIn2v3p",
-         "description" : "This model and its unit get AP(+1) in melee.",
-         "hasRating" : false,
-         "id" : "CZXPTpxQT-7_",
-         "name" : "War Hymns"
-      },
-      {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
-         "hasRating" : false,
-         "id" : "IyLY1212wacW",
-         "name" : "Protected"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
-         "hasRating" : false,
-         "id" : "7rd_tPzHseje",
-         "name" : "Protective Aura"
-      },
-      {
-         "aliasedRuleId" : "IXtPlY7K4Wku",
-         "description" : "This model and its unit get +1 to morale test rolls.",
-         "hasRating" : false,
-         "id" : "dlmwwGTjuk0n",
-         "name" : "Canticle Megaphone"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : null,
-         "id" : "j_GPMzrugrCj",
-         "name" : "Devout"
-      },
-      {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
-         "hasRating" : false,
-         "id" : "KauMx287bYqE",
-         "name" : "Holy Statue"
-      },
-      {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : "lsYKfk0eU8xT",
-         "name" : "Spiritual Guidance"
-      },
-      {
-         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
@@ -114,17 +58,91 @@
       },
       {
          "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
          "name" : "Unique"
       },
       {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "coreType" : 2,
+         "description" : "This model and its unit get AP(+1) when shooting.",
+         "hasRating" : false,
+         "id" : "lsYKfk0eU8xT",
+         "name" : "Spiritual Guidance"
+      },
+      {
          "aliasedRuleId" : "V3YzPPkZm8at",
+         "coreType" : 2,
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
          "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
+         "hasRating" : false,
+         "id" : "7rd_tPzHseje",
+         "name" : "Protective Aura"
+      },
+      {
+         "aliasedRuleId" : "IXtPlY7K4Wku",
+         "coreType" : 2,
+         "description" : "This model and its unit get +1 to morale test rolls.",
+         "hasRating" : false,
+         "id" : "dlmwwGTjuk0n",
+         "name" : "Canticle Megaphone"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
+         "hasRating" : false,
+         "id" : "IyLY1212wacW",
+         "name" : "Protected"
+      },
+      {
+         "aliasedRuleId" : "bd26Yb52DH42",
+         "coreType" : null,
+         "description" : "Gets +1 to hit in melee and shooting.",
+         "hasRating" : false,
+         "id" : "5fNdzNcQm0Pt",
+         "name" : "Celestial Veteran"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "fpXLibfT38MT",
+         "name" : "Frenzy"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : null,
+         "id" : "j_GPMzrugrCj",
+         "name" : "Devout"
+      },
+      {
+         "aliasedRuleId" : "ILPGCU9Y9xhe",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
+         "hasRating" : false,
+         "id" : "SJI8muKSgh9p",
+         "name" : "Angelic Aura"
+      },
+      {
+         "aliasedRuleId" : "1dM_PBIn2v3p",
+         "coreType" : 2,
+         "description" : "This model and its unit get AP(+1) in melee.",
+         "hasRating" : false,
+         "id" : "CZXPTpxQT-7_",
+         "name" : "War Hymns"
       }
    ],
    "units" : [
@@ -374,7 +392,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "L6VJmbZRJ",
+               "instanceId" : "gOG0-VgYD",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -421,7 +439,7 @@
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "kqi68Hq",
+                  "id" : "vFZmwtW",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -1169,7 +1187,7 @@
          "armyId" : "7oi8zeiqfamiur21",
          "bases" : {
             "round" : "120x92",
-            "square" : "100x50"
+            "square" : "100x60"
          },
          "combined" : false,
          "cost" : 280,

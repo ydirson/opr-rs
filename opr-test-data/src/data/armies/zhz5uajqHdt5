@@ -2,10 +2,12 @@
    "campaignMode" : false,
    "competitive" : true,
    "creationTime" : "1697042835710",
+   "forceOrgErrors" : [],
    "gameSystem" : "aofs",
    "id" : "zhz5uajqHdt5",
    "isCloud" : false,
    "key" : "D7D65Yio-hfVMqFLjzTkw",
+   "listPoints" : 215,
    "modified" : "2023-10-11T20:30:56.746Z",
    "name" : "War Disciples",
    "points" : 255,
@@ -14,20 +16,47 @@
    "specialRules" : [
       {
          "aliasedRuleId" : "Tdyu4Tn-rFN6",
+         "coreType" : 2,
          "description" : "This model and up to half of its army get Scout (must deploy within 3” of this model).",
          "hasRating" : false,
          "id" : "N1jcDB7oemqy",
          "name" : "Battle Ready"
       },
       {
-         "aliasedRuleId" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "aliasedRuleId" : "Jm_snOMYIAZI",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead. This effect lasts until the end of the round.",
          "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy"
+         "id" : "R1MLjrzLsF-3",
+         "name" : "Blood Icon"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).",
+         "hasRating" : false,
+         "id" : "DEeVIJcfNfS6",
+         "name" : "Mutations"
+      },
+      {
+         "aliasedRuleId" : "TE5Yx2XcY4k8",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 enemy units within 12\", which gets -2 to its next morale test roll.",
+         "hasRating" : false,
+         "id" : "NNoWIXzITK2g",
+         "name" : "Doom Caller"
+      },
+      {
+         "aliasedRuleId" : "GIUL_hv-YvHP",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to hit in melee. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "SyZ9COlGubUd",
+         "name" : "Blessing of War"
       },
       {
          "aliasedRuleId" : "5XvPNuYy1sW1",
+         "coreType" : null,
          "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
          "hasRating" : false,
          "id" : "cASg2EWE6GN5",
@@ -35,38 +64,19 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).",
+         "coreType" : null,
+         "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
-         "id" : "DEeVIJcfNfS6",
-         "name" : "Mutations"
+         "id" : "fpXLibfT38MT",
+         "name" : "Frenzy"
       },
       {
          "aliasedRuleId" : "bd26Yb52DH42",
+         "coreType" : null,
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
          "id" : "G1gClgMVGj8t",
          "name" : "Chosen Veteran"
-      },
-      {
-         "aliasedRuleId" : "TE5Yx2XcY4k8",
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 enemy units within 12\", which gets -2 to its next morale test roll.",
-         "hasRating" : false,
-         "id" : "NNoWIXzITK2g",
-         "name" : "Doom Caller"
-      },
-      {
-         "aliasedRuleId" : "Jm_snOMYIAZI",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "R1MLjrzLsF-3",
-         "name" : "Blood Icon"
-      },
-      {
-         "aliasedRuleId" : "GIUL_hv-YvHP",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to hit in melee. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "SyZ9COlGubUd",
-         "name" : "Blessing of War"
       }
    ],
    "undoUnitRemove" : [
@@ -183,7 +193,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "DEiFiSkDs",
+               "instanceId" : "noZeqCExk",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -217,7 +227,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "NyVHz9A",
+                  "id" : "XLnGL4a",
                   "label" : "Replace all Great Weapons",
                   "parentPackageUid" : "DSao1",
                   "targets" : [
@@ -244,7 +254,7 @@
                "dependencies" : [
                   {
                      "count" : 3,
-                     "upgradeInstanceId" : "DEiFiSkDs",
+                     "upgradeInstanceId" : "noZeqCExk",
                      "variant" : "replace"
                   }
                ],
@@ -344,7 +354,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "Qg1wHmyVh",
+               "instanceId" : "iM_lxFTTg",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -383,7 +393,7 @@
                   "uid" : "CSJn0_u"
                },
                "upgrade" : {
-                  "id" : "HgJ815I",
+                  "id" : "qde15J3",
                   "label" : "Replace Hand Weapon",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -395,7 +405,7 @@
                }
             },
             {
-               "instanceId" : "6x6KjuMAo",
+               "instanceId" : "LBpVFcY-5",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -430,7 +440,7 @@
                   "uid" : "g6drS"
                },
                "upgrade" : {
-                  "id" : "qf2GR0j",
+                  "id" : "ThsarBO",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -463,7 +473,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "Qg1wHmyVh",
+                     "upgradeInstanceId" : "iM_lxFTTg",
                      "variant" : "replace"
                   }
                ],
@@ -555,7 +565,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "9A6irfCUn",
+               "instanceId" : "FJCST5oxZ",
                "option" : {
                   "costs" : [
                      {
@@ -591,7 +601,7 @@
                   "uid" : "VrJBEDg"
                },
                "upgrade" : {
-                  "id" : "8jeSSRp",
+                  "id" : "wkyTRb7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "A1",
@@ -605,7 +615,7 @@
                }
             },
             {
-               "instanceId" : "cfKosCmsK",
+               "instanceId" : "05qlmpW8i",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -648,7 +658,7 @@
                   "uid" : "p_mJ2mK"
                },
                "upgrade" : {
-                  "id" : "O36oMVA",
+                  "id" : "b7Z7Can",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -679,7 +689,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "cfKosCmsK",
+                     "upgradeInstanceId" : "05qlmpW8i",
                      "variant" : "replace"
                   }
                ],
@@ -752,7 +762,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "e4ZEKZmq_",
+               "instanceId" : "lCS3i2S3J",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -795,7 +805,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "I_O2PgR",
+                  "id" : "xF0mJJj",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -827,7 +837,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "e4ZEKZmq_",
+                     "upgradeInstanceId" : "lCS3i2S3J",
                      "variant" : "replace"
                   }
                ],
@@ -900,7 +910,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "o9AM_Dcs8",
+               "instanceId" : "ntTXP6YqW",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -943,7 +953,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "I_O2PgR",
+                  "id" : "xF0mJJj",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -975,7 +985,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "o9AM_Dcs8",
+                     "upgradeInstanceId" : "ntTXP6YqW",
                      "variant" : "replace"
                   }
                ],

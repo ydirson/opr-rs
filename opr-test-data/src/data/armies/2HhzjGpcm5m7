@@ -2,10 +2,14 @@
    "campaignMode" : false,
    "competitive" : true,
    "creationTime" : "1702076675796",
+   "forceOrgErrors" : [
+      "Points limit exceeded: 350/300"
+   ],
    "gameSystem" : "aofs",
    "id" : "2HhzjGpcm5m7",
    "isCloud" : false,
    "key" : "AzbFkmiruV40ftDsGWMPw",
+   "listPoints" : 350,
    "modified" : "2023-12-08T23:06:42.085Z",
    "name" : "Haters tribes",
    "points" : 300,
@@ -14,6 +18,7 @@
    "specialRules" : [
       {
          "aliasedRuleId" : "IyLY1212wacW",
+         "coreType" : null,
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
          "id" : "AcDwQ6MYiTO4",
@@ -21,6 +26,7 @@
       },
       {
          "aliasedRuleId" : "6HdjfaiDd60x",
+         "coreType" : 3,
          "description" : "Calculate cost difference of A1.5 melee weapon at Q4+ and Q3+.",
          "hasRating" : false,
          "id" : "0DshI",
@@ -239,7 +245,7 @@
          "rules" : [],
          "selectedUpgrades" : [
             {
-               "instanceId" : "NE8qjlQeC",
+               "instanceId" : "7hz0JQ9ss",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -283,7 +289,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "QjNF52B",
+                  "id" : "32hACbo",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -295,7 +301,7 @@
                }
             },
             {
-               "instanceId" : "jtqVctz5V",
+               "instanceId" : "KYISolLpz",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -339,7 +345,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "QjNF52B",
+                  "id" : "32hACbo",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -351,7 +357,7 @@
                }
             },
             {
-               "instanceId" : "KtGvPl-6m",
+               "instanceId" : "sXc5SAkUv",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -394,7 +400,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "QjNF52B",
+                  "id" : "32hACbo",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -420,17 +426,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "NE8qjlQeC",
+                     "upgradeInstanceId" : "7hz0JQ9ss",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "jtqVctz5V",
+                     "upgradeInstanceId" : "KYISolLpz",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "KtGvPl-6m",
+                     "upgradeInstanceId" : "sXc5SAkUv",
                      "variant" : "replace"
                   }
                ],
@@ -543,7 +549,7 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
                "count" : 1,
                "id" : "P0MHA",
                "label" : "Great Hammer (A2, AP(3))",
@@ -589,7 +595,7 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
                "count" : 1,
                "id" : "P0MHA",
                "label" : "Great Hammer (A2, AP(3))",
@@ -762,7 +768,7 @@
          "rules" : [],
          "selectedUpgrades" : [
             {
-               "instanceId" : "CtfcPV4Rx",
+               "instanceId" : "Gy4RRhm2Q",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -810,7 +816,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "QjNF52B",
+                  "id" : "32hACbo",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -822,7 +828,7 @@
                }
             },
             {
-               "instanceId" : "SIGEZ7XUw",
+               "instanceId" : "Iy-mERxXt",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -870,7 +876,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "QjNF52B",
+                  "id" : "32hACbo",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -882,7 +888,7 @@
                }
             },
             {
-               "instanceId" : "-0wXK_tAg",
+               "instanceId" : "aoIgEi4Im",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -925,7 +931,7 @@
                   "affects" : {
                      "type" : "any"
                   },
-                  "id" : "QjNF52B",
+                  "id" : "32hACbo",
                   "label" : "Replace any Axe",
                   "parentPackageUid" : "OUHlX",
                   "targets" : [
@@ -951,17 +957,17 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "CtfcPV4Rx",
+                     "upgradeInstanceId" : "Gy4RRhm2Q",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "SIGEZ7XUw",
+                     "upgradeInstanceId" : "Iy-mERxXt",
                      "variant" : "replace"
                   },
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "-0wXK_tAg",
+                     "upgradeInstanceId" : "aoIgEi4Im",
                      "variant" : "replace"
                   }
                ],
@@ -998,6 +1004,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : null,
                "count" : 1,
                "id" : "Dx5HN",
                "label" : "Heavy Bash (A2, AP(1))",
@@ -1038,6 +1045,7 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : null,
                "count" : 1,
                "id" : "Dx5HN",
                "label" : "Heavy Bash (A2, AP(1))",

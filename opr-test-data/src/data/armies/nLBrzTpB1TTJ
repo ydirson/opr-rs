@@ -2,10 +2,12 @@
    "campaignMode" : false,
    "competitive" : true,
    "creationTime" : "-YIzDy2SxnW01kFI4rnLc",
+   "forceOrgErrors" : [],
    "gameSystem" : "gff",
    "id" : "nLBrzTpB1TTJ",
    "isCloud" : false,
    "key" : "senXmMFn2Y7Vn1vTjnVja",
+   "listPoints" : 185,
    "modified" : "2023-11-15T10:42:42.782Z",
    "name" : "Alien Hives 200pts - v0",
    "points" : 175,
@@ -13,7 +15,32 @@
    "selectedUnitId" : "08grg",
    "specialRules" : [
       {
+         "aliasedRuleId" : "RSi9ftRd-hvr",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
+         "hasRating" : false,
+         "id" : "gr5L7YfDaYyO",
+         "name" : "For the Hive!"
+      },
+      {
          "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6\" take 1 hit with Blast(6) and Poison.",
+         "hasRating" : null,
+         "id" : "4Nay818dLPu2",
+         "name" : "Poison Mist"
+      },
+      {
+         "aliasedRuleId" : "sCmjgdwkLiGT",
+         "coreType" : null,
+         "description" : "For each unmodified roll of 6 to hit in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
+         "hasRating" : false,
+         "id" : "6iDumjvyoQq8",
+         "name" : "Born for War"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
          "hasRating" : true,
          "id" : "F_1wfmpAyYwT",
@@ -21,41 +48,15 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, pick one friendly Caster within 12\", which gets +1 to its next spell casting roll.",
+         "coreType" : null,
+         "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
-         "id" : "NU_zB3p0uJIP",
-         "name" : "Spell Warden"
-      },
-      {
-         "aliasedRuleId" : "nLQCr5OiSlYz",
-         "description" : "This model counts as having Caster(1).",
-         "hasRating" : false,
-         "id" : "E0Lp0CO-Hk7u",
-         "name" : "Psychic Synapse"
-      },
-      {
-         "aliasedRuleId" : "5XvPNuYy1sW1",
-         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
-         "hasRating" : false,
-         "id" : "pJUW586Zs6FJ",
-         "name" : "Pheromones"
-      },
-      {
-         "aliasedRuleId" : "O2Cd7OibBBA5",
-         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
-         "hasRating" : false,
-         "id" : "KcMHa5eppGL0",
-         "name" : "No Retreat"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6\" take 1 hit with Blast(6) and Poison.",
-         "hasRating" : null,
-         "id" : "4Nay818dLPu2",
-         "name" : "Poison Mist"
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique"
       },
       {
          "aliasedRuleId" : "h-Cj1XrX00JE",
+         "coreType" : null,
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : "UDzzxUT_N1cp",
@@ -63,17 +64,51 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick one friendly Caster within 12\", which gets +1 to its next spell casting roll.",
          "hasRating" : false,
-         "id" : "h-Cj1XrX00JE",
-         "name" : "Resistance"
+         "id" : "NU_zB3p0uJIP",
+         "name" : "Spell Warden"
+      },
+      {
+         "aliasedRuleId" : "5XvPNuYy1sW1",
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+         "hasRating" : false,
+         "id" : "pJUW586Zs6FJ",
+         "name" : "Pheromones"
+      },
+      {
+         "aliasedRuleId" : "nLQCr5OiSlYz",
+         "coreType" : null,
+         "description" : "This model counts as having Caster(1).",
+         "hasRating" : false,
+         "id" : "E0Lp0CO-Hk7u",
+         "name" : "Psychic Synapse"
+      },
+      {
+         "aliasedRuleId" : "O2Cd7OibBBA5",
+         "coreType" : null,
+         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : "KcMHa5eppGL0",
+         "name" : "No Retreat"
       },
       {
          "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Stealth next time they are shot at.",
          "hasRating" : false,
          "id" : "cnKvLv8ErzIc",
          "name" : "Shrouding Mist"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : "h-Cj1XrX00JE",
+         "name" : "Resistance"
       }
    ],
    "undoUnitRemove" : [
@@ -245,7 +280,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "vablEGhU0",
+               "instanceId" : "VM_INZyWf",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -290,7 +325,7 @@
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "uwutQc5",
+                  "id" : "Jo_V21p",
                   "label" : "Upgrade with any",
                   "parentPackageUid" : "B1",
                   "select" : {
@@ -342,7 +377,7 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 50,
+         "cost" : 45,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
@@ -576,7 +611,7 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 50,
+         "cost" : 45,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],

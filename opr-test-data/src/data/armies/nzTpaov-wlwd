@@ -2,10 +2,14 @@
    "campaignMode" : false,
    "competitive" : true,
    "creationTime" : "DIWJWugxhbTUb2H1LJpqH",
+   "forceOrgErrors" : [
+      "Points limit exceeded: 205/200"
+   ],
    "gameSystem" : "gff",
    "id" : "nzTpaov-wlwd",
    "isCloud" : false,
    "key" : "d840N9JXisotu2xJR_DOk",
+   "listPoints" : 205,
    "modified" : "2023-11-15T10:30:10.932Z",
    "name" : "Blessed Sisters 200pts v0",
    "points" : 200,
@@ -14,6 +18,7 @@
    "specialRules" : [
       {
          "aliasedRuleId" : "O4RvQUoR77mP",
+         "coreType" : 2,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "EE80BCU66oFu",
@@ -21,20 +26,15 @@
       },
       {
          "aliasedRuleId" : "KskX8qPX3I8G",
+         "coreType" : null,
          "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
          "hasRating" : false,
          "id" : "5Z_UdFAz1-0R",
          "name" : "Rangefinder Backpack"
       },
       {
-         "aliasedRuleId" : "bd26Yb52DH42",
-         "description" : "Gets +1 to hit in melee and shooting.",
-         "hasRating" : false,
-         "id" : "5fNdzNcQm0Pt",
-         "name" : "Celestial Veteran"
-      },
-      {
          "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "j2CURXzqqKaK",
@@ -42,41 +42,7 @@
       },
       {
          "aliasedRuleId" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
-         "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy"
-      },
-      {
-         "aliasedRuleId" : "1dM_PBIn2v3p",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "CZXPTpxQT-7_",
-         "name" : "War Hymns"
-      },
-      {
-         "aliasedRuleId" : "IXtPlY7K4Wku",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "dlmwwGTjuk0n",
-         "name" : "Canticle Megaphone"
-      },
-      {
-         "aliasedRuleId" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : null,
-         "id" : "j_GPMzrugrCj",
-         "name" : "Devout"
-      },
-      {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "lsYKfk0eU8xT",
-         "name" : "Spiritual Guidance"
-      },
-      {
-         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
@@ -84,17 +50,67 @@
       },
       {
          "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
          "name" : "Unique"
       },
       {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "lsYKfk0eU8xT",
+         "name" : "Spiritual Guidance"
+      },
+      {
          "aliasedRuleId" : "V3YzPPkZm8at",
+         "coreType" : 2,
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
          "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "IXtPlY7K4Wku",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "dlmwwGTjuk0n",
+         "name" : "Canticle Megaphone"
+      },
+      {
+         "aliasedRuleId" : "bd26Yb52DH42",
+         "coreType" : null,
+         "description" : "Gets +1 to hit in melee and shooting.",
+         "hasRating" : false,
+         "id" : "5fNdzNcQm0Pt",
+         "name" : "Celestial Veteran"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "fpXLibfT38MT",
+         "name" : "Frenzy"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : null,
+         "id" : "j_GPMzrugrCj",
+         "name" : "Devout"
+      },
+      {
+         "aliasedRuleId" : "1dM_PBIn2v3p",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "CZXPTpxQT-7_",
+         "name" : "War Hymns"
       }
    ],
    "undoUnitRemove" : [
@@ -307,7 +323,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "WplBQcchy",
+               "instanceId" : "CRDfPzvr5",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -354,7 +370,7 @@
                   "uid" : "IJLtqfK"
                },
                "upgrade" : {
-                  "id" : "o01Mzjp",
+                  "id" : "Ht01qjq",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -548,7 +564,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "oezNoqu1j",
+               "instanceId" : "IadYGtp-N",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -583,7 +599,7 @@
                   "uid" : "q4Db3"
                },
                "upgrade" : {
-                  "id" : "pLhCWPR",
+                  "id" : "5FwBYDm",
                   "label" : "Upgrade with",
                   "parentPackageUid" : "H1",
                   "type" : "ArmyBookUpgradeSection",
@@ -592,7 +608,7 @@
                }
             },
             {
-               "instanceId" : "kWhri3mja",
+               "instanceId" : "uRJj8c3ct",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -630,7 +646,7 @@
                   "uid" : "AwpWO"
                },
                "upgrade" : {
-                  "id" : "DFUPS9T",
+                  "id" : "bwwJtL2",
                   "label" : "Replace Chainsaw Sword",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -656,7 +672,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "kWhri3mja",
+                     "upgradeInstanceId" : "uRJj8c3ct",
                      "variant" : "replace"
                   }
                ],
@@ -741,7 +757,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "KmLtN6joa",
+               "instanceId" : "y5hgZXkIh",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -779,7 +795,7 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "ymlBqJK",
+                  "id" : "15UILGN",
                   "label" : "Replace Heavy Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -807,7 +823,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "KmLtN6joa",
+                     "upgradeInstanceId" : "y5hgZXkIh",
                      "variant" : "replace"
                   }
                ],
@@ -904,7 +920,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "CcDNPMT5a",
+               "instanceId" : "X06GCVcAr",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -942,7 +958,7 @@
                   "uid" : "OeJC4E7"
                },
                "upgrade" : {
-                  "id" : "ymlBqJK",
+                  "id" : "15UILGN",
                   "label" : "Replace Heavy Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -970,7 +986,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "CcDNPMT5a",
+                     "upgradeInstanceId" : "X06GCVcAr",
                      "variant" : "replace"
                   }
                ],
@@ -1094,7 +1110,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "jL6CgFsKI",
+               "instanceId" : "-mElit1AB",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1133,7 +1149,7 @@
                         "dependencies" : [
                            {
                               "count" : 1,
-                              "upgradeInstanceId" : "9BHPEiIPo",
+                              "upgradeInstanceId" : "7fM1wmv9X",
                               "variant" : "replace"
                            }
                         ],
@@ -1161,7 +1177,7 @@
                   "uid" : "3pqIMyr"
                },
                "upgrade" : {
-                  "id" : "TnZkvTD",
+                  "id" : "ySUB9S6",
                   "label" : "Replace Twin Heavy Pistols and CCW",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -1174,7 +1190,7 @@
                }
             },
             {
-               "instanceId" : "9BHPEiIPo",
+               "instanceId" : "7fM1wmv9X",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1218,7 +1234,7 @@
                   "uid" : "sr134"
                },
                "upgrade" : {
-                  "id" : "iA7593p",
+                  "id" : "T7Sr4lv",
                   "label" : "Replace Sgt. Heavy Pistol",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -1244,7 +1260,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "jL6CgFsKI",
+                     "upgradeInstanceId" : "-mElit1AB",
                      "variant" : "replace"
                   }
                ],
@@ -1271,7 +1287,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "jL6CgFsKI",
+                     "upgradeInstanceId" : "-mElit1AB",
                      "variant" : "replace"
                   }
                ],
