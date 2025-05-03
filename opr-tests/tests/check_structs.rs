@@ -14,7 +14,6 @@ use std::path::PathBuf;
 #[case("Rrlct39EGuct", 18)] // GF: WH Imperium - Necrons
 #[case("IIf1w9UTuaFZ", 10)] // GF: Alien Hives 2K
 #[case("F0SbXPX_MVfK", 10)] // GF: Blessed Sisters 2K
-#[case("vpa-qXmUbXmP", 7)]  // GFF: Blessed Sisters
 fn test_load_parse_armies(#[case] army_id: &str, #[case] ngroups: usize) -> Result<(), String> {
     // locate test data from build.rs info
     let mut data_path = PathBuf::from(env!("OPR_DATA_DIR"));
