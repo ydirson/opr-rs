@@ -1,0 +1,1103 @@
+{
+   "activationCount" : 9,
+   "campaignMode" : false,
+   "cloudModified" : "2024-12-22T21:31:01.026Z",
+   "communityList" : true,
+   "description" : "Official army list for the Hadrund Strike Team from Assault on Malhadra.\n\nGet the mission pack here: https://www.drivethrurpg.com/en/product/416419/assault-on-malhadra-grimdark-future-firefight-mission-pack?affiliate_id=2357452",
+   "forceOrg" : true,
+   "forceOrgErrors" : [],
+   "gameSystem" : "gff",
+   "id" : "R1wlhx_GosCz",
+   "isCloud" : false,
+   "key" : "Pa0jduFx2S97VO--1ax0F",
+   "listPoints" : 300,
+   "modelCount" : 9,
+   "modified" : "2025-05-05T21:18:03.408Z",
+   "name" : "Assault on Malhadra - Hadrund Strike Team",
+   "narrativeMode" : true,
+   "pointsLimit" : 300,
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : "leFm23MTiJxO",
+         "name" : "Swift"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This unit may only be taken once per army.",
+         "hasRating" : false,
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique"
+      },
+      {
+         "aliasedRuleId" : "V3YzPPkZm8at",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "bLVZU4onzi2E",
+         "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model's melee weapons get AP(+2) against units where most models have Tough(3) or higher.",
+         "hasRating" : false,
+         "id" : "TTL5RNmwotoh",
+         "name" : "Slayer"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "LRFrnVp661tS",
+         "name" : "Battle Haste"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Unmodified rolls of 6 to hit deal two extra hits (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "8pRrJ5SEBdxM",
+         "name" : "Beam"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller"
+      },
+      {
+         "aliasedRuleId" : "ONYySBSGCQKS",
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round ignore cover when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "-1j2EZx5xgvH",
+         "name" : "Spectrum Scanner"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "odAUWpd6ekL_",
+         "name" : "Battle Lore"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
+         "hasRating" : false,
+         "id" : "IyLY1212wacW",
+         "name" : "Protected"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "hasRating" : false,
+         "id" : "mETdyZ__yMVj",
+         "name" : "Repair"
+      },
+      {
+         "aliasedRuleId" : "E5F5-E62wIqI",
+         "coreType" : 2,
+         "description" : "This model and up to half of its army get Tunneller (must deploy within 3” of this model).",
+         "hasRating" : null,
+         "id" : "q556W0bYb-rA",
+         "name" : "Depth Prospector"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Ignores Regeneration, and enemies take one extra wound for each unmodified defense result of 1 that they roll.",
+         "hasRating" : false,
+         "id" : "xbo_cAvhX-AA",
+         "name" : "Magma"
+      }
+   ],
+   "units" : [
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 95,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "19jHTYi",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "id" : "xriOR9J9",
+               "label" : "Boulderbreaker (A4, AP(2), Rending)",
+               "name" : "Boulderbreaker",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "3U4DodcO"
+            }
+         ],
+         "name" : "Hadrund oth Irnwuld",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "id" : "q556W0bYb-rA",
+               "label" : "Depth Prospector",
+               "name" : "Depth Prospector"
+            },
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "rqBYj1yANC3J",
+               "label" : "Unique",
+               "name" : "Unique"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "jNqqS",
+         "size" : 1,
+         "traits" : [],
+         "type" : 1,
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 4,
+               "count" : 1,
+               "id" : "xriOR9J9",
+               "label" : "Boulderbreaker (A4, AP(2), Rending)",
+               "name" : "Boulderbreaker",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "3U4DodcO"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 20,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "cDk2wUI",
+         "items" : [],
+         "joinToUnit" : null,
+         "key" : "bold-eel-rookie",
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "9wpVsQDZ",
+               "label" : "Iron Shotgun (6\", A2, AP(2))",
+               "name" : "Iron Shotgun",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "9wpVsQDZ"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "xriOR9J9",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Iron Veteran",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "deIdA",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "zgWVm",
+            "-lfq-"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "9wpVsQDZ",
+               "label" : "Iron Shotgun (6\", A2, AP(2))",
+               "name" : "Iron Shotgun",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "9wpVsQDZ"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "xriOR9J9",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 20,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "cDk2wUI",
+         "items" : [],
+         "joinToUnit" : null,
+         "key" : "bold-eel-rookie",
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "9wpVsQDZ",
+               "label" : "Iron Shotgun (6\", A2, AP(2))",
+               "name" : "Iron Shotgun",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "9wpVsQDZ"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "xriOR9J9",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Iron Veteran",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "LQUiJ",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "zgWVm",
+            "-lfq-"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "9wpVsQDZ",
+               "label" : "Iron Shotgun (6\", A2, AP(2))",
+               "name" : "Iron Shotgun",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "9wpVsQDZ"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "xriOR9J9",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "BMDQBuG",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "oO9-KuPX",
+               "label" : "Iron Pistol (9\", A2, AP(1))",
+               "name" : "Iron Pistol",
+               "originalCount" : 1,
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oO9-KuPX"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "name" : "Miner",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            },
+            {
+               "id" : "djJahpu0Ciut",
+               "label" : "Tunneller",
+               "name" : "Tunneller"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "RhHrv",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "H1",
+            "qsrEh"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "oO9-KuPX",
+               "label" : "Iron Pistol (9\", A2, AP(1))",
+               "name" : "Iron Pistol",
+               "originalCount" : 1,
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oO9-KuPX"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "BMDQBuG",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "oO9-KuPX",
+               "label" : "Iron Pistol (9\", A2, AP(1))",
+               "name" : "Iron Pistol",
+               "originalCount" : 1,
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oO9-KuPX"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "name" : "Miner",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            },
+            {
+               "id" : "djJahpu0Ciut",
+               "label" : "Tunneller",
+               "name" : "Tunneller"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "p8d4c",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "H1",
+            "qsrEh"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "oO9-KuPX",
+               "label" : "Iron Pistol (9\", A2, AP(1))",
+               "name" : "Iron Pistol",
+               "originalCount" : 1,
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oO9-KuPX"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "BMDQBuG",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "oO9-KuPX",
+               "label" : "Iron Pistol (9\", A2, AP(1))",
+               "name" : "Iron Pistol",
+               "originalCount" : 1,
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oO9-KuPX"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "name" : "Miner",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            },
+            {
+               "id" : "djJahpu0Ciut",
+               "label" : "Tunneller",
+               "name" : "Tunneller"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "Cu2QW",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "H1",
+            "qsrEh"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "oO9-KuPX",
+               "label" : "Iron Pistol (9\", A2, AP(1))",
+               "name" : "Iron Pistol",
+               "originalCount" : 1,
+               "range" : 9,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "oO9-KuPX"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
+         "combined" : false,
+         "cost" : 60,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "7DfXFg9",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "K0lgAPZs",
+               "label" : "Mortar (30\", A1, Blast(3), Indirect)",
+               "name" : "Mortar",
+               "originalCount" : 1,
+               "range" : 30,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Ck9GAwUK824",
+                     "label" : "Indirect",
+                     "name" : "Indirect",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "u6fRnF3j"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "name" : "Thunder Support",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "OvO7F",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "L1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "K0lgAPZs",
+               "label" : "Mortar (30\", A1, Blast(3), Indirect)",
+               "name" : "Mortar",
+               "originalCount" : 1,
+               "range" : 30,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Ck9GAwUK824",
+                     "label" : "Indirect",
+                     "name" : "Indirect",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "u6fRnF3j"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "2-pWJTfe",
+               "label" : "CCW (A2)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "83nhlNHF"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 15,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "nojZ6_b",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "f5rly",
+               "label" : "Great Axe (A1, AP(2))",
+               "name" : "Great Axe",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "6DQTfhEf"
+            }
+         ],
+         "name" : "Berserker",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            },
+            {
+               "id" : "TTL5RNmwotoh",
+               "label" : "Slayer",
+               "name" : "Slayer"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "08S_n",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "K-pN2"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "f5rly",
+               "label" : "Great Axe (A1, AP(2))",
+               "name" : "Great Axe",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "6DQTfhEf"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "fk1mkbp8apvltu0z",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 15,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "nojZ6_b",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "f5rly",
+               "label" : "Great Axe (A1, AP(2))",
+               "name" : "Great Axe",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "6DQTfhEf"
+            }
+         ],
+         "name" : "Berserker",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            },
+            {
+               "id" : "TTL5RNmwotoh",
+               "label" : "Slayer",
+               "name" : "Slayer"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "TThLR",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "K-pN2"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "f5rly",
+               "label" : "Great Axe (A1, AP(2))",
+               "name" : "Great Axe",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "6DQTfhEf"
+            }
+         ],
+         "xp" : 0
+      }
+   ]
+}

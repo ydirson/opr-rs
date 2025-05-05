@@ -1,0 +1,1120 @@
+{
+   "activationCount" : 8,
+   "campaignMode" : false,
+   "cloudModified" : "2024-12-22T21:39:01.027Z",
+   "communityList" : true,
+   "description" : "Official army list for the Constance Strike Team from Assault on Malhadra.\n\nGet the mission pack here: https://www.drivethrurpg.com/en/product/416419/assault-on-malhadra-grimdark-future-firefight-mission-pack?affiliate_id=2357452",
+   "forceOrg" : true,
+   "forceOrgErrors" : [],
+   "gameSystem" : "gff",
+   "id" : "0EDhaE_Btbxl",
+   "isCloud" : false,
+   "key" : "_CUg74DvpOaSIX6o6ZCLW",
+   "listPoints" : 300,
+   "modelCount" : 8,
+   "modified" : "2025-05-05T21:15:37.942Z",
+   "name" : "Assault on Malhadra - Constance Strike Team",
+   "narrativeMode" : true,
+   "pointsLimit" : 300,
+   "specialRules" : [
+      {
+         "aliasedRuleId" : "O4RvQUoR77mP",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "EE80BCU66oFu",
+         "name" : "Blind Faith"
+      },
+      {
+         "aliasedRuleId" : "KskX8qPX3I8G",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
+         "hasRating" : false,
+         "id" : "5Z_UdFAz1-0R",
+         "name" : "Rangefinder Backpack"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "j2CURXzqqKaK",
+         "name" : "Highly Devout"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This unit may only be taken once per army.",
+         "hasRating" : false,
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique"
+      },
+      {
+         "aliasedRuleId" : "n3jD5Uf1k4C4",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "lsYKfk0eU8xT",
+         "name" : "Spiritual Guidance"
+      },
+      {
+         "aliasedRuleId" : "V3YzPPkZm8at",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "bLVZU4onzi2E",
+         "name" : "Medical Training"
+      },
+      {
+         "aliasedRuleId" : "IXtPlY7K4Wku",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "dlmwwGTjuk0n",
+         "name" : "Canticle Megaphone"
+      },
+      {
+         "aliasedRuleId" : "bd26Yb52DH42",
+         "coreType" : null,
+         "description" : "Gets +1 to hit in melee and shooting.",
+         "hasRating" : false,
+         "id" : "5fNdzNcQm0Pt",
+         "name" : "Celestial Veteran"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "fpXLibfT38MT",
+         "name" : "Frenzy"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : null,
+         "id" : "j_GPMzrugrCj",
+         "name" : "Devout"
+      },
+      {
+         "aliasedRuleId" : "1dM_PBIn2v3p",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "CZXPTpxQT-7_",
+         "name" : "War Hymns"
+      }
+   ],
+   "units" : [
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 85,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "MbqCKb1",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
+               "name" : "Flamer Pistol",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "agIlKQ_g"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Energy Sword (A2, AP(1), Rending)",
+               "name" : "Energy Sword",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0-erIAQg"
+            }
+         ],
+         "name" : "Constance",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "5Z_UdFAz1-0R",
+               "label" : "Rangefinder Backpack",
+               "name" : "Rangefinder Backpack"
+            },
+            {
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "rqBYj1yANC3J",
+               "label" : "Unique",
+               "name" : "Unique"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "G6Kil",
+         "size" : 1,
+         "traits" : [],
+         "type" : 1,
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
+               "name" : "Flamer Pistol",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "agIlKQ_g"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Energy Sword (A2, AP(1), Rending)",
+               "name" : "Energy Sword",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0-erIAQg"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "VHKN-IZ",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Vanguard Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "ZvNL-",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "G1",
+            "vo3TX"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "VHKN-IZ",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Vanguard Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "uSBdD",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "G1",
+            "vo3TX"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "VHKN-IZ",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Vanguard Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "Kg_nj",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "G1",
+            "vo3TX"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "lXOrCYv-",
+               "label" : "Heavy Rifle (24\", A1, AP(1))",
+               "name" : "Heavy Rifle",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "lXOrCYv-"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
+         "combined" : false,
+         "cost" : 45,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "1oucreF",
+         "items" : [
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shield Wall",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "Q8WK1",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "1GVQ5U_c",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            },
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shield Wall",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "Q8WK1",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "name" : "Destroyer Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "6mJw5IdqSqNC",
+               "label" : "Ambush",
+               "name" : "Ambush"
+            },
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "rohvf",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "M1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "1GVQ5U_c",
+               "label" : "CCW (A3)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "tO5jEqMO"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 30,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "qgESKb_",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "GKm7CCrS",
+               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
+               "name" : "Twin Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "GKm7CCrS"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Pistoleer Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "6mJw5IdqSqNC",
+               "label" : "Ambush",
+               "name" : "Ambush"
+            },
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "h9Uof",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "J1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "GKm7CCrS",
+               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
+               "name" : "Twin Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "GKm7CCrS"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 30,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "qgESKb_",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "GKm7CCrS",
+               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
+               "name" : "Twin Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "GKm7CCrS"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Pistoleer Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "6mJw5IdqSqNC",
+               "label" : "Ambush",
+               "name" : "Ambush"
+            },
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "zSnE1",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "J1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "GKm7CCrS",
+               "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
+               "name" : "Twin Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "GKm7CCrS"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "WWqUi2Wx",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "7oi8zeiqfamiur21",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "S9Oua8O",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "wfEHdWKY",
+               "label" : "Heavy Pistol (12\", A1, AP(1))",
+               "name" : "Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "HSTmRekv",
+               "label" : "Energy Sword (A2, AP(1), Rending)",
+               "name" : "Energy Sword",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0-erIAQg"
+            }
+         ],
+         "name" : "Assault Sister",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "6mJw5IdqSqNC",
+               "label" : "Ambush",
+               "name" : "Ambush"
+            },
+            {
+               "additional" : false,
+               "id" : "j_GPMzrugrCj",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "W-Sox",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "K1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "wfEHdWKY",
+               "label" : "Heavy Pistol (12\", A1, AP(1))",
+               "name" : "Heavy Pistol",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "wfEHdWKY"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "HSTmRekv",
+               "label" : "Energy Sword (A2, AP(1), Rending)",
+               "name" : "Energy Sword",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0-erIAQg"
+            }
+         ],
+         "xp" : 0
+      }
+   ]
+}

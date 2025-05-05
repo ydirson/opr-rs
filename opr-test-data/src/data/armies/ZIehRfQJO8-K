@@ -1,0 +1,1081 @@
+{
+   "activationCount" : 8,
+   "campaignMode" : false,
+   "cloudModified" : "2024-12-22T21:35:22.359Z",
+   "communityList" : true,
+   "description" : "Official army list for the Echo-3G01 Strike Team from Assault on Malhadra.\n\nGet the mission pack here: https://www.drivethrurpg.com/en/product/416419/assault-on-malhadra-grimdark-future-firefight-mission-pack?affiliate_id=2357452",
+   "forceOrg" : true,
+   "forceOrgErrors" : [],
+   "gameSystem" : "gff",
+   "id" : "ZIehRfQJO8-K",
+   "isCloud" : false,
+   "key" : "c6yn0b0K7kuah7sfTP64u",
+   "listPoints" : 295,
+   "modelCount" : 8,
+   "modified" : "2025-05-05T21:19:42.848Z",
+   "name" : "Assault on Malhadra - Echo-3G01 Strike Team",
+   "narrativeMode" : true,
+   "pointsLimit" : 300,
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model may ignore the Slow rule.",
+         "hasRating" : false,
+         "id" : "leFm23MTiJxO",
+         "name" : "Swift"
+      },
+      {
+         "aliasedRuleId" : "O4RvQUoR77mP",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "TpyBi5Rhkkac",
+         "name" : "Paradox Shielding Device"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having the Ambush rule, and gets AP(+2) when shooting on the round in which it deploys.",
+         "hasRating" : false,
+         "id" : "CCShas9-9K4N",
+         "name" : "Hunter"
+      },
+      {
+         "aliasedRuleId" : "V3YzPPkZm8at",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "wF35XZ2faHCI",
+         "name" : "Regen-Protocol"
+      },
+      {
+         "aliasedRuleId" : "gOFh4u_LGrwP",
+         "coreType" : 2,
+         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+         "hasRating" : false,
+         "id" : "FWEooNV3A01C",
+         "name" : "Shadow-Protocol"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shield Wall"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This unit may only be taken once per army.",
+         "hasRating" : false,
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique"
+      },
+      {
+         "aliasedRuleId" : "LRFrnVp661tS",
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "4TuYQKX2Ss0S",
+         "name" : "Royal March"
+      },
+      {
+         "aliasedRuleId" : "O2Cd7OibBBA5",
+         "coreType" : null,
+         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : "hR8IoOxeKnLp",
+         "name" : "Robot"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "5v6oaGfrdf29",
+         "name" : "Flux"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller"
+      },
+      {
+         "aliasedRuleId" : "B--NHwOGx3_9",
+         "coreType" : null,
+         "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "tFIv-8UscOMm",
+         "name" : "Gloom-Protocol"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
+         "hasRating" : false,
+         "id" : "C6MzEy1CnxTs",
+         "name" : "Warning Cry"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
+         "hasRating" : false,
+         "id" : "AlIZbh-afBYi",
+         "name" : "Self-Repair"
+      }
+   ],
+   "units" : [
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 80,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "PkAB3lE",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : "3",
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Panoptic Staff (A3, Rending)",
+               "name" : "Panoptic Staff",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Lgh0Ltf6"
+            }
+         ],
+         "name" : "Echo-3G01",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "id" : "47CAqf7ySlfc",
+               "label" : "Caster(1)",
+               "name" : "Caster",
+               "rating" : 1
+            },
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "TpyBi5Rhkkac",
+               "label" : "Paradox Shielding Device",
+               "name" : "Paradox Shielding Device"
+            },
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "rqBYj1yANC3J",
+               "label" : "Unique",
+               "name" : "Unique"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "B1sIO",
+         "size" : 1,
+         "traits" : [],
+         "type" : 1,
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : "3",
+               "count" : 1,
+               "id" : "_g6MjuFl",
+               "label" : "Panoptic Staff (A3, Rending)",
+               "name" : "Panoptic Staff",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Lgh0Ltf6"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "njiIkJi",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "z3aHv",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "njiIkJi",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "oioOJ",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 25,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "njiIkJi",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "Va3RP",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "E1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "OaYz4pdg",
+               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "name" : "Reaper Rifle",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YsdNdfjc"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "mEX6i0s",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "z9hK3MW4",
+               "label" : "D-Mark (24\", A1, AP(1), Reliable)",
+               "name" : "D-Mark",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "z9hK3MW4"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Sniper",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "bCUZl",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "H1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "z9hK3MW4",
+               "label" : "D-Mark (24\", A1, AP(1), Reliable)",
+               "name" : "D-Mark",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "z9hK3MW4"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "mEX6i0s",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "z9hK3MW4",
+               "label" : "D-Mark (24\", A1, AP(1), Reliable)",
+               "name" : "D-Mark",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "z9hK3MW4"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Sniper",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "5MyZu",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "H1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "z9hK3MW4",
+               "label" : "D-Mark (24\", A1, AP(1), Reliable)",
+               "name" : "D-Mark",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "z9hK3MW4"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "mEX6i0s",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "z9hK3MW4",
+               "label" : "D-Mark (24\", A1, AP(1), Reliable)",
+               "name" : "D-Mark",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "z9hK3MW4"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Sniper",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "xUb3h",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "H1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "z9hK3MW4",
+               "label" : "D-Mark (24\", A1, AP(1), Reliable)",
+               "name" : "D-Mark",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "z9hK3MW4"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "4k5amkxoybdiqotm",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 2,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "wvgi7_R",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "dT086NsK",
+               "label" : "Flux Carbine (18\", A2, Flux)",
+               "name" : "Flux Carbine",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "5v6oaGfrdf29",
+                     "label" : "Flux",
+                     "name" : "Flux",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "dT086NsK"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "name" : "Eternal",
+         "notes" : null,
+         "quality" : 3,
+         "rules" : [
+            {
+               "id" : "hR8IoOxeKnLp",
+               "label" : "Robot",
+               "name" : "Robot"
+            },
+            {
+               "id" : "AlIZbh-afBYi",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
+            },
+            {
+               "id" : "Ldhtmr4H8b6G",
+               "label" : "Slow",
+               "name" : "Slow"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "zrtii",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "F1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "dT086NsK",
+               "label" : "Flux Carbine (18\", A2, Flux)",
+               "name" : "Flux Carbine",
+               "originalCount" : 1,
+               "range" : 18,
+               "specialRules" : [
+                  {
+                     "id" : "5v6oaGfrdf29",
+                     "label" : "Flux",
+                     "name" : "Flux",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "dT086NsK"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "_WpwGRUk",
+               "label" : "CCW (A1)",
+               "name" : "CCW",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "4o5CBBZC"
+            }
+         ],
+         "xp" : 0
+      }
+   ]
+}

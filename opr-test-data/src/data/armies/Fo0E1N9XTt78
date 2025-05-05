@@ -1,0 +1,1015 @@
+{
+   "activationCount" : 8,
+   "campaignMode" : false,
+   "cloudModified" : "2024-12-22T21:47:16.175Z",
+   "communityList" : true,
+   "description" : "Official army list for the Swiftclaw Strike Team from Assault on Malhadra.\n\nGet the mission pack here: https://www.drivethrurpg.com/en/product/416419/assault-on-malhadra-grimdark-future-firefight-mission-pack?affiliate_id=2357452",
+   "forceOrg" : true,
+   "forceOrgErrors" : [],
+   "gameSystem" : "gff",
+   "id" : "Fo0E1N9XTt78",
+   "isCloud" : false,
+   "key" : "btyRbNomauca0zStRA6u2",
+   "listPoints" : 300,
+   "modelCount" : 8,
+   "modified" : "2025-05-05T21:19:15.984Z",
+   "name" : "Assault on Malhadra - Swiftclaw Strike Team",
+   "narrativeMode" : true,
+   "pointsLimit" : 300,
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model may be deployed as if it had Ambush or Scout, but only up to half of the units with this rule in the army may deploy using one or the other (rounding up).",
+         "hasRating" : false,
+         "id" : "QMJRgueQoFoF",
+         "name" : "Daemon"
+      },
+      {
+         "aliasedRuleId" : "IEJp3a4vE0CB",
+         "coreType" : null,
+         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
+         "hasRating" : false,
+         "id" : "_YH18zN4KKCY",
+         "name" : "Warp"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per game, when this model activates, before attacking, roll X dice. For each 2+ one enemy unit within 12\" takes 3 hits with Warp.",
+         "hasRating" : true,
+         "id" : "CG6kQHbmsk0s",
+         "name" : "Symbol of Change"
+      },
+      {
+         "aliasedRuleId" : "nr0R125ptwEZ",
+         "coreType" : 2,
+         "description" : "Once per activation, before attacking, place this model and up to 3 friendly units that are within 12” at the beginning of the round anywhere within 6\" of their position. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "hI90IUl0QGVw",
+         "name" : "Unbidden Infiltrator"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This unit may only be taken once per army.",
+         "hasRating" : false,
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique"
+      },
+      {
+         "aliasedRuleId" : "1dM_PBIn2v3p",
+         "coreType" : 2,
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "g864ullIqOGK",
+         "name" : "Banner of Change"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemies over 18\" away get -1 to hit when shooting at this model and up to 3 friendly units that are within 12” at the beginning of the round. This effect lasts until the end of the round.",
+         "hasRating" : false,
+         "id" : "zNXAwvbVzDlA",
+         "name" : "Blessing of Change"
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this unit is fully destroyed, you may place a new unit of X fully within 6\" of it before removing the last model.",
+         "hasRating" : true,
+         "id" : "jaDijWTHmVNU",
+         "name" : "Split"
+      }
+   ],
+   "units" : [
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 75,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "bqb55tx",
+         "isNarrative" : false,
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "Rg7QQ",
+               "label" : "Dimension Slicer (6\", A1, Blast(3), Warp)",
+               "name" : "Dimension Slicer",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "-WzD1FRl"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "pJj_R",
+               "label" : "Needle (A2, Warp)",
+               "name" : "Needle",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UAUE6ZV1"
+            }
+         ],
+         "name" : "Swiftclaw",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "T08VkBuVmNZ_",
+               "label" : "Hero",
+               "name" : "Hero"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "hI90IUl0QGVw",
+               "label" : "Unbidden Infiltrator",
+               "name" : "Unbidden Infiltrator"
+            },
+            {
+               "id" : "rqBYj1yANC3J",
+               "label" : "Unique",
+               "name" : "Unique"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "uYKLX",
+         "size" : 1,
+         "traits" : [],
+         "type" : 1,
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "Rg7QQ",
+               "label" : "Dimension Slicer (6\", A1, Blast(3), Warp)",
+               "name" : "Dimension Slicer",
+               "originalCount" : 1,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "-WzD1FRl"
+            },
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "pJj_R",
+               "label" : "Needle (A2, Warp)",
+               "name" : "Needle",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UAUE6ZV1"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
+         "combined" : false,
+         "cost" : 70,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "i-gy2keZP",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "ONddZRHy",
+               "label" : "Sharp Beak (A3, AP(2))",
+               "name" : "Sharp Beak",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "ONddZRHy"
+            }
+         ],
+         "name" : "Screecher",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "KdgwlPb8LuD2",
+               "label" : "Fast",
+               "name" : "Fast"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "czJDL",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "s2ElE6T"
+         },
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "ONddZRHy",
+               "label" : "Sharp Beak (A3, AP(2))",
+               "name" : "Sharp Beak",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "ONddZRHy"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 15,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "B8c_RolkD",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "I-qLpgSH",
+               "label" : "Armblade (A2, AP(1), Warp)",
+               "name" : "Armblade",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "MR1EwuYl"
+            }
+         ],
+         "name" : "Change Fury",
+         "notes" : null,
+         "quality" : 5,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "sHikw",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "moiRRNr"
+         },
+         "traits" : [],
+         "upgrades" : [
+            "W1opR"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "I-qLpgSH",
+               "label" : "Armblade (A2, AP(1), Warp)",
+               "name" : "Armblade",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "MR1EwuYl"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 15,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "B8c_RolkD",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "I-qLpgSH",
+               "label" : "Armblade (A2, AP(1), Warp)",
+               "name" : "Armblade",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "MR1EwuYl"
+            }
+         ],
+         "name" : "Change Fury",
+         "notes" : null,
+         "quality" : 5,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "JKQRE",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "moiRRNr"
+         },
+         "traits" : [],
+         "upgrades" : [
+            "W1opR"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "I-qLpgSH",
+               "label" : "Armblade (A2, AP(1), Warp)",
+               "name" : "Armblade",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "MR1EwuYl"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 15,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "B8c_RolkD",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "I-qLpgSH",
+               "label" : "Armblade (A2, AP(1), Warp)",
+               "name" : "Armblade",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "MR1EwuYl"
+            }
+         ],
+         "name" : "Change Fury",
+         "notes" : null,
+         "quality" : 5,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "11Cfv",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "moiRRNr"
+         },
+         "traits" : [],
+         "upgrades" : [
+            "W1opR"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "count" : 1,
+               "id" : "I-qLpgSH",
+               "label" : "Armblade (A2, AP(1), Warp)",
+               "name" : "Armblade",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "MR1EwuYl"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 20,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "xWCvQaatP",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "0vEE5mmA",
+               "label" : "Fireball (12\", A1)",
+               "name" : "Fireball",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0vEE5mmA"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "F51nvlCJ",
+               "label" : "Hand Weapon (A1, Warp)",
+               "name" : "Hand Weapon",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "F51nvlCJ"
+            }
+         ],
+         "name" : "Change Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "Td38W",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "UMiqTdF"
+         },
+         "traits" : [],
+         "upgrades" : [
+            "D1",
+            "E1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "0vEE5mmA",
+               "label" : "Fireball (12\", A1)",
+               "name" : "Fireball",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0vEE5mmA"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "F51nvlCJ",
+               "label" : "Hand Weapon (A1, Warp)",
+               "name" : "Hand Weapon",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "F51nvlCJ"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 20,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "xWCvQaatP",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "0vEE5mmA",
+               "label" : "Fireball (12\", A1)",
+               "name" : "Fireball",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0vEE5mmA"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "F51nvlCJ",
+               "label" : "Hand Weapon (A1, Warp)",
+               "name" : "Hand Weapon",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "F51nvlCJ"
+            }
+         ],
+         "name" : "Change Warrior",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "6vfaf",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "UMiqTdF"
+         },
+         "traits" : [],
+         "upgrades" : [
+            "D1",
+            "E1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "0vEE5mmA",
+               "label" : "Fireball (12\", A1)",
+               "name" : "Fireball",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "0vEE5mmA"
+            },
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "F51nvlCJ",
+               "label" : "Hand Weapon (A1, Warp)",
+               "name" : "Hand Weapon",
+               "originalCount" : 1,
+               "specialRules" : [
+                  {
+                     "id" : "_YH18zN4KKCY",
+                     "label" : "Warp",
+                     "name" : "Warp",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "F51nvlCJ"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "04z57ua0bwth37zh",
+         "bases" : {
+            "round" : "50",
+            "square" : "40"
+         },
+         "combined" : false,
+         "cost" : 70,
+         "defense" : 4,
+         "disabledUpgradeSections" : [],
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "Rx8ve8HPv",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "i8eLTUAa",
+               "label" : "Spout Flame (12\", A1, Blast(3), Reliable)",
+               "name" : "Spout Flame",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "i8eLTUAa"
+            },
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "cmRqvCR2",
+               "label" : "Claws (A3)",
+               "name" : "Claws",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Uyy6ptKX"
+            }
+         ],
+         "name" : "Scorcher",
+         "notes" : null,
+         "quality" : 4,
+         "rules" : [
+            {
+               "id" : "QMJRgueQoFoF",
+               "label" : "Daemon",
+               "name" : "Daemon"
+            },
+            {
+               "id" : "9jyvRoBODD-O",
+               "label" : "Stealth",
+               "name" : "Stealth"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "3QJPX",
+         "size" : 1,
+         "sync" : {
+            "parentArmyBookId" : "yxVDySKYQYRhdEgA",
+            "syncAutomatic" : true,
+            "unitId" : "P8kTKn6"
+         },
+         "traits" : [],
+         "upgrades" : [],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "count" : 1,
+               "id" : "i8eLTUAa",
+               "label" : "Spout Flame (12\", A1, Blast(3), Reliable)",
+               "name" : "Spout Flame",
+               "originalCount" : 1,
+               "range" : 12,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "i8eLTUAa"
+            },
+            {
+               "attacks" : 3,
+               "count" : 1,
+               "id" : "cmRqvCR2",
+               "label" : "Claws (A3)",
+               "name" : "Claws",
+               "originalCount" : 1,
+               "range" : 0,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "Uyy6ptKX"
+            }
+         ],
+         "xp" : 0
+      }
+   ]
+}
