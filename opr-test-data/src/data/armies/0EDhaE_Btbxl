@@ -23,15 +23,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "EE80BCU66oFu",
-         "name" : "Blind Faith"
-      },
-      {
-         "aliasedRuleId" : "KskX8qPX3I8G",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
-         "hasRating" : false,
-         "id" : "5Z_UdFAz1-0R",
-         "name" : "Rangefinder Backpack"
+         "name" : "Blind Faith",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -39,7 +32,17 @@
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "j2CURXzqqKaK",
-         "name" : "Highly Devout"
+         "name" : "Highly Devout",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "KskX8qPX3I8G",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
+         "hasRating" : false,
+         "id" : "5Z_UdFAz1-0R",
+         "name" : "Rangefinder Backpack",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -47,7 +50,8 @@
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
+         "name" : "Shield Wall",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -55,7 +59,8 @@
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
-         "name" : "Unique"
+         "name" : "Unique",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "n3jD5Uf1k4C4",
@@ -63,7 +68,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "lsYKfk0eU8xT",
-         "name" : "Spiritual Guidance"
+         "name" : "Spiritual Guidance",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "V3YzPPkZm8at",
@@ -71,7 +77,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
-         "name" : "Medical Training"
+         "name" : "Medical Training",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "IXtPlY7K4Wku",
@@ -79,7 +86,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "dlmwwGTjuk0n",
-         "name" : "Canticle Megaphone"
+         "name" : "Canticle Megaphone",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "bd26Yb52DH42",
@@ -87,15 +95,8 @@
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
          "id" : "5fNdzNcQm0Pt",
-         "name" : "Celestial Veteran"
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
-         "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy"
+         "name" : "Celestial Veteran",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -103,7 +104,17 @@
          "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : null,
          "id" : "j_GPMzrugrCj",
-         "name" : "Devout"
+         "name" : "Devout",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "fpXLibfT38MT",
+         "name" : "Frenzy",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "1dM_PBIn2v3p",
@@ -111,7 +122,26 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "CZXPTpxQT-7_",
-         "name" : "War Hymns"
+         "name" : "War Hymns",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "JoOCVPx1xT1G",
+         "name" : "Furious",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
       }
    ],
    "units" : [

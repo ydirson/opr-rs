@@ -15,20 +15,13 @@
    "selectedUnitId" : "08grg",
    "specialRules" : [
       {
-         "aliasedRuleId" : "RSi9ftRd-hvr",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
-         "hasRating" : false,
-         "id" : "gr5L7YfDaYyO",
-         "name" : "For the Hive!"
-      },
-      {
          "aliasedRuleId" : null,
          "coreType" : null,
          "description" : "Once per this unit's activation, before attacking, roll one die. On a 4+ two enemy units within 6\" take 1 hit with Blast(6) and Poison.",
          "hasRating" : null,
          "id" : "4Nay818dLPu2",
-         "name" : "Poison Mist"
+         "name" : "Poison Mist",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "sCmjgdwkLiGT",
@@ -36,7 +29,17 @@
          "description" : "For each unmodified roll of 6 to hit in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
          "hasRating" : false,
          "id" : "6iDumjvyoQq8",
-         "name" : "Born for War"
+         "name" : "Born for War",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "RSi9ftRd-hvr",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
+         "hasRating" : false,
+         "id" : "gr5L7YfDaYyO",
+         "name" : "For the Hive!",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -44,7 +47,8 @@
          "description" : "If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
          "hasRating" : true,
          "id" : "F_1wfmpAyYwT",
-         "name" : "Explode"
+         "name" : "Explode",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -52,7 +56,8 @@
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
-         "name" : "Unique"
+         "name" : "Unique",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "h-Cj1XrX00JE",
@@ -60,7 +65,8 @@
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : "UDzzxUT_N1cp",
-         "name" : "Psy-Barrier"
+         "name" : "Psy-Barrier",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -68,7 +74,8 @@
          "description" : "Once per this unit's activation, pick one friendly Caster within 12\", which gets +1 to its next spell casting roll.",
          "hasRating" : false,
          "id" : "NU_zB3p0uJIP",
-         "name" : "Spell Warden"
+         "name" : "Spell Warden",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "5XvPNuYy1sW1",
@@ -76,7 +83,8 @@
          "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
          "hasRating" : false,
          "id" : "pJUW586Zs6FJ",
-         "name" : "Pheromones"
+         "name" : "Pheromones",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "nLQCr5OiSlYz",
@@ -84,7 +92,8 @@
          "description" : "This model counts as having Caster(1).",
          "hasRating" : false,
          "id" : "E0Lp0CO-Hk7u",
-         "name" : "Psychic Synapse"
+         "name" : "Psychic Synapse",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "O2Cd7OibBBA5",
@@ -92,7 +101,8 @@
          "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
          "id" : "KcMHa5eppGL0",
-         "name" : "No Retreat"
+         "name" : "No Retreat",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -100,7 +110,8 @@
          "description" : "Once per this unit's activation, pick up to 5 friendly units within 12\", which get Stealth next time they are shot at.",
          "hasRating" : false,
          "id" : "cnKvLv8ErzIc",
-         "name" : "Shrouding Mist"
+         "name" : "Shrouding Mist",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -108,7 +119,44 @@
          "description" : "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : "h-Cj1XrX00JE",
-         "name" : "Resistance"
+         "name" : "Resistance",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.",
+         "hasRating" : false,
+         "id" : "Naqc5mga9Uha",
+         "name" : "Poison",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as enemy models in the target unit and within 3” of it. Hits must be split evenly between all enemy units within 3” of any model from the target (defender picks how).",
+         "hasRating" : true,
+         "id" : "w_vX0mi58KKt",
+         "name" : "Blast",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "hasRating" : true,
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Enemies get -1 to hit rolls when shooting at units where all models have this rule from over 9\" away.",
+         "hasRating" : false,
+         "id" : "9jyvRoBODD-O",
+         "name" : "Stealth",
+         "targetType" : 1
       }
    ],
    "undoUnitRemove" : [
@@ -280,7 +328,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "VM_INZyWf",
+               "instanceId" : "0zDNwQbxA",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -325,7 +373,7 @@
                   "uid" : "RS4rKkQ"
                },
                "upgrade" : {
-                  "id" : "Jo_V21p",
+                  "id" : "ZNynVlp",
                   "label" : "Upgrade with any",
                   "parentPackageUid" : "B1",
                   "select" : {

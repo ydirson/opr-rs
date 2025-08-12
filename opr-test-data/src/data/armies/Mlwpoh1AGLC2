@@ -24,7 +24,8 @@
          "description" : "This model may ignore the Slow rule.",
          "hasRating" : false,
          "id" : "leFm23MTiJxO",
-         "name" : "Swift"
+         "name" : "Swift",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "O4RvQUoR77mP",
@@ -32,7 +33,8 @@
          "description" : "This model and its unit get Stealth.",
          "hasRating" : false,
          "id" : "TpyBi5Rhkkac",
-         "name" : "Paradox Shielding Device"
+         "name" : "Paradox Shielding Device",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -40,7 +42,8 @@
          "description" : "Counts as having the Ambush rule, and gets AP(+2) when shooting on the round in which it deploys.",
          "hasRating" : false,
          "id" : "CCShas9-9K4N",
-         "name" : "Hunter"
+         "name" : "Hunter",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "V3YzPPkZm8at",
@@ -48,7 +51,8 @@
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
          "id" : "wF35XZ2faHCI",
-         "name" : "Regen-Protocol"
+         "name" : "Regen-Protocol",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "gOFh4u_LGrwP",
@@ -56,7 +60,8 @@
          "description" : "This model and its unit get Ambush.",
          "hasRating" : false,
          "id" : "FWEooNV3A01C",
-         "name" : "Shadow-Protocol"
+         "name" : "Shadow-Protocol",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -64,7 +69,8 @@
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
+         "name" : "Shield Wall",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -72,7 +78,8 @@
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
-         "name" : "Unique"
+         "name" : "Unique",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "LRFrnVp661tS",
@@ -80,7 +87,8 @@
          "description" : "This model and its unit may ignore the Slow rule.",
          "hasRating" : false,
          "id" : "4TuYQKX2Ss0S",
-         "name" : "Royal March"
+         "name" : "Royal March",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -88,7 +96,8 @@
          "description" : "Once per this unit's activation, pick one friendly Caster within 12\", which gets +1 to its next spell casting roll.",
          "hasRating" : false,
          "id" : "NU_zB3p0uJIP",
-         "name" : "Spell Warden"
+         "name" : "Spell Warden",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "O2Cd7OibBBA5",
@@ -96,15 +105,8 @@
          "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
          "id" : "hR8IoOxeKnLp",
-         "name" : "Robot"
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : false,
-         "id" : "5v6oaGfrdf29",
-         "name" : "Flux"
+         "name" : "Robot",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "KQMfAioCQSSV",
@@ -112,15 +114,17 @@
          "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get Regeneration next time they take wounds.",
          "hasRating" : false,
          "id" : "HwJ3tik0OEmS",
-         "name" : "Reanimator"
+         "name" : "Reanimator",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : "djJahpu0Ciut",
-         "name" : "Tunneller"
+         "id" : "5v6oaGfrdf29",
+         "name" : "Flux",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : null,
@@ -128,7 +132,8 @@
          "description" : "This model counts as having Caster(6), but takes 3 wounds whenever it fails to cast a spell.",
          "hasRating" : false,
          "id" : "A_CGmdvlO0Lr",
-         "name" : "Spell Master"
+         "name" : "Spell Master",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "B--NHwOGx3_9",
@@ -136,7 +141,17 @@
          "description" : "When this model and its unit take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
          "hasRating" : false,
          "id" : "tFIv-8UscOMm",
-         "name" : "Gloom-Protocol"
+         "name" : "Gloom-Protocol",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -144,7 +159,8 @@
          "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : "mETdyZ__yMVj",
-         "name" : "Repair"
+         "name" : "Repair",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -152,7 +168,8 @@
          "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
          "hasRating" : false,
          "id" : "C6MzEy1CnxTs",
-         "name" : "Warning Cry"
+         "name" : "Warning Cry",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -160,15 +177,8 @@
          "description" : "Once per game, when this model is activated, you may place a new unit of X fully within 6\" of it.",
          "hasRating" : true,
          "id" : "ZHykLbU6nUWl",
-         "name" : "Spawn"
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Once per this unit's activation, pick one friendly unit within 12\", which may ignore the Slow rule next time it moves.",
-         "hasRating" : false,
-         "id" : "tGtFFP5259Kd",
-         "name" : "Royal March Order"
+         "name" : "Spawn",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -176,7 +186,62 @@
          "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
          "hasRating" : false,
          "id" : "AlIZbh-afBYi",
-         "name" : "Self-Repair"
+         "name" : "Self-Repair",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick one friendly unit within 12\", which may ignore the Slow rule next time it moves.",
+         "hasRating" : false,
+         "id" : "tGtFFP5259Kd",
+         "name" : "Royal March Order",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Moves -2\" when using Advance, and -4” when using Rush/Charge.",
+         "hasRating" : false,
+         "id" : "Ldhtmr4H8b6G",
+         "name" : "Slow",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
+         "hasRating" : false,
+         "id" : "6mJw5IdqSqNC",
+         "name" : "Ambush",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "hasRating" : true,
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
+         "hasRating" : true,
+         "id" : "a0YtInGiUDd6",
+         "name" : "Tough",
+         "targetType" : 1
       }
    ],
    "undoUnitRemove" : [
@@ -460,7 +525,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "ZfacIExNr",
+               "instanceId" : "He3DBedEG",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -503,7 +568,7 @@
                   "uid" : "iUPolg0"
                },
                "upgrade" : {
-                  "id" : "Nlsa6Fb",
+                  "id" : "CUbXZ3i",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -517,7 +582,7 @@
                }
             },
             {
-               "instanceId" : "eMmVuOd53",
+               "instanceId" : "sj9BVmOhs",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -578,7 +643,7 @@
                   "uid" : "-3YN10I"
                },
                "upgrade" : {
-                  "id" : "4_MRsLk",
+                  "id" : "M-uoJea",
                   "label" : "Replace Combat Shield and CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -607,7 +672,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "eMmVuOd53",
+                     "upgradeInstanceId" : "sj9BVmOhs",
                      "variant" : "replace"
                   }
                ],
@@ -647,7 +712,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "dMjZKT1uA",
+                     "upgradeInstanceId" : "U6PsbDH1L",
                      "variant" : "replace"
                   }
                ],
@@ -727,7 +792,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "dMjZKT1uA",
+               "instanceId" : "U6PsbDH1L",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -775,7 +840,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "1hT2qrw",
+                  "id" : "ie2DsAD",
                   "label" : "Replace one Reaper Rifle",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -801,7 +866,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "dMjZKT1uA",
+                     "upgradeInstanceId" : "U6PsbDH1L",
                      "variant" : "replace"
                   }
                ],
@@ -1147,7 +1212,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "8VPATRYnN",
+               "instanceId" : "ly8IqOvnE",
                "option" : {
                   "cost" : 25,
                   "costs" : [
@@ -1190,7 +1255,7 @@
                   "uid" : "AZDWCqf"
                },
                "upgrade" : {
-                  "id" : "Nlsa6Fb",
+                  "id" : "CUbXZ3i",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1204,7 +1269,7 @@
                }
             },
             {
-               "instanceId" : "0XclX52yV",
+               "instanceId" : "EMmimMuHG",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -1252,7 +1317,7 @@
                   "uid" : "Wf-4yd5"
                },
                "upgrade" : {
-                  "id" : "ug7VWDk",
+                  "id" : "oAFRO-T",
                   "label" : "Replace Combat Shield",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1264,7 +1329,7 @@
                }
             },
             {
-               "instanceId" : "X0ok8gu0k",
+               "instanceId" : "ccphmkwZI",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1310,7 +1375,7 @@
                   "uid" : "cYskqiN"
                },
                "upgrade" : {
-                  "id" : "Y0cZPXb",
+                  "id" : "ezFMCfs",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1338,7 +1403,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "X0ok8gu0k",
+                     "upgradeInstanceId" : "ccphmkwZI",
                      "variant" : "replace"
                   }
                ],
@@ -1423,7 +1488,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "MrTIJTjzb",
+               "instanceId" : "rTfSwLDLY",
                "option" : {
                   "costs" : [
                      {
@@ -1459,7 +1524,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "PbSt5Yu",
+                  "id" : "Q43y174",
                   "label" : "Replace all Reaper Rifles",
                   "parentPackageUid" : "E1",
                   "targets" : [
@@ -1485,7 +1550,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "MrTIJTjzb",
+                     "upgradeInstanceId" : "rTfSwLDLY",
                      "variant" : "replace"
                   }
                ],
@@ -1763,7 +1828,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "kc5oaXAuK",
+               "instanceId" : "6KhdWXtq2",
                "option" : {
                   "cost" : 55,
                   "costs" : [
@@ -1804,7 +1869,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "TkQZT9j",
+                  "id" : "W3KPWQQ",
                   "label" : "Replace all Flux Carbines",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -1830,7 +1895,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "kc5oaXAuK",
+                     "upgradeInstanceId" : "6KhdWXtq2",
                      "variant" : "replace"
                   }
                ],
@@ -2169,7 +2234,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "FGc463iXe",
+               "instanceId" : "fmgYiWOBa",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2213,7 +2278,7 @@
                   "uid" : "pAgesdx"
                },
                "upgrade" : {
-                  "id" : "Nlsa6Fb",
+                  "id" : "CUbXZ3i",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2332,7 +2397,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "AvK0WtL-E",
+               "instanceId" : "FJVALcCgd",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2394,7 +2459,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "sZl8CWr",
+                  "id" : "xBDNw1t",
                   "label" : "Replace all Atom-Casters and Void Blades",
                   "parentPackageUid" : "G1",
                   "targets" : [
@@ -2421,7 +2486,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "AvK0WtL-E",
+                     "upgradeInstanceId" : "FJVALcCgd",
                      "variant" : "replace"
                   }
                ],
@@ -2448,7 +2513,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "AvK0WtL-E",
+                     "upgradeInstanceId" : "FJVALcCgd",
                      "variant" : "replace"
                   }
                ],

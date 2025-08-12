@@ -23,7 +23,8 @@
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
          "id" : "AcDwQ6MYiTO4",
-         "name" : "Heavy Shield"
+         "name" : "Heavy Shield",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "V3YzPPkZm8at",
@@ -31,7 +32,8 @@
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
-         "name" : "Medical Training"
+         "name" : "Medical Training",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "n3jD5Uf1k4C4",
@@ -39,7 +41,8 @@
          "description" : "This model and its unit get AP(+1) when shooting.",
          "hasRating" : false,
          "id" : "iYxL5B5nHGmp",
-         "name" : "Precision Shots"
+         "name" : "Precision Shots",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "Jm_snOMYIAZI",
@@ -47,7 +50,8 @@
          "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
          "hasRating" : false,
          "id" : "FWP4aR4iYo8w",
-         "name" : "War Chant"
+         "name" : "War Chant",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -55,7 +59,8 @@
          "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : "mETdyZ__yMVj",
-         "name" : "Repair"
+         "name" : "Repair",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "-p-8I5BpotTm",
@@ -63,7 +68,8 @@
          "description" : "This model and its unit get +1 to hit when shooting.",
          "hasRating" : false,
          "id" : "ZLkWVDVW6foS",
-         "name" : "Battle Rites"
+         "name" : "Battle Rites",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -71,7 +77,17 @@
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
          "id" : "bd26Yb52DH42",
-         "name" : "War Veteran"
+         "name" : "War Veteran",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
+         "hasRating" : true,
+         "id" : "a0YtInGiUDd6",
+         "name" : "Tough",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "n3jD5Uf1k4C4",
@@ -79,15 +95,8 @@
          "description" : "This model and its unit get AP(+1) when shooting.",
          "hasRating" : false,
          "id" : "R5BsdXzuRoG6",
-         "name" : "Canticles"
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
-         "hasRating" : false,
-         "id" : "IEJp3a4vE0CB",
-         "name" : "Radiation"
+         "name" : "Canticles",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "S3v99IAu__In",
@@ -95,7 +104,17 @@
          "description" : "This model and its unit move +2\" on Advance, and +4” on Rush/Charge.",
          "hasRating" : false,
          "id" : "OxqZNENtow9I",
-         "name" : "Psalms"
+         "name" : "Psalms",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
+         "hasRating" : false,
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Radiation",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : "5v6oaGfrdf29",
@@ -103,7 +122,8 @@
          "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "F4aO_9oN1Ub8",
-         "name" : "Taser"
+         "name" : "Taser",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : null,
@@ -111,7 +131,8 @@
          "description" : "This model's melee weapons get AP(+2) against units where most models have Tough(3) or higher.",
          "hasRating" : false,
          "id" : "TTL5RNmwotoh",
-         "name" : "Slayer"
+         "name" : "Slayer",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "h9JsgD38BRjI",
@@ -119,7 +140,8 @@
          "description" : "When this unit is activated, you may place all models with this rule in it anywhere within D3+1\" of their position.",
          "hasRating" : false,
          "id" : "MwDo_TADepzb",
-         "name" : "Bounding"
+         "name" : "Bounding",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -127,7 +149,8 @@
          "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
          "hasRating" : false,
          "id" : "mETdyZ__yMVj",
-         "name" : "Repair"
+         "name" : "Repair",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "efmjJPTe0Yzd",
@@ -135,7 +158,8 @@
          "description" : "This weapon ignores cover.",
          "hasRating" : false,
          "id" : "BFLMrfDSQk5v",
-         "name" : "Phosphor"
+         "name" : "Phosphor",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : "paOPFddMOffa",
@@ -143,7 +167,26 @@
          "description" : "Once per activation, when this model moves over enemy units, pick one of them and roll one die. On a roll of 6+ it takes 1 hit.",
          "hasRating" : false,
          "id" : "4cG_ebnBfq-4",
-         "name" : "Cluster Grenades"
+         "name" : "Cluster Grenades",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
+         "hasRating" : true,
+         "id" : "a0YtInGiUDd6",
+         "name" : "Tough",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : "O4RvQUoR77mP",
@@ -151,15 +194,8 @@
          "description" : "This model and its unit get Stealth.",
          "hasRating" : false,
          "id" : "EE80BCU66oFu",
-         "name" : "Blind Faith"
-      },
-      {
-         "aliasedRuleId" : "KskX8qPX3I8G",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit next time it shoots.",
-         "hasRating" : false,
-         "id" : "5Z_UdFAz1-0R",
-         "name" : "Rangefinder Backpack"
+         "name" : "Blind Faith",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "kqma1pPDpN3w",
@@ -167,7 +203,8 @@
          "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
          "hasRating" : false,
          "id" : "KauMx287bYqE",
-         "name" : "Holy Statue"
+         "name" : "Holy Statue",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -175,7 +212,17 @@
          "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "j2CURXzqqKaK",
-         "name" : "Highly Devout"
+         "name" : "Highly Devout",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "KskX8qPX3I8G",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit next time it shoots.",
+         "hasRating" : false,
+         "id" : "5Z_UdFAz1-0R",
+         "name" : "Rangefinder Backpack",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -183,7 +230,8 @@
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
+         "name" : "Shield Wall",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -191,7 +239,8 @@
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
-         "name" : "Unique"
+         "name" : "Unique",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "n3jD5Uf1k4C4",
@@ -199,7 +248,8 @@
          "description" : "This model and its unit get AP(+1) when shooting.",
          "hasRating" : false,
          "id" : "lsYKfk0eU8xT",
-         "name" : "Spiritual Guidance"
+         "name" : "Spiritual Guidance",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "V3YzPPkZm8at",
@@ -207,7 +257,8 @@
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
          "id" : "bLVZU4onzi2E",
-         "name" : "Medical Training"
+         "name" : "Medical Training",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -215,7 +266,8 @@
          "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
          "hasRating" : false,
          "id" : "7rd_tPzHseje",
-         "name" : "Protective Aura"
+         "name" : "Protective Aura",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "IXtPlY7K4Wku",
@@ -223,7 +275,8 @@
          "description" : "This model and its unit get +1 to morale test rolls.",
          "hasRating" : false,
          "id" : "dlmwwGTjuk0n",
-         "name" : "Canticle Megaphone"
+         "name" : "Canticle Megaphone",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -231,7 +284,8 @@
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
          "id" : "IyLY1212wacW",
-         "name" : "Protected"
+         "name" : "Protected",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "bd26Yb52DH42",
@@ -239,15 +293,8 @@
          "description" : "Gets +1 to hit in melee and shooting.",
          "hasRating" : false,
          "id" : "5fNdzNcQm0Pt",
-         "name" : "Celestial Veteran"
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
-         "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy"
+         "name" : "Celestial Veteran",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -255,15 +302,17 @@
          "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : null,
          "id" : "j_GPMzrugrCj",
-         "name" : "Devout"
+         "name" : "Devout",
+         "targetType" : 1
       },
       {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
+         "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
+         "description" : "Counts as having Furious and gets AP(+1) when charging.",
          "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura"
+         "id" : "fpXLibfT38MT",
+         "name" : "Frenzy",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "1dM_PBIn2v3p",
@@ -271,7 +320,35 @@
          "description" : "This model and its unit get AP(+1) in melee.",
          "hasRating" : false,
          "id" : "CZXPTpxQT-7_",
-         "name" : "War Hymns"
+         "name" : "War Hymns",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "ILPGCU9Y9xhe",
+         "coreType" : null,
+         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
+         "hasRating" : false,
+         "id" : "SJI8muKSgh9p",
+         "name" : "Angelic Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "JoOCVPx1xT1G",
+         "name" : "Furious",
+         "targetType" : 1
       }
    ],
    "undoUnitRemove" : [
@@ -551,7 +628,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "PxLXdMLnC",
+               "instanceId" : "i50rAlbeP",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -599,7 +676,7 @@
                   "uid" : "D3Dqx6h"
                },
                "upgrade" : {
-                  "id" : "4S6nPpR",
+                  "id" : "jh2HwoB",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -613,7 +690,7 @@
                }
             },
             {
-               "instanceId" : "eHE3SIz-z",
+               "instanceId" : "TuBc_LMqW",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -664,7 +741,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "PEVop4q",
+                  "id" : "21Ngd9K",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -676,7 +753,7 @@
                }
             },
             {
-               "instanceId" : "cxUiT-EPQ",
+               "instanceId" : "cOCNT1HmD",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -711,7 +788,7 @@
                   "uid" : "zOpXO"
                },
                "upgrade" : {
-                  "id" : "E0qaQ9-",
+                  "id" : "T8__TJH",
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "qIWMF",
                   "select" : {
@@ -766,7 +843,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "eHE3SIz-z",
+                     "upgradeInstanceId" : "TuBc_LMqW",
                      "variant" : "replace"
                   }
                ],
@@ -1134,7 +1211,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "xWzgeD877",
+               "instanceId" : "WUK38q870",
                "option" : {
                   "cost" : 50,
                   "costs" : [
@@ -1181,7 +1258,7 @@
                   "uid" : "fwO6jFd"
                },
                "upgrade" : {
-                  "id" : "4S6nPpR",
+                  "id" : "jh2HwoB",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1195,7 +1272,7 @@
                }
             },
             {
-               "instanceId" : "zSpPU6vcA",
+               "instanceId" : "WLe_Cf_9h",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -1246,7 +1323,7 @@
                   "uid" : "d6wOTSF"
                },
                "upgrade" : {
-                  "id" : "PEVop4q",
+                  "id" : "21Ngd9K",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1300,7 +1377,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "zSpPU6vcA",
+                     "upgradeInstanceId" : "WLe_Cf_9h",
                      "variant" : "replace"
                   }
                ],
@@ -1439,7 +1516,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "GdU_Th-mj",
+               "instanceId" : "rR6HWPMOQ",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -1486,7 +1563,7 @@
                   "uid" : "VyigG9G"
                },
                "upgrade" : {
-                  "id" : "4S6nPpR",
+                  "id" : "jh2HwoB",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1500,7 +1577,7 @@
                }
             },
             {
-               "instanceId" : "1fCnLdiT8",
+               "instanceId" : "yDObdh6l4",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1551,7 +1628,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "PEVop4q",
+                  "id" : "21Ngd9K",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1563,7 +1640,7 @@
                }
             },
             {
-               "instanceId" : "bV0JancjO",
+               "instanceId" : "R_JAlmZlD",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -1602,7 +1679,7 @@
                   "uid" : "cd-2wsN"
                },
                "upgrade" : {
-                  "id" : "gs4uNcn",
+                  "id" : "hESPhOR",
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
                   "select" : {
@@ -1657,7 +1734,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "1fCnLdiT8",
+                     "upgradeInstanceId" : "yDObdh6l4",
                      "variant" : "replace"
                   }
                ],
@@ -1697,7 +1774,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "lmi5hkI_M",
+                     "upgradeInstanceId" : "KG-tECMhm",
                      "variant" : "replace"
                   }
                ],
@@ -1771,7 +1848,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "lmi5hkI_M",
+               "instanceId" : "KG-tECMhm",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -1824,7 +1901,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "nTTUA5q",
+                  "id" : "4V3j_v_",
                   "label" : "Replace one R-Fusil",
                   "parentPackageUid" : "D1",
                   "targets" : [
@@ -1851,7 +1928,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "lmi5hkI_M",
+                     "upgradeInstanceId" : "KG-tECMhm",
                      "variant" : "replace"
                   }
                ],
@@ -2031,7 +2108,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "-1Vcn8n51",
+                     "upgradeInstanceId" : "u5xD6s3YX",
                      "variant" : "replace"
                   }
                ],
@@ -2110,7 +2187,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "7XYP8jxgd",
+               "instanceId" : "x0xxIoivZ",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -2147,7 +2224,7 @@
                   "uid" : "aH5568p"
                },
                "upgrade" : {
-                  "id" : "zBfVRTc",
+                  "id" : "2pA5fqM",
                   "label" : "Replace Leader R-Pistol",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -2159,7 +2236,7 @@
                }
             },
             {
-               "instanceId" : "-1Vcn8n51",
+               "instanceId" : "u5xD6s3YX",
                "option" : {
                   "cost" : 10,
                   "costs" : [
@@ -2200,7 +2277,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "nTTUA5q",
+                  "id" : "4V3j_v_",
                   "label" : "Replace one R-Fusil",
                   "parentPackageUid" : "D1",
                   "targets" : [
@@ -2227,7 +2304,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "-1Vcn8n51",
+                     "upgradeInstanceId" : "u5xD6s3YX",
                      "variant" : "replace"
                   }
                ],
@@ -2361,7 +2438,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "lV6HcWGiV",
+               "instanceId" : "4lzrkNwXS",
                "option" : {
                   "cost" : 40,
                   "costs" : [
@@ -2405,7 +2482,7 @@
                   "uid" : "VC9Z-lM"
                },
                "upgrade" : {
-                  "id" : "_OxDLHK",
+                  "id" : "1Q1msN7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2569,7 +2646,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "jOcVqG36W",
+               "instanceId" : "d74bleYuh",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -2612,7 +2689,7 @@
                   "uid" : "WMrFSXc"
                },
                "upgrade" : {
-                  "id" : "_OxDLHK",
+                  "id" : "1Q1msN7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2888,7 +2965,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "bcaHIbUKb",
+               "instanceId" : "mNQNIft45",
                "option" : {
                   "cost" : 60,
                   "costs" : [
@@ -2935,7 +3012,7 @@
                   "uid" : "vdVRg"
                },
                "upgrade" : {
-                  "id" : "fwMH8Kc",
+                  "id" : "9XS8PR-",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "B1",
@@ -3190,7 +3267,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "pkNbkwNG6",
+                     "upgradeInstanceId" : "YMLJSiuyh",
                      "variant" : "replace"
                   }
                ],
@@ -3217,7 +3294,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "pkNbkwNG6",
+                     "upgradeInstanceId" : "YMLJSiuyh",
                      "variant" : "replace"
                   }
                ],
@@ -3295,7 +3372,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "pkNbkwNG6",
+               "instanceId" : "YMLJSiuyh",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3360,7 +3437,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "K10GAai",
+                  "id" : "ajJBSR0",
                   "label" : "Replace one Twin Heavy Pistols and CCW",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -3387,7 +3464,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "pkNbkwNG6",
+                     "upgradeInstanceId" : "YMLJSiuyh",
                      "variant" : "replace"
                   }
                ],
@@ -3414,7 +3491,7 @@
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "pkNbkwNG6",
+                     "upgradeInstanceId" : "YMLJSiuyh",
                      "variant" : "replace"
                   }
                ],
@@ -3607,7 +3684,7 @@
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "nhGoVS70w",
+               "instanceId" : "GUvaKO012",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3648,7 +3725,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "OhmyF8w",
+                  "id" : "yzZH4AJ",
                   "label" : "Replace all Chainsaw Swords",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -3660,7 +3737,7 @@
                }
             },
             {
-               "instanceId" : "cfwcBNTJO",
+               "instanceId" : "RGNAQHlWB",
                "option" : {
                   "cost" : 15,
                   "costs" : [
@@ -3698,7 +3775,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "Hsmmezn",
+                  "id" : "nCFx4hc",
                   "label" : "Upgrade all models with",
                   "model" : true,
                   "parentPackageUid" : "H1",
@@ -3722,7 +3799,7 @@
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "nhGoVS70w",
+                     "upgradeInstanceId" : "GUvaKO012",
                      "variant" : "replace"
                   }
                ],

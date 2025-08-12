@@ -23,7 +23,8 @@
          "description" : "This model may be deployed as if it had Ambush or Scout, but only up to half of the units with this rule in the army may deploy using one or the other (rounding up).",
          "hasRating" : false,
          "id" : "QMJRgueQoFoF",
-         "name" : "Daemon"
+         "name" : "Daemon",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "IEJp3a4vE0CB",
@@ -31,7 +32,8 @@
          "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
          "hasRating" : false,
          "id" : "_YH18zN4KKCY",
-         "name" : "Warp"
+         "name" : "Warp",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : null,
@@ -39,15 +41,17 @@
          "description" : "Once per game, when this model activates, before attacking, roll X dice. For each 2+ one enemy unit within 12\" takes 3 hits with Warp.",
          "hasRating" : true,
          "id" : "CG6kQHbmsk0s",
-         "name" : "Symbol of Change"
+         "name" : "Symbol of Change",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "nr0R125ptwEZ",
          "coreType" : 2,
-         "description" : "Once per activation, before attacking, place this model and up to 3 friendly units that are within 12” at the beginning of the round anywhere within 6\" of their position. This effect lasts until the end of the round.",
+         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Teleport. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "hI90IUl0QGVw",
-         "name" : "Unbidden Infiltrator"
+         "name" : "Unbidden Infiltrator",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -55,7 +59,8 @@
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
-         "name" : "Unique"
+         "name" : "Unique",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "1dM_PBIn2v3p",
@@ -63,7 +68,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "g864ullIqOGK",
-         "name" : "Banner of Change"
+         "name" : "Banner of Change",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -71,7 +77,8 @@
          "description" : "Enemies over 18\" away get -1 to hit when shooting at this model and up to 3 friendly units that are within 12” at the beginning of the round. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "zNXAwvbVzDlA",
-         "name" : "Blessing of Change"
+         "name" : "Blessing of Change",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -79,7 +86,26 @@
          "description" : "When this unit is fully destroyed, you may place a new unit of X fully within 6\" of it before removing the last model.",
          "hasRating" : true,
          "id" : "jaDijWTHmVNU",
-         "name" : "Split"
+         "name" : "Split",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "May be set aside before deployment. After all other units are deployed, must be deployed and may then be placed anywhere within 12” of their position. Players alternate in placing Scout units, starting with the player that activates next.",
+         "hasRating" : false,
+         "id" : "FAMbscK5vhSu",
+         "name" : "Scout",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
+         "hasRating" : false,
+         "id" : "6mJw5IdqSqNC",
+         "name" : "Ambush",
+         "targetType" : 1
       }
    ],
    "units" : [
@@ -900,6 +926,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : null,
                "count" : 1,
                "id" : "i8eLTUAa",
                "label" : "Spout Flame (12\", A1, Blast(3), Reliable)",
@@ -926,6 +953,7 @@
             },
             {
                "attacks" : 3,
+               "attacksMultiplier" : null,
                "count" : 1,
                "id" : "cmRqvCR2",
                "label" : "Claws (A3)",
@@ -972,6 +1000,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : null,
                "count" : 1,
                "id" : "i8eLTUAa",
                "label" : "Spout Flame (12\", A1, Blast(3), Reliable)",
@@ -998,6 +1027,7 @@
             },
             {
                "attacks" : 3,
+               "attacksMultiplier" : null,
                "count" : 1,
                "id" : "cmRqvCR2",
                "label" : "Claws (A3)",

@@ -20,7 +20,8 @@
          "description" : "This model may ignore the Slow rule.",
          "hasRating" : false,
          "id" : "leFm23MTiJxO",
-         "name" : "Swift"
+         "name" : "Swift",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "O4RvQUoR77mP",
@@ -28,7 +29,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "TpyBi5Rhkkac",
-         "name" : "Paradox Shielding Device"
+         "name" : "Paradox Shielding Device",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -36,7 +38,8 @@
          "description" : "Counts as having the Ambush rule, and gets AP(+2) when shooting on the round in which it deploys.",
          "hasRating" : false,
          "id" : "CCShas9-9K4N",
-         "name" : "Hunter"
+         "name" : "Hunter",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "V3YzPPkZm8at",
@@ -44,7 +47,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "wF35XZ2faHCI",
-         "name" : "Regen-Protocol"
+         "name" : "Regen-Protocol",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "gOFh4u_LGrwP",
@@ -52,7 +56,8 @@
          "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
          "hasRating" : false,
          "id" : "FWEooNV3A01C",
-         "name" : "Shadow-Protocol"
+         "name" : "Shadow-Protocol",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -60,7 +65,8 @@
          "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
          "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall"
+         "name" : "Shield Wall",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -68,7 +74,8 @@
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
-         "name" : "Unique"
+         "name" : "Unique",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "LRFrnVp661tS",
@@ -76,7 +83,8 @@
          "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "4TuYQKX2Ss0S",
-         "name" : "Royal March"
+         "name" : "Royal March",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : "O2Cd7OibBBA5",
@@ -84,7 +92,8 @@
          "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
          "hasRating" : false,
          "id" : "hR8IoOxeKnLp",
-         "name" : "Robot"
+         "name" : "Robot",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -92,15 +101,8 @@
          "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
          "id" : "5v6oaGfrdf29",
-         "name" : "Flux"
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
-         "hasRating" : false,
-         "id" : "djJahpu0Ciut",
-         "name" : "Tunneller"
+         "name" : "Flux",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : "B--NHwOGx3_9",
@@ -108,7 +110,17 @@
          "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead. This effect lasts until the end of the round.",
          "hasRating" : false,
          "id" : "tFIv-8UscOMm",
-         "name" : "Gloom-Protocol"
+         "name" : "Gloom-Protocol",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Tunneller",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -116,7 +128,8 @@
          "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
          "hasRating" : false,
          "id" : "C6MzEy1CnxTs",
-         "name" : "Warning Cry"
+         "name" : "Warning Cry",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
@@ -124,7 +137,35 @@
          "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
          "hasRating" : false,
          "id" : "AlIZbh-afBYi",
-         "name" : "Self-Repair"
+         "name" : "Self-Repair",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Moves -2\" when using Advance, and -4” when using Rush/Charge.",
+         "hasRating" : false,
+         "id" : "Ldhtmr4H8b6G",
+         "name" : "Slow",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
+         "hasRating" : false,
+         "id" : "6mJw5IdqSqNC",
+         "name" : "Ambush",
+         "targetType" : 1
       }
    ],
    "undoUnitRemove" : [
