@@ -32,6 +32,18 @@ pub struct UnitGroup {
     pub full_cost: isize,
 }
 
+impl UnitGroup {
+    fn heroes_count(&self) -> usize {
+        self.units.iter().filter(|u| u.is_hero).count()
+    }
+    // comparison for display only (don't care about "impl Ord")
+    pub fn display_cmp(&self, other: &Self) -> Ordering {
+        other.heroes_count().cmp(&self.heroes_count()) // more heroes first
+            .then(other.full_cost.cmp(&self.full_cost)) // then more costly first
+    }
+}
+
+
 #[derive(PartialEq, Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 struct JsonArmy {
