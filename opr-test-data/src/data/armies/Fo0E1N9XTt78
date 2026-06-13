@@ -19,43 +19,16 @@
    "specialRules" : [
       {
          "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "This model may be deployed as if it had Ambush or Scout, but only up to half of the units with this rule in the army may deploy using one or the other (rounding up).",
+         "coreType" : 5,
+         "description" : "When this model attacks, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : "QMJRgueQoFoF",
-         "name" : "Daemon",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "IEJp3a4vE0CB",
-         "coreType" : null,
-         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
-         "hasRating" : false,
-         "id" : "_YH18zN4KKCY",
-         "name" : "Warp",
-         "targetType" : 2
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Once per game, when this model activates, before attacking, roll X dice. For each 2+ one enemy unit within 12\" takes 3 hits with Warp.",
-         "hasRating" : true,
-         "id" : "CG6kQHbmsk0s",
-         "name" : "Symbol of Change",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "nr0R125ptwEZ",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Teleport. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "hI90IUl0QGVw",
-         "name" : "Unbidden Infiltrator",
+         "id" : "8HWdOwMYcI0p",
+         "name" : "Sergeant",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
-         "coreType" : null,
+         "coreType" : 5,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
@@ -63,21 +36,102 @@
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "1dM_PBIn2v3p",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "g864ullIqOGK",
-         "name" : "Banner of Change",
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "Counts as having Defense X+.",
+         "hasRating" : true,
+         "id" : "74RjQ1k41DoO",
+         "name" : "Armor",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Enemies over 18\" away get -1 to hit when shooting at this model and up to 3 friendly units that are within 12” at the beginning of the round. This effect lasts until the end of the round.",
+         "description" : "Gets X accumulator tokens at the start of each round, but can’t hold more than 6 tokens at once. Casters from other friendly units within 12\" may spend this model's accumulator tokens as if they were their own spell tokens. Friendly casters may only use this rule if this unit isn't Shaken.",
+         "hasRating" : true,
+         "id" : "sHIDSc5b37Jm",
+         "name" : "Spell Accumulator",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
          "hasRating" : false,
-         "id" : "zNXAwvbVzDlA",
-         "name" : "Blessing of Change",
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Ambush. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "gOFh4u_LGrwP",
+         "name" : "Ambush Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Teleport. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "nr0R125ptwEZ",
+         "name" : "Teleport Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Resistance. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "b7V48Z1W-EfP",
+         "name" : "Resistance Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This weapon ignores Regeneration.",
+         "hasRating" : null,
+         "id" : "0TfnG5G4JEv0",
+         "name" : "Ignores Regeneration",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Fearless. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "C0UHMLhvoXXj",
+         "name" : "Fearless Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "_tP0jExjizvc",
+         "coreType" : null,
+         "description" : "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "4mB0rwGnMVgJ",
+         "name" : "Changebound",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "5v6oaGfrdf29",
+         "name" : "Surge",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Changebound Boost. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "nU2aNk56ZJ8H",
+         "name" : "Changebound Boost Aura",
          "targetType" : 1
       },
       {
@@ -91,11 +145,65 @@
       },
       {
          "aliasedRuleId" : null,
-         "coreType" : 1,
-         "description" : "May be set aside before deployment. After all other units are deployed, must be deployed and may then be placed anywhere within 12” of their position. Players alternate in placing Scout units, starting with the player that activates next.",
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Indirect when shooting. If this model is killed, picked models that are deployed lose the rule.",
          "hasRating" : false,
-         "id" : "FAMbscK5vhSu",
-         "name" : "Scout",
+         "id" : "3RJ8ZvQphXk5",
+         "name" : "Indirect when Shooting Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Bounding. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "fWjDp-LZmYln",
+         "name" : "Bounding Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Unstoppable in melee. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "AB3FAl-SEUYP",
+         "name" : "Unstoppable in Melee Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "After this model is deployed, it may be placed anywhere fully within 9” of its position.",
+         "hasRating" : false,
+         "id" : "r8OBuam8nRXP",
+         "name" : "Vanguard",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Protected. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "fHq_KESyO1cU",
+         "name" : "Protected Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets +X to defense rolls.",
+         "hasRating" : true,
+         "id" : "s6MgSfmgylXU",
+         "name" : "Defense",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "hasRating" : true,
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster",
          "targetType" : 1
       },
       {
@@ -106,6 +214,114 @@
          "id" : "6mJw5IdqSqNC",
          "name" : "Ambush",
          "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, you may place this model anywhere fully within 3\" of its position when using Advance/Charge actions, or fully within 6\" of its position when using Rush actions.",
+         "hasRating" : false,
+         "id" : "LtPyHi_-DHf4",
+         "name" : "Teleport",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : "h-Cj1XrX00JE",
+         "name" : "Resistance",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 5+ it is ignored.",
+         "hasRating" : false,
+         "id" : "8KujvrTG8k9p",
+         "name" : "Regeneration",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When a unit where all models have this rule fails a morale test, roll one die. On a 4+ it counts as passed instead.",
+         "hasRating" : false,
+         "id" : "2atvlmICQSCV",
+         "name" : "Fearless",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "This model counts as having dealt +X wounds when checking wound effects in melee (must deal at least one wound).",
+         "hasRating" : true,
+         "id" : "dIQ3SGl2J2Ew",
+         "name" : "Fear",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If all models in this unit have Changebound, enemies attacking them always get -1 to hit rolls from Changebound (instead of only when being shot/charged from over 9\" away).",
+         "hasRating" : false,
+         "id" : "COaU7nmOC6VG",
+         "name" : "Changebound Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets -1 to hit rolls when shooting after moving. May target enemies that are not in line of sight as if in line of sight, and ignores cover from sight obstructions.",
+         "hasRating" : false,
+         "id" : "8Ck9GAwUK824",
+         "name" : "Indirect",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this unit is activated, you may place all models with this rule in it anywhere fully within D3+1\" of their position.",
+         "hasRating" : false,
+         "id" : "h9JsgD38BRjI",
+         "name" : "Bounding",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and ignores all negative modifiers to this weapon.",
+         "hasRating" : false,
+         "id" : "QXyt-zV_bjpg",
+         "name" : "Unstoppable",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.",
+         "hasRating" : false,
+         "id" : "AlIZbh-afBYi",
+         "name" : "Protected",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets Bane when shooting.",
+         "hasRating" : false,
+         "id" : "uHus35IJKri2",
+         "name" : "Bane when Shooting",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
       }
    ],
    "units" : [
@@ -116,21 +332,38 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 75,
+         "cost" : 70,
          "defense" : 4,
          "disabledUpgradeSections" : [],
+         "genericName" : "",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "bqb55tx",
          "isNarrative" : false,
-         "items" : [],
+         "items" : [
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "nr0R125ptwEZ",
+                     "name" : "Teleport Aura",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "10MF8",
+               "name" : "Unbidden Infiltrator",
+               "type" : "ArmyBookItem"
+            }
+         ],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "Rg7QQ",
-               "label" : "Dimension Slicer (6\", A1, Blast(3), Warp)",
+               "label" : "Dimension Slicer (6\", A1, Blast(3), Surge)",
                "name" : "Dimension Slicer",
                "originalCount" : 1,
                "range" : 6,
@@ -143,9 +376,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "5v6oaGfrdf29",
+                     "label" : "Surge",
+                     "name" : "Surge",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -154,42 +387,48 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "pJj_R",
-               "label" : "Needle (A2, Warp)",
+               "label" : "Needle (A2, Surge)",
                "name" : "Needle",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "5v6oaGfrdf29",
+                     "label" : "Surge",
+                     "name" : "Surge",
                      "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "UAUE6ZV1"
+            },
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "nr0R125ptwEZ",
+                     "name" : "Teleport Aura",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "10MF8",
+               "name" : "Unbidden Infiltrator",
+               "type" : "ArmyBookItem"
             }
          ],
          "name" : "Swiftclaw",
          "notes" : null,
+         "originalSize" : 1,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
             {
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
                "name" : "Hero"
-            },
-            {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
             },
             {
                "id" : "a0YtInGiUDd6",
@@ -198,14 +437,14 @@
                "rating" : 3
             },
             {
-               "id" : "hI90IUl0QGVw",
-               "label" : "Unbidden Infiltrator",
-               "name" : "Unbidden Infiltrator"
-            },
-            {
                "id" : "rqBYj1yANC3J",
                "label" : "Unique",
                "name" : "Unique"
+            },
+            {
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -218,9 +457,10 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "Rg7QQ",
-               "label" : "Dimension Slicer (6\", A1, Blast(3), Warp)",
+               "label" : "Dimension Slicer (6\", A1, Blast(3), Surge)",
                "name" : "Dimension Slicer",
                "originalCount" : 1,
                "range" : 6,
@@ -233,9 +473,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "5v6oaGfrdf29",
+                     "label" : "Surge",
+                     "name" : "Surge",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -244,17 +484,18 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "pJj_R",
-               "label" : "Needle (A2, Warp)",
+               "label" : "Needle (A2, Surge)",
                "name" : "Needle",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "5v6oaGfrdf29",
+                     "label" : "Surge",
+                     "name" : "Surge",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -274,6 +515,7 @@
          "cost" : 70,
          "defense" : 4,
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Screechers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "i-gy2keZP",
@@ -282,11 +524,13 @@
          "loadout" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "ONddZRHy",
                "label" : "Sharp Beak (A3, AP(2))",
                "name" : "Sharp Beak",
                "originalCount" : 1,
+               "range" : null,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
@@ -302,22 +546,13 @@
          ],
          "name" : "Screecher",
          "notes" : null,
+         "originalSize" : 3,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
             {
                "id" : "KdgwlPb8LuD2",
                "label" : "Fast",
                "name" : "Fast"
-            },
-            {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
             },
             {
                "id" : "JSKVyurtWIyW",
@@ -329,6 +564,16 @@
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
+            },
+            {
+               "id" : "r8OBuam8nRXP",
+               "label" : "Vanguard",
+               "name" : "Vanguard"
             }
          ],
          "selectedUpgrades" : [],
@@ -345,11 +590,13 @@
          "weapons" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "ONddZRHy",
                "label" : "Sharp Beak (A3, AP(2))",
                "name" : "Sharp Beak",
                "originalCount" : 1,
+               "range" : null,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
@@ -372,10 +619,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 15,
+         "cost" : 20,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Furies",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "B8c_RolkD",
@@ -384,10 +632,11 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "I-qLpgSH",
-               "label" : "Armblade (A2, AP(1), Warp)",
-               "name" : "Armblade",
+               "label" : "Armblades (A2, AP(1), Shred)",
+               "name" : "Armblades",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -399,9 +648,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -411,22 +660,23 @@
          ],
          "name" : "Change Fury",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 5,
          "rules" : [
-            {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
             {
                "id" : "-QJdqJEKjIpE",
                "label" : "Flying",
                "name" : "Flying"
             },
             {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -445,10 +695,11 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "I-qLpgSH",
-               "label" : "Armblade (A2, AP(1), Warp)",
-               "name" : "Armblade",
+               "label" : "Armblades (A2, AP(1), Shred)",
+               "name" : "Armblades",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -460,9 +711,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -479,10 +730,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 15,
+         "cost" : 20,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Furies",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "B8c_RolkD",
@@ -491,10 +743,11 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "I-qLpgSH",
-               "label" : "Armblade (A2, AP(1), Warp)",
-               "name" : "Armblade",
+               "label" : "Armblades (A2, AP(1), Shred)",
+               "name" : "Armblades",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -506,9 +759,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -518,22 +771,23 @@
          ],
          "name" : "Change Fury",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 5,
          "rules" : [
-            {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
             {
                "id" : "-QJdqJEKjIpE",
                "label" : "Flying",
                "name" : "Flying"
             },
             {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -552,10 +806,11 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "I-qLpgSH",
-               "label" : "Armblade (A2, AP(1), Warp)",
-               "name" : "Armblade",
+               "label" : "Armblades (A2, AP(1), Shred)",
+               "name" : "Armblades",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -567,9 +822,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -586,10 +841,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 15,
+         "cost" : 20,
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Furies",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "B8c_RolkD",
@@ -598,10 +854,11 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "I-qLpgSH",
-               "label" : "Armblade (A2, AP(1), Warp)",
-               "name" : "Armblade",
+               "label" : "Armblades (A2, AP(1), Shred)",
+               "name" : "Armblades",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -613,9 +870,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -625,22 +882,23 @@
          ],
          "name" : "Change Fury",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 5,
          "rules" : [
-            {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
             {
                "id" : "-QJdqJEKjIpE",
                "label" : "Flying",
                "name" : "Flying"
             },
             {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
+               "id" : "FAMbscK5vhSu",
+               "label" : "Scout",
+               "name" : "Scout"
+            },
+            {
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -659,10 +917,11 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "I-qLpgSH",
-               "label" : "Armblade (A2, AP(1), Warp)",
-               "name" : "Armblade",
+               "label" : "Armblades (A2, AP(1), Shred)",
+               "name" : "Armblades",
                "originalCount" : 1,
                "range" : 0,
                "specialRules" : [
@@ -674,9 +933,9 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -697,6 +956,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "xWCvQaatP",
@@ -705,10 +965,11 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "0vEE5mmA",
-               "label" : "Fireball (12\", A1)",
-               "name" : "Fireball",
+               "label" : "Fireballs (12\", A1)",
+               "name" : "Fireballs",
                "originalCount" : 1,
                "range" : 12,
                "specialRules" : [],
@@ -717,16 +978,18 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "F51nvlCJ",
-               "label" : "Hand Weapon (A1, Warp)",
+               "label" : "Hand Weapon (A1, Shred)",
                "name" : "Hand Weapon",
                "originalCount" : 1,
+               "range" : null,
                "specialRules" : [
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -736,17 +999,13 @@
          ],
          "name" : "Change Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
             {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
-            {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -766,10 +1025,11 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "0vEE5mmA",
-               "label" : "Fireball (12\", A1)",
-               "name" : "Fireball",
+               "label" : "Fireballs (12\", A1)",
+               "name" : "Fireballs",
                "originalCount" : 1,
                "range" : 12,
                "specialRules" : [],
@@ -778,16 +1038,18 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "F51nvlCJ",
-               "label" : "Hand Weapon (A1, Warp)",
+               "label" : "Hand Weapon (A1, Shred)",
                "name" : "Hand Weapon",
                "originalCount" : 1,
+               "range" : null,
                "specialRules" : [
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -808,6 +1070,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "xWCvQaatP",
@@ -816,10 +1079,11 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "0vEE5mmA",
-               "label" : "Fireball (12\", A1)",
-               "name" : "Fireball",
+               "label" : "Fireballs (12\", A1)",
+               "name" : "Fireballs",
                "originalCount" : 1,
                "range" : 12,
                "specialRules" : [],
@@ -828,16 +1092,18 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "F51nvlCJ",
-               "label" : "Hand Weapon (A1, Warp)",
+               "label" : "Hand Weapon (A1, Shred)",
                "name" : "Hand Weapon",
                "originalCount" : 1,
+               "range" : null,
                "specialRules" : [
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -847,17 +1113,13 @@
          ],
          "name" : "Change Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
             {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
-            {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -877,10 +1139,11 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "0vEE5mmA",
-               "label" : "Fireball (12\", A1)",
-               "name" : "Fireball",
+               "label" : "Fireballs (12\", A1)",
+               "name" : "Fireballs",
                "originalCount" : 1,
                "range" : 12,
                "specialRules" : [],
@@ -889,16 +1152,18 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "F51nvlCJ",
-               "label" : "Hand Weapon (A1, Warp)",
+               "label" : "Hand Weapon (A1, Shred)",
                "name" : "Hand Weapon",
                "originalCount" : 1,
+               "range" : null,
                "specialRules" : [
                   {
-                     "id" : "_YH18zN4KKCY",
-                     "label" : "Warp",
-                     "name" : "Warp",
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -915,9 +1180,10 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 70,
+         "cost" : 60,
          "defense" : 4,
          "disabledUpgradeSections" : [],
+         "genericName" : "Change Scorchers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "Rx8ve8HPv",
@@ -926,11 +1192,11 @@
          "loadout" : [
             {
                "attacks" : 1,
-               "attacksMultiplier" : null,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "i8eLTUAa",
-               "label" : "Spout Flame (12\", A1, Blast(3), Reliable)",
-               "name" : "Spout Flame",
+               "label" : "Spout Flames (12\", A1, Blast(3), Reliable)",
+               "name" : "Spout Flames",
                "originalCount" : 1,
                "range" : 12,
                "specialRules" : [
@@ -953,7 +1219,7 @@
             },
             {
                "attacks" : 3,
-               "attacksMultiplier" : null,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "cmRqvCR2",
                "label" : "Claws (A3)",
@@ -967,23 +1233,19 @@
          ],
          "name" : "Scorcher",
          "notes" : null,
+         "originalSize" : 3,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "QMJRgueQoFoF",
-               "label" : "Daemon",
-               "name" : "Daemon"
-            },
-            {
-               "id" : "9jyvRoBODD-O",
-               "label" : "Stealth",
-               "name" : "Stealth"
-            },
             {
                "id" : "a0YtInGiUDd6",
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "4mB0rwGnMVgJ",
+               "label" : "Changebound",
+               "name" : "Changebound"
             }
          ],
          "selectedUpgrades" : [],
@@ -1000,11 +1262,11 @@
          "weapons" : [
             {
                "attacks" : 1,
-               "attacksMultiplier" : null,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "i8eLTUAa",
-               "label" : "Spout Flame (12\", A1, Blast(3), Reliable)",
-               "name" : "Spout Flame",
+               "label" : "Spout Flames (12\", A1, Blast(3), Reliable)",
+               "name" : "Spout Flames",
                "originalCount" : 1,
                "range" : 12,
                "specialRules" : [
@@ -1027,7 +1289,7 @@
             },
             {
                "attacks" : 3,
-               "attacksMultiplier" : null,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "cmRqvCR2",
                "label" : "Claws (A3)",

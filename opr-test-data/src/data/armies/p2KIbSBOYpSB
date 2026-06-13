@@ -9,7 +9,7 @@
    "id" : "p2KIbSBOYpSB",
    "isCloud" : false,
    "key" : "m6BcmAvwsJO2wmyHCCp2N",
-   "listPoints" : 3945,
+   "listPoints" : 3700,
    "modelCount" : 78,
    "modified" : "2024-03-07T14:24:58.938Z",
    "name" : "WH Imperium - Imperium",
@@ -18,165 +18,174 @@
    "selectedUnitId" : "5MDVA",
    "specialRules" : [
       {
-         "aliasedRuleId" : "IyLY1212wacW",
+         "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
+         "description" : "Gets +1 to hit when attacking.",
+         "hasRating" : null,
+         "id" : "09SoiR1HuW7u",
+         "name" : "Precise",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Units where all models have this rule get +1 to defense rolls against hits that are not from spells.",
          "hasRating" : false,
-         "id" : "AcDwQ6MYiTO4",
-         "name" : "Heavy Shield",
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shielded",
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "V3YzPPkZm8at",
-         "coreType" : 2,
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "After all other units are deployed (excluding units that were set aside), you may remove up to two friendly units from the table and deploy them again. Players alternate in placing Re-Deployment units, starting with the player that activates next.",
+         "hasRating" : false,
+         "id" : "zjzB46LX-QDg",
+         "name" : "Re-Deployment",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model takes wounds in melee, the attacker takes X hits per wound taken.",
+         "hasRating" : true,
+         "id" : "zCjAFXut7Gsg",
+         "name" : "Retaliate",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this unit is activated, pick one effect: until the end of the activation, when shooting or charging enemies over 9\" away, all models with this rule in this unit either get AP(+1) or get +1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "9Te72f48wJyw",
+         "name" : "Versatile Attack",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one wound.",
+         "hasRating" : true,
+         "id" : "hnsVQyx3ylMf",
+         "name" : "Ravage",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Bane when shooting.",
+         "hasRating" : false,
+         "id" : "ba6LlbpoLkSu",
+         "name" : "Bane when Shooting Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This model and its unit get Regeneration.",
          "hasRating" : false,
-         "id" : "bLVZU4onzi2E",
-         "name" : "Medical Training",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "coreType" : 2,
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : "iYxL5B5nHGmp",
-         "name" : "Precision Shots",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "Jm_snOMYIAZI",
-         "coreType" : 2,
-         "description" : "This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.",
-         "hasRating" : false,
-         "id" : "FWP4aR4iYo8w",
-         "name" : "War Chant",
+         "id" : "V3YzPPkZm8at",
+         "name" : "Regeneration Aura",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+         "description" : "This model and its unit get Bane in melee.",
+         "hasRating" : false,
+         "id" : "XoDRL2xVEnVf",
+         "name" : "Bane in Melee Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which friendly units gets Unstoppable against once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "Q-wmfZ69HqBX",
+         "name" : "Unstoppable Mark",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, pick one friendly model within 6\" with Artillery, which may immediately move by up to 9\".\n\n",
+         "hasRating" : false,
+         "id" : "DhXvBOG0tfNF",
+         "name" : "Re-Position Artillery",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Against units where most models have Tough(3) or higher, this weapon gets AP(+2).",
+         "hasRating" : false,
+         "id" : "7F4391rzKx2g",
+         "name" : "Shatter",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Versatile Reach.",
+         "hasRating" : false,
+         "id" : "ayuikxkmDOmq",
+         "name" : "Versatile Reach Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one friendly model within 3\" with Tough, and remove D3 wounds from it.",
          "hasRating" : false,
          "id" : "mETdyZ__yMVj",
-         "name" : "Repair",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "-p-8I5BpotTm",
-         "coreType" : 2,
-         "description" : "This model and its unit get +1 to hit when shooting.",
-         "hasRating" : false,
-         "id" : "ZLkWVDVW6foS",
-         "name" : "Battle Rites",
+         "name" : "Mend",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Gets +1 to hit in melee and shooting.",
+         "description" : "This model and its unit get +1 to morale test rolls.",
          "hasRating" : false,
-         "id" : "bd26Yb52DH42",
-         "name" : "War Veteran",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : 1,
-         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
-         "hasRating" : true,
-         "id" : "a0YtInGiUDd6",
-         "name" : "Tough",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "coreType" : 2,
-         "description" : "This model and its unit get AP(+1) when shooting.",
-         "hasRating" : false,
-         "id" : "R5BsdXzuRoG6",
-         "name" : "Canticles",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "S3v99IAu__In",
-         "coreType" : 2,
-         "description" : "This model and its unit move +2\" on Advance, and +4” on Rush/Charge.",
-         "hasRating" : false,
-         "id" : "OxqZNENtow9I",
-         "name" : "Psalms",
+         "id" : "FRVSAjasmFSF",
+         "name" : "Courage Aura",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.",
+         "description" : "This model and its unit get Rapid Rush.",
          "hasRating" : false,
-         "id" : "IEJp3a4vE0CB",
-         "name" : "Radiation",
-         "targetType" : 2
-      },
-      {
-         "aliasedRuleId" : "5v6oaGfrdf29",
-         "coreType" : null,
-         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : false,
-         "id" : "F4aO_9oN1Ub8",
-         "name" : "Taser",
-         "targetType" : 2
+         "id" : "RDFhn43ktRx8",
+         "name" : "Rapid Rush Aura",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "This model's melee weapons get AP(+2) against units where most models have Tough(3) or higher.",
+         "description" : "This model and its unit get Melee Shrouding.",
+         "hasRating" : false,
+         "id" : "0dZak5jae8F0",
+         "name" : "Melee Shrouding Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "swmJMClW7ilS",
+         "coreType" : null,
+         "description" : "When units where all models have this rule are shot or charged from over 9\" away and take hits, those hits count as having AP(-1), to a min. of AP(0).",
+         "hasRating" : false,
+         "id" : "_tBVc9Nqjqr4",
+         "name" : "Primeborn",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model charges, its weapons get AP(+2) if most models in the target have Tough(3) or higher.",
          "hasRating" : false,
          "id" : "TTL5RNmwotoh",
-         "name" : "Slayer",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "h9JsgD38BRjI",
-         "coreType" : null,
-         "description" : "When this unit is activated, you may place all models with this rule in it anywhere within D3+1\" of their position.",
-         "hasRating" : false,
-         "id" : "MwDo_TADepzb",
-         "name" : "Bounding",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Once per this model's activation, before attacking, if within 2\" of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
-         "hasRating" : false,
-         "id" : "mETdyZ__yMVj",
-         "name" : "Repair",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "efmjJPTe0Yzd",
-         "coreType" : 1,
-         "description" : "This weapon ignores cover.",
-         "hasRating" : false,
-         "id" : "BFLMrfDSQk5v",
-         "name" : "Phosphor",
-         "targetType" : 2
-      },
-      {
-         "aliasedRuleId" : "paOPFddMOffa",
-         "coreType" : null,
-         "description" : "Once per activation, when this model moves over enemy units, pick one of them and roll one die. On a roll of 6+ it takes 1 hit.",
-         "hasRating" : false,
-         "id" : "4cG_ebnBfq-4",
-         "name" : "Cluster Grenades",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : 1,
-         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. Note that you must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last).",
-         "hasRating" : true,
-         "id" : "a0YtInGiUDd6",
-         "name" : "Tough",
+         "name" : "Melee Slayer",
          "targetType" : 1
       },
       {
@@ -189,53 +198,359 @@
          "targetType" : 2
       },
       {
-         "aliasedRuleId" : "O4RvQUoR77mP",
-         "coreType" : 2,
-         "description" : "This model and its unit get Stealth.",
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and when attacking the target must re-roll unmodified Defense results of 6.",
          "hasRating" : false,
-         "id" : "EE80BCU66oFu",
-         "name" : "Blind Faith",
+         "id" : "Naqc5mga9Uha",
+         "name" : "Bane",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 5+ it is ignored.",
+         "hasRating" : false,
+         "id" : "8KujvrTG8k9p",
+         "name" : "Regeneration",
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "kqma1pPDpN3w",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to hit next time they fight in melee.",
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and ignores all negative modifiers to this weapon.",
          "hasRating" : false,
-         "id" : "KauMx287bYqE",
-         "name" : "Holy Statue",
+         "id" : "QXyt-zV_bjpg",
+         "name" : "Unstoppable",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "May only use Hold actions. When this model shoots at enemies over 9\" away, it gets +1 to hit rolls. When enemy units shoot at this model from over 9\" away, they get -2 to hit rolls.",
+         "hasRating" : false,
+         "id" : "GRuFoZiyjY5f",
+         "name" : "Artillery",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. You must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last, even if already wounded).",
+         "hasRating" : true,
+         "id" : "a0YtInGiUDd6",
+         "name" : "Tough",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "description" : "When this unit is activated, pick one effect: until the end of the activation all models with this rule in it either get +4\" range when shooting, or move +2\" when charging.",
          "hasRating" : false,
-         "id" : "j2CURXzqqKaK",
-         "name" : "Highly Devout",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "KskX8qPX3I8G",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit next time it shoots.",
-         "hasRating" : false,
-         "id" : "5Z_UdFAz1-0R",
-         "name" : "Rangefinder Backpack",
+         "id" : "y47PXwakTSji",
+         "name" : "Versatile Reach",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
+         "description" : "This model moves +6\" when using Rush actions.",
          "hasRating" : false,
-         "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall",
+         "id" : "qsx__9Cz3au_",
+         "name" : "Rapid Rush",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
+         "description" : "Enemies get -3\" movement to a min. of 6\" when trying to charge units where all models have this rule.",
+         "hasRating" : false,
+         "id" : "1TMBPe40kx2b",
+         "name" : "Melee Shrouding",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
+         "hasRating" : false,
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemies get -1 to hit rolls when attacking units where all models have this rule.",
+         "hasRating" : false,
+         "id" : "O_sf2rsHA7rD",
+         "name" : "Evasive",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
+         "hasRating" : false,
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If a unit where all models have this rule has most of them within 1\" of terrain, enemies get -1 to hit rolls when attacking them.",
+         "hasRating" : false,
+         "id" : "0Z-OGtDpajc3",
+         "name" : "Grounded Stealth",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this unit is activated, pick one effect: until the end of the activation, when shooting or charging enemies over 9\" away, all models with this rule in this unit either get AP(+1) or get +1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "9Te72f48wJyw",
+         "name" : "Versatile Attack",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Rending when shooting.",
+         "hasRating" : false,
+         "id" : "AfGDQgn8r8O1",
+         "name" : "Rending when Shooting Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Teleport.",
+         "hasRating" : false,
+         "id" : "nr0R125ptwEZ",
+         "name" : "Teleport Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Unpredictable Fighter.",
+         "hasRating" : false,
+         "id" : "8zBpM3Wjey08",
+         "name" : "Unpredictable Fighter Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "_tP0jExjizvc",
+         "coreType" : null,
+         "description" : "When units where all models have this rule are shot or charged from over 9\" away, enemy units get -1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "S8IZt-d0Sgwk",
+         "name" : "Machine-Fog",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this unit is activated, you may place all models with this rule in it anywhere fully within D3+1\" of their position.",
+         "hasRating" : false,
+         "id" : "h9JsgD38BRjI",
+         "name" : "Bounding",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "5v6oaGfrdf29",
+         "name" : "Surge",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, when this model moves through enemy units, pick one of them and roll X dice. For each 6+ the target takes one wound.",
+         "hasRating" : true,
+         "id" : "paOPFddMOffa",
+         "name" : "Crossing Attack",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When attacking the target must re-roll unmodified Defense results of 6.",
+         "hasRating" : false,
+         "id" : "WcOMD7QgPYXZ",
+         "name" : "Lacerate",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, when this model moves through enemy units, pick one of them and attack it with this weapon as if it was shooting. This weapon may only be used in this way.",
+         "hasRating" : false,
+         "id" : "Hdm9ry6kJvzb",
+         "name" : "Strafing",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Machine-Fog Boost.",
+         "hasRating" : false,
+         "id" : "engi9zFdRht9",
+         "name" : "Machine-Fog Boost Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one friendly model within 3\" with Tough, and remove D3 wounds from it.",
+         "hasRating" : false,
+         "id" : "mETdyZ__yMVj",
+         "name" : "Mend",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight, which loses AP(+1) when attacking once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "P9T1NvhhYdI9",
+         "name" : "Piercing Debuff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Melee Shrouding.",
+         "hasRating" : false,
+         "id" : "0dZak5jae8F0",
+         "name" : "Melee Shrouding Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model charges, its weapons get AP(+2) if most models in the target have Tough(3) or higher.",
+         "hasRating" : false,
+         "id" : "TTL5RNmwotoh",
+         "name" : "Melee Slayer",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get AP(+4).",
+         "hasRating" : false,
+         "id" : "cavWDboL4ubs",
+         "name" : "Rending",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, you may place this model anywhere fully within 3\" of its position when using Advance/Charge actions, or fully within 6\" of its position when using Rush actions.",
+         "hasRating" : false,
+         "id" : "LtPyHi_-DHf4",
+         "name" : "Teleport",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When in melee, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead.",
+         "hasRating" : false,
+         "id" : "DEeVIJcfNfS6",
+         "name" : "Unpredictable Fighter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When attacking, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead.",
+         "hasRating" : false,
+         "id" : "i40cKJoXJ7zm",
+         "name" : "Unpredictable",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets +X to defense rolls.",
+         "hasRating" : true,
+         "id" : "s6MgSfmgylXU",
+         "name" : "Defense",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If all models in this unit have Machine-Fog, enemies attacking them always get -1 to hit rolls from Machine-Fog (instead of only when being shot/charged from over 9\" away).",
+         "hasRating" : false,
+         "id" : "eYZyOr9wu0jr",
+         "name" : "Machine-Fog Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "This model must take X wounds before being killed. If a model with tough joins a unit without it, then it is removed last when the unit takes wounds. You must continue to put wounds on the tough model with most wounds in the unit until it is killed, before starting to put them on the next tough model (heroes must be assigned wounds last, even if already wounded).",
+         "hasRating" : true,
+         "id" : "a0YtInGiUDd6",
+         "name" : "Tough",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemies get -3\" movement to a min. of 6\" when trying to charge units where all models have this rule.",
+         "hasRating" : false,
+         "id" : "1TMBPe40kx2b",
+         "name" : "Melee Shrouding",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per round, units where all models have this rule may move by up to 3\" after shooting.",
+         "hasRating" : false,
+         "id" : "rkGri9GAybaZ",
+         "name" : "Hit & Run Shooter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model shoots at enemies within 12\", unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "qskF5Gm5pMV0",
+         "name" : "Point-Blank Surge",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Casters within 12\" that are from other friendly units may cast spells as if they were in this model's position, and get +1 to casting rolls when doing so. Friendly casters may only use this rule if this unit isn't Shaken.",
+         "hasRating" : false,
+         "id" : "WNMH1ZiQXSz-",
+         "name" : "Spell Conduit",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
@@ -243,39 +558,165 @@
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "coreType" : 2,
-         "description" : "This model and its unit get AP(+1) when shooting.",
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit moves +2\" when using Advance actions and +4\" when using Rush/Charge actions.",
          "hasRating" : false,
-         "id" : "lsYKfk0eU8xT",
-         "name" : "Spiritual Guidance",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "V3YzPPkZm8at",
-         "coreType" : 2,
-         "description" : "This model and its unit get Regeneration.",
-         "hasRating" : false,
-         "id" : "bLVZU4onzi2E",
-         "name" : "Medical Training",
+         "id" : "Q9DOQswzCth8",
+         "name" : "Fast Aura",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to defense rolls next time they take hits.",
-         "hasRating" : false,
-         "id" : "7rd_tPzHseje",
-         "name" : "Protective Aura",
+         "description" : "Once per game, during this model's activation, pick one enemy unit within 18\" and in line of sight of it, and place X markers on it. Friendly units get +X to hit rolls when attacking it.",
+         "hasRating" : true,
+         "id" : "O_ZtH22AAORQ",
+         "name" : "Precision Target",
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "IXtPlY7K4Wku",
-         "coreType" : 2,
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If this model has Devout, when it shoots or charges enemies over 9\" away, it deals extra hits on successful unmodified hit results of 5-6 from Devout (instead of only on 6).",
+         "hasRating" : false,
+         "id" : "w7sENXkksVpG",
+         "name" : "Devout Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Units where all models have this rule get +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shielded",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to morale test rolls once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "pNjLAV6Ena15",
+         "name" : "Courage Buff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get +6\" range when shooting.",
+         "hasRating" : false,
+         "id" : "QWzGAg9RpE2D",
+         "name" : "Increased Shooting Range Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "MEAjk171GPmF",
+         "coreType" : null,
+         "description" : "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "gnpURIvLqjw9",
+         "name" : "Devout",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Regeneration.",
+         "hasRating" : false,
+         "id" : "V3YzPPkZm8at",
+         "name" : "Regeneration Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Fortified.",
+         "hasRating" : false,
+         "id" : "B-9jnnFp54f9",
+         "name" : "Fortified Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets Shred in melee.",
+         "hasRating" : false,
+         "id" : "249Oc2_1eOx6",
+         "name" : "Shred in Melee",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Ignores Regeneration, and against units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2).",
+         "hasRating" : false,
+         "id" : "1qiGNqpxKb24",
+         "name" : "Disintegrate",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Point-Blank Piercing.",
+         "hasRating" : false,
+         "id" : "9uOMLO85SvL-",
+         "name" : "Point-Blank Piercing Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls in melee once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "JsQeZwM7Mm7P",
+         "name" : "Precision Fighter Buff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one friendly unit within 12\", which gets +1 to hit rolls when shooting once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "FDI5sLTtr3gC",
+         "name" : "Precision Shooter Buff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Shred in melee.",
+         "hasRating" : false,
+         "id" : "muH3OhuC6eK4",
+         "name" : "Shred in Melee Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one friendly unit within 12\", which gets Guarded once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "bX3zgnl1nl5O",
+         "name" : "Guarded Buff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
          "description" : "This model and its unit get +1 to morale test rolls.",
          "hasRating" : false,
-         "id" : "dlmwwGTjuk0n",
-         "name" : "Canticle Megaphone",
+         "id" : "FRVSAjasmFSF",
+         "name" : "Courage Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick one enemy unit within 18\" in line of sight with Caster, which gets -1 to casting rolls once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "htvMlDrYyL3x",
+         "name" : "Casting Debuff",
          "targetType" : 1
       },
       {
@@ -284,53 +725,62 @@
          "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
          "hasRating" : false,
          "id" : "IyLY1212wacW",
-         "name" : "Protected",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "bd26Yb52DH42",
-         "coreType" : null,
-         "description" : "Gets +1 to hit in melee and shooting.",
-         "hasRating" : false,
-         "id" : "5fNdzNcQm0Pt",
-         "name" : "Celestial Veteran",
+         "name" : "Fortified",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "description" : "This model gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "DhLjIDRrWz6-",
+         "name" : "Piercing Assault",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and its unit get Devout Boost.",
+         "hasRating" : false,
+         "id" : "j1_UP3V8iBI_",
+         "name" : "Devout Boost Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "hasRating" : true,
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 5+ it is ignored.",
+         "hasRating" : false,
+         "id" : "8KujvrTG8k9p",
+         "name" : "Regeneration",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
+         "hasRating" : false,
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This weapon ignores Regeneration.",
          "hasRating" : null,
-         "id" : "j_GPMzrugrCj",
-         "name" : "Devout",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
-         "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "1dM_PBIn2v3p",
-         "coreType" : 2,
-         "description" : "This model and its unit get AP(+1) in melee.",
-         "hasRating" : false,
-         "id" : "CZXPTpxQT-7_",
-         "name" : "War Hymns",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "ILPGCU9Y9xhe",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, pick 2 friendly units within 12\", which get +1 to their next morale test roll.",
-         "hasRating" : false,
-         "id" : "SJI8muKSgh9p",
-         "name" : "Angelic Aura",
-         "targetType" : 1
+         "id" : "0TfnG5G4JEv0",
+         "name" : "Ignores Regeneration",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : null,
@@ -343,12 +793,48 @@
       },
       {
          "aliasedRuleId" : null,
-         "coreType" : 1,
-         "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : false,
-         "id" : "JoOCVPx1xT1G",
-         "name" : "Furious",
+         "coreType" : 5,
+         "description" : "This model gets +X to defense rolls.",
+         "hasRating" : true,
+         "id" : "s6MgSfmgylXU",
+         "name" : "Defense",
          "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets AP(+1) when shooting enemies within 12\".",
+         "hasRating" : false,
+         "id" : "raxCxGUYDPra",
+         "name" : "Point-Blank Piercing",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When units where all models have this rule are shot or charged from over 9\" away, they get +1 to defense rolls.",
+         "hasRating" : false,
+         "id" : "zTfg9msVpfJ0",
+         "name" : "Guarded",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model shoots at enemies over 9\" away, its weapons get AP(+1).",
+         "hasRating" : false,
+         "id" : "dlk9Q7howUDr",
+         "name" : "Piercing Hunter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as models in the target unit.",
+         "hasRating" : true,
+         "id" : "w_vX0mi58KKt",
+         "name" : "Blast",
+         "targetType" : 2
       }
    ],
    "undoUnitRemove" : [
@@ -502,9 +988,10 @@
          "combined" : false,
          "cost" : 55,
          "customName" : "Archivist",
-         "defense" : 3,
+         "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Scout Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "qGGJpGt",
@@ -513,6 +1000,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "wfEHdWKY",
                "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
@@ -556,6 +1044,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -576,33 +1065,12 @@
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "0-erIAQg"
-            },
-            {
-               "content" : [
-                  {
-                     "count" : 1,
-                     "dependencies" : [],
-                     "id" : "FAMbscK5vhSu",
-                     "name" : "Scout",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "count" : 1,
-               "dependencies" : [],
-               "label" : "Infiltration Gear (Scout)",
-               "name" : "Infiltration Gear",
-               "type" : "ArmyBookItem"
             }
          ],
          "name" : "Elite Raider",
          "notes" : null,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
             {
                "additional" : false,
                "id" : "JoOCVPx1xT1G",
@@ -624,18 +1092,24 @@
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "i50rAlbeP",
+               "instanceId" : "GNsE7Oh_M",
                "option" : {
                   "cost" : 40,
                   "costs" : [
-                     {
-                        "cost" : 40,
-                        "unitId" : "9baVFie"
-                     },
                      {
                         "cost" : 40,
                         "unitId" : "DTrVAIo"
@@ -643,10 +1117,6 @@
                      {
                         "cost" : 40,
                         "unitId" : "Z2WiRfh"
-                     },
-                     {
-                        "cost" : 40,
-                        "unitId" : "qGGJpGt"
                      }
                   ],
                   "gains" : [
@@ -676,7 +1146,7 @@
                   "uid" : "D3Dqx6h"
                },
                "upgrade" : {
-                  "id" : "jh2HwoB",
+                  "id" : "N0C2YlE",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -690,26 +1160,19 @@
                }
             },
             {
-               "instanceId" : "TuBc_LMqW",
+               "instanceId" : "hcDveoCY7",
                "option" : {
                   "cost" : 10,
                   "costs" : [
                      {
-                        "cost" : 15,
-                        "unitId" : "DTrVAIo"
-                     },
-                     {
                         "cost" : 10,
                         "unitId" : "Z2WiRfh"
-                     },
-                     {
-                        "cost" : 10,
-                        "unitId" : "qGGJpGt"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -741,7 +1204,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "21Ngd9K",
+                  "id" : "yQcTifr",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -751,68 +1214,20 @@
                   "uid" : "MovgoCq",
                   "variant" : "replace"
                }
-            },
-            {
-               "instanceId" : "cOCNT1HmD",
-               "option" : {
-                  "cost" : 5,
-                  "costs" : [
-                     {
-                        "cost" : 5,
-                        "unitId" : "qGGJpGt"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "content" : [
-                           {
-                              "dependencies" : [],
-                              "id" : "FAMbscK5vhSu",
-                              "name" : "Scout",
-                              "type" : "ArmyBookRule"
-                           }
-                        ],
-                        "count" : 1,
-                        "dependencies" : [],
-                        "label" : "Infiltration Gear (Scout)",
-                        "name" : "Infiltration Gear",
-                        "type" : "ArmyBookItem"
-                     }
-                  ],
-                  "id" : "zOpXO",
-                  "label" : "Infiltration Gear (Scout)",
-                  "parentPackageUid" : "qIWMF",
-                  "parentSectionId" : "BwY_m",
-                  "parentSectionUid" : "BwY_m",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "zOpXO"
-               },
-               "upgrade" : {
-                  "id" : "T8__TJH",
-                  "label" : "Upgrade with one",
-                  "parentPackageUid" : "qIWMF",
-                  "select" : {
-                     "type" : "exactly",
-                     "value" : 1
-                  },
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "BwY_m",
-                  "variant" : "upgrade"
-               }
             }
          ],
          "selectionId" : "pnU0c",
          "size" : 1,
          "traits" : [],
          "upgrades" : [
-            "C1",
-            "qIWMF",
-            "A1"
+            "cbCaeLWh",
+            "caHBKulf"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "wfEHdWKY",
                "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
@@ -839,11 +1254,12 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "TuBc_LMqW",
+                     "upgradeInstanceId" : "hcDveoCY7",
                      "variant" : "replace"
                   }
                ],
@@ -866,10 +1282,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 175,
-         "defense" : 2,
+         "cost" : 165,
+         "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Assault Prime Brothers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "hvNiOwU",
@@ -878,6 +1295,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -898,6 +1316,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "c3nZkAfH",
                "label" : "Heavy CCW (A2, AP(1))",
@@ -917,7 +1336,7 @@
                "weaponId" : "BN7Zr4vd"
             }
          ],
-         "name" : "Assault Squad",
+         "name" : "Assault Prime Brothers",
          "notes" : null,
          "quality" : 3,
          "rules" : [
@@ -925,6 +1344,11 @@
                "id" : "2atvlmICQSCV",
                "label" : "Fearless",
                "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -939,6 +1363,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -959,6 +1384,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "c3nZkAfH",
                "label" : "Heavy CCW (A2, AP(1))",
@@ -987,10 +1413,11 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 345,
-         "defense" : 2,
+         "cost" : 310,
+         "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Violent Brothers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "Fz19CEf",
@@ -998,14 +1425,22 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : 3,
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "ZiuEfQJI",
-               "label" : "Twin Fist-Flamers (6\", A3, Reliable)",
+               "label" : "Twin Fist-Flamers (6\", A1, Blast(3), Reliable)",
                "name" : "Twin Fist-Flamers",
                "originalCount" : 3,
                "range" : 6,
                "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
                   {
                      "id" : "Zx4mWN0SbmK8",
                      "label" : "Reliable",
@@ -1018,6 +1453,7 @@
             },
             {
                "attacks" : 4,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "O5SZTMlX",
                "label" : "Dual Energy Fists (A4, AP(4))",
@@ -1037,20 +1473,25 @@
                "weaponId" : "O5SZTMlX"
             }
          ],
-         "name" : "Aggro Squad",
+         "name" : "Aggro Brothers",
          "notes" : null,
          "quality" : 3,
          "rules" : [
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
             {
                "id" : "2atvlmICQSCV",
                "label" : "Fearless",
                "name" : "Fearless"
             },
             {
-               "id" : "a0YtInGiUDd6",
-               "label" : "Tough(3)",
-               "name" : "Tough",
-               "rating" : 3
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -1063,14 +1504,22 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : 3,
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "ZiuEfQJI",
-               "label" : "Twin Fist-Flamers (6\", A3, Reliable)",
+               "label" : "Twin Fist-Flamers (6\", A1, Blast(3), Reliable)",
                "name" : "Twin Fist-Flamers",
                "originalCount" : 3,
                "range" : 6,
                "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
                   {
                      "id" : "Zx4mWN0SbmK8",
                      "label" : "Reliable",
@@ -1083,6 +1532,7 @@
             },
             {
                "attacks" : 4,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "O5SZTMlX",
                "label" : "Dual Energy Fists (A4, AP(4))",
@@ -1111,61 +1561,65 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 60,
          "customName" : "Captain",
-         "defense" : 2,
+         "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Prime Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "Z2WiRfh",
-         "items" : [],
-         "joinToUnit" : null,
-         "loadout" : [
+         "items" : [
             {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "lXOrCYv-",
-               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
-               "name" : "Flamer Pistol",
-               "originalCount" : 1,
-               "range" : 6,
-               "specialRules" : [
+               "content" : [
                   {
-                     "id" : "w_vX0mi58KKt",
-                     "label" : "Blast(3)",
-                     "name" : "Blast",
-                     "rating" : 3,
-                     "type" : "ArmyBookRule"
-                  },
-                  {
-                     "id" : "Zx4mWN0SbmK8",
-                     "label" : "Reliable",
-                     "name" : "Reliable",
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shielded",
                      "type" : "ArmyBookRule"
                   }
                ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "agIlKQ_g"
+               "count" : 1,
+               "id" : "pzkz3Tr_",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "content" : [
+                  {
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shielded",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "pzkz3Tr_",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
             },
             {
+               "bases" : null,
                "content" : [
                   {
                      "count" : 1,
                      "dependencies" : [],
-                     "id" : "ZLkWVDVW6foS",
-                     "name" : "Battle Rites",
+                     "id" : "ba6LlbpoLkSu",
+                     "name" : "Bane when Shooting Aura",
                      "type" : "ArmyBookRule"
                   }
                ],
                "count" : 1,
                "dependencies" : [],
-               "label" : "Captain (Battle Rites)",
+               "label" : "Captain (Bane when Shooting Aura)",
                "name" : "Captain",
                "type" : "ArmyBookItem"
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "rb694jW1",
@@ -1193,11 +1647,6 @@
          "quality" : 3,
          "rules" : [
             {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
-            {
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
                "name" : "Hero"
@@ -1207,58 +1656,58 @@
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "WUK38q870",
+               "instanceId" : "YT6icQXvY",
                "option" : {
-                  "cost" : 50,
                   "costs" : [
                      {
-                        "cost" : 45,
-                        "unitId" : "9baVFie"
-                     },
-                     {
-                        "cost" : 45,
+                        "cost" : 25,
                         "unitId" : "DTrVAIo"
                      },
                      {
-                        "cost" : 45,
+                        "cost" : 25,
                         "unitId" : "Z2WiRfh"
-                     },
-                     {
-                        "cost" : 45,
-                        "unitId" : "qGGJpGt"
                      }
                   ],
                   "gains" : [
                      {
+                        "bases" : null,
                         "content" : [
                            {
                               "dependencies" : [],
-                              "id" : "ZLkWVDVW6foS",
-                              "name" : "Battle Rites",
+                              "id" : "ba6LlbpoLkSu",
+                              "name" : "Bane when Shooting Aura",
                               "type" : "ArmyBookRule"
                            }
                         ],
                         "count" : 1,
                         "dependencies" : [],
-                        "label" : "Captain (Battle Rites)",
+                        "label" : "Captain (Bane when Shooting Aura)",
                         "name" : "Captain",
                         "type" : "ArmyBookItem"
                      }
                   ],
                   "id" : "fwO6jFd",
-                  "label" : "Captain (Battle Rites)",
-                  "parentPackageUid" : "C1",
+                  "label" : "Captain (Bane when Shooting Aura)",
                   "parentSectionId" : "BCvkhSe",
-                  "parentSectionUid" : "BCvkhSe",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "fwO6jFd"
                },
                "upgrade" : {
-                  "id" : "jh2HwoB",
+                  "id" : "N0C2YlE",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1272,26 +1721,19 @@
                }
             },
             {
-               "instanceId" : "WLe_Cf_9h",
+               "instanceId" : "ZLn6Ksm4X",
                "option" : {
                   "cost" : 15,
                   "costs" : [
                      {
-                        "cost" : 25,
-                        "unitId" : "DTrVAIo"
-                     },
-                     {
                         "cost" : 15,
                         "unitId" : "Z2WiRfh"
-                     },
-                     {
-                        "cost" : 15,
-                        "unitId" : "qGGJpGt"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 1,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "rb694jW1",
@@ -1323,7 +1765,7 @@
                   "uid" : "d6wOTSF"
                },
                "upgrade" : {
-                  "id" : "21Ngd9K",
+                  "id" : "yQcTifr",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1346,38 +1788,13 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "lXOrCYv-",
-               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
-               "name" : "Flamer Pistol",
-               "originalCount" : 1,
-               "range" : 6,
-               "specialRules" : [
-                  {
-                     "id" : "w_vX0mi58KKt",
-                     "label" : "Blast(3)",
-                     "name" : "Blast",
-                     "rating" : 3,
-                     "type" : "ArmyBookRule"
-                  },
-                  {
-                     "id" : "Zx4mWN0SbmK8",
-                     "label" : "Reliable",
-                     "name" : "Reliable",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "agIlKQ_g"
-            },
-            {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "WLe_Cf_9h",
+                     "upgradeInstanceId" : "ZLn6Ksm4X",
                      "variant" : "replace"
                   }
                ],
@@ -1400,61 +1817,65 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 65,
+         "cost" : 60,
          "customName" : "Lieutenant",
-         "defense" : 2,
+         "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Prime Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "Z2WiRfh",
-         "items" : [],
-         "joinToUnit" : null,
-         "loadout" : [
+         "items" : [
             {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "lXOrCYv-",
-               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
-               "name" : "Flamer Pistol",
-               "originalCount" : 1,
-               "range" : 6,
-               "specialRules" : [
+               "content" : [
                   {
-                     "id" : "w_vX0mi58KKt",
-                     "label" : "Blast(3)",
-                     "name" : "Blast",
-                     "rating" : 3,
-                     "type" : "ArmyBookRule"
-                  },
-                  {
-                     "id" : "Zx4mWN0SbmK8",
-                     "label" : "Reliable",
-                     "name" : "Reliable",
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shielded",
                      "type" : "ArmyBookRule"
                   }
                ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "agIlKQ_g"
+               "count" : 1,
+               "id" : "pzkz3Tr_",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
+            }
+         ],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "content" : [
+                  {
+                     "id" : "wsqfB0fq69eG",
+                     "name" : "Shielded",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "pzkz3Tr_",
+               "name" : "Combat Shield",
+               "type" : "ArmyBookItem"
             },
             {
+               "bases" : null,
                "content" : [
                   {
                      "count" : 1,
                      "dependencies" : [],
-                     "id" : "iYxL5B5nHGmp",
-                     "name" : "Precision Shots",
+                     "id" : "RDFhn43ktRx8",
+                     "name" : "Rapid Rush Aura",
                      "type" : "ArmyBookRule"
                   }
                ],
                "count" : 1,
                "dependencies" : [],
-               "label" : "Lieutenant (Precision Shots)",
+               "label" : "Lieutenant (Rapid Rush Aura)",
                "name" : "Lieutenant",
                "type" : "ArmyBookItem"
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -1475,33 +1896,12 @@
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "0-erIAQg"
-            },
-            {
-               "content" : [
-                  {
-                     "count" : 1,
-                     "dependencies" : [],
-                     "id" : "AcDwQ6MYiTO4",
-                     "name" : "Heavy Shield",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "count" : 1,
-               "dependencies" : [],
-               "label" : "Combat Shield (Heavy Shield)",
-               "name" : "Combat Shield",
-               "type" : "ArmyBookItem"
             }
          ],
          "name" : "Prime Master",
          "notes" : null,
          "quality" : 3,
          "rules" : [
-            {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
             {
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
@@ -1512,58 +1912,58 @@
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "rR6HWPMOQ",
+               "instanceId" : "-s-MTdoxA",
                "option" : {
-                  "cost" : 60,
                   "costs" : [
                      {
-                        "cost" : 70,
-                        "unitId" : "9baVFie"
-                     },
-                     {
-                        "cost" : 70,
+                        "cost" : 25,
                         "unitId" : "DTrVAIo"
                      },
                      {
-                        "cost" : 70,
+                        "cost" : 25,
                         "unitId" : "Z2WiRfh"
-                     },
-                     {
-                        "cost" : 70,
-                        "unitId" : "qGGJpGt"
                      }
                   ],
                   "gains" : [
                      {
+                        "bases" : null,
                         "content" : [
                            {
                               "dependencies" : [],
-                              "id" : "iYxL5B5nHGmp",
-                              "name" : "Precision Shots",
+                              "id" : "RDFhn43ktRx8",
+                              "name" : "Rapid Rush Aura",
                               "type" : "ArmyBookRule"
                            }
                         ],
                         "count" : 1,
                         "dependencies" : [],
-                        "label" : "Lieutenant (Precision Shots)",
+                        "label" : "Lieutenant (Rapid Rush Aura)",
                         "name" : "Lieutenant",
                         "type" : "ArmyBookItem"
                      }
                   ],
                   "id" : "VyigG9G",
-                  "label" : "Lieutenant (Precision Shots)",
-                  "parentPackageUid" : "C1",
+                  "label" : "Lieutenant (Rapid Rush Aura)",
                   "parentSectionId" : "BCvkhSe",
-                  "parentSectionUid" : "BCvkhSe",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VyigG9G"
                },
                "upgrade" : {
-                  "id" : "jh2HwoB",
+                  "id" : "N0C2YlE",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -1577,26 +1977,19 @@
                }
             },
             {
-               "instanceId" : "yDObdh6l4",
+               "instanceId" : "KyXcb1_Hp",
                "option" : {
                   "cost" : 10,
                   "costs" : [
                      {
-                        "cost" : 15,
-                        "unitId" : "DTrVAIo"
-                     },
-                     {
                         "cost" : 10,
                         "unitId" : "Z2WiRfh"
-                     },
-                     {
-                        "cost" : 10,
-                        "unitId" : "qGGJpGt"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -1628,7 +2021,7 @@
                   "uid" : "OYm4knK"
                },
                "upgrade" : {
-                  "id" : "21Ngd9K",
+                  "id" : "yQcTifr",
                   "label" : "Replace CCW",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -1637,58 +2030,6 @@
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "MovgoCq",
                   "variant" : "replace"
-               }
-            },
-            {
-               "instanceId" : "R_JAlmZlD",
-               "option" : {
-                  "cost" : 10,
-                  "costs" : [
-                     {
-                        "cost" : 10,
-                        "unitId" : "DTrVAIo"
-                     },
-                     {
-                        "cost" : 10,
-                        "unitId" : "Z2WiRfh"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "content" : [
-                           {
-                              "dependencies" : [],
-                              "id" : "AcDwQ6MYiTO4",
-                              "name" : "Heavy Shield",
-                              "type" : "ArmyBookRule"
-                           }
-                        ],
-                        "count" : 1,
-                        "dependencies" : [],
-                        "label" : "Combat Shield (Heavy Shield)",
-                        "name" : "Combat Shield",
-                        "type" : "ArmyBookItem"
-                     }
-                  ],
-                  "id" : "cd-2wsN",
-                  "label" : "Combat Shield (Heavy Shield)",
-                  "parentPackageUid" : "B1",
-                  "parentSectionId" : "80QB0Hq",
-                  "parentSectionUid" : "80QB0Hq",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "cd-2wsN"
-               },
-               "upgrade" : {
-                  "id" : "hESPhOR",
-                  "label" : "Upgrade with one",
-                  "parentPackageUid" : "B1",
-                  "select" : {
-                     "type" : "exactly",
-                     "value" : 1
-                  },
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "80QB0Hq",
-                  "variant" : "upgrade"
                }
             }
          ],
@@ -1703,38 +2044,13 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : 1,
-               "count" : 1,
-               "id" : "lXOrCYv-",
-               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
-               "name" : "Flamer Pistol",
-               "originalCount" : 1,
-               "range" : 6,
-               "specialRules" : [
-                  {
-                     "id" : "w_vX0mi58KKt",
-                     "label" : "Blast(3)",
-                     "name" : "Blast",
-                     "rating" : 3,
-                     "type" : "ArmyBookRule"
-                  },
-                  {
-                     "id" : "Zx4mWN0SbmK8",
-                     "label" : "Reliable",
-                     "name" : "Reliable",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "type" : "ArmyBookWeapon",
-               "weaponId" : "agIlKQ_g"
-            },
-            {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "yDObdh6l4",
+                     "upgradeInstanceId" : "KyXcb1_Hp",
                      "variant" : "replace"
                   }
                ],
@@ -1757,11 +2073,12 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 110,
          "customName" : "Skitarii Rangers",
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Cult Rangers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "L6kGWgk",
@@ -1770,24 +2087,25 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 4,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "KG-tECMhm",
+                     "upgradeInstanceId" : "xGik--kQw",
                      "variant" : "replace"
                   }
                ],
                "id" : "u42IQ0oq",
-               "label" : "R-Fusil (18\", A1, Radiation)",
+               "label" : "R-Fusil (18\", A1, Shred)",
                "name" : "R-Fusil",
                "originalCount" : 5,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "label" : "Radiation",
-                     "name" : "Radiation",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -1796,6 +2114,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "Uek7nqRw",
                "label" : "CCW (A1)",
@@ -1808,28 +2127,30 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "qbUxSwD4",
-               "label" : "Uranium Rifle (30\", A1, AP(1), Sniper, Radiation)",
+               "label" : "Uranium Rifle (30\", A1, AP(1), Reliable, Shred, Takedown)",
                "name" : "Uranium Rifle",
                "range" : 30,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
                      "name" : "AP",
-                     "rating" : 1,
-                     "type" : "ArmyBookRule"
+                     "rating" : 1
                   },
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "name" : "Radiation",
-                     "type" : "ArmyBookRule"
+                     "name" : "Shred"
                   },
                   {
-                     "id" : "LGYXUcXfcJac",
-                     "name" : "Sniper",
-                     "type" : "ArmyBookRule"
+                     "id" : "Zx4mWN0SbmK8",
+                     "name" : "Reliable"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "name" : "Takedown"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -1844,44 +2165,51 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "S8IZt-d0Sgwk",
+               "label" : "Machine-Fog",
+               "name" : "Machine-Fog"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "KG-tECMhm",
+               "instanceId" : "xGik--kQw",
                "option" : {
                   "cost" : 35,
                   "costs" : [
                      {
-                        "cost" : 30,
+                        "cost" : 25,
                         "unitId" : "L6kGWgk"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 1,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "qbUxSwD4",
-                        "label" : "Uranium Rifle (30\", A1, AP(1), Sniper, Radiation)",
+                        "label" : "Uranium Rifle (30\", A1, AP(1), Reliable, Shred, Takedown)",
                         "name" : "Uranium Rifle",
                         "range" : 30,
                         "specialRules" : [
                            {
                               "id" : "17crjK7P6_w6",
                               "name" : "AP",
-                              "rating" : 1,
-                              "type" : "ArmyBookRule"
+                              "rating" : 1
                            },
                            {
                               "id" : "IEJp3a4vE0CB",
-                              "name" : "Radiation",
-                              "type" : "ArmyBookRule"
+                              "name" : "Shred"
                            },
                            {
-                              "id" : "LGYXUcXfcJac",
-                              "name" : "Sniper",
-                              "type" : "ArmyBookRule"
+                              "id" : "Zx4mWN0SbmK8",
+                              "name" : "Reliable"
+                           },
+                           {
+                              "id" : "8Hjy54TYtwb7",
+                              "name" : "Takedown"
                            }
                         ],
                         "type" : "ArmyBookWeapon",
@@ -1889,7 +2217,7 @@
                      }
                   ],
                   "id" : "re-VF2_",
-                  "label" : "Uranium Rifle (30\", A1, AP(1), Sniper, Radiation)",
+                  "label" : "Uranium Rifle (30\", A1, AP(1), Reliable, Shred, Takedown)",
                   "parentPackageUid" : "D1",
                   "parentSectionId" : "cwC0Lvj",
                   "parentSectionUid" : "cwC0Lvj",
@@ -1901,7 +2229,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "4V3j_v_",
+                  "id" : "hsyX0ER",
                   "label" : "Replace one R-Fusil",
                   "parentPackageUid" : "D1",
                   "targets" : [
@@ -1918,30 +2246,31 @@
          "traits" : [],
          "upgrades" : [
             "D1",
-            "FPgzL"
+            "zUfo6"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "KG-tECMhm",
+                     "upgradeInstanceId" : "xGik--kQw",
                      "variant" : "replace"
                   }
                ],
                "id" : "u42IQ0oq",
-               "label" : "R-Fusil (18\", A1, Radiation)",
+               "label" : "R-Fusil (18\", A1, Shred)",
                "name" : "R-Fusil",
                "originalCount" : 5,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "label" : "Radiation",
-                     "name" : "Radiation",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -1950,6 +2279,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "Uek7nqRw",
                "label" : "CCW (A1)",
@@ -1970,10 +2300,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 175,
-         "defense" : 2,
+         "cost" : 165,
+         "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Assault Prime Brothers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "hvNiOwU",
@@ -1982,6 +2313,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -2002,6 +2334,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "c3nZkAfH",
                "label" : "Heavy CCW (A2, AP(1))",
@@ -2021,7 +2354,7 @@
                "weaponId" : "BN7Zr4vd"
             }
          ],
-         "name" : "Assault Squad",
+         "name" : "Assault Prime Brothers",
          "notes" : null,
          "quality" : 3,
          "rules" : [
@@ -2029,6 +2362,11 @@
                "id" : "2atvlmICQSCV",
                "label" : "Fearless",
                "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -2043,6 +2381,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -2063,6 +2402,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "c3nZkAfH",
                "label" : "Heavy CCW (A2, AP(1))",
@@ -2091,11 +2431,12 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 110,
          "customName" : "Skitarii Rangers",
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Cult Rangers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "L6kGWgk",
@@ -2104,24 +2445,25 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 4,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "u5xD6s3YX",
+                     "upgradeInstanceId" : "Fd9C4OlT3",
                      "variant" : "replace"
                   }
                ],
                "id" : "u42IQ0oq",
-               "label" : "R-Fusil (18\", A1, Radiation)",
+               "label" : "R-Fusil (18\", A1, Shred)",
                "name" : "R-Fusil",
                "originalCount" : 5,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "label" : "Radiation",
-                     "name" : "Radiation",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -2130,6 +2472,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "Uek7nqRw",
                "label" : "CCW (A1)",
@@ -2141,17 +2484,17 @@
                "weaponId" : "4o5CBBZC"
             },
             {
-               "attacks" : "3",
+               "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
-               "label" : "Leader P-Pistol (9\", A3, Phosphor)",
+               "label" : "Leader P-Pistol (9\", A3, Lacerate)",
                "name" : "Leader P-Pistol",
                "range" : 9,
                "specialRules" : [
                   {
-                     "id" : "BFLMrfDSQk5v",
-                     "name" : "Phosphor",
-                     "type" : "ArmyBookRule"
+                     "id" : "WcOMD7QgPYXZ",
+                     "name" : "Lacerate"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -2159,6 +2502,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "9n-rb3SG",
@@ -2183,11 +2527,16 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "S8IZt-d0Sgwk",
+               "label" : "Machine-Fog",
+               "name" : "Machine-Fog"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "x0xxIoivZ",
+               "instanceId" : "lBmBShJYo",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -2198,17 +2547,17 @@
                   ],
                   "gains" : [
                      {
-                        "attacks" : "3",
+                        "attacks" : 3,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
-                        "label" : "Leader P-Pistol (9\", A3, Phosphor)",
+                        "label" : "Leader P-Pistol (9\", A3, Lacerate)",
                         "name" : "Leader P-Pistol",
                         "range" : 9,
                         "specialRules" : [
                            {
-                              "id" : "BFLMrfDSQk5v",
-                              "name" : "Phosphor",
-                              "type" : "ArmyBookRule"
+                              "id" : "WcOMD7QgPYXZ",
+                              "name" : "Lacerate"
                            }
                         ],
                         "type" : "ArmyBookWeapon",
@@ -2216,7 +2565,7 @@
                      }
                   ],
                   "id" : "aH5568p",
-                  "label" : "Leader P-Pistol (9\", A3, Phosphor)",
+                  "label" : "Leader P-Pistol (9\", A3, Lacerate)",
                   "parentPackageUid" : "B1",
                   "parentSectionId" : "FdiNqBV",
                   "parentSectionUid" : "FdiNqBV",
@@ -2224,7 +2573,7 @@
                   "uid" : "aH5568p"
                },
                "upgrade" : {
-                  "id" : "2pA5fqM",
+                  "id" : "LVBZf11",
                   "label" : "Replace Leader R-Pistol",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -2236,18 +2585,19 @@
                }
             },
             {
-               "instanceId" : "u5xD6s3YX",
+               "instanceId" : "Fd9C4OlT3",
                "option" : {
                   "cost" : 10,
                   "costs" : [
                      {
-                        "cost" : 15,
+                        "cost" : 10,
                         "unitId" : "L6kGWgk"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "9n-rb3SG",
@@ -2277,7 +2627,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "4V3j_v_",
+                  "id" : "hsyX0ER",
                   "label" : "Replace one R-Fusil",
                   "parentPackageUid" : "D1",
                   "targets" : [
@@ -2294,30 +2644,31 @@
          "traits" : [],
          "upgrades" : [
             "D1",
-            "FPgzL"
+            "zUfo6"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "u5xD6s3YX",
+                     "upgradeInstanceId" : "Fd9C4OlT3",
                      "variant" : "replace"
                   }
                ],
                "id" : "u42IQ0oq",
-               "label" : "R-Fusil (18\", A1, Radiation)",
+               "label" : "R-Fusil (18\", A1, Shred)",
                "name" : "R-Fusil",
                "originalCount" : 5,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "label" : "Radiation",
-                     "name" : "Radiation",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -2326,6 +2677,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "Uek7nqRw",
                "label" : "CCW (A1)",
@@ -2346,11 +2698,12 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 155,
          "customName" : "Tech Priest Dominus",
-         "defense" : 3,
+         "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Great Cult Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "4ajpg-M",
@@ -2358,10 +2711,11 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : 1,
+               "attacks" : 3,
+               "attacksMultiplier" : 3,
                "count" : 1,
                "id" : "BBQCG",
-               "label" : "Revolver (12\", A1, AP(1))",
+               "label" : "Revolver (12\", A3, AP(1))",
                "name" : "Revolver",
                "originalCount" : 1,
                "range" : 12,
@@ -2378,10 +2732,11 @@
                "weaponId" : "i8NKogRV"
             },
             {
-               "attacks" : 3,
+               "attacks" : 6,
+               "attacksMultiplier" : 2,
                "count" : 1,
                "id" : "yemqTC6X",
-               "label" : "Axe-Halberd (A3, AP(4))",
+               "label" : "Axe-Halberd (A6, AP(4))",
                "name" : "Axe-Halberd",
                "originalCount" : 1,
                "range" : 0,
@@ -2398,6 +2753,7 @@
                "weaponId" : "yemqTC6X"
             },
             {
+               "bases" : null,
                "content" : [
                   {
                      "count" : 1,
@@ -2410,14 +2766,14 @@
                ],
                "count" : 1,
                "dependencies" : [],
-               "label" : "Machine Lore (Caster(2))",
-               "name" : "Machine Lore",
+               "label" : "Psy-Hacker (Caster(2))",
+               "name" : "Psy-Hacker",
                "type" : "ArmyBookItem"
             }
          ],
-         "name" : "High Priest",
+         "name" : "High Cyborg-Priest",
          "notes" : null,
-         "quality" : 3,
+         "quality" : 4,
          "rules" : [
             {
                "id" : "T08VkBuVmNZ_",
@@ -2425,38 +2781,35 @@
                "name" : "Hero"
             },
             {
-               "id" : "8KujvrTG8k9p",
-               "label" : "Regeneration",
-               "name" : "Regeneration"
+               "id" : "S8IZt-d0Sgwk",
+               "label" : "Machine-Fog",
+               "name" : "Machine-Fog"
             },
             {
                "id" : "a0YtInGiUDd6",
-               "label" : "Tough(3)",
+               "label" : "Tough(6)",
                "name" : "Tough",
-               "rating" : 3
+               "rating" : 6
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "4lzrkNwXS",
+               "instanceId" : "sH55RtQct",
                "option" : {
-                  "cost" : 40,
                   "costs" : [
                      {
                         "cost" : 50,
                         "unitId" : "4ajpg-M"
-                     },
-                     {
-                        "cost" : 55,
-                        "unitId" : "hvRc6eE"
-                     },
-                     {
-                        "cost" : 55,
-                        "unitId" : "iGyqlfa"
                      }
                   ],
                   "gains" : [
                      {
+                        "bases" : null,
                         "content" : [
                            {
                               "dependencies" : [],
@@ -2468,21 +2821,19 @@
                         ],
                         "count" : 1,
                         "dependencies" : [],
-                        "label" : "Machine Lore (Caster(2))",
-                        "name" : "Machine Lore",
+                        "label" : "Psy-Hacker (Caster(2))",
+                        "name" : "Psy-Hacker",
                         "type" : "ArmyBookItem"
                      }
                   ],
                   "id" : "VC9Z-lM",
-                  "label" : "Machine Lore (Caster(2))",
-                  "parentPackageUid" : "C1",
+                  "label" : "Psy-Hacker (Caster(2))",
                   "parentSectionId" : "ilLvqMc",
-                  "parentSectionUid" : "ilLvqMc",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "VC9Z-lM"
                },
                "upgrade" : {
-                  "id" : "1Q1msN7",
+                  "id" : "sSq7mn7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2501,15 +2852,17 @@
          "traits" : [],
          "upgrades" : [
             "A1",
-            "C1"
+            "C1",
+            "6li5aLJ-"
          ],
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : 1,
+               "attacks" : 3,
+               "attacksMultiplier" : 3,
                "count" : 1,
                "id" : "BBQCG",
-               "label" : "Revolver (12\", A1, AP(1))",
+               "label" : "Revolver (12\", A3, AP(1))",
                "name" : "Revolver",
                "originalCount" : 1,
                "range" : 12,
@@ -2526,10 +2879,11 @@
                "weaponId" : "i8NKogRV"
             },
             {
-               "attacks" : 3,
+               "attacks" : 6,
+               "attacksMultiplier" : 2,
                "count" : 1,
                "id" : "yemqTC6X",
-               "label" : "Axe-Halberd (A3, AP(4))",
+               "label" : "Axe-Halberd (A6, AP(4))",
                "name" : "Axe-Halberd",
                "originalCount" : 1,
                "range" : 0,
@@ -2555,11 +2909,12 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 90,
+         "cost" : 155,
          "customName" : "Tech Priest Enginseer",
-         "defense" : 3,
+         "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Great Cult Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "4ajpg-M",
@@ -2567,10 +2922,11 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : 1,
+               "attacks" : 3,
+               "attacksMultiplier" : 3,
                "count" : 1,
                "id" : "BBQCG",
-               "label" : "Revolver (12\", A1, AP(1))",
+               "label" : "Revolver (12\", A3, AP(1))",
                "name" : "Revolver",
                "originalCount" : 1,
                "range" : 12,
@@ -2587,10 +2943,11 @@
                "weaponId" : "i8NKogRV"
             },
             {
-               "attacks" : 3,
+               "attacks" : 6,
+               "attacksMultiplier" : 2,
                "count" : 1,
                "id" : "yemqTC6X",
-               "label" : "Axe-Halberd (A3, AP(4))",
+               "label" : "Axe-Halberd (A6, AP(4))",
                "name" : "Axe-Halberd",
                "originalCount" : 1,
                "range" : 0,
@@ -2607,25 +2964,26 @@
                "weaponId" : "yemqTC6X"
             },
             {
+               "bases" : null,
                "content" : [
                   {
                      "count" : 1,
                      "dependencies" : [],
                      "id" : "mETdyZ__yMVj",
-                     "name" : "Repair",
+                     "name" : "Mend",
                      "type" : "ArmyBookRule"
                   }
                ],
                "count" : 1,
                "dependencies" : [],
-               "label" : "Engineer (Repair)",
+               "label" : "Engineer (Mend)",
                "name" : "Engineer",
                "type" : "ArmyBookItem"
             }
          ],
-         "name" : "High Priest",
+         "name" : "High Cyborg-Priest",
          "notes" : null,
-         "quality" : 3,
+         "quality" : 4,
          "rules" : [
             {
                "id" : "T08VkBuVmNZ_",
@@ -2633,63 +2991,58 @@
                "name" : "Hero"
             },
             {
-               "id" : "8KujvrTG8k9p",
-               "label" : "Regeneration",
-               "name" : "Regeneration"
+               "id" : "S8IZt-d0Sgwk",
+               "label" : "Machine-Fog",
+               "name" : "Machine-Fog"
             },
             {
                "id" : "a0YtInGiUDd6",
-               "label" : "Tough(3)",
+               "label" : "Tough(6)",
                "name" : "Tough",
-               "rating" : 3
+               "rating" : 6
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "d74bleYuh",
+               "instanceId" : "HlsJG2PhG",
                "option" : {
-                  "cost" : 35,
                   "costs" : [
                      {
                         "cost" : 40,
                         "unitId" : "4ajpg-M"
-                     },
-                     {
-                        "cost" : 40,
-                        "unitId" : "hvRc6eE"
-                     },
-                     {
-                        "cost" : 40,
-                        "unitId" : "iGyqlfa"
                      }
                   ],
                   "gains" : [
                      {
+                        "bases" : null,
                         "content" : [
                            {
                               "dependencies" : [],
                               "id" : "mETdyZ__yMVj",
-                              "name" : "Repair",
+                              "name" : "Mend",
                               "type" : "ArmyBookRule"
                            }
                         ],
                         "count" : 1,
                         "dependencies" : [],
-                        "label" : "Engineer (Repair)",
+                        "label" : "Engineer (Mend)",
                         "name" : "Engineer",
                         "type" : "ArmyBookItem"
                      }
                   ],
                   "id" : "WMrFSXc",
-                  "label" : "Engineer (Repair)",
-                  "parentPackageUid" : "C1",
+                  "label" : "Engineer (Mend)",
                   "parentSectionId" : "ilLvqMc",
-                  "parentSectionUid" : "ilLvqMc",
                   "type" : "ArmyBookUpgradeOption",
                   "uid" : "WMrFSXc"
                },
                "upgrade" : {
-                  "id" : "1Q1msN7",
+                  "id" : "sSq7mn7",
                   "isHeroUpgrade" : true,
                   "label" : "Upgrade with one",
                   "parentPackageUid" : "C1",
@@ -2708,15 +3061,17 @@
          "traits" : [],
          "upgrades" : [
             "A1",
-            "C1"
+            "C1",
+            "6li5aLJ-"
          ],
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : 1,
+               "attacks" : 3,
+               "attacksMultiplier" : 3,
                "count" : 1,
                "id" : "BBQCG",
-               "label" : "Revolver (12\", A1, AP(1))",
+               "label" : "Revolver (12\", A3, AP(1))",
                "name" : "Revolver",
                "originalCount" : 1,
                "range" : 12,
@@ -2733,10 +3088,11 @@
                "weaponId" : "i8NKogRV"
             },
             {
-               "attacks" : 3,
+               "attacks" : 6,
+               "attacksMultiplier" : 2,
                "count" : 1,
                "id" : "yemqTC6X",
-               "label" : "Axe-Halberd (A3, AP(4))",
+               "label" : "Axe-Halberd (A6, AP(4))",
                "name" : "Axe-Halberd",
                "originalCount" : 1,
                "range" : 0,
@@ -2762,10 +3118,11 @@
             "square" : "50"
          },
          "combined" : false,
-         "cost" : 270,
+         "cost" : 230,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Support Cyborgs",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "M2Yr_Lr",
@@ -2773,31 +3130,42 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : 4,
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "LYTfLxn3",
-               "label" : "Gravity Cannon (24\", A4, Rending)",
-               "name" : "Gravity Cannon",
+               "label" : "G-Cannon (24\", A1, AP(2), Blast(3))",
+               "name" : "G-Cannon",
                "originalCount" : 3,
                "range" : 24,
                "specialRules" : [
                   {
-                     "id" : "cavWDboL4ubs",
-                     "label" : "Rending",
-                     "name" : "Rending",
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
                      "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "LYTfLxn3"
+               "weaponId" : "n3hRebM8"
             },
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "42cIE5Xd",
                "label" : "Cyborg Claw (A3)",
                "name" : "Cyborg Claw",
                "originalCount" : 3,
+               "range" : null,
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "42cIE5Xd"
@@ -2808,20 +3176,15 @@
          "quality" : 4,
          "rules" : [
             {
-               "id" : "H9E9PIWpGRdw",
-               "label" : "Relentless",
-               "name" : "Relentless"
-            },
-            {
-               "id" : "Ldhtmr4H8b6G",
-               "label" : "Slow",
-               "name" : "Slow"
-            },
-            {
                "id" : "a0YtInGiUDd6",
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "S8IZt-d0Sgwk",
+               "label" : "Machine-Fog",
+               "name" : "Machine-Fog"
             }
          ],
          "selectedUpgrades" : [],
@@ -2834,31 +3197,42 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : 4,
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "LYTfLxn3",
-               "label" : "Gravity Cannon (24\", A4, Rending)",
-               "name" : "Gravity Cannon",
+               "label" : "G-Cannon (24\", A1, AP(2), Blast(3))",
+               "name" : "G-Cannon",
                "originalCount" : 3,
                "range" : 24,
                "specialRules" : [
                   {
-                     "id" : "cavWDboL4ubs",
-                     "label" : "Rending",
-                     "name" : "Rending",
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(2)",
+                     "name" : "AP",
+                     "rating" : 2,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
                      "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "LYTfLxn3"
+               "weaponId" : "n3hRebM8"
             },
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "42cIE5Xd",
                "label" : "Cyborg Claw (A3)",
                "name" : "Cyborg Claw",
                "originalCount" : 3,
+               "range" : null,
                "specialRules" : [],
                "type" : "ArmyBookWeapon",
                "weaponId" : "42cIE5Xd"
@@ -2877,6 +3251,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Sister Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "2TXWi3B",
@@ -2886,7 +3261,7 @@
                "content" : [
                   {
                      "id" : "wsqfB0fq69eG",
-                     "name" : "Shield Wall",
+                     "name" : "Shielded",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -2900,6 +3275,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "CCW (A2)",
@@ -2915,7 +3291,7 @@
                "content" : [
                   {
                      "id" : "wsqfB0fq69eG",
-                     "name" : "Shield Wall",
+                     "name" : "Shielded",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -2923,34 +3299,12 @@
                "id" : "9hERK",
                "name" : "Combat Shield",
                "type" : "ArmyBookItem"
-            },
-            {
-               "content" : [
-                  {
-                     "count" : 1,
-                     "dependencies" : [],
-                     "id" : "lsYKfk0eU8xT",
-                     "name" : "Spiritual Guidance",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "count" : 1,
-               "dependencies" : [],
-               "label" : "Canoness (Spiritual Guidance)",
-               "name" : "Canoness",
-               "type" : "ArmyBookItem"
             }
          ],
          "name" : "High Sister",
          "notes" : null,
          "quality" : 4,
          "rules" : [
-            {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
             {
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
@@ -2961,83 +3315,27 @@
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
-            }
-         ],
-         "selectedUpgrades" : [
+            },
             {
-               "instanceId" : "mNQNIft45",
-               "option" : {
-                  "cost" : 60,
-                  "costs" : [
-                     {
-                        "cost" : 70,
-                        "unitId" : "sF4ltO_"
-                     },
-                     {
-                        "cost" : 70,
-                        "unitId" : "W-crN7f"
-                     },
-                     {
-                        "cost" : 70,
-                        "unitId" : "2TXWi3B"
-                     },
-                     {
-                        "cost" : 70,
-                        "unitId" : "_nVdDbE"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "content" : [
-                           {
-                              "dependencies" : [],
-                              "id" : "lsYKfk0eU8xT",
-                              "name" : "Spiritual Guidance",
-                              "type" : "ArmyBookRule"
-                           }
-                        ],
-                        "count" : 1,
-                        "dependencies" : [],
-                        "label" : "Canoness (Spiritual Guidance)",
-                        "name" : "Canoness",
-                        "type" : "ArmyBookItem"
-                     }
-                  ],
-                  "id" : "vdVRg",
-                  "label" : "Canoness (Spiritual Guidance)",
-                  "parentPackageUid" : "B1",
-                  "parentSectionId" : "jDPiWW0",
-                  "parentSectionUid" : "jDPiWW0",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "vdVRg"
-               },
-               "upgrade" : {
-                  "id" : "9XS8PR-",
-                  "isHeroUpgrade" : true,
-                  "label" : "Upgrade with one",
-                  "parentPackageUid" : "B1",
-                  "select" : {
-                     "type" : "exactly",
-                     "value" : 1
-                  },
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "jDPiWW0",
-                  "variant" : "upgrade"
-               }
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
+         "selectedUpgrades" : [],
          "selectionId" : "vsP-7",
          "size" : 1,
          "traits" : [],
          "upgrades" : [
             "A1",
-            "B1",
-            "C1"
+            "C1",
+            "fs5_XMOc"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "CCW (A2)",
@@ -3058,10 +3356,11 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 115,
+         "cost" : 110,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Warrior Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "0Bc4px2",
@@ -3070,6 +3369,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -3090,6 +3390,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -3106,8 +3407,7 @@
          "quality" : 4,
          "rules" : [
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
+               "id" : "gnpURIvLqjw9",
                "label" : "Devout",
                "name" : "Devout"
             }
@@ -3118,13 +3418,13 @@
          "traits" : [],
          "upgrades" : [
             "E1",
-            "cT2sU",
-            "vo3TX"
+            "cT2sU"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -3145,6 +3445,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -3165,11 +3466,12 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 95,
+         "cost" : 85,
          "customName" : "Repentia Sisters",
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Fanatic Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "R3sC7UX",
@@ -3177,7 +3479,8 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "4MIc_Zub",
                "label" : "Chainsaw Sword (A2, AP(1))",
@@ -3207,9 +3510,14 @@
                "name" : "Fearless"
             },
             {
-               "id" : "fpXLibfT38MT",
-               "label" : "Frenzy",
-               "name" : "Frenzy"
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "DhLjIDRrWz6-",
+               "label" : "Piercing Assault",
+               "name" : "Piercing Assault"
             }
          ],
          "selectedUpgrades" : [],
@@ -3222,7 +3530,8 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "4MIc_Zub",
                "label" : "Chainsaw Sword (A2, AP(1))",
@@ -3255,6 +3564,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Jetpack Pistoleer Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "qgESKb_",
@@ -3263,11 +3573,12 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 4,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YMLJSiuyh",
+                     "upgradeInstanceId" : "2ps0FuJUv",
                      "variant" : "replace"
                   }
                ],
@@ -3290,11 +3601,12 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 4,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YMLJSiuyh",
+                     "upgradeInstanceId" : "2ps0FuJUv",
                      "variant" : "replace"
                   }
                ],
@@ -3309,6 +3621,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -3332,6 +3645,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "label" : "Sgt. Heavy Pistol (12\", A1, AP(1))",
@@ -3359,20 +3673,24 @@
                "name" : "Ambush"
             },
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
                "label" : "Devout",
                "name" : "Devout"
             },
             {
-               "id" : "-QJdqJEKjIpE",
-               "label" : "Flying",
-               "name" : "Flying"
+               "id" : "qskF5Gm5pMV0",
+               "label" : "Point-Blank Surge",
+               "name" : "Point-Blank Surge"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "YMLJSiuyh",
+               "instanceId" : "2ps0FuJUv",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -3384,6 +3702,7 @@
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -3407,6 +3726,7 @@
                      },
                      {
                         "attacks" : 1,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "label" : "Sgt. Heavy Pistol (12\", A1, AP(1))",
@@ -3437,7 +3757,7 @@
                      "type" : "exactly",
                      "value" : 1
                   },
-                  "id" : "ajJBSR0",
+                  "id" : "IvEkG6H",
                   "label" : "Replace one Twin Heavy Pistols and CCW",
                   "parentPackageUid" : "J1",
                   "targets" : [
@@ -3460,11 +3780,12 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YMLJSiuyh",
+                     "upgradeInstanceId" : "2ps0FuJUv",
                      "variant" : "replace"
                   }
                ],
@@ -3487,11 +3808,12 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "YMLJSiuyh",
+                     "upgradeInstanceId" : "2ps0FuJUv",
                      "variant" : "replace"
                   }
                ],
@@ -3514,10 +3836,11 @@
             "square" : "25"
          },
          "combined" : false,
-         "cost" : 115,
+         "cost" : 110,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Warrior Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "0Bc4px2",
@@ -3526,6 +3849,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -3546,6 +3870,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -3562,8 +3887,7 @@
          "quality" : 4,
          "rules" : [
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
+               "id" : "gnpURIvLqjw9",
                "label" : "Devout",
                "name" : "Devout"
             }
@@ -3574,13 +3898,13 @@
          "traits" : [],
          "upgrades" : [
             "E1",
-            "cT2sU",
-            "vo3TX"
+            "cT2sU"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -3601,6 +3925,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -3621,11 +3946,12 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 95,
+         "cost" : 85,
          "customName" : "Arco flagellant",
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Fanatic Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "R3sC7UX",
@@ -3634,6 +3960,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "dependencies" : [],
                "id" : "MKdDx8aj",
@@ -3643,8 +3970,7 @@
                "specialRules" : [
                   {
                      "id" : "cavWDboL4ubs",
-                     "name" : "Rending",
-                     "type" : "ArmyBookRule"
+                     "name" : "Rending"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -3677,25 +4003,31 @@
                "name" : "Fearless"
             },
             {
-               "id" : "fpXLibfT38MT",
-               "label" : "Frenzy",
-               "name" : "Frenzy"
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "DhLjIDRrWz6-",
+               "label" : "Piercing Assault",
+               "name" : "Piercing Assault"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "GUvaKO012",
+               "instanceId" : "Ut-VSB4vX",
                "option" : {
                   "cost" : 5,
                   "costs" : [
                      {
-                        "cost" : 5,
+                        "cost" : 25,
                         "unitId" : "R3sC7UX"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "MKdDx8aj",
@@ -3705,8 +4037,7 @@
                         "specialRules" : [
                            {
                               "id" : "cavWDboL4ubs",
-                              "name" : "Rending",
-                              "type" : "ArmyBookRule"
+                              "name" : "Rending"
                            }
                         ],
                         "type" : "ArmyBookWeapon",
@@ -3725,7 +4056,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "yzZH4AJ",
+                  "id" : "sRhyRmd",
                   "label" : "Replace all Chainsaw Swords",
                   "parentPackageUid" : "H1",
                   "targets" : [
@@ -3737,12 +4068,12 @@
                }
             },
             {
-               "instanceId" : "RGNAQHlWB",
+               "instanceId" : "DbArPDieS",
                "option" : {
                   "cost" : 15,
                   "costs" : [
                      {
-                        "cost" : 15,
+                        "cost" : 10,
                         "unitId" : "R3sC7UX"
                      }
                   ],
@@ -3775,7 +4106,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "nCFx4hc",
+                  "id" : "fVxwmT4",
                   "label" : "Upgrade all models with",
                   "model" : true,
                   "parentPackageUid" : "H1",
@@ -3794,12 +4125,13 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "dependencies" : [
                   {
                      "count" : 5,
-                     "upgradeInstanceId" : "GUvaKO012",
+                     "upgradeInstanceId" : "Ut-VSB4vX",
                      "variant" : "replace"
                   }
                ],
@@ -3830,10 +4162,11 @@
             "square" : "100x60"
          },
          "combined" : false,
-         "cost" : 280,
+         "cost" : 275,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Assault Walker",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "2K2sl7L",
@@ -3842,6 +4175,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 2,
                "id" : "mdn1RlHy",
                "label" : "2x Heavy Flail (A1, AP(1), Blast(3))",
@@ -3869,6 +4203,7 @@
             },
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "ywxRIDQs",
                "label" : "Stomp (A3, AP(1))",
@@ -3893,12 +4228,6 @@
          "quality" : 4,
          "rules" : [
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
-            {
                "id" : "dIQ3SGl2J2Ew",
                "label" : "Fear(2)",
                "name" : "Fear",
@@ -3908,11 +4237,6 @@
                "id" : "2atvlmICQSCV",
                "label" : "Fearless",
                "name" : "Fearless"
-            },
-            {
-               "id" : "JoOCVPx1xT1G",
-               "label" : "Furious",
-               "name" : "Furious"
             },
             {
                "id" : "8KujvrTG8k9p",
@@ -3929,6 +4253,16 @@
                "label" : "Tough(9)",
                "name" : "Tough",
                "rating" : 9
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
+            },
+            {
+               "id" : "DhLjIDRrWz6-",
+               "label" : "Piercing Assault",
+               "name" : "Piercing Assault"
             }
          ],
          "selectedUpgrades" : [],
@@ -3943,6 +4277,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 2,
                "id" : "mdn1RlHy",
                "label" : "2x Heavy Flail (A1, AP(1), Blast(3))",
@@ -3970,6 +4305,7 @@
             },
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "ywxRIDQs",
                "label" : "Stomp (A3, AP(1))",
@@ -3998,9 +4334,10 @@
             "square" : "75x50"
          },
          "combined" : false,
-         "cost" : 310,
-         "defense" : 2,
+         "cost" : 295,
+         "defense" : 3,
          "disabledUpgradeSections" : [],
+         "genericName" : "Prime Brother Bikers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "humZ9lZ",
@@ -4009,6 +4346,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "oJodiFpk",
                "label" : "Twin Heavy Rifle (24\", A2, AP(1))",
@@ -4029,6 +4367,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -4049,6 +4388,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "c3nZkAfH",
                "label" : "CCW (A2)",
@@ -4060,7 +4400,7 @@
                "weaponId" : "83nhlNHF"
             }
          ],
-         "name" : "Prime Bikers",
+         "name" : "Prime Brother Bikers",
          "notes" : null,
          "quality" : 3,
          "rules" : [
@@ -4070,15 +4410,20 @@
                "name" : "Fast"
             },
             {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
                "id" : "2atvlmICQSCV",
                "label" : "Fearless",
                "name" : "Fearless"
             },
             {
-               "id" : "a0YtInGiUDd6",
-               "label" : "Tough(3)",
-               "name" : "Tough",
-               "rating" : 3
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -4090,6 +4435,7 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "oJodiFpk",
                "label" : "Twin Heavy Rifle (24\", A2, AP(1))",
@@ -4110,6 +4456,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -4130,6 +4477,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "c3nZkAfH",
                "label" : "CCW (A2)",
@@ -4150,11 +4498,12 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 40,
+         "cost" : 55,
          "customName" : "Sktarii Marshal",
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Cult Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "iGyqlfa",
@@ -4162,18 +4511,19 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "u42IQ0oq",
-               "label" : "Leader R-Pistol (9\", A2, Radiation)",
+               "label" : "Leader R-Pistol (9\", A2, Shred)",
                "name" : "Leader R-Pistol",
                "originalCount" : 1,
                "range" : 9,
                "specialRules" : [
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "label" : "Radiation",
-                     "name" : "Radiation",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -4181,7 +4531,8 @@
                "weaponId" : "3KYDMUcg"
             },
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "Uek7nqRw",
                "label" : "Tech-Sword (A2)",
@@ -4212,6 +4563,11 @@
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "S8IZt-d0Sgwk",
+               "label" : "Machine-Fog",
+               "name" : "Machine-Fog"
             }
          ],
          "selectedUpgrades" : [],
@@ -4220,23 +4576,25 @@
          "traits" : [],
          "upgrades" : [
             "B1",
-            "C1"
+            "hwpT_ia7",
+            "6li5aLJ-"
          ],
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "u42IQ0oq",
-               "label" : "Leader R-Pistol (9\", A2, Radiation)",
+               "label" : "Leader R-Pistol (9\", A2, Shred)",
                "name" : "Leader R-Pistol",
                "originalCount" : 1,
                "range" : 9,
                "specialRules" : [
                   {
                      "id" : "IEJp3a4vE0CB",
-                     "label" : "Radiation",
-                     "name" : "Radiation",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -4244,7 +4602,8 @@
                "weaponId" : "3KYDMUcg"
             },
             {
-               "attacks" : "2",
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "Uek7nqRw",
                "label" : "Tech-Sword (A2)",
@@ -4265,10 +4624,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 125,
-         "defense" : 3,
+         "cost" : 140,
+         "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Infiltrator Scouts",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "meWSgTo",
@@ -4277,9 +4637,10 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "E5dkVq8t",
-               "label" : "Marksman Carbine (18\", A1, Rending)",
+               "label" : "Marksman Carbine (18\", A1, Rending, Takedown)",
                "name" : "Marksman Carbine",
                "originalCount" : 5,
                "range" : 18,
@@ -4289,6 +4650,12 @@
                      "label" : "Rending",
                      "name" : "Rending",
                      "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "label" : "Takedown",
+                     "name" : "Takedown",
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -4296,6 +4663,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
@@ -4307,15 +4675,10 @@
                "weaponId" : "4o5CBBZC"
             }
          ],
-         "name" : "Infiltration Squad",
+         "name" : "Infiltration Brothers",
          "notes" : null,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
             {
                "id" : "FAMbscK5vhSu",
                "label" : "Scout",
@@ -4325,6 +4688,16 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -4332,16 +4705,16 @@
          "size" : 5,
          "traits" : [],
          "upgrades" : [
-            "D1",
             "F1"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "E5dkVq8t",
-               "label" : "Marksman Carbine (18\", A1, Rending)",
+               "label" : "Marksman Carbine (18\", A1, Rending, Takedown)",
                "name" : "Marksman Carbine",
                "originalCount" : 5,
                "range" : 18,
@@ -4351,6 +4724,12 @@
                      "label" : "Rending",
                      "name" : "Rending",
                      "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "label" : "Takedown",
+                     "name" : "Takedown",
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -4358,6 +4737,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
@@ -4378,10 +4758,11 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 155,
-         "defense" : 3,
+         "cost" : 150,
+         "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Sniper Brothers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "0PbBL8m",
@@ -4390,9 +4771,10 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "2Ox5FTEq",
-               "label" : "Sniper Rifle (30\", A1, AP(1), Sniper)",
+               "label" : "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
                "name" : "Sniper Rifle",
                "originalCount" : 3,
                "range" : 30,
@@ -4405,9 +4787,15 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "LGYXUcXfcJac",
-                     "label" : "Sniper",
-                     "name" : "Sniper",
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "label" : "Takedown",
+                     "name" : "Takedown",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -4416,6 +4804,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
@@ -4427,15 +4816,10 @@
                "weaponId" : "4o5CBBZC"
             }
          ],
-         "name" : "Elimination Squad",
+         "name" : "Elimination Brothers",
          "notes" : null,
-         "quality" : 3,
+         "quality" : 4,
          "rules" : [
-            {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
             {
                "id" : "FAMbscK5vhSu",
                "label" : "Scout",
@@ -4445,6 +4829,21 @@
                "id" : "9jyvRoBODD-O",
                "label" : "Stealth",
                "name" : "Stealth"
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -4458,9 +4857,10 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "2Ox5FTEq",
-               "label" : "Sniper Rifle (30\", A1, AP(1), Sniper)",
+               "label" : "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
                "name" : "Sniper Rifle",
                "originalCount" : 3,
                "range" : 30,
@@ -4473,9 +4873,15 @@
                      "type" : "ArmyBookRule"
                   },
                   {
-                     "id" : "LGYXUcXfcJac",
-                     "label" : "Sniper",
-                     "name" : "Sniper",
+                     "id" : "Zx4mWN0SbmK8",
+                     "label" : "Reliable",
+                     "name" : "Reliable",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "label" : "Takedown",
+                     "name" : "Takedown",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -4484,6 +4890,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
@@ -4504,9 +4911,10 @@
             "square" : "40"
          },
          "combined" : false,
-         "cost" : 360,
-         "defense" : 2,
+         "cost" : 205,
+         "defense" : 3,
          "disabledUpgradeSections" : [],
+         "genericName" : "Autocannon Brothers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "mIz9reK",
@@ -4515,24 +4923,19 @@
          "loadout" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "tS5ogkXR",
-               "label" : "Suppressor Cannon (24\", A3, AP(2), Indirect)",
-               "name" : "Suppressor Cannon",
+               "label" : "Assault Autocannon (18\", A3, AP(2))",
+               "name" : "Assault Autocannon",
                "originalCount" : 3,
-               "range" : 24,
+               "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
                      "label" : "AP(2)",
                      "name" : "AP",
                      "rating" : 2,
-                     "type" : "ArmyBookRule"
-                  },
-                  {
-                     "id" : "8Ck9GAwUK824",
-                     "label" : "Indirect",
-                     "name" : "Indirect",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -4541,6 +4944,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "qmQHvZq-",
                "label" : "CCW (A1)",
@@ -4552,15 +4956,10 @@
                "weaponId" : "4o5CBBZC"
             }
          ],
-         "name" : "Hover Squad",
+         "name" : "Suppression Brothers",
          "notes" : null,
          "quality" : 3,
          "rules" : [
-            {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
             {
                "additional" : false,
                "id" : "H9E9PIWpGRdw",
@@ -4568,10 +4967,24 @@
                "name" : "Relentless"
             },
             {
-               "additional" : false,
-               "id" : "JSKVyurtWIyW",
-               "label" : "Strider",
-               "name" : "Strider"
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "6mJw5IdqSqNC",
+               "label" : "Ambush",
+               "name" : "Ambush"
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -4583,24 +4996,19 @@
          "weapons" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "tS5ogkXR",
-               "label" : "Suppressor Cannon (24\", A3, AP(2), Indirect)",
-               "name" : "Suppressor Cannon",
+               "label" : "Assault Autocannon (18\", A3, AP(2))",
+               "name" : "Assault Autocannon",
                "originalCount" : 3,
-               "range" : 24,
+               "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
                      "label" : "AP(2)",
                      "name" : "AP",
                      "rating" : 2,
-                     "type" : "ArmyBookRule"
-                  },
-                  {
-                     "id" : "8Ck9GAwUK824",
-                     "label" : "Indirect",
-                     "name" : "Indirect",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -4609,6 +5017,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "id" : "qmQHvZq-",
                "label" : "CCW (A1)",
@@ -4629,10 +5038,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 125,
-         "defense" : 3,
+         "cost" : 140,
+         "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Infiltrator Scouts",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "meWSgTo",
@@ -4641,9 +5051,10 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "E5dkVq8t",
-               "label" : "Marksman Carbine (18\", A1, Rending)",
+               "label" : "Marksman Carbine (18\", A1, Rending, Takedown)",
                "name" : "Marksman Carbine",
                "originalCount" : 5,
                "range" : 18,
@@ -4653,6 +5064,12 @@
                      "label" : "Rending",
                      "name" : "Rending",
                      "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "label" : "Takedown",
+                     "name" : "Takedown",
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -4660,6 +5077,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",
@@ -4671,15 +5089,10 @@
                "weaponId" : "4o5CBBZC"
             }
          ],
-         "name" : "Infiltration Squad",
+         "name" : "Infiltration Brothers",
          "notes" : null,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "2atvlmICQSCV",
-               "label" : "Fearless",
-               "name" : "Fearless"
-            },
             {
                "id" : "FAMbscK5vhSu",
                "label" : "Scout",
@@ -4689,6 +5102,16 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "2atvlmICQSCV",
+               "label" : "Fearless",
+               "name" : "Fearless"
+            },
+            {
+               "id" : "_tBVc9Nqjqr4",
+               "label" : "Primeborn",
+               "name" : "Primeborn"
             }
          ],
          "selectedUpgrades" : [],
@@ -4696,16 +5119,16 @@
          "size" : 5,
          "traits" : [],
          "upgrades" : [
-            "D1",
             "F1"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "E5dkVq8t",
-               "label" : "Marksman Carbine (18\", A1, Rending)",
+               "label" : "Marksman Carbine (18\", A1, Rending, Takedown)",
                "name" : "Marksman Carbine",
                "originalCount" : 5,
                "range" : 18,
@@ -4715,6 +5138,12 @@
                      "label" : "Rending",
                      "name" : "Rending",
                      "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Hjy54TYtwb7",
+                     "label" : "Takedown",
+                     "name" : "Takedown",
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
@@ -4722,6 +5151,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 5,
                "id" : "8aOOK33l",
                "label" : "CCW (A1)",

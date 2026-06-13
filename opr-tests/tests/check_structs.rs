@@ -7,7 +7,7 @@ use std::path::PathBuf;
 #[case("ybjR2-7kHUNY", 5)]  // GFF: Prime Brothers 200pts
 #[case("dVlqH2ICxln2", 6)]  // GFF: Robot Legions 200pts
 #[case("nzTpaov-wlwd", 6)]  // GFF: Blessed Sisters 200pts v0
-#[case("nLBrzTpB1TTJ", 4)]  // GFF: Alien Hives 200pts - v0
+#[case("ncZ8fP3RPULt", 4)]  // GFF: Alien Hives 200pts - v0
 #[case("2HhzjGpcm5m7", 7)]  // AoFS: Haters tribes
 #[case("p2KIbSBOYpSB", 24)] // GF: WH Imperium - Imperium
 #[case("Mlwpoh1AGLC2", 7)]  // GF: Necrons 2000pts
