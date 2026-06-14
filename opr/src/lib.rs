@@ -241,7 +241,7 @@ pub enum UnitLoadout {
 pub struct Equipment {
     pub name: Arc<str>,
     #[serde(default)]
-    pub range: usize,
+    pub range: Option<usize>,
     #[serde(deserialize_with = "deserialize_number_from_string")]
     pub attacks: usize,
     pub count: usize,

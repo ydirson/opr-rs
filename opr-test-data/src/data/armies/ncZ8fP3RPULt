@@ -1,0 +1,978 @@
+{
+   "activationCount" : 4,
+   "campaignMode" : false,
+   "competitive" : true,
+   "creationTime" : "-YIzDy2SxnW01kFI4rnLc",
+   "forceOrg" : true,
+   "forceOrgErrors" : [],
+   "gameSystem" : "gff",
+   "id" : "ncZ8fP3RPULt",
+   "isCloud" : false,
+   "listPoints" : 200,
+   "modelCount" : 6,
+   "modified" : "2026-06-13T21:40:42.656Z",
+   "name" : "Alien Hives 200pts - v0",
+   "points" : 175,
+   "pointsLimit" : 200,
+   "selectedUnitId" : "08grg",
+   "specialRules" : [
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Place one marker on this unit at the beginning of each round if it's on the table and isn't Shaken, up to a max. of four markers. For every two markers, models with this rule in this unit get AP(+1) on their weapons.",
+         "hasRating" : false,
+         "id" : "s4lagBUlnsUE",
+         "name" : "Piercing Growth",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "sboUNnEXK9B8",
+         "coreType" : null,
+         "description" : "Units where all models have this rule get +1 to morale test rolls.",
+         "hasRating" : false,
+         "id" : "cgCroTrOmiv-",
+         "name" : "Hive Bond",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Gets +1 to hit when attacking.",
+         "hasRating" : null,
+         "id" : "09SoiR1HuW7u",
+         "name" : "Precise",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Casters within 12\" that are from other friendly units may cast spells as if they were in this model's position, and get +1 to casting rolls when doing so. Friendly casters may only use this rule if this unit isn't Shaken.",
+         "hasRating" : false,
+         "id" : "WNMH1ZiQXSz-",
+         "name" : "Spell Conduit",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This unit may only be taken once per army.",
+         "hasRating" : false,
+         "id" : "rqBYj1yANC3J",
+         "name" : "Unique",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 6 to hit, those hits get AP(+4).",
+         "hasRating" : false,
+         "id" : "VI54cszY2BuG",
+         "name" : "Destructive",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having Ambush, but may be deployed anywhere over 3” away from enemy unit.",
+         "hasRating" : false,
+         "id" : "djJahpu0Ciut",
+         "name" : "Infiltrate",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "For each unmodified roll of 6 to hit in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
+         "hasRating" : false,
+         "id" : "sCmjgdwkLiGT",
+         "name" : "Predator Fighter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get +6\" range when shooting. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "QWzGAg9RpE2D",
+         "name" : "Increased Shooting Range Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Furious. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "CK9TIa7vdehO",
+         "name" : "Furious Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Regeneration. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "V3YzPPkZm8at",
+         "name" : "Regeneration Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets Bane in melee.",
+         "hasRating" : false,
+         "id" : "7d9yvTiP6UR5",
+         "name" : "Bane in Melee",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.",
+         "hasRating" : true,
+         "id" : "F_1wfmpAyYwT",
+         "name" : "Self-Destruct",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "5v6oaGfrdf29",
+         "name" : "Surge",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick up to 4 friendly units within 12\", which gets Stealth once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "cnKvLv8ErzIc",
+         "name" : "Stealth Buff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored. If the wounds were from a spell, then they are ignored on a 2+ instead.",
+         "hasRating" : false,
+         "id" : "h-Cj1XrX00JE",
+         "name" : "Resistance",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Hive Bond Boost. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "Yt2R4sh8SXM0",
+         "name" : "Hive Bond Boost Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : "O2Cd7OibBBA5",
+         "name" : "No Retreat",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per game, during this model's activation, pick one enemy unit within 24\" and in line of sight of it, and place X markers on it. When attacking, friendly units may remove markers from their target before rolling to block to get +AP(Y) on their weapons, where Y is the number of removed markers.",
+         "hasRating" : true,
+         "id" : "B9OEkYUQsxvt",
+         "name" : "Piercing Tag",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per activation, before attacking, pick up to 4 enemy units within 18\" in line of sight, which gets -1 to hit rolls when attacking once (next time the effect would apply).",
+         "hasRating" : false,
+         "id" : "1elLRhGK7ETb",
+         "name" : "Precision Debuff",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model counts as having Caster(1).",
+         "hasRating" : false,
+         "id" : "nLQCr5OiSlYz",
+         "name" : "Caster Group",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game moves +4\" when using Charge actions. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "1cykqbg4xn6o",
+         "name" : "Rapid Charge Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Targets get -X to Defense rolls when blocking hits.",
+         "hasRating" : true,
+         "id" : "17crjK7P6_w6",
+         "name" : "AP",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "hasRating" : true,
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "May be set aside before deployment. At the start of any round after the first, may be deployed anywhere over 9” away from enemy units. Players alternate in placing Ambush units, starting with the player that activates next. Units that deploy via Ambush can’t seize or contest objectives on the round they deploy.",
+         "hasRating" : false,
+         "id" : "6mJw5IdqSqNC",
+         "name" : "Ambush",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When charging, unmodified results of 6 to hit in melee deal 1 extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "JoOCVPx1xT1G",
+         "name" : "Furious",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 5+ it is ignored.",
+         "hasRating" : false,
+         "id" : "8KujvrTG8k9p",
+         "name" : "Regeneration",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and when attacking the target must re-roll unmodified Defense results of 6.",
+         "hasRating" : false,
+         "id" : "Naqc5mga9Uha",
+         "name" : "Bane",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When units where all models have this rule are shot from over 9\" away, enemy units get -1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "9jyvRoBODD-O",
+         "name" : "Stealth",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If all models in this unit have Hive Bond, they get +2 to morale test rolls from Hive Bond (instead of only +1).",
+         "hasRating" : false,
+         "id" : "kiXI7plPE_mK",
+         "name" : "Hive Bond Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When in melee, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead.",
+         "hasRating" : false,
+         "id" : "DEeVIJcfNfS6",
+         "name" : "Unpredictable Fighter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per round, units where all models have this rule may move by up to 3\" after being in melee.",
+         "hasRating" : false,
+         "id" : "anyZ2FHtdAVO",
+         "name" : "Hit & Run Fighter",
+         "targetType" : 1
+      }
+   ],
+   "undoUnitRemove" : [
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "combined" : false,
+         "cost" : 65,
+         "defense" : 4,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "equipment" : [
+            {
+               "attacks" : 2,
+               "count" : 2,
+               "dependencies" : [],
+               "id" : "EJxewz_6",
+               "label" : "Razor Claws (A2)",
+               "name" : "Razor Claws",
+               "originalCount" : 2,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "DfidZY7Z"
+            }
+         ],
+         "id" : "tbvpeyi",
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "count" : 2,
+               "dependencies" : [],
+               "id" : "EJxewz_6",
+               "label" : "Razor Claws (A2)",
+               "name" : "Razor Claws",
+               "originalCount" : 2,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "DfidZY7Z"
+            }
+         ],
+         "name" : "Shadow Leaper",
+         "notes" : null,
+         "quality" : 4,
+         "selectedUpgrades" : [],
+         "selectionId" : "uRu9Z",
+         "size" : 1,
+         "sortId" : 13,
+         "specialRules" : [
+            {
+               "id" : 60,
+               "key" : "ambush",
+               "name" : "Ambush"
+            },
+            {
+               "id" : 63,
+               "key" : "fast",
+               "name" : "Fast"
+            },
+            {
+               "id" : 78,
+               "key" : "stealth",
+               "name" : "Stealth"
+            },
+            {
+               "id" : 79,
+               "key" : "strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : 80,
+               "key" : "tough",
+               "name" : "Tough",
+               "rating" : 3
+            }
+         ],
+         "traits" : [],
+         "upgrades" : [
+            "I1"
+         ],
+         "valid" : true,
+         "xp" : 0
+      }
+   ],
+   "unitPreview" : null,
+   "units" : [
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 50,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "genericName" : "Support Grunts",
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "_c1518l",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "cFiwJNCS",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Ck9GAwUK824",
+                     "label" : "Indirect",
+                     "name" : "Indirect",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            },
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "name" : "Support Grunt",
+         "notes" : null,
+         "originalSize" : 3,
+         "quality" : 5,
+         "rules" : [
+            {
+               "id" : "H9E9PIWpGRdw",
+               "label" : "Relentless",
+               "name" : "Relentless"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : "cgCroTrOmiv-",
+               "label" : "Hive Bond",
+               "name" : "Hive Bond"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "08grg",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "D1",
+            "mJL8P"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "cFiwJNCS",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Ck9GAwUK824",
+                     "label" : "Indirect",
+                     "name" : "Indirect",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            },
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "25",
+            "square" : "25"
+         },
+         "combined" : false,
+         "cost" : 35,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "genericName" : "Shooter Grunts",
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "CMADHYi",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
+               "count" : 3,
+               "id" : "7GScCDgm",
+               "label" : "Bio-Spiner (6\", A2, AP(1))",
+               "name" : "Bio-Spiner",
+               "originalCount" : 3,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "HQkfb4VU"
+            },
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 3,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 3,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "name" : "Shooter Grunts",
+         "notes" : null,
+         "originalSize" : 10,
+         "quality" : 5,
+         "rules" : [
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : "cgCroTrOmiv-",
+               "label" : "Hive Bond",
+               "name" : "Hive Bond"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "c9tXb",
+         "size" : 3,
+         "traits" : [],
+         "upgrades" : [
+            "D1",
+            "E1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
+               "count" : 3,
+               "id" : "7GScCDgm",
+               "label" : "Bio-Spiner (6\", A2, AP(1))",
+               "name" : "Bio-Spiner",
+               "originalCount" : 3,
+               "range" : 6,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "label" : "AP(1)",
+                     "name" : "AP",
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "HQkfb4VU"
+            },
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 3,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 3,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "32",
+            "square" : "30"
+         },
+         "combined" : false,
+         "cost" : 50,
+         "defense" : 5,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "genericName" : "Support Grunts",
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "_c1518l",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "cFiwJNCS",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Ck9GAwUK824",
+                     "label" : "Indirect",
+                     "name" : "Indirect",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            },
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "name" : "Support Grunt",
+         "notes" : null,
+         "originalSize" : 3,
+         "quality" : 5,
+         "rules" : [
+            {
+               "id" : "H9E9PIWpGRdw",
+               "label" : "Relentless",
+               "name" : "Relentless"
+            },
+            {
+               "id" : "JSKVyurtWIyW",
+               "label" : "Strider",
+               "name" : "Strider"
+            },
+            {
+               "id" : "cgCroTrOmiv-",
+               "label" : "Hive Bond",
+               "name" : "Hive Bond"
+            }
+         ],
+         "selectedUpgrades" : [],
+         "selectionId" : "CcaEn",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "D1",
+            "mJL8P"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "cFiwJNCS",
+               "label" : "Bio-Cannon (24\", A1, Blast(3), Indirect, Rending)",
+               "name" : "Bio-Cannon",
+               "originalCount" : 1,
+               "range" : 24,
+               "specialRules" : [
+                  {
+                     "id" : "w_vX0mi58KKt",
+                     "label" : "Blast(3)",
+                     "name" : "Blast",
+                     "rating" : 3,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "8Ck9GAwUK824",
+                     "label" : "Indirect",
+                     "name" : "Indirect",
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "cavWDboL4ubs",
+                     "label" : "Rending",
+                     "name" : "Rending",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "UctLyaE6"
+            },
+            {
+               "attacks" : 1,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "id" : "soTcQuYH",
+               "label" : "Razor Claws (A1)",
+               "name" : "Razor Claws",
+               "originalCount" : 1,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "soTcQuYH"
+            }
+         ],
+         "xp" : 0
+      },
+      {
+         "armyId" : "w7qor7b2kuifcyvk",
+         "bases" : {
+            "round" : "40",
+            "square" : "40"
+         },
+         "combined" : false,
+         "cost" : 50,
+         "defense" : 3,
+         "disabledSections" : [],
+         "disabledUpgradeSections" : [],
+         "genericName" : "Guardian Warriors",
+         "hasBalanceInvalid" : false,
+         "hasCustomRule" : false,
+         "id" : "LYBGBaU",
+         "items" : [],
+         "joinToUnit" : null,
+         "loadout" : [
+            {
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "I3tqXoniG",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "9C5-F",
+               "label" : "2x Razor Claws (A2)",
+               "name" : "Razor Claws",
+               "originalCount" : 2,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "DfidZY7Z"
+            },
+            {
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
+               "count" : 1,
+               "dependencies" : [],
+               "id" : null,
+               "label" : "Serrated Blade (A2, AP(4))",
+               "name" : "Serrated Blade",
+               "range" : 0,
+               "specialRules" : [
+                  {
+                     "id" : "17crjK7P6_w6",
+                     "name" : "AP",
+                     "rating" : 4
+                  }
+               ],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "YekzfsCo"
+            }
+         ],
+         "name" : "Hive Guardian",
+         "notes" : null,
+         "originalSize" : 3,
+         "quality" : 3,
+         "rules" : [
+            {
+               "id" : "H9E9PIWpGRdw",
+               "label" : "Relentless",
+               "name" : "Relentless"
+            },
+            {
+               "id" : "a0YtInGiUDd6",
+               "label" : "Tough(3)",
+               "name" : "Tough",
+               "rating" : 3
+            },
+            {
+               "id" : "cgCroTrOmiv-",
+               "label" : "Hive Bond",
+               "name" : "Hive Bond"
+            }
+         ],
+         "selectedUpgrades" : [
+            {
+               "instanceId" : "I3tqXoniG",
+               "option" : {
+                  "cost" : 15,
+                  "costs" : [
+                     {
+                        "cost" : 15,
+                        "unitId" : "Fvllq03"
+                     },
+                     {
+                        "cost" : 15,
+                        "unitId" : "LYBGBaU"
+                     },
+                     {
+                        "cost" : 15,
+                        "unitId" : "tLoLwnZ"
+                     },
+                     {
+                        "cost" : 15,
+                        "unitId" : "tbvpeyi"
+                     }
+                  ],
+                  "gains" : [
+                     {
+                        "attacks" : 2,
+                        "attacksMultiplier" : 1,
+                        "count" : 1,
+                        "dependencies" : [],
+                        "id" : null,
+                        "label" : "Serrated Blade (A2, AP(4))",
+                        "name" : "Serrated Blade",
+                        "range" : 0,
+                        "specialRules" : [
+                           {
+                              "id" : "17crjK7P6_w6",
+                              "name" : "AP",
+                              "rating" : 4
+                           }
+                        ],
+                        "type" : "ArmyBookWeapon",
+                        "weaponId" : "YekzfsCo"
+                     }
+                  ],
+                  "id" : "BWnDa5I",
+                  "label" : "Serrated Blade (A2, AP(4))",
+                  "parentPackageUid" : "I1",
+                  "parentSectionId" : "HcgSsOq",
+                  "parentSectionUid" : "HcgSsOq",
+                  "type" : "ArmyBookUpgradeOption",
+                  "uid" : "BWnDa5I"
+               },
+               "upgrade" : {
+                  "affects" : {
+                     "type" : "any"
+                  },
+                  "id" : "P62BjVI",
+                  "label" : "Replace any Razor Claws",
+                  "parentPackageUid" : "I1",
+                  "targets" : [
+                     "Razor Claws"
+                  ],
+                  "type" : "ArmyBookUpgradeSection",
+                  "uid" : "HcgSsOq",
+                  "variant" : "replace"
+               }
+            }
+         ],
+         "selectionId" : "VgJQA",
+         "size" : 1,
+         "traits" : [],
+         "upgrades" : [
+            "I1",
+            "L1"
+         ],
+         "valid" : true,
+         "weapons" : [
+            {
+               "attacks" : 2,
+               "attacksMultiplier" : 1,
+               "count" : 2,
+               "dependencies" : [
+                  {
+                     "count" : 1,
+                     "upgradeInstanceId" : "I3tqXoniG",
+                     "variant" : "replace"
+                  }
+               ],
+               "id" : "9C5-F",
+               "label" : "2x Razor Claws (A2)",
+               "name" : "Razor Claws",
+               "originalCount" : 2,
+               "range" : null,
+               "specialRules" : [],
+               "type" : "ArmyBookWeapon",
+               "weaponId" : "DfidZY7Z"
+            }
+         ],
+         "xp" : 0
+      }
+   ]
+}

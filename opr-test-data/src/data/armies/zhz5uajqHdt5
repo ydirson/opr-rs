@@ -7,7 +7,7 @@
    "id" : "zhz5uajqHdt5",
    "isCloud" : false,
    "key" : "D7D65Yio-hfVMqFLjzTkw",
-   "listPoints" : 215,
+   "listPoints" : 195,
    "modified" : "2023-10-11T20:30:56.746Z",
    "name" : "War Disciples",
    "points" : 255,
@@ -15,75 +15,147 @@
    "selectedUnitId" : "nOYhq",
    "specialRules" : [
       {
-         "aliasedRuleId" : "Tdyu4Tn-rFN6",
-         "coreType" : 2,
-         "description" : "This model and up to half of its army get Scout (must deploy within 3” of this model).",
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "When this model attacks, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : "N1jcDB7oemqy",
-         "name" : "Battle Ready",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "Jm_snOMYIAZI",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "R1MLjrzLsF-3",
-         "name" : "Blood Icon",
+         "id" : "8HWdOwMYcI0p",
+         "name" : "Sergeant",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).",
+         "description" : "When in melee, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead.",
          "hasRating" : false,
          "id" : "DEeVIJcfNfS6",
-         "name" : "Mutations",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "TE5Yx2XcY4k8",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 enemy units within 12\", which gets -2 to its next morale test roll.",
-         "hasRating" : false,
-         "id" : "NNoWIXzITK2g",
-         "name" : "Doom Caller",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "GIUL_hv-YvHP",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to hit in melee. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "SyZ9COlGubUd",
-         "name" : "Blessing of War",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "5XvPNuYy1sW1",
-         "coreType" : null,
-         "description" : "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
-         "hasRating" : false,
-         "id" : "cASg2EWE6GN5",
-         "name" : "Dark March",
+         "name" : "Unpredictable Fighter",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
          "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy",
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : "WHJ8A7LzHUR6",
+         "coreType" : null,
+         "description" : "Enemies that roll to block hits from this model's weapons take 1 extra wound for each unmodified result of 1 that they roll.",
+         "hasRating" : false,
+         "id" : "jbhpErfecvEY",
+         "name" : "Warbound",
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "bd26Yb52DH42",
+         "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Gets +1 to hit in melee and shooting.",
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Versatile Defense. If this model is killed, picked models that are deployed lose the rule.",
          "hasRating" : false,
-         "id" : "G1gClgMVGj8t",
-         "name" : "Chosen Veteran",
+         "id" : "UQ7FtljwqNvy",
+         "name" : "Versatile Defense Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this unit is activated, pick one effect: until the end of the activation, when shooting or charging enemies over 9\" away, all models with this rule in this unit either get AP(+1) or get +1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "9Te72f48wJyw",
+         "name" : "Versatile Attack",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Shred when shooting. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "lEFjh4V7XGVV",
+         "name" : "Shred when Shooting Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Scout. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "Tdyu4Tn-rFN6",
+         "name" : "Scout Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Unpredictable Fighter. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "8zBpM3Wjey08",
+         "name" : "Unpredictable Fighter Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Ranged Shrouding. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "oZewV0wGuebE",
+         "name" : "Ranged Shrouding Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets Shred in melee.",
+         "hasRating" : false,
+         "id" : "249Oc2_1eOx6",
+         "name" : "Shred in Melee",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Steadfast. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "ePlgVfji1dy6",
+         "name" : "Steadfast Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Warbound Boost. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "dNOZEOSJ-DyX",
+         "name" : "Warbound Boost Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "After this model is deployed, it may be placed anywhere fully within 9” of its position.",
+         "hasRating" : false,
+         "id" : "r8OBuam8nRXP",
+         "name" : "Vanguard",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "For each unmodified roll of 1 that enemies roll when blocking hits from this model's weapons in melee, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
+         "hasRating" : false,
+         "id" : "6EBrtUCjjYPT",
+         "name" : "Bloodthirsty Fighter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "DhLjIDRrWz6-",
+         "name" : "Piercing Assault",
          "targetType" : 1
       },
       {
@@ -97,21 +169,93 @@
       },
       {
          "aliasedRuleId" : null,
-         "coreType" : 1,
-         "description" : "Ignores Regeneration, and unmodified rolls of 6 to hit get AP(4).",
+         "coreType" : 5,
+         "description" : "This model gets +X to defense rolls.",
+         "hasRating" : true,
+         "id" : "s6MgSfmgylXU",
+         "name" : "Defense",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When a unit where all models have this rule is deployed or activated, pick one effect: when shot or charged from over 9\" away, the unit either gets +1 to defense rolls, or enemy units get -1 to hit rolls against it. This effect lasts until the units' next activation.\n",
          "hasRating" : false,
-         "id" : "cavWDboL4ubs",
-         "name" : "Rending",
-         "targetType" : 2
+         "id" : "eXtrmDIR9dEp",
+         "name" : "Versatile Defense",
+         "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : 1,
-         "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "description" : "May be set aside before deployment. After all other units are deployed, may be deployed anywhere fully within 12” of their deployment zone. Players alternate in placing Scout units, starting with the player that activates next.",
          "hasRating" : false,
-         "id" : "JoOCVPx1xT1G",
-         "name" : "Furious",
+         "id" : "FAMbscK5vhSu",
+         "name" : "Scout",
          "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When attacking, roll one die and apply one effect to all models with this rule: on a 1-3 they get AP(+1), and on a 4-6 they get +1 to hit rolls instead.",
+         "hasRating" : false,
+         "id" : "i40cKJoXJ7zm",
+         "name" : "Unpredictable",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemies get -6\" range to a min. of 6\" when trying to shoot units where all models have this rule.",
+         "hasRating" : false,
+         "id" : "okU8qW-h2rau",
+         "name" : "Ranged Shrouding",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If a unit where all models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.",
+         "hasRating" : false,
+         "id" : "j93FkLXMCk8v",
+         "name" : "Steadfast",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If this model has Warbound, when it shoots or charges enemies over 9\" away, enemies taking wounds from it take extra wounds on failed defense rolls of 1-2 from Warbound (instead of only on 1).",
+         "hasRating" : false,
+         "id" : "5G44ZDmQG-N5",
+         "name" : "Warbound Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 6 to hit, those hits get AP(+2).",
+         "hasRating" : false,
+         "id" : "JSnFcm3SCiMD",
+         "name" : "Crack",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Enemies get -1 to hit rolls in melee when attacking units where all models have this rule.",
+         "hasRating" : false,
+         "id" : "EgdF_3MSddXR",
+         "name" : "Melee Evasion",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as enemy models in the target unit and within 3” of it. Hits must be split evenly between all enemy units within 3” of any model from the target (defender picks how).",
+         "hasRating" : true,
+         "id" : "w_vX0mi58KKt",
+         "name" : "Blast",
+         "targetType" : 2
       }
    ],
    "undoUnitRemove" : [
@@ -198,6 +342,7 @@
          "cost" : 30,
          "defense" : 5,
          "disabledUpgradeSections" : [],
+         "genericName" : "War Reavers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "If65t6B",
@@ -206,6 +351,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "dependencies" : [],
                "label" : "Dual Hand Weapons (A2)",
@@ -218,28 +364,35 @@
          ],
          "name" : "War Gore Reavers",
          "notes" : null,
+         "originalSize" : 10,
          "quality" : 5,
          "rules" : [
             {
-               "id" : "JoOCVPx1xT1G",
-               "label" : "Furious",
-               "name" : "Furious"
+               "id" : "jbhpErfecvEY",
+               "label" : "Warbound",
+               "name" : "Warbound"
+            },
+            {
+               "id" : "6EBrtUCjjYPT",
+               "label" : "Bloodthirsty Fighter",
+               "name" : "Bloodthirsty Fighter"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "cqJJ0YwxL",
+               "instanceId" : "ajv27ScHF",
                "option" : {
                   "cost" : 5,
                   "costs" : [
                      {
-                        "cost" : 0,
+                        "cost" : 5,
                         "unitId" : "If65t6B"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "label" : "Dual Hand Weapons (A2)",
@@ -262,7 +415,7 @@
                   "affects" : {
                      "type" : "all"
                   },
-                  "id" : "cYo6w-O",
+                  "id" : "2jWz9ic",
                   "label" : "Replace all Great Weapons",
                   "parentPackageUid" : "DSao1",
                   "targets" : [
@@ -285,11 +438,12 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 3,
                "dependencies" : [
                   {
                      "count" : 3,
-                     "upgradeInstanceId" : "cqJJ0YwxL",
+                     "upgradeInstanceId" : "ajv27ScHF",
                      "variant" : "replace"
                   }
                ],
@@ -324,14 +478,43 @@
          "defense" : 5,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Barbarian Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "v9qR4skis",
-         "items" : [],
+         "items" : [
+            {
+               "content" : [
+                  {
+                     "id" : "FAMbscK5vhSu",
+                     "name" : "Scout",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "VKRsWqKr",
+               "name" : "Raid Master",
+               "type" : "ArmyBookItem"
+            }
+         ],
          "joinToUnit" : null,
          "loadout" : [
             {
+               "content" : [
+                  {
+                     "id" : "FAMbscK5vhSu",
+                     "name" : "Scout",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "VKRsWqKr",
+               "name" : "Raid Master",
+               "type" : "ArmyBookItem"
+            },
+            {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "I7pO03AD",
@@ -348,28 +531,18 @@
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "u1hn0c_y"
-            },
-            {
-               "content" : [
-                  {
-                     "count" : 1,
-                     "dependencies" : [],
-                     "id" : "N1jcDB7oemqy",
-                     "name" : "Battle Ready",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "count" : 1,
-               "dependencies" : [],
-               "label" : "Marauder (Battle Ready)",
-               "name" : "Marauder",
-               "type" : "ArmyBookItem"
             }
          ],
          "name" : "War Barbarian Champion",
          "notes" : null,
+         "originalSize" : 1,
          "quality" : 5,
          "rules" : [
+            {
+               "id" : "JoOCVPx1xT1G",
+               "label" : "Furious",
+               "name" : "Furious"
+            },
             {
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
@@ -382,14 +555,14 @@
                "rating" : 3
             },
             {
-               "id" : "fpXLibfT38MT",
-               "label" : "Frenzy",
-               "name" : "Frenzy"
+               "id" : "jbhpErfecvEY",
+               "label" : "Warbound",
+               "name" : "Warbound"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "74ir7jDLE",
+               "instanceId" : "_N-0Fq9Xz",
                "option" : {
                   "cost" : 5,
                   "costs" : [
@@ -401,6 +574,7 @@
                   "gains" : [
                      {
                         "attacks" : 3,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "I7pO03AD",
@@ -428,7 +602,7 @@
                   "uid" : "CSJn0_u"
                },
                "upgrade" : {
-                  "id" : "ZbuBJFD",
+                  "id" : "FIobwf_",
                   "label" : "Replace Hand Weapon",
                   "parentPackageUid" : "B1",
                   "targets" : [
@@ -437,55 +611,6 @@
                   "type" : "ArmyBookUpgradeSection",
                   "uid" : "XA68TNV",
                   "variant" : "replace"
-               }
-            },
-            {
-               "instanceId" : "iLB-mPaed",
-               "option" : {
-                  "cost" : 25,
-                  "costs" : [
-                     {
-                        "cost" : 10,
-                        "unitId" : "v9qR4skis"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "content" : [
-                           {
-                              "dependencies" : [],
-                              "id" : "N1jcDB7oemqy",
-                              "name" : "Battle Ready",
-                              "type" : "ArmyBookRule"
-                           }
-                        ],
-                        "count" : 1,
-                        "dependencies" : [],
-                        "label" : "Marauder (Battle Ready)",
-                        "name" : "Marauder",
-                        "type" : "ArmyBookItem"
-                     }
-                  ],
-                  "id" : "g6drS",
-                  "label" : "Marauder (Battle Ready)",
-                  "parentPackageUid" : "B1",
-                  "parentSectionId" : "xlVu8PO",
-                  "parentSectionUid" : "xlVu8PO",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "g6drS"
-               },
-               "upgrade" : {
-                  "id" : "qy1qj32",
-                  "isHeroUpgrade" : true,
-                  "label" : "Upgrade with one",
-                  "parentPackageUid" : "B1",
-                  "select" : {
-                     "type" : "exactly",
-                     "value" : 1
-                  },
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "xlVu8PO",
-                  "variant" : "upgrade"
                }
             }
          ],
@@ -498,17 +623,19 @@
          },
          "traits" : [],
          "upgrades" : [
-            "B1"
+            "B1",
+            "3kEH_O4p"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "74ir7jDLE",
+                     "upgradeInstanceId" : "_N-0Fq9Xz",
                      "variant" : "replace"
                   }
                ],
@@ -531,10 +658,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 60,
+         "cost" : 55,
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Havoc Warrior Leader",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "bjpRsHS_a",
@@ -542,23 +670,8 @@
          "joinToUnit" : null,
          "loadout" : [
             {
-               "content" : [
-                  {
-                     "count" : 1,
-                     "dependencies" : [],
-                     "id" : "SyZ9COlGubUd",
-                     "name" : "Blessing of War",
-                     "type" : "ArmyBookRule"
-                  }
-               ],
-               "count" : 1,
-               "dependencies" : [],
-               "label" : "War Lord (Blessing of War)",
-               "name" : "War Lord",
-               "type" : "ArmyBookItem"
-            },
-            {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "FX2M1fhu",
@@ -577,8 +690,9 @@
                "weaponId" : "UdU5JI5X"
             }
          ],
-         "name" : "War Master",
+         "name" : "War Havoc Master",
          "notes" : null,
+         "originalSize" : 1,
          "quality" : 3,
          "rules" : [
             {
@@ -593,69 +707,19 @@
                "rating" : 3
             },
             {
-               "id" : "JoOCVPx1xT1G",
-               "label" : "Furious",
-               "name" : "Furious"
+               "id" : "jbhpErfecvEY",
+               "label" : "Warbound",
+               "name" : "Warbound"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "K9e0YKXdX",
-               "option" : {
-                  "costs" : [
-                     {
-                        "cost" : 10,
-                        "unitId" : "S-zHRg9wO"
-                     },
-                     {
-                        "cost" : 10,
-                        "unitId" : "bjpRsHS_a"
-                     }
-                  ],
-                  "gains" : [
-                     {
-                        "content" : [
-                           {
-                              "dependencies" : [],
-                              "id" : "SyZ9COlGubUd",
-                              "name" : "Blessing of War",
-                              "type" : "ArmyBookRule"
-                           }
-                        ],
-                        "count" : 1,
-                        "dependencies" : [],
-                        "label" : "War Lord (Blessing of War)",
-                        "name" : "War Lord",
-                        "type" : "ArmyBookItem"
-                     }
-                  ],
-                  "id" : "VrJBEDg",
-                  "label" : "War Lord (Blessing of War)",
-                  "parentSectionId" : "19qVgHF",
-                  "type" : "ArmyBookUpgradeOption",
-                  "uid" : "VrJBEDg"
-               },
-               "upgrade" : {
-                  "id" : "avWQYXE",
-                  "isHeroUpgrade" : true,
-                  "label" : "Upgrade with one",
-                  "parentPackageUid" : "A1",
-                  "select" : {
-                     "type" : "exactly",
-                     "value" : 1
-                  },
-                  "type" : "ArmyBookUpgradeSection",
-                  "uid" : "19qVgHF",
-                  "variant" : "upgrade"
-               }
-            },
-            {
-               "instanceId" : "klAVpWb3z",
+               "instanceId" : "sRotNBeDP",
                "option" : {
                   "cost" : 10,
                   "costs" : [
                      {
-                        "cost" : 25,
+                        "cost" : 15,
                         "unitId" : "S-zHRg9wO"
                      },
                      {
@@ -666,6 +730,7 @@
                   "gains" : [
                      {
                         "attacks" : 3,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "FX2M1fhu",
@@ -693,7 +758,7 @@
                   "uid" : "p_mJ2mK"
                },
                "upgrade" : {
-                  "id" : "NWVfzWs",
+                  "id" : "1EQrt_B",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "A1",
                   "targets" : [
@@ -714,17 +779,19 @@
          },
          "traits" : [],
          "upgrades" : [
-            "A1"
+            "A1",
+            "0F-loTQX"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "klAVpWb3z",
+                     "upgradeInstanceId" : "sRotNBeDP",
                      "variant" : "replace"
                   }
                ],
@@ -759,6 +826,7 @@
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Havoc Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "GSOrDficq",
@@ -767,6 +835,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "B0f7H469",
@@ -787,17 +856,18 @@
          ],
          "name" : "War Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 3,
          "rules" : [
             {
-               "id" : "JoOCVPx1xT1G",
-               "label" : "Furious",
-               "name" : "Furious"
+               "id" : "jbhpErfecvEY",
+               "label" : "Warbound",
+               "name" : "Warbound"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "08TW_aCDO",
+               "instanceId" : "c-qq52YLe",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -806,13 +876,14 @@
                         "unitId" : "GSOrDficq"
                      },
                      {
-                        "cost" : 15,
+                        "cost" : 10,
                         "unitId" : "2-V99hmLa"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "B0f7H469",
@@ -840,7 +911,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "7uZWGuc",
+                  "id" : "c6s__9K",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -862,17 +933,19 @@
          "traits" : [],
          "upgrades" : [
             "D1",
-            "F1"
+            "F1",
+            "-LAz1HOB"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "08TW_aCDO",
+                     "upgradeInstanceId" : "c-qq52YLe",
                      "variant" : "replace"
                   }
                ],
@@ -907,6 +980,7 @@
          "defense" : 3,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Havoc Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "GSOrDficq",
@@ -915,6 +989,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [],
                "id" : "B0f7H469",
@@ -935,17 +1010,18 @@
          ],
          "name" : "War Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 3,
          "rules" : [
             {
-               "id" : "JoOCVPx1xT1G",
-               "label" : "Furious",
-               "name" : "Furious"
+               "id" : "jbhpErfecvEY",
+               "label" : "Warbound",
+               "name" : "Warbound"
             }
          ],
          "selectedUpgrades" : [
             {
-               "instanceId" : "JlGoMppMW",
+               "instanceId" : "BWDe5Ccbs",
                "option" : {
                   "cost" : 35,
                   "costs" : [
@@ -954,13 +1030,14 @@
                         "unitId" : "GSOrDficq"
                      },
                      {
-                        "cost" : 15,
+                        "cost" : 10,
                         "unitId" : "2-V99hmLa"
                      }
                   ],
                   "gains" : [
                      {
                         "attacks" : 2,
+                        "attacksMultiplier" : 1,
                         "count" : 1,
                         "dependencies" : [],
                         "id" : "B0f7H469",
@@ -988,7 +1065,7 @@
                   "uid" : "sj1XsR1"
                },
                "upgrade" : {
-                  "id" : "7uZWGuc",
+                  "id" : "c6s__9K",
                   "label" : "Replace Heavy Hand Weapon",
                   "parentPackageUid" : "F1",
                   "targets" : [
@@ -1010,17 +1087,19 @@
          "traits" : [],
          "upgrades" : [
             "D1",
-            "F1"
+            "F1",
+            "-LAz1HOB"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "dependencies" : [
                   {
                      "count" : 1,
-                     "upgradeInstanceId" : "JlGoMppMW",
+                     "upgradeInstanceId" : "BWDe5Ccbs",
                      "variant" : "replace"
                   }
                ],

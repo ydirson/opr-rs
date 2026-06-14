@@ -18,44 +18,26 @@
    "pointsLimit" : 300,
    "specialRules" : [
       {
-         "aliasedRuleId" : "O4RvQUoR77mP",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model shoots at enemies within 12\", unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
          "hasRating" : false,
-         "id" : "EE80BCU66oFu",
-         "name" : "Blind Faith",
+         "id" : "qskF5Gm5pMV0",
+         "name" : "Point-Blank Surge",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 5-6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "description" : "Casters within 12\" that are from other friendly units may cast spells as if they were in this model's position, and get +1 to casting rolls when doing so. Friendly casters may only use this rule if this unit isn't Shaken.",
          "hasRating" : false,
-         "id" : "j2CURXzqqKaK",
-         "name" : "Highly Devout",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "KskX8qPX3I8G",
-         "coreType" : null,
-         "description" : "Once per this unit's activation, before attacking, pick up to 4 friendly units within 12\", which gets +1 to hit next time it shoots.",
-         "hasRating" : false,
-         "id" : "5Z_UdFAz1-0R",
-         "name" : "Rangefinder Backpack",
+         "id" : "WNMH1ZiQXSz-",
+         "name" : "Spell Conduit",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
+         "coreType" : 5,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
@@ -63,76 +45,184 @@
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "n3jD5Uf1k4C4",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "lsYKfk0eU8xT",
-         "name" : "Spiritual Guidance",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "V3YzPPkZm8at",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "bLVZU4onzi2E",
-         "name" : "Medical Training",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "IXtPlY7K4Wku",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get +1 to morale test rolls. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "dlmwwGTjuk0n",
-         "name" : "Canticle Megaphone",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "bd26Yb52DH42",
+         "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Gets +1 to hit in melee and shooting.",
+         "description" : "This model and up to 3 friendly units picked before the start of the game moves +2\" when using Advance actions and +4\" when using Rush/Charge actions. If this model is killed, picked models that are deployed lose the rule.",
          "hasRating" : false,
-         "id" : "5fNdzNcQm0Pt",
-         "name" : "Celestial Veteran",
+         "id" : "Q9DOQswzCth8",
+         "name" : "Fast Aura",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When shooting at enemies within 12\", unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : null,
-         "id" : "j_GPMzrugrCj",
+         "description" : "Once per game, during this model's activation, pick one enemy unit within 18\" and in line of sight of it, and place X markers on it. Friendly units get +X to hit rolls when attacking it.",
+         "hasRating" : true,
+         "id" : "O_ZtH22AAORQ",
+         "name" : "Precision Target",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If this model has Devout, when it shoots or charges enemies over 9\" away, it deals extra hits on successful unmodified hit results of 5-6 from Devout (instead of only on 6).",
+         "hasRating" : false,
+         "id" : "w7sENXkksVpG",
+         "name" : "Devout Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Units where all models have this rule get +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shielded",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get +6\" range when shooting. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "QWzGAg9RpE2D",
+         "name" : "Increased Shooting Range Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "MEAjk171GPmF",
+         "coreType" : null,
+         "description" : "When attacking, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "gnpURIvLqjw9",
          "name" : "Devout",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Counts as having Furious and gets AP(+1) when charging.",
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Regeneration. If this model is killed, picked models that are deployed lose the rule.",
          "hasRating" : false,
-         "id" : "fpXLibfT38MT",
-         "name" : "Frenzy",
+         "id" : "V3YzPPkZm8at",
+         "name" : "Regeneration Aura",
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "1dM_PBIn2v3p",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Fortified. If this model is killed, picked models that are deployed lose the rule.",
          "hasRating" : false,
-         "id" : "CZXPTpxQT-7_",
-         "name" : "War Hymns",
+         "id" : "B-9jnnFp54f9",
+         "name" : "Fortified Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets Shred in melee.",
+         "hasRating" : false,
+         "id" : "249Oc2_1eOx6",
+         "name" : "Shred in Melee",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Ignores Regeneration, and against units where most models have Defense 2+ to Defense 3+, this weapon gets AP(+2).",
+         "hasRating" : false,
+         "id" : "1qiGNqpxKb24",
+         "name" : "Disintegrate",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Point-Blank Piercing. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "9uOMLO85SvL-",
+         "name" : "Point-Blank Piercing Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Shred in melee. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "muH3OhuC6eK4",
+         "name" : "Shred in Melee Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get +1 to morale test rolls. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "FRVSAjasmFSF",
+         "name" : "Courage Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When units where all models have this rule take hits, those hits count as having AP(-1), to a min. of AP(0).",
+         "hasRating" : false,
+         "id" : "IyLY1212wacW",
+         "name" : "Fortified",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "DhLjIDRrWz6-",
+         "name" : "Piercing Assault",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Devout Boost. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "j1_UP3V8iBI_",
+         "name" : "Devout Boost Aura",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : 1,
-         "description" : "When charging, unmodified rolls of 6 to hit in melee deal one extra hit (only the original hit counts as a 6 for special rules).",
-         "hasRating" : false,
-         "id" : "JoOCVPx1xT1G",
-         "name" : "Furious",
+         "description" : "Gets X spell tokens at the start of each round, but can’t hold more than 6 tokens at once. At any point before attacking, spend as many tokens as the spell’s value to try casting one or more spells (only one try per spell). Roll one die, on 4+ resolve the effect on a target in line of sight. Models within 18” in line of sight of the caster’s unit may spend any number of spell tokens at the same time before rolling, to give the caster +1/-1 to the roll per token.",
+         "hasRating" : true,
+         "id" : "47CAqf7ySlfc",
+         "name" : "Caster",
          "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 5+ it is ignored.",
+         "hasRating" : false,
+         "id" : "8KujvrTG8k9p",
+         "name" : "Regeneration",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
+         "hasRating" : false,
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This weapon ignores Regeneration.",
+         "hasRating" : null,
+         "id" : "0TfnG5G4JEv0",
+         "name" : "Ignores Regeneration",
+         "targetType" : 2
       },
       {
          "aliasedRuleId" : null,
@@ -141,6 +231,42 @@
          "hasRating" : true,
          "id" : "17crjK7P6_w6",
          "name" : "AP",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets +X to defense rolls.",
+         "hasRating" : true,
+         "id" : "s6MgSfmgylXU",
+         "name" : "Defense",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets AP(+1) when shooting enemies within 12\".",
+         "hasRating" : false,
+         "id" : "raxCxGUYDPra",
+         "name" : "Point-Blank Piercing",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When this model shoots at enemies over 9\" away, its weapons get AP(+1).",
+         "hasRating" : false,
+         "id" : "dlk9Q7howUDr",
+         "name" : "Piercing Hunter",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores cover, and after resolving other special rules, each hit is multiplied by X, where X is up to as many hits as enemy models in the target unit and within 3” of it. Hits must be split evenly between all enemy units within 3” of any model from the target (defender picks how).",
+         "hasRating" : true,
+         "id" : "w_vX0mi58KKt",
+         "name" : "Blast",
          "targetType" : 2
       }
    ],
@@ -156,18 +282,35 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "MbqCKb1",
-         "items" : [],
+         "items" : [
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "QWzGAg9RpE2D",
+                     "name" : "Increased Shooting Range Aura",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "srLrb",
+               "name" : "Rangefinder Backpack",
+               "type" : "ArmyBookItem"
+            }
+         ],
          "joinToUnit" : null,
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
-               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
-               "name" : "Flamer Pistol",
+               "label" : "Blessed Flamer Pistol (6\", A1, Blast(3), Reliable, Disintegrate)",
+               "name" : "Blessed Flamer Pistol",
                "originalCount" : 1,
                "range" : 6,
                "specialRules" : [
@@ -183,13 +326,20 @@
                      "label" : "Reliable",
                      "name" : "Reliable",
                      "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "1qiGNqpxKb24",
+                     "label" : "Disintegrate",
+                     "name" : "Disintegrate",
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "agIlKQ_g"
+               "weaponId" : "B7VaWEmS"
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -213,27 +363,31 @@
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "0-erIAQg"
+            },
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "QWzGAg9RpE2D",
+                     "name" : "Increased Shooting Range Aura",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "srLrb",
+               "name" : "Rangefinder Backpack",
+               "type" : "ArmyBookItem"
             }
          ],
          "name" : "Constance",
          "notes" : null,
+         "originalSize" : 1,
          "quality" : 4,
          "rules" : [
-            {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
             {
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
                "name" : "Hero"
-            },
-            {
-               "id" : "5Z_UdFAz1-0R",
-               "label" : "Rangefinder Backpack",
-               "name" : "Rangefinder Backpack"
             },
             {
                "id" : "FAMbscK5vhSu",
@@ -255,6 +409,11 @@
                "id" : "rqBYj1yANC3J",
                "label" : "Unique",
                "name" : "Unique"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
          "selectedUpgrades" : [],
@@ -267,10 +426,11 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
-               "label" : "Flamer Pistol (6\", A1, Blast(3), Reliable)",
-               "name" : "Flamer Pistol",
+               "label" : "Blessed Flamer Pistol (6\", A1, Blast(3), Reliable, Disintegrate)",
+               "name" : "Blessed Flamer Pistol",
                "originalCount" : 1,
                "range" : 6,
                "specialRules" : [
@@ -286,13 +446,20 @@
                      "label" : "Reliable",
                      "name" : "Reliable",
                      "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "1qiGNqpxKb24",
+                     "label" : "Disintegrate",
+                     "name" : "Disintegrate",
+                     "type" : "ArmyBookRule"
                   }
                ],
                "type" : "ArmyBookWeapon",
-               "weaponId" : "agIlKQ_g"
+               "weaponId" : "B7VaWEmS"
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -331,6 +498,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Scout Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "VHKN-IZ",
@@ -339,6 +507,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -359,6 +528,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -372,14 +542,9 @@
          ],
          "name" : "Vanguard Sister",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
-            {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
             {
                "id" : "FAMbscK5vhSu",
                "label" : "Scout",
@@ -389,6 +554,11 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
          "selectedUpgrades" : [],
@@ -396,13 +566,13 @@
          "size" : 1,
          "traits" : [],
          "upgrades" : [
-            "G1",
-            "vo3TX"
+            "G1"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -423,6 +593,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -447,6 +618,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Scout Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "VHKN-IZ",
@@ -455,6 +627,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -475,6 +648,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -488,14 +662,9 @@
          ],
          "name" : "Vanguard Sister",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
-            {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
             {
                "id" : "FAMbscK5vhSu",
                "label" : "Scout",
@@ -505,6 +674,11 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
          "selectedUpgrades" : [],
@@ -512,13 +686,13 @@
          "size" : 1,
          "traits" : [],
          "upgrades" : [
-            "G1",
-            "vo3TX"
+            "G1"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -539,6 +713,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -563,6 +738,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Scout Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "VHKN-IZ",
@@ -571,6 +747,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -591,6 +768,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -604,14 +782,9 @@
          ],
          "name" : "Vanguard Sister",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
-            {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
             {
                "id" : "FAMbscK5vhSu",
                "label" : "Scout",
@@ -621,6 +794,11 @@
                "id" : "JSKVyurtWIyW",
                "label" : "Strider",
                "name" : "Strider"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
          "selectedUpgrades" : [],
@@ -628,13 +806,13 @@
          "size" : 1,
          "traits" : [],
          "upgrades" : [
-            "G1",
-            "vo3TX"
+            "G1"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "lXOrCYv-",
                "label" : "Heavy Rifle (24\", A1, AP(1))",
@@ -655,6 +833,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -679,6 +858,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Exo-Suit Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "1oucreF",
@@ -688,7 +868,7 @@
                "content" : [
                   {
                      "id" : "wsqfB0fq69eG",
-                     "name" : "Shield Wall",
+                     "name" : "Shielded",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -702,6 +882,7 @@
          "loadout" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "1GVQ5U_c",
                "label" : "CCW (A3)",
@@ -717,7 +898,7 @@
                "content" : [
                   {
                      "id" : "wsqfB0fq69eG",
-                     "name" : "Shield Wall",
+                     "name" : "Shielded",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -729,6 +910,7 @@
          ],
          "name" : "Destroyer Sister",
          "notes" : null,
+         "originalSize" : 3,
          "quality" : 4,
          "rules" : [
             {
@@ -737,16 +919,15 @@
                "name" : "Ambush"
             },
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
-            {
                "id" : "a0YtInGiUDd6",
                "label" : "Tough(3)",
                "name" : "Tough",
                "rating" : 3
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
          "selectedUpgrades" : [],
@@ -754,12 +935,14 @@
          "size" : 1,
          "traits" : [],
          "upgrades" : [
-            "M1"
+            "M1",
+            "cT2sU"
          ],
          "valid" : true,
          "weapons" : [
             {
                "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "1GVQ5U_c",
                "label" : "CCW (A3)",
@@ -784,6 +967,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Jetpack Pistoleer Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "qgESKb_",
@@ -792,6 +976,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "GKm7CCrS",
                "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
@@ -812,6 +997,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -825,6 +1011,7 @@
          ],
          "name" : "Pistoleer Sister",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
             {
@@ -833,15 +1020,19 @@
                "name" : "Ambush"
             },
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
                "label" : "Devout",
                "name" : "Devout"
             },
             {
-               "id" : "-QJdqJEKjIpE",
-               "label" : "Flying",
-               "name" : "Flying"
+               "id" : "qskF5Gm5pMV0",
+               "label" : "Point-Blank Surge",
+               "name" : "Point-Blank Surge"
             }
          ],
          "selectedUpgrades" : [],
@@ -855,6 +1046,7 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "GKm7CCrS",
                "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
@@ -875,6 +1067,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -899,6 +1092,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Jetpack Pistoleer Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "qgESKb_",
@@ -907,6 +1101,7 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "GKm7CCrS",
                "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
@@ -927,6 +1122,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -940,6 +1136,7 @@
          ],
          "name" : "Pistoleer Sister",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
             {
@@ -948,15 +1145,19 @@
                "name" : "Ambush"
             },
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
+               "id" : "-QJdqJEKjIpE",
+               "label" : "Flying",
+               "name" : "Flying"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
                "label" : "Devout",
                "name" : "Devout"
             },
             {
-               "id" : "-QJdqJEKjIpE",
-               "label" : "Flying",
-               "name" : "Flying"
+               "id" : "qskF5Gm5pMV0",
+               "label" : "Point-Blank Surge",
+               "name" : "Point-Blank Surge"
             }
          ],
          "selectedUpgrades" : [],
@@ -970,6 +1171,7 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "GKm7CCrS",
                "label" : "Twin Heavy Pistol (12\", A2, AP(1))",
@@ -990,6 +1192,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "WWqUi2Wx",
                "label" : "CCW (A1)",
@@ -1014,6 +1217,7 @@
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Jetpack Assault Sisters",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "S9Oua8O",
@@ -1022,6 +1226,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -1042,6 +1247,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "HSTmRekv",
                "label" : "Energy Sword (A2, AP(1), Rending)",
@@ -1069,6 +1275,7 @@
          ],
          "name" : "Assault Sister",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
             {
@@ -1077,15 +1284,14 @@
                "name" : "Ambush"
             },
             {
-               "additional" : false,
-               "id" : "j_GPMzrugrCj",
-               "label" : "Devout",
-               "name" : "Devout"
-            },
-            {
                "id" : "-QJdqJEKjIpE",
                "label" : "Flying",
                "name" : "Flying"
+            },
+            {
+               "id" : "gnpURIvLqjw9",
+               "label" : "Devout",
+               "name" : "Devout"
             }
          ],
          "selectedUpgrades" : [],
@@ -1099,6 +1305,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "wfEHdWKY",
                "label" : "Heavy Pistol (12\", A1, AP(1))",
@@ -1119,6 +1326,7 @@
             },
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "HSTmRekv",
                "label" : "Energy Sword (A2, AP(1), Rending)",

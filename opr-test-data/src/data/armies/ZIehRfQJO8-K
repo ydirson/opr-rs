@@ -10,7 +10,7 @@
    "id" : "ZIehRfQJO8-K",
    "isCloud" : false,
    "key" : "c6yn0b0K7kuah7sfTP64u",
-   "listPoints" : 295,
+   "listPoints" : 260,
    "modelCount" : 8,
    "modified" : "2025-05-05T21:19:42.848Z",
    "name" : "Assault on Malhadra - Echo-3G01 Strike Team",
@@ -27,53 +27,8 @@
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "O4RvQUoR77mP",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Stealth. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "TpyBi5Rhkkac",
-         "name" : "Paradox Shielding Device",
-         "targetType" : 1
-      },
-      {
          "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Counts as having the Ambush rule, and gets AP(+2) when shooting on the round in which it deploys.",
-         "hasRating" : false,
-         "id" : "CCShas9-9K4N",
-         "name" : "Hunter",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "V3YzPPkZm8at",
-         "coreType" : 2,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "wF35XZ2faHCI",
-         "name" : "Regen-Protocol",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "gOFh4u_LGrwP",
-         "coreType" : 2,
-         "description" : "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
-         "hasRating" : false,
-         "id" : "FWEooNV3A01C",
-         "name" : "Shadow-Protocol",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "This model gets +1 to defense rolls against hits that are not from spells.",
-         "hasRating" : false,
-         "id" : "wsqfB0fq69eG",
-         "name" : "Shield Wall",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
+         "coreType" : 5,
          "description" : "This unit may only be taken once per army.",
          "hasRating" : false,
          "id" : "rqBYj1yANC3J",
@@ -81,66 +36,165 @@
          "targetType" : 1
       },
       {
-         "aliasedRuleId" : "LRFrnVp661tS",
-         "coreType" : null,
-         "description" : "This model and up to 3 friendly units that are within 12” at the beginning of the round may ignore the Slow rule. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "4TuYQKX2Ss0S",
-         "name" : "Royal March",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : "O2Cd7OibBBA5",
-         "coreType" : null,
-         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
-         "hasRating" : false,
-         "id" : "hR8IoOxeKnLp",
-         "name" : "Robot",
-         "targetType" : 1
-      },
-      {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "Unmodified rolls of 6 to hit deal one extra hit (only the original hit counts as a 6 for special rules).",
+         "description" : "On unmodified results of 6 to hit, those hits get AP(+4).",
          "hasRating" : false,
-         "id" : "5v6oaGfrdf29",
-         "name" : "Flux",
+         "id" : "VI54cszY2BuG",
+         "name" : "Destructive",
          "targetType" : 2
       },
       {
-         "aliasedRuleId" : "B--NHwOGx3_9",
-         "coreType" : null,
-         "description" : "When this model and up to 3 friendly units that are within 12” at the beginning of the round take a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead. This effect lasts until the end of the round.",
-         "hasRating" : false,
-         "id" : "tFIv-8UscOMm",
-         "name" : "Gloom-Protocol",
-         "targetType" : 1
-      },
-      {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "This model counts as having Ambush, and may be deployed up to 1\" away from enemy units.",
-         "hasRating" : false,
-         "id" : "djJahpu0Ciut",
-         "name" : "Tunneller",
-         "targetType" : 1
-      },
-      {
-         "aliasedRuleId" : null,
-         "coreType" : null,
-         "description" : "Enemy units  using Ambush must be set up over 12\" away from this model.",
+         "description" : "Enemy units using Ambush must be set up over 12\" away from this model's unit.",
          "hasRating" : false,
          "id" : "C6MzEy1CnxTs",
-         "name" : "Warning Cry",
+         "name" : "Repel Ambushers",
          "targetType" : 1
       },
       {
          "aliasedRuleId" : null,
          "coreType" : null,
-         "description" : "When taking a wound, roll one die. On a 6+ it is ignored.",
+         "description" : "Counts as having Ambush, but may be deployed anywhere over 3” away from enemy unit.",
          "hasRating" : false,
-         "id" : "AlIZbh-afBYi",
+         "id" : "djJahpu0Ciut",
+         "name" : "Infiltrate",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Counts as having Ambush, and its weapons get AP(+1) when shooting on the round in which it deploys via this rule.",
+         "hasRating" : false,
+         "id" : "CCShas9-9K4N",
+         "name" : "Ambushing Piercing Shot",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Units where all models have this rule get +1 to defense rolls against hits that are not from spells.",
+         "hasRating" : false,
+         "id" : "wsqfB0fq69eG",
+         "name" : "Shielded",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 1 to block hits, this weapon deals 1 extra wound.",
+         "hasRating" : false,
+         "id" : "IEJp3a4vE0CB",
+         "name" : "Shred",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Ambush. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "gOFh4u_LGrwP",
+         "name" : "Ambush Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Reanimation. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "l_KzjNPv-_5H",
+         "name" : "Reanimation Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When it's this model's turn to attack in melee, roll X dice. For each 6+ the target takes one wound.",
+         "hasRating" : true,
+         "id" : "hnsVQyx3ylMf",
+         "name" : "Ravage",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Protection Feat. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "CdIKErxgOpl3",
+         "name" : "Protection Feat Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Relentless. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "zGew9XZT2rUm",
+         "name" : "Relentless Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : "AlIZbh-afBYi",
+         "coreType" : null,
+         "description" : "When a unit where all models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.",
+         "hasRating" : false,
+         "id" : "Y_WeXWwLtX6z",
          "name" : "Self-Repair",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "On unmodified results of 6 to hit, this weapon deals 1 extra hits (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "5v6oaGfrdf29",
+         "name" : "Surge",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Unstoppable when shooting. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "KTixuuQ9H7tU",
+         "name" : "Unstoppable when Shooting Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 5,
+         "description" : "This model gets Rending in melee.",
+         "hasRating" : false,
+         "id" : "nstknew-_RL_",
+         "name" : "Rending in Melee",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Stealth. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "8haZ36fXvnzn",
+         "name" : "Stealth Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get Piercing Assault. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "L--qMjlm2g4Q",
+         "name" : "Piercing Assault Aura",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model and up to 3 friendly units picked before the start of the game get No Retreat. If this model is killed, picked models that are deployed lose the rule.",
+         "hasRating" : false,
+         "id" : "QMU04E_1bAVC",
+         "name" : "No Retreat Aura",
          "targetType" : 1
       },
       {
@@ -169,6 +223,105 @@
          "id" : "6mJw5IdqSqNC",
          "name" : "Ambush",
          "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "When a unit where all models have this rule is activated, roll as many dice as the max. number of models/wounds it could restore. For each 5+ you may restore one model/wound. Note that new models may only be restored if they can be placed in coherency with non-restored models.",
+         "hasRating" : false,
+         "id" : "xfXomZDK5SVX",
+         "name" : "Reanimation",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Once per game, when this unit takes wounds and all its models have this rule, you may use this rule and roll one die per wound, and on a 5+ it is ignored.",
+         "hasRating" : false,
+         "id" : "TU7fkKrcAvop",
+         "name" : "Protection Feat",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When this model shoots at enemies over 9\" away, unmodified results of 6 to hit deal 1 extra hit (only the original hit counts as a 6 for special rules).",
+         "hasRating" : false,
+         "id" : "H9E9PIWpGRdw",
+         "name" : "Relentless",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and ignores all negative modifiers to this weapon.",
+         "hasRating" : false,
+         "id" : "QXyt-zV_bjpg",
+         "name" : "Unstoppable",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Ignores Regeneration, and on unmodified results of 6 to hit, those hits get AP(+4).",
+         "hasRating" : false,
+         "id" : "cavWDboL4ubs",
+         "name" : "Rending",
+         "targetType" : 2
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "When units where all models have this rule are shot from over 9\" away, enemy units get -1 to hit rolls.",
+         "hasRating" : false,
+         "id" : "9jyvRoBODD-O",
+         "name" : "Stealth",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model gets AP(+1) when charging.",
+         "hasRating" : false,
+         "id" : "DhLjIDRrWz6-",
+         "name" : "Piercing Assault",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to check for wound effects (must always roll at least 1 die), and for each result of 1-3 the unit takes one wound, which can't be ignored.",
+         "hasRating" : false,
+         "id" : "O2Cd7OibBBA5",
+         "name" : "No Retreat",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "If all models in this unit have Self-Repair, they ignore wounds on rolls of 5-6 from Self-Repair (instead of only on 6+).",
+         "hasRating" : false,
+         "id" : "ZqewrI-hqAYi",
+         "name" : "Self-Repair Boost",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : null,
+         "description" : "This model moves +4\" when using Advance actions.",
+         "hasRating" : false,
+         "id" : "HmxkJq_My-Ub",
+         "name" : "Rapid Advance",
+         "targetType" : 1
+      },
+      {
+         "aliasedRuleId" : null,
+         "coreType" : 1,
+         "description" : "Gets -1 to hit rolls when shooting after moving. May target enemies that are not in line of sight as if in line of sight, and ignores cover from sight obstructions.",
+         "hasRating" : false,
+         "id" : "8Ck9GAwUK824",
+         "name" : "Indirect",
+         "targetType" : 2
       }
    ],
    "units" : [
@@ -186,11 +339,27 @@
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "PkAB3lE",
-         "items" : [],
+         "items" : [
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "8haZ36fXvnzn",
+                     "name" : "Stealth Aura",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "e0exA",
+               "name" : "Paradox Shielding Device",
+               "type" : "ArmyBookItem"
+            }
+         ],
          "joinToUnit" : null,
          "loadout" : [
             {
-               "attacks" : "3",
+               "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_g6MjuFl",
                "label" : "Panoptic Staff (A3, Rending)",
@@ -207,10 +376,25 @@
                ],
                "type" : "ArmyBookWeapon",
                "weaponId" : "Lgh0Ltf6"
+            },
+            {
+               "bases" : null,
+               "content" : [
+                  {
+                     "id" : "8haZ36fXvnzn",
+                     "name" : "Stealth Aura",
+                     "type" : "ArmyBookRule"
+                  }
+               ],
+               "count" : 1,
+               "id" : "e0exA",
+               "name" : "Paradox Shielding Device",
+               "type" : "ArmyBookItem"
             }
          ],
          "name" : "Echo-3G01",
          "notes" : null,
+         "originalSize" : 1,
          "quality" : 3,
          "rules" : [
             {
@@ -223,21 +407,6 @@
                "id" : "T08VkBuVmNZ_",
                "label" : "Hero",
                "name" : "Hero"
-            },
-            {
-               "id" : "TpyBi5Rhkkac",
-               "label" : "Paradox Shielding Device",
-               "name" : "Paradox Shielding Device"
-            },
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
             },
             {
                "id" : "Ldhtmr4H8b6G",
@@ -254,6 +423,11 @@
                "id" : "rqBYj1yANC3J",
                "label" : "Unique",
                "name" : "Unique"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -265,7 +439,8 @@
          "valid" : true,
          "weapons" : [
             {
-               "attacks" : "3",
+               "attacks" : 3,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_g6MjuFl",
                "label" : "Panoptic Staff (A3, Rending)",
@@ -293,10 +468,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 25,
+         "cost" : 20,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Robot Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "njiIkJi",
@@ -305,18 +481,25 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "OaYz4pdg",
-               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "label" : "Reaper Rifle (18\", A1, AP(1), Shred)",
                "name" : "Reaper Rifle",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
-                     "label" : "AP(2)",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : 2,
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -325,6 +508,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -338,22 +522,18 @@
          ],
          "name" : "Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -367,18 +547,25 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "OaYz4pdg",
-               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "label" : "Reaper Rifle (18\", A1, AP(1), Shred)",
                "name" : "Reaper Rifle",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
-                     "label" : "AP(2)",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : 2,
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -387,6 +574,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -407,10 +595,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 25,
+         "cost" : 20,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Robot Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "njiIkJi",
@@ -419,18 +608,25 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "OaYz4pdg",
-               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "label" : "Reaper Rifle (18\", A1, AP(1), Shred)",
                "name" : "Reaper Rifle",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
-                     "label" : "AP(2)",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : 2,
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -439,6 +635,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -452,22 +649,18 @@
          ],
          "name" : "Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -481,18 +674,25 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "OaYz4pdg",
-               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "label" : "Reaper Rifle (18\", A1, AP(1), Shred)",
                "name" : "Reaper Rifle",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
-                     "label" : "AP(2)",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : 2,
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -501,6 +701,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -521,10 +722,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 25,
+         "cost" : 20,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Robot Warriors",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "njiIkJi",
@@ -533,18 +735,25 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "OaYz4pdg",
-               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "label" : "Reaper Rifle (18\", A1, AP(1), Shred)",
                "name" : "Reaper Rifle",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
-                     "label" : "AP(2)",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : 2,
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -553,6 +762,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -566,22 +776,18 @@
          ],
          "name" : "Warrior",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -595,18 +801,25 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "OaYz4pdg",
-               "label" : "Reaper Rifle (18\", A1, AP(2))",
+               "label" : "Reaper Rifle (18\", A1, AP(1), Shred)",
                "name" : "Reaper Rifle",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "17crjK7P6_w6",
-                     "label" : "AP(2)",
+                     "label" : "AP(1)",
                      "name" : "AP",
-                     "rating" : 2,
+                     "rating" : 1,
+                     "type" : "ArmyBookRule"
+                  },
+                  {
+                     "id" : "IEJp3a4vE0CB",
+                     "label" : "Shred",
+                     "name" : "Shred",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -615,6 +828,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -635,10 +849,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 35,
+         "cost" : 30,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Snipers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "mEX6i0s",
@@ -647,6 +862,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "z9hK3MW4",
                "label" : "D-Mark (24\", A1, AP(1), Reliable)",
@@ -673,6 +889,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -686,22 +903,18 @@
          ],
          "name" : "Sniper",
          "notes" : null,
+         "originalSize" : 3,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -715,6 +928,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "z9hK3MW4",
                "label" : "D-Mark (24\", A1, AP(1), Reliable)",
@@ -741,6 +955,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -761,10 +976,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 35,
+         "cost" : 30,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Snipers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "mEX6i0s",
@@ -773,6 +989,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "z9hK3MW4",
                "label" : "D-Mark (24\", A1, AP(1), Reliable)",
@@ -799,6 +1016,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -812,22 +1030,18 @@
          ],
          "name" : "Sniper",
          "notes" : null,
+         "originalSize" : 3,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -841,6 +1055,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "z9hK3MW4",
                "label" : "D-Mark (24\", A1, AP(1), Reliable)",
@@ -867,6 +1082,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -887,10 +1103,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 35,
+         "cost" : 30,
          "defense" : 4,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Snipers",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "mEX6i0s",
@@ -899,6 +1116,7 @@
          "loadout" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "z9hK3MW4",
                "label" : "D-Mark (24\", A1, AP(1), Reliable)",
@@ -925,6 +1143,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -938,22 +1157,18 @@
          ],
          "name" : "Sniper",
          "notes" : null,
+         "originalSize" : 3,
          "quality" : 4,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -967,6 +1182,7 @@
          "weapons" : [
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "z9hK3MW4",
                "label" : "D-Mark (24\", A1, AP(1), Reliable)",
@@ -993,6 +1209,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -1013,10 +1230,11 @@
             "square" : "30"
          },
          "combined" : false,
-         "cost" : 35,
+         "cost" : 30,
          "defense" : 2,
          "disabledSections" : [],
          "disabledUpgradeSections" : [],
+         "genericName" : "Immortal Robots",
          "hasBalanceInvalid" : false,
          "hasCustomRule" : false,
          "id" : "wvgi7_R",
@@ -1025,17 +1243,18 @@
          "loadout" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "dT086NsK",
-               "label" : "Flux Carbine (18\", A2, Flux)",
+               "label" : "Flux Carbine (18\", A2, Surge)",
                "name" : "Flux Carbine",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "5v6oaGfrdf29",
-                     "label" : "Flux",
-                     "name" : "Flux",
+                     "label" : "Surge",
+                     "name" : "Surge",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -1044,6 +1263,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
@@ -1057,22 +1277,18 @@
          ],
          "name" : "Eternal",
          "notes" : null,
+         "originalSize" : 5,
          "quality" : 3,
          "rules" : [
-            {
-               "id" : "hR8IoOxeKnLp",
-               "label" : "Robot",
-               "name" : "Robot"
-            },
-            {
-               "id" : "AlIZbh-afBYi",
-               "label" : "Self-Repair",
-               "name" : "Self-Repair"
-            },
             {
                "id" : "Ldhtmr4H8b6G",
                "label" : "Slow",
                "name" : "Slow"
+            },
+            {
+               "id" : "Y_WeXWwLtX6z",
+               "label" : "Self-Repair",
+               "name" : "Self-Repair"
             }
          ],
          "selectedUpgrades" : [],
@@ -1086,17 +1302,18 @@
          "weapons" : [
             {
                "attacks" : 2,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "dT086NsK",
-               "label" : "Flux Carbine (18\", A2, Flux)",
+               "label" : "Flux Carbine (18\", A2, Surge)",
                "name" : "Flux Carbine",
                "originalCount" : 1,
                "range" : 18,
                "specialRules" : [
                   {
                      "id" : "5v6oaGfrdf29",
-                     "label" : "Flux",
-                     "name" : "Flux",
+                     "label" : "Surge",
+                     "name" : "Surge",
                      "type" : "ArmyBookRule"
                   }
                ],
@@ -1105,6 +1322,7 @@
             },
             {
                "attacks" : 1,
+               "attacksMultiplier" : 1,
                "count" : 1,
                "id" : "_WpwGRUk",
                "label" : "CCW (A1)",
