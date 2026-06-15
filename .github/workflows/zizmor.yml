@@ -1,0 +1,38 @@
+name: Zizmor workflows audit
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.'
+  pull_request:
+    paths:
+      - '.'
+
+permissions: {}
+
+jobs:
+  zizmor:
+    name: Zizmor scan
+    runs-on: debian-latest
+    permissions:
+      security-events: write   # upload SARIF
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # 6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Install zizmor
+        run: pipx install zizmor
+
+      - name: Scan workflows
+        run: zizmor --format=sarif --offline .github/workflows/ > results.sarif
+        continue-on-error: true
+
+      - name: Upload SARIF results
+        uses: github/codeql-action/upload-sarif@7211b7c8077ea37d8641b6271f6a365a22a5fbfa # 4.36.0
+        with:
+          sarif_file: results.sarif
+          category: zizmor
