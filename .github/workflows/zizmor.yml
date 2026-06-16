@@ -4,17 +4,17 @@ on:
     branches:
       - master
     paths:
-      - '.'
+      - '.github/workflows/**'
   pull_request:
     paths:
-      - '.'
+      - '.github/workflows/**'
 
 permissions: {}
 
 jobs:
   zizmor:
     name: Zizmor scan
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     permissions:
       security-events: write   # upload SARIF
       contents: read
